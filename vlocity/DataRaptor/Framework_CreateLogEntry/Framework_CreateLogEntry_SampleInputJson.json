@@ -1,0 +1,8 @@
+{
+    "HTTP_Headers": "",
+    "IsError": false,
+    "Message_ID": "12345",
+    "Parent_Record_SFDC_ID": "12345",
+    "Payload": "ID:1234,body:12345",
+    "Service_Name": "Mockable"
+}
