@@ -1,0 +1,277 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Service_Name",
+        "GlobalKey": "3be89e63-5b67-4b6e-9cd2-0c0eed9b8ccc",
+        "InputFieldName": "System_Name__c",
+        "InputObjectName": "CCI_Integration_System_Setting__mdt",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Endpoint_URL_Metadata",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "'Basic ' + BASE64ENCODE(Endpoint_URL_Metadata:UserName__c + ':' + Endpoint_URL_Metadata:Password__c)",
+        "FormulaResultPath": "F_Authorization",
+        "FormulaSequence": 1,
+        "GlobalKey": "a7dcb279-9117-46be-84db-d0f6015c3b09",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "Framework_GetIntegrationSettingsCustom7869",
+        "InputFieldName": "Endpoint_URL_Metadata:Auth_Required__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "Auth_Required",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "Framework_GetIntegrationSettingsCustom9377",
+        "InputFieldName": "Endpoint_URL_Metadata:Auth_Service_Name__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Auth_Service_Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "9627f440-ff42-4067-be30-eeebe2eb82c9",
+        "InputFieldName": "Endpoint_URL_Metadata:Auth_Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Authentication_Type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "d3dbc2dc-2e1b-4a7e-9943-d5d122485900",
+        "InputFieldName": "Endpoint_URL_Metadata:Endpoint__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Endpoint__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "94ba3d58-fef1-4651-b6f7-51310187e9cd",
+        "InputFieldName": "Endpoint_URL_Metadata:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "395c295c-ca90-4be6-9b4d-f902a9dd50e9",
+        "InputFieldName": "Endpoint_URL_Metadata:Logging_Enabled__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Logging_Enabled__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "fe569a65-ffdf-429c-a28e-dc8ed4816e51",
+        "InputFieldName": "Endpoint_URL_Metadata:System_Name__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "Framework_GetIntegrationSettingsCustom2279",
+        "InputFieldName": "Endpoint_URL_Metadata:Named_Credential__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Named_Credential__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "Framework_GetIntegrationSettingsCustom9852",
+        "InputFieldName": "Endpoint_URL_Metadata:Params__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Params__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "f3a87ca0-2bcf-43dd-b504-6762959d2adf",
+        "InputFieldName": "Endpoint_URL_Metadata:Password__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Password__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ab50fd01-9bb7-40a0-a36a-1eccf5053197",
+        "InputFieldName": "Endpoint_URL_Metadata:SSL_Cert_Name__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SSL_Certificate_Name__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "662a3ea0-d425-4f31-ac74-993d1d251816",
+        "InputFieldName": "Endpoint_URL_Metadata:UserName__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "User_Name__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]
