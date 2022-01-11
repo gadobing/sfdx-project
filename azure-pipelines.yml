@@ -2,26 +2,26 @@ trigger:
 - develop
 
 variables:
-- group: SFDX_Vlocity_Variables
+- group: CSW_SFDX_Vlocity_Variables
 
 pool:
   vmImage: ubuntu-latest
 #container: jfgarcia268/vlocity_sfdx:latest
 
 stages:
-  - stage: CCIDev1QADeployment
-    displayName: Deployment to CCIDev1QA Org
+  - stage: CCIDevQADeployment
+    displayName: Deployment to CCIDevQA Org
     jobs:
       - deployment: SL_QA
-        displayName: Deployment to Dev1QA
+        displayName: Deployment to CCIDevQA
         environment: SL_QA
         timeoutInMinutes: 180
         container: jfgarcia268/vlocity_sfdx:latest
         variables:
           - name: deploy_url
-            value: $(CCIDev1QA_SFDX_URL)
+            value: $(CCIDevQA_SFDX_URL)
           - name: SF_USER
-            value: CCIDEV1QA  
+            value: CCIDEVQA  
         strategy:
           runOnce:
             deploy:
@@ -41,6 +41,27 @@ stages:
             value: $(CCIQA_SFDX_URL)
           - name: SF_USER
             value: CCIQA  
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                - script: |
+                    echo "Starting the Deployment to $(SF_USER) org"
+                - template: Deployment-template.yml
+ - stage: CCIUATDeployment
+    displayName: Deployment to CCIUAT Org
+    jobs:
+      - deployment: CCIUATDeployment
+        displayName: Deployment to CCIUAT
+        container: jfgarcia268/vlocity_sfdx:latest
+        environment: CCIUAT
+        timeoutInMinutes: 180
+        variables:
+          - name: deploy_url
+            value: $(CIUAT_SFDX_URL)
+          - name: SF_USER
+            value: CCIUAT  
         strategy:
           runOnce:
             deploy:
