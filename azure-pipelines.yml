@@ -1,5 +1,5 @@
 trigger:
-- develop
+- none
 
 variables:
 - group: CSW_SFDX_Vlocity_Variables
