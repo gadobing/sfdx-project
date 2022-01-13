@@ -1,72 +1,30 @@
 trigger:
-- none
+- develop
 
 variables:
 - group: CSW_SFDX_Vlocity_Variables
 
 pool:
   vmImage: ubuntu-latest
-container: jfgarcia268/vlocity_sfdx:latest
+#container: jfgarcia268/vlocity_sfdx:latest
 
 stages:
   - stage: CCIDevQADeployment
     displayName: Deployment to CCIDevQA Org
     jobs:
-      - deployment: SL_QA
-        displayName: Deployment to CCIDevQA
-        environment: SL_QA
+      - deployment: CCIDevQADeployment
+        displayName: Deployment to QA
+        environment: CCIDevQA
         timeoutInMinutes: 180
         container: jfgarcia268/vlocity_sfdx:latest
         variables:
           - name: deploy_url
-            value: $(CCIDevQA_SFDX_URL)
+            value: $(CCIDevQA)
           - name: SF_USER
-            value: CCIDEVQA  
+            value: CCIDevQA  
         strategy:
           runOnce:
             deploy:
               steps:
                 - checkout: self
-                - template: Deployment-template.yml
-  - stage: CCIQADeployment
-    displayName: Deployment to CCIQA Org
-    jobs:
-      - deployment: CCIQADeployment
-        displayName: Deployment to CCIQA
-        container: jfgarcia268/vlocity_sfdx:latest
-        environment: CCIQA
-        timeoutInMinutes: 180
-        variables:
-          - name: deploy_url
-            value: $(CCIQA_SFDX_URL)
-          - name: SF_USER
-            value: CCIQA  
-        strategy:
-          runOnce:
-            deploy:
-              steps:
-                - checkout: self
-                - script: |
-                    echo "Starting the Deployment to $(SF_USER) org"
-                - template: Deployment-template.yml
- - stage: CCIUATDeployment
-    displayName: Deployment to CCIUAT Org
-    jobs:
-      - deployment: CCIUATDeployment
-        displayName: Deployment to CCIUAT
-        container: jfgarcia268/vlocity_sfdx:latest
-        environment: CCIUAT
-        timeoutInMinutes: 180
-        variables:
-          - name: deploy_url
-            value: $(CIUAT_SFDX_URL)
-          - name: SF_USER
-            value: CCIUAT  
-        strategy:
-          runOnce:
-            deploy:
-              steps:
-                - checkout: self
-                - script: |
-                    echo "Starting the Deployment to $(SF_USER) org"
                 - template: Deployment-template.yml
