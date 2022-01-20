@@ -16,7 +16,7 @@ stages:
         displayName: Deployment to QA
         environment: CCIDevQA
         timeoutInMinutes: 180
-        container: jfgarcia268/vlocity_sfdx:latest
+        container: jfgarcia268/vlocity_sfdx:alpha
         variables:
           - name: deploy_url
             value: $(CCIDevQA)
