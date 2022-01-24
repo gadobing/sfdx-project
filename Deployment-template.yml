@@ -6,5 +6,5 @@ steps:
      rm -rf env.sfdx
      sfdx force:source:deploy --sourcepath salesforce_sfdx --targetusername ${SF_USER} --verbose
      echo "Deploying the Vlocity components"
-     vlocity -sfdx.username ${SF_USER} -job Deploy_Delta.yaml packUpdateSettings --verbose true --simpleLogging true
+     vlocity -sfdx.username ${SF_USER} -job Deploy_Delta.yaml packDeploy --verbose true --simpleLogging true
   displayName: 'Deployment Task'
