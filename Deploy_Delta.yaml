@@ -1,5 +1,5 @@
 projectPath: ./vlocity
-gitCheck: true
+gitCheck: false
 autoUpdateSettings: true
 autoRetryErrors: true
 queries:

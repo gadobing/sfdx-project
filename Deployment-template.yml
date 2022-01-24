@@ -1,16 +1,16 @@
 steps:
 - script: |
-     echo "y" | sfdx plugins:install vlocityestools@0.16.4
+#     echo "y" | sfdx plugins:install vlocityestools@0.16.4
      echo "Starting the Deployment to $(SF_USER)"
      echo $(deploy_url) > env.sfdx
      sfdx force:auth:sfdxurl:store -d -a ${SF_USER} -f env.sfdx
      rm -rf env.sfdx
-     sfdx vlocityestools:sfsource:createdeltapackage -u ${SF_USER} -p ins -d salesforce_sfdx
-     if [ -d "salesforce_sfdx_delta" ]; then
-        sfdx force:source:deploy --sourcepath salesforce_sfdx_delta --targetusername ${SF_USER} --verbose
-     else
-           echo "No SF changes found"
-     fi
+#     sfdx vlocityestools:sfsource:createdeltapackage -u ${SF_USER} -p ins -d salesforce_sfdx
+#     if [ -d "salesforce_sfdx_delta" ]; then
+        sfdx force:source:deploy --sourcepath salesforce_sfdx --targetusername ${SF_USER} --verbose
+#     else
+#           echo "No SF changes found"
+#     fi
      echo "Deploying the Vlocity components"
      vlocity -sfdx.username ${SF_USER} -job Deploy_Delta.yaml packUpdateSettings --verbose true --simpleLogging true
   displayName: 'Deployment Task'
