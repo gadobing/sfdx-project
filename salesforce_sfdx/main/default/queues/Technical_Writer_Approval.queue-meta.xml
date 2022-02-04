@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Technical Writer Approval</name>
+    <queueMembers>
+        <users>
+            <user>technicalwriteruser@salesforce.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>KnowledgeArticleVersion</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>afl__Article_Feedback_Values__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>afl__afl_Article_Feedback__c</sobjectType>
+    </queueSobject>
+</Queue>
