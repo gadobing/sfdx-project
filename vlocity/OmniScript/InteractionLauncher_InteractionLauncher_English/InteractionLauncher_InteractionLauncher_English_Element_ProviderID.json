@@ -36,7 +36,7 @@
         "inputWidth": 12,
         "label": "Provider ID",
         "mask": "",
-        "maxLength": 25,
+        "maxLength": 5,
         "minLength": 0,
         "pattern": "",
         "placeholder": "",

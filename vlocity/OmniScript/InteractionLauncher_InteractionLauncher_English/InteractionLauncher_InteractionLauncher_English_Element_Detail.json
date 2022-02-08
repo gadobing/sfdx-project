@@ -36,7 +36,7 @@
         "elementName": "",
         "hide": false,
         "label": "",
-        "maxDisplay": 7,
+        "maxDisplay": 8,
         "mode": "Cards",
         "newLabel": "New",
         "selectCheckBox": "openChosenAccount",

@@ -24,7 +24,7 @@
     "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 12,
+        "controlWidth": 10,
         "dataJSON": false,
         "label": "TextBlock6",
         "sanitize": false,

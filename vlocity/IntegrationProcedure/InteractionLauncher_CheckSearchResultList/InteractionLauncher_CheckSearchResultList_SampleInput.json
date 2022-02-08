@@ -1,0 +1,23 @@
+{
+    "AccountSearch": {
+        "BlockFacility": null,
+        "BlockMember": null,
+        "BlockProspect": null,
+        "BlockProvider": {
+            "ProviderFirstName": "David",
+            "ProviderLastName": "Lo"
+        },
+        "RadioUserType": "Provider"
+    },
+    "VerifyFacility": null,
+    "VerifyMember": null,
+    "VerifyProspect": null,
+    "VerifyProvider": {
+    },
+    "timeStamp": "2022-02-08T21:15:48.272Z",
+    "userCurrencyCode": "USD",
+    "userId": "0057j000002saQHAAY",
+    "userName": "aramosdelarosa@salesforce.com.ccidev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-360"
+}
