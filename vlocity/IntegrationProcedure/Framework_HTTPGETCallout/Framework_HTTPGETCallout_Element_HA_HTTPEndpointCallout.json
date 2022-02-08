@@ -31,7 +31,9 @@
         "restOptions": {
             "clientCertificateName": "",
             "headers": {
-                "Authorization": "Bearer %HA_GetApigeeAuthToken:access_token%"
+                "Accept-Encoding": "application/json",
+                "Authorization": "Bearer %HA_GetApigeeAuthToken:access_token%",
+                "Content-Type": "application/json"
             },
             "isCompressed": false,
             "params": {

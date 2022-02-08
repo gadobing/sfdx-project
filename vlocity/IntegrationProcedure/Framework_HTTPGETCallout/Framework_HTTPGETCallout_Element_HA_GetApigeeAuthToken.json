@@ -36,7 +36,7 @@
         "failureResponse": {
         },
         "label": "HTTPAction2",
-        "namedCredential": "",
+        "namedCredential": "%DRE_AuthToken:Named_Credential__c%%DRE_AuthToken:Params__c%",
         "postActionLogging": "",
         "preActionLogging": "%endpoint%",
         "responseJSONNode": "",
@@ -55,7 +55,7 @@
             "timeout": 0,
             "xmlEscapeResponse": false
         },
-        "restPath": "%DRE_AuthToken:Endpoint__c%%DRE_AuthToken:User_Name__c%",
+        "restPath": "",
         "retryCount": 0,
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,

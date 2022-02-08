@@ -1,6 +1,6 @@
 {
-    "DynamicParams": "&number=0111111111",
+    "DynamicParams": "12972630W05/id-cards",
     "Message_ID": "8523697436",
     "Parent_Record_SFDC_ID": "0111111111",
-    "Service_Name": "npiregistry_2"
+    "Service_Name": "P8RetrieveMemberCard"
 }

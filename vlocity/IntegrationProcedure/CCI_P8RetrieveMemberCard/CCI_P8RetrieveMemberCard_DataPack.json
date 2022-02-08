@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "CCI_P8RetrieveMemberCard_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "P8 Retrieve Member Card",
+    "OmniProcessElement": [
+        "CCI_P8RetrieveMemberCard_Element_SV_ServiceDetails.json",
+        "CCI_P8RetrieveMemberCard_Element_IP_Framework_GETCallout.json",
+        "CCI_P8RetrieveMemberCard_Element_Is_Not_Found.json",
+        "CCI_P8RetrieveMemberCard_Element_NotFound_Response.json",
+        "CCI_P8RetrieveMemberCard_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "CCI_P8RetrieveMemberCard",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_P8RetrieveMemberCard_PropertySetConfig.json",
+    "SubType": "P8RetrieveMemberCard",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/P8RetrieveMemberCard/Procedure",
+    "WebComponentKey": "40051ed3-5223-e9af-f83d-19e3e364772f"
+}
