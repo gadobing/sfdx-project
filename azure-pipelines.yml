@@ -1,5 +1,5 @@
 trigger:
-- develop
+- CCISprint*
 
 variables:
 - group: CSW_SFDX_Vlocity_Variables
@@ -10,10 +10,10 @@ pool:
 
 stages:
   - stage: CCIDevQADeployment
-    displayName: Deployment to CCIDevQA Org
+    displayName: CCISprint to CCIDevQA Org
     jobs:
       - deployment: CCIDevQADeployment
-        displayName: Deployment to QA
+        displayName: CCISprint to QA
         environment: CCIDevQA
         timeoutInMinutes: 180
         container: jfgarcia268/vlocity_sfdx:alpha
