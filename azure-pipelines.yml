@@ -1,5 +1,5 @@
 trigger:
-- develop
+- CCISprint*
 
 variables:
 - group: CSW_SFDX_Vlocity_Variables
