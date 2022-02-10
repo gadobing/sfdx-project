@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Email_Alert</name>
+        <label>Send Email Alert</label>
+        <locationX>296</locationX>
+        <locationY>810</locationY>
+        <actionName>Case.CCI_Case_Alert</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <decisions>
+        <name>case_overdue_by_3_days_and_origin_equals_email</name>
+        <label>case overdue by 3 days and origin equals email</label>
+        <locationX>968</locationX>
+        <locationY>467</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>case_origin_email</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>E-Mail</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_case_to_overdue</targetReference>
+            </connector>
+            <label>case origin email</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>case_overdue_by_5_days</name>
+        <label>case overdue by 5 days</label>
+        <locationX>285</locationX>
+        <locationY>435</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>cae_status_not_origin</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>E-Mail</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Email_Alert</targetReference>
+            </connector>
+            <label>cae status not origin</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>case_status_overdue_fir_7_days</name>
+        <label>case status overdue fir 7 days</label>
+        <locationX>641</locationX>
+        <locationY>548</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>case_origin_not_equals_email</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>E-Mail</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_record_to_overdue</targetReference>
+            </connector>
+            <label>case origin not equals email</label>
+        </rules>
+    </decisions>
+    <description>Given that a case has been created and not closed in the SLA provided below, we need a process to highlight these cases to supervisors.</description>
+    <interviewLabel>Case Status Update On Basis Of Creation {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CCI Case Status Update On Basis Of Creation</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>update_case_to_overdue</name>
+        <label>update case to overdue</label>
+        <locationX>1016</locationX>
+        <locationY>854</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Overdue</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_record_to_overdue</name>
+        <label>update record to overdue</label>
+        <locationX>654</locationX>
+        <locationY>831</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Overdue</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>495</locationX>
+        <locationY>54</locationY>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Closed</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>
