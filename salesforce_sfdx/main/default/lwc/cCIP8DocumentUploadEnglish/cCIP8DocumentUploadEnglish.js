@@ -1,7 +1,7 @@
 import { api, track } from 'lwc';
-import OmniscriptHeader from '%vlocity_namespace%/omniscriptHeader';
-import { isOffPlatform, setConnection, getConnection } from '%vlocity_namespace%/omniscriptRestApi';
-import { RUN_MODES, registerNs } from '%vlocity_namespace%/omniscriptInternalUtils';
+import OmniscriptHeader from 'omnistudio/omniscriptHeader';
+import { isOffPlatform, setConnection, getConnection } from 'omnistudio/omniscriptRestApi';
+import { RUN_MODES, registerNs } from 'omnistudio/omniscriptInternalUtils';
 import { OMNIDEF } from './cCIP8DocumentUploadEnglish_def.js';
 import tmpl from './cCIP8DocumentUploadEnglish.html';
 import tmpl_nds from './cCIP8DocumentUploadEnglish_nds.html';

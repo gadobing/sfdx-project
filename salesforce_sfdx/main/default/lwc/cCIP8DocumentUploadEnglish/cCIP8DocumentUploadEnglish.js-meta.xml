@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>53.0</apiVersion>
+    <runtimeNamespace>omnistudio</runtimeNamespace>
     <isExposed>true</isExposed>
     <description>Vlocity OmniScript Auto-generated - 0jN7j000000004NEAQ</description>
     <masterLabel>CCI/P8DocumentUpload/English</masterLabel>
