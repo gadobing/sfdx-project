@@ -24,7 +24,7 @@
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "additionalOutput": {
-            "IsSuccess": "True"
+            "isSuccess": "True"
         },
         "disOnTplt": false,
         "executionConditionalFormula": "",

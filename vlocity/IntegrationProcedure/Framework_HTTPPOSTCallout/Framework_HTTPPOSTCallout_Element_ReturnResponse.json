@@ -10,6 +10,7 @@
     },
     "PropertySetConfig": {
         "additionalOutput": {
+            "FrameworkResponse": "%HA_HTTPEndpointCallout%",
             "StatusCode": "%HA_HTTPEndpointCalloutInfo:statusCode%"
         },
         "disOnTplt": false,
@@ -21,7 +22,7 @@
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnFullDataJSON": false,
-        "returnOnlyAdditionalOutput": false,
+        "returnOnlyAdditionalOutput": true,
         "sendJSONNode": "",
         "sendJSONPath": "HA_HTTPEndpointCallout",
         "show": null,

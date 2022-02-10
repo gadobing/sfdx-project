@@ -10,7 +10,7 @@
     },
     "PropertySetConfig": {
         "disOnTplt": false,
-        "executionConditionalFormula": "",
+        "executionConditionalFormula": "%IP_Framework_PostCallout:StatusCode%!=200 && %IP_Framework_PostCallout:StatusCode%!=201",
         "isIfElseBlock": false,
         "label": "ConditionalBlock3",
         "show": null

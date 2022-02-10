@@ -11,6 +11,7 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
+            "DocumentId": "%DocumentUploadCallout:FrameworkResponse%",
             "StatusUpdate": "=IF(%DocumentUploadCallout:isSuccess%,'Success','Failed - Awaiting Retry')"
         },
         "additionalOutput": {

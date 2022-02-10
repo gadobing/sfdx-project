@@ -27,7 +27,7 @@
         "controlWidth": 12,
         "dataJSON": false,
         "label": "TextBlock3",
-        "lwcComponentOverride": "cCIP8DocumentUploadTextBlockOverride",
+        "lwcComponentOverride": "",
         "sanitize": false,
         "show": {
             "group": {

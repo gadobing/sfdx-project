@@ -150,7 +150,7 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldFormat": "Integer",
+        "OutputFieldFormat": "String",
         "OutputFieldName": "CaseNumber",
         "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
