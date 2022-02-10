@@ -32,7 +32,7 @@
     </entryCriteria>
     <finalApprovalActions>
         <action>
-            <name>Publish_The_Article</name>
+            <name>Publish_Knowledge_Action</name>
             <type>KnowledgePublish</type>
         </action>
     </finalApprovalActions>
