@@ -7,9 +7,4 @@
         <target>lightning__RecordPage</target>
         <target>lightning__HomePage</target>
     </targets>
-    <!--targetConfigs>   
-        <targetConfig targets="lightning__HomePage,lightning__RecordPage">
-            <property name="memberId" type="String" default="" label="Member Id"/>
-           
-        </targetConfig>
-    </targetConfigs--></LightningComponentBundle>
+</LightningComponentBundle>

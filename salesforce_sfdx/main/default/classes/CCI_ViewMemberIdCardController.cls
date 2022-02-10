@@ -13,7 +13,7 @@ public with sharing class CCI_ViewMemberIdCardController {
     @Description : getMemberCardDetails(API callout using IP)
 	@Author 	 : SFDC
 	@Params 	 : String memberId
-	@Return 	 : MemberCardWrapper class
+	@Return 	 : MemberCardWrapper class 
     **************************************************************************************/
     @AuraEnabled
     public static MemberCardWrapper getMemberCardDetails(string memberId){
@@ -44,7 +44,7 @@ public with sharing class CCI_ViewMemberIdCardController {
         
         } catch(Exception  e) {
         System.debug('The following exception has occurred: ' + e.getMessage());
-            throw new AuraHandledException('The following exception has occurred: ' + e.getMessage());
+            throw new AuraHandledException('The following exception has occurred: ' + e.getMessage()+' Line:' + String.valueOf(e.getLineNumber()));
         }
     }
     public class MemberCardWrapper{
@@ -90,8 +90,7 @@ public with sharing class CCI_ViewMemberIdCardController {
         Map<String, Object> ipOutput = new Map<String, Object> ();
         Map<String, Object> ipOptions = new Map<String, Object> ();
         ipInput.put('memberIdInput', memberIdInput);
-        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(
-                IPName, ipInput, ipOptions);
+        //ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
         return  ipOutput;
     }
 

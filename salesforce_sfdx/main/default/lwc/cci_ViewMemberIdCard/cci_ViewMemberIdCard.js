@@ -4,6 +4,7 @@ import getMemberCardDetails from '@salesforce/apex/CCI_ViewMemberIdCardControlle
 export default class Cci_ViewMemberIdCard extends LightningElement {   
     cardDetails;
     strData;
+    strData2;
     error;
     customMessage ='';
     showLoading = true;
@@ -13,46 +14,41 @@ export default class Cci_ViewMemberIdCard extends LightningElement {
         this.isModalOpen = true;
         if(this.cardDetails === undefined || (this.cardDetails != undefined && this.cardDetails.statusCode !=200)){
             this.showLoading =true;
-            console.log('@@getMemberCardDetails');//12972630W05t
-            console.log('@@recordId',this.recordId);//0017j00000ghZNHAA2
+           // console.log('@@getMemberCardDetails');//12972630W05t
+           // console.log('@@recordId',this.recordId);//0017j00000ghZNHAA2
             getMemberCardDetails({ memberId: this.recordId })
                 .then(result => {
                     
                     this.showLoading =false;
-                    console.log('@@result',result.statusCode);
-                    console.log('@@@result',result.status);
-
+                    console.log('result',result);
                     if(result.statusCode == 200 ){
                     this.cardDetails = result;
                     this.strData = 'data:'+this.cardDetails.format+ ';'+this.cardDetails.encoding+','+this.cardDetails.content;
+                    this.strData2 = 'data:'+this.cardDetails.format+ ';content-disposition:attachment;'+this.cardDetails.encoding+','+this.cardDetails.content;
+                   
                     console.log('result',result);
                 
                     }
                     else if(result.statusCode == 404){
                         const evt = new ShowToastEvent({
                             title: 'Error',
-                            message: 'No ID card found on this MemmberId!',
+                            message: 'Member ID card not found for this member',
                             variant: 'error',
                             mode: 'sticky'
                         });
                         this.dispatchEvent(evt);
                         this.isModalOpen = false;
                     }
-                    else if(result.statusCode != 200){
+                    else{
                         const evt = new ShowToastEvent({
                             title: 'Error',
-                            message: 'Something went wrong please try again after some time(Error Code= '+result.statusCode+',Message = '+result.status+')!',
+                            message: 'Something went wrong, please try again after some time(Error Code= '+result.statusCode+',Message = '+result.status+')!',
                             variant: 'error',
                             mode: 'sticky'
                         });
                         this.dispatchEvent(evt);
                         this.isModalOpen = false;
                     }
-                    else{}
-                    if(this.cardDetails === undefined || this.cardDetails== null ){
-                        this.customMessage ='No result found' ;
-                    }
-                    this.error = undefined;
                 })
                 .catch(error => {
                     this.error = error;
