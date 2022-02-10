@@ -39,6 +39,10 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Record_Type__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Product_Line__c</field>
             </layoutItems>
@@ -100,6 +104,9 @@
     <relatedLists>
         <fields>Name</fields>
         <fields>Member</fields>
+        <fields>CoverageType</fields>
+        <fields>BenefitNotes</fields>
+        <fields>CreatedDate</fields>
         <relatedList>CoverageBenefits</relatedList>
     </relatedLists>
     <relatedLists>
