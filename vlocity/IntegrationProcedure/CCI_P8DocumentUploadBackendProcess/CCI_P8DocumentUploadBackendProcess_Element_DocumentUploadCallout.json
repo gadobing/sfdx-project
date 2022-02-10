@@ -1,0 +1,54 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DocumentUploadCallout",
+    "OmniProcessId": {
+        "Name": "P8 Document Upload Backend Process",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "base64String": "=BASE64ENCODE(TOSTRING(%DREGetDocumentDetails:Base64String%))",
+            "caseId": "%DREGetDocumentDetails:CaseNumber%",
+            "contractNumber": "000001",
+            "docClass": "%DREGetDocumentDetails:DocumentClass%",
+            "docId": "%DREGetDocumentDetails:DocumentId%",
+            "docType": "%DREGetDocumentDetails:DocumentType%",
+            "groupNumber": "B00281",
+            "lineOfBusiness": "%DREGetDocumentDetails:LineOfBusiness%",
+            "mimeType": "=CONCAT(\"application/\",%DREGetDocumentDetails:FileExtension%)",
+            "objectStore": "%DREGetDocumentDetails:ObjectStore%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "disableChainable": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "integrationProcedureKey": "CCI_P8UploadDocumentCallout",
+        "label": "IntegrationProcedureAction1",
+        "remoteOptions": {
+            "": ""
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Integration Procedure Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure/DocumentUploadCallout"
+}

@@ -23,7 +23,7 @@
         "failureResponse": {
         },
         "label": "HTTPAction1",
-        "namedCredential": "",
+        "namedCredential": "%DRE_ExtractEndpointSettings:Named_Credential__c%%DRE_ExtractEndpointSettings:Params__c%%DynamicParams%",
         "postActionLogging": "",
         "preActionLogging": "%endpoint%",
         "responseJSONNode": "",
@@ -32,7 +32,8 @@
         "restOptions": {
             "clientCertificateName": "",
             "headers": {
-                "Authorization": "Bearer %HA_GetApigeeAuthToken:access_token%"
+                "Authorization": "Bearer %HA_GetApigeeAuthToken:access_token%",
+                "Content-Type": "application/json"
             },
             "isCompressed": false,
             "params": {
@@ -41,7 +42,7 @@
             "timeout": 120000,
             "xmlEscapeResponse": false
         },
-        "restPath": "%DRE_ExtractEndpointSettings:Endpoint__c%%DRE_ExtractEndpointSettings:Params__c%%DynamicParams%",
+        "restPath": "",
         "retryCount": 0,
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,

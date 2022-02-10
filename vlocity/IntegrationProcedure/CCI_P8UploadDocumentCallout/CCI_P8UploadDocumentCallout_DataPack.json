@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "CCI_P8UploadDocumentCallout_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "P8 Upload Document Callout",
+    "OmniProcessElement": [
+        "CCI_P8UploadDocumentCallout_Element_SV_Service_Details.json",
+        "CCI_P8UploadDocumentCallout_Element_IP_Framework_PostCallout.json",
+        "CCI_P8UploadDocumentCallout_Element_Success.json",
+        "CCI_P8UploadDocumentCallout_Element_RASuccessDocCallout.json",
+        "CCI_P8UploadDocumentCallout_Element_Failure.json",
+        "CCI_P8UploadDocumentCallout_Element_RAFailureDocCallout.json"
+    ],
+    "OmniProcessKey": "CCI_P8UploadDocumentCallout",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_P8UploadDocumentCallout_PropertySetConfig.json",
+    "SubType": "P8UploadDocumentCallout",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/P8UploadDocumentCallout/Procedure",
+    "WebComponentKey": "e79d1f09-8e40-d2b6-1aa2-23f4627feaf6"
+}

@@ -41,7 +41,7 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "%HA_HTTPEndpointCalloutInfo:statusCode% == \"404\" OR %HA_HTTPEndpointCalloutInfo:statusCode% == \"504\" OR %HA_HTTPEndpointCalloutInfo:statusCode% == \"444\" OR %HA_HTTPEndpointCalloutInfo:error% == \"Read timed out\"",
-        "failOnStepError": true,
+        "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {
         },

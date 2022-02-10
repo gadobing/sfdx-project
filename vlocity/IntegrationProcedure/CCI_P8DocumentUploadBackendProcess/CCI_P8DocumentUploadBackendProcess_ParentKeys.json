@@ -1,0 +1,5 @@
+[
+    "DataRaptor/CreateP8SystemRecord",
+    "DataRaptor/DocumentContentVersionExtract",
+    "IntegrationProcedure/CCI_P8UploadDocumentCallout"
+]

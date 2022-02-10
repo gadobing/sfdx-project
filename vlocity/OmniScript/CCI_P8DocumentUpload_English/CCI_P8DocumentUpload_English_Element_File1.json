@@ -1,0 +1,60 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "File1",
+    "OmniProcessId": {
+        "Name": "CCI P8 Document Upload",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/P8DocumentUpload/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "FileUploadBlock",
+        "OmniProcessId": {
+            "Name": "CCI P8 Document Upload",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/P8DocumentUpload/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/FileUploadBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "FileUploadBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "conditionType": "Hide if False",
+        "contentParentId": [
+            "%DRId_CCI_Document__c%"
+        ],
+        "controlWidth": 12,
+        "errorMessage": {
+            "custom": [
+                {
+                    "message": "",
+                    "path": "",
+                    "value": ""
+                }
+            ],
+            "default": null
+        },
+        "extraPayload": {
+        },
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "label": "Please upload the document",
+        "remoteClass": "",
+        "remoteMethod": "",
+        "remoteOptions": {
+        },
+        "required": true,
+        "show": null,
+        "uploadContDoc": true
+    },
+    "Type": "File",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/File1"
+}
