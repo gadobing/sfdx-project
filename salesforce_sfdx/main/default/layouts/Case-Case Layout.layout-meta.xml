@@ -186,6 +186,11 @@
             <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>FeedItem.ContentPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>FeedItem.TextPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>5</sortOrder>
@@ -196,14 +201,14 @@
             <sortOrder>6</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.ContentPost</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>4</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>SendEmail</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>7</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Case.Upload_Document</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>8</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <quickActionList>
@@ -247,7 +252,22 @@
         <relatedList>RelatedCommentsList</relatedList>
     </relatedLists>
     <relatedLists>
-        <relatedList>RelatedEntityHistoryList</relatedList>
+        <relatedList>RelatedAttachmentList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>Document_Title__c</fields>
+        <fields>Status__c</fields>
+        <fields>Object_Store__c</fields>
+        <fields>Document_Class__c</fields>
+        <fields>Document_Id_Ext__c</fields>
+        <fields>Line_of_Business__c</fields>
+        <fields>Document_Type__c</fields>
+        <relatedList>CCI_Document__c.CCI_Case__c</relatedList>
+        <sortField>NAME</sortField>
+        <sortOrder>Desc</sortOrder>
     </relatedLists>
     <relatedLists>
         <fields>SOLUTION.ISSUE</fields>
@@ -257,12 +277,17 @@
         <relatedList>RelatedSolutionList</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>TITLE</fields>
+        <fields>ARTICLE_NUMBER</fields>
+        <fields>LAST_PUBLISHED_DATE</fields>
+        <fields>UPDATEDBY_USER</fields>
+        <relatedList>Knowledge__kav.Case__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <relatedList>RelatedContentNoteList</relatedList>
     </relatedLists>
     <relatedLists>
-        <relatedList>RelatedFileList</relatedList>
-    </relatedLists>
-    <relatedLists>
+        <excludeButtons>NewEvent</excludeButtons>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
         <fields>ACTIVITY.TASK</fields>
@@ -273,6 +298,9 @@
         <relatedList>RelatedActivityList</relatedList>
     </relatedLists>
     <relatedLists>
+        <relatedList>RelatedEntityHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
         <fields>ACTIVITY.TASK</fields>
@@ -280,16 +308,6 @@
         <fields>CORE.USERS.FULL_NAME</fields>
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>RelatedHistoryList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <relatedList>RelatedAttachmentList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>TITLE</fields>
-        <fields>ARTICLE_NUMBER</fields>
-        <fields>LAST_PUBLISHED_DATE</fields>
-        <fields>UPDATEDBY_USER</fields>
-        <relatedList>Knowledge__kav.Case__c</relatedList>
     </relatedLists>
     <relatedObjects>ContactId</relatedObjects>
     <relatedObjects>AccountId</relatedObjects>

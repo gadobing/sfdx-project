@@ -2,11 +2,6 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Technical Writer Approval</name>
-    <queueMembers>
-        <users>
-            <user>technicalwriteruser@salesforce.com</user>
-        </users>
-    </queueMembers>
     <queueSobject>
         <sobjectType>KnowledgeArticleVersion</sobjectType>
     </queueSobject>
