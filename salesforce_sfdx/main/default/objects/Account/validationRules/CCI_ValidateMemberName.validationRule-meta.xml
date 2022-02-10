@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCI_ValidateMemberName</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ OR(
+ ISCHANGED( LastName),
+ ISCHANGED( Salutation),
+ ISCHANGED( FirstName),
+ ISCHANGED( MiddleName),
+ ISCHANGED( Suffix )
+ ),
+ RecordType.DeveloperName ='Member',
+ $Profile.Name ='CSR Agent'
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>You don’t have permission to edit the Member Name. Please contact your system administrator.</errorMessage>
+</ValidationRule>
