@@ -7,6 +7,7 @@
         <locationY>810</locationY>
         <actionName>Case.CCI_Case_Alert</actionName>
         <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
             <value>
@@ -14,6 +15,7 @@
             </value>
         </inputParameters>
     </actionCalls>
+    <apiVersion>54.0</apiVersion>
     <decisions>
         <name>case_overdue_by_3_days_and_origin_equals_email</name>
         <label>case overdue by 3 days and origin equals email</label>
@@ -131,6 +133,7 @@
     <start>
         <locationX>495</locationX>
         <locationY>54</locationY>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Status</field>
             <operator>NotEqualTo</operator>
@@ -140,7 +143,37 @@
         </filters>
         <object>Case</object>
         <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>if_status_is_not_closed_even_after_5_days</name>
+            <connector>
+                <targetReference>case_overdue_by_5_days</targetReference>
+            </connector>
+            <label>if status is not closed even after 5 days</label>
+            <offsetNumber>4</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>if_case_origin_is_email_and_not_closed_by_3_days</name>
+            <connector>
+                <targetReference>case_overdue_by_3_days_and_origin_equals_email</targetReference>
+            </connector>
+            <label>if case origin is email and not closed by 3 days</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>if_case_is_not_closed_even_within_7_days</name>
+            <connector>
+                <targetReference>case_status_overdue_fir_7_days</targetReference>
+            </connector>
+            <label>if case is not closed even within 7 days</label>
+            <offsetNumber>6</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
 </Flow>
