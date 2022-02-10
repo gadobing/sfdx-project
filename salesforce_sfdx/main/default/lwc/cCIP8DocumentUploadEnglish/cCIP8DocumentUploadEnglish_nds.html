@@ -25,79 +25,79 @@
             <div class="via-nds">
                 <template if:false={compLoaded}>
                     <div class="omni-spinner-container_wrapper">
-                        <%vlocity_namespace%-spinner variant="brand"
+                        <omnistudio-spinner variant="brand"
                                             alternative-text={allCustomLabelsUtil.OmniSpinnerTextLoading}
                                             theme={_theme}
                                             size="medium">
-                        </%vlocity_namespace%-spinner>
+                        </omnistudio-spinner>
                     </div>
                 </template>
                 <template if:true={bSflValid}>
                     <template if:true={firstRender}>
                         <template if:true={isLauncherVisible}>
-                            <%vlocity_namespace%-button label={inlineLabel}
+                            <omnistudio-button label={inlineLabel}
                                                 variant={inlineVariant}
                                                 theme={_theme}
                                                 onclick={setScriptVisibility}
                                                 extraclass="nds-button_stretch">
-                            </%vlocity_namespace%-button>
+                            </omnistudio-button>
                         </template>
                         <article class={containerClasses}>
                             <div class="nds-card__body nds-card__body_inner nds-m-top_medium">
                                 <template if:true={bSflAuto}>
-                                    <%vlocity_namespace%-omniscript-save-for-later-acknowledge result={bSflResult}
+                                    <omnistudio-omniscript-save-for-later-acknowledge result={bSflResult}
                                                     layout={layout}
-                                                    auto></%vlocity_namespace%-omniscript-save-for-later-acknowledge>
+                                                    auto></omnistudio-omniscript-save-for-later-acknowledge>
                                 </template>
-                                <%vlocity_namespace%-omniscript-step-chart json-def={jsonDef}
+                                <omnistudio-omniscript-step-chart json-def={jsonDef}
                                             json-data={jsonDef.response}
                                             if:false={jsonDef.propSetMap.hideStepChart}
                                             data-omni-key='omniscriptStepChart'
                                             props={stepChartProps}
                                             layout={layout}
                                             script-header-def={scriptHeaderDef}>
-                                </%vlocity_namespace%-omniscript-step-chart>                    
+                                </omnistudio-omniscript-step-chart>                    
                                 <template if:true={isPageLoading}>
-                                    <%vlocity_namespace%-spinner variant="brand"
+                                    <omnistudio-spinner variant="brand"
                                                         alternative-text={allCustomLabelsUtil.OmniSpinnerTextLoading}
                                                         extraclass="nds-theme_default"
                                                         theme={_theme}
                                                         message={spinnerMessage}
                                                         size="medium">
-                                    </%vlocity_namespace%-spinner>
+                                    </omnistudio-spinner>
                                 </template>
-                                <template for:each={jsonDef.children} for:item="item" for:index="idx"><%vlocity_namespace%-omniscript-step if:true={item.bStep} key={item.lwcId} json-def={item} data-omni-key={item.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}><template for:each={item.children} for:item="itemChild0" for:index="itemChild0Idx"><template for:each={itemChild0.eleArray} for:item="itemChild0Ele" for:index="itemChild0Idx"><%vlocity_namespace%-omniscript-text-block if:true={itemChild0Ele.bTextBlock} key={itemChild0Ele.lwcId} json-def={itemChild0Ele} data-omni-key={itemChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></%vlocity_namespace%-omniscript-text-block><%vlocity_namespace%-omniscript-select if:true={itemChild0Ele.bSelect} key={itemChild0Ele.lwcId} json-def={itemChild0Ele} data-omni-key={itemChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}></%vlocity_namespace%-omniscript-select><%vlocity_namespace%-omniscript-block if:true={itemChild0Ele.bBlock} key={itemChild0Ele.lwcId} json-def={itemChild0Ele} data-omni-key={itemChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}><template for:each={itemChild0Ele.children} for:item="itemChild0EleChild0" for:index="itemChild0EleChild0Idx"><template for:each={itemChild0EleChild0.eleArray} for:item="itemChild0EleChild0Ele" for:index="itemChild0EleChild0Idx"><%vlocity_namespace%-omniscript-text if:true={itemChild0EleChild0Ele.bText} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}></%vlocity_namespace%-omniscript-text><%vlocity_namespace%-omniscript-file if:true={itemChild0EleChild0Ele.bFile} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}></%vlocity_namespace%-omniscript-file><%vlocity_namespace%-omniscript-formula if:true={itemChild0EleChild0Ele.bFormula} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></%vlocity_namespace%-omniscript-formula><%vlocity_namespace%-omniscript-messaging if:true={itemChild0EleChild0Ele.bMessaging} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></%vlocity_namespace%-omniscript-messaging><c-c-c-i-p8-document-upload-text-block-override if:true={itemChild0EleChild0Ele.bCCIP8DocumentUploadTextBlockOverride} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></c-c-c-i-p8-document-upload-text-block-override><%vlocity_namespace%-omniscript-text-block if:true={itemChild0EleChild0Ele.bTextBlock} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></%vlocity_namespace%-omniscript-text-block><%vlocity_namespace%-omniscript-navigate-action if:true={itemChild0EleChild0Ele.bNavigate} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></%vlocity_namespace%-omniscript-navigate-action></template></template></%vlocity_namespace%-omniscript-block></template></template></%vlocity_namespace%-omniscript-step><%vlocity_namespace%-omniscript-dr-post-action if:true={item.bDataRaptorPostAction} key={item.lwcId} json-def={item} data-omni-key={item.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></%vlocity_namespace%-omniscript-dr-post-action><%vlocity_namespace%-omniscript-ip-action if:true={item.bIntegrationProcedureAction} key={item.lwcId} json-def={item} data-omni-key={item.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></%vlocity_namespace%-omniscript-ip-action></template>
+                                <template for:each={jsonDef.children} for:item="item" for:index="idx"><omnistudio-omniscript-step if:true={item.bStep} key={item.lwcId} json-def={item} data-omni-key={item.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}><template for:each={item.children} for:item="itemChild0" for:index="itemChild0Idx"><template for:each={itemChild0.eleArray} for:item="itemChild0Ele" for:index="itemChild0Idx"><omnistudio-omniscript-text-block if:true={itemChild0Ele.bTextBlock} key={itemChild0Ele.lwcId} json-def={itemChild0Ele} data-omni-key={itemChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></omnistudio-omniscript-text-block><omnistudio-omniscript-select if:true={itemChild0Ele.bSelect} key={itemChild0Ele.lwcId} json-def={itemChild0Ele} data-omni-key={itemChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}></omnistudio-omniscript-select><omnistudio-omniscript-block if:true={itemChild0Ele.bBlock} key={itemChild0Ele.lwcId} json-def={itemChild0Ele} data-omni-key={itemChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}><template for:each={itemChild0Ele.children} for:item="itemChild0EleChild0" for:index="itemChild0EleChild0Idx"><template for:each={itemChild0EleChild0.eleArray} for:item="itemChild0EleChild0Ele" for:index="itemChild0EleChild0Idx"><omnistudio-omniscript-text if:true={itemChild0EleChild0Ele.bText} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}></omnistudio-omniscript-text><omnistudio-omniscript-file if:true={itemChild0EleChild0Ele.bFile} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}></omnistudio-omniscript-file><omnistudio-omniscript-formula if:true={itemChild0EleChild0Ele.bFormula} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></omnistudio-omniscript-formula><omnistudio-omniscript-messaging if:true={itemChild0EleChild0Ele.bMessaging} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></omnistudio-omniscript-messaging><c-c-c-i-p8-document-upload-text-block-override if:true={itemChild0EleChild0Ele.bCCIP8DocumentUploadTextBlockOverride} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></c-c-c-i-p8-document-upload-text-block-override><omnistudio-omniscript-text-block if:true={itemChild0EleChild0Ele.bTextBlock} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></omnistudio-omniscript-text-block><omnistudio-omniscript-navigate-action if:true={itemChild0EleChild0Ele.bNavigate} key={itemChild0EleChild0Ele.lwcId} json-def={itemChild0EleChild0Ele} data-omni-key={itemChild0EleChild0Ele.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></omnistudio-omniscript-navigate-action></template></template></omnistudio-omniscript-block></template></template></omnistudio-omniscript-step><omnistudio-omniscript-dr-post-action if:true={item.bDataRaptorPostAction} key={item.lwcId} json-def={item} data-omni-key={item.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></omnistudio-omniscript-dr-post-action><omnistudio-omniscript-ip-action if:true={item.bIntegrationProcedureAction} key={item.lwcId} json-def={item} data-omni-key={item.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode}></omnistudio-omniscript-ip-action></template>
                                 <template if:true={_isKbEnabledOnScript}>
-                                <%vlocity_namespace%-omniscript-knowledge-base knowledge-options={kbOptions}
+                                <omnistudio-omniscript-knowledge-base knowledge-options={kbOptions}
                                                              data-omni-key='omniscriptKnowledgeBase'
                                                              layout={layout}
                                                              data-stepchart-placement={_stepChartPlacement}
                                                              omniscript-key={scriptHeaderDef.omniscriptKey}
                                                              kb-label={knowledgeLabel}>
-                                </%vlocity_namespace%-omniscript-knowledge-base>
+                                </omnistudio-omniscript-knowledge-base>
                             </template>
                             </div>
                             <div class="nds-m-around_small">
                                 <div class="nds-grid nds-grid_align-center">
                                     <div class="nds-grid nds-grid_align-center nds-wrap nds-button-group-row nds-size_1-of-1 nds-medium-size_8-of-12 nds-p-horizontal_medium">
                                         <template if:true={hasNext}>
-                                            <%vlocity_namespace%-navigate-action
+                                            <omnistudio-navigate-action
                                                 if:true={_isSeoEnabled}
                                                 target-type="Current Page"
                                                 class={navButton.next.classes}
                                                 use-href
                                                 target-params={navButton.next.targetParams}>
-                                                <%vlocity_namespace%-button
+                                                <omnistudio-button
                                                     type="button"
                                                     label={navButton.next.label}
                                                     aria-label={nextStepAriaLabel}
                                                     variant="brand"
                                                     extraclass="slds-size_1-of-1 slds-p-horizontal_none slds-text-align_center"
                                                     theme={_theme}>
-                                                </%vlocity_namespace%-button>
-                                            </%vlocity_namespace%-navigate-action>
+                                                </omnistudio-button>
+                                            </omnistudio-navigate-action>
 
-                                            <%vlocity_namespace%-button
+                                            <omnistudio-button
                                                 if:false={_isSeoEnabled}
                                                 type="button"
                                                 variant="brand"
@@ -107,30 +107,30 @@
                                                 aria-label={nextStepAriaLabel}
                                                 extraclass="nds-button_stretch nds-p-around_xx-small nds-size_1-of-1"
                                                 theme={_theme}>
-                                            </%vlocity_namespace%-button>
+                                            </omnistudio-button>
                                         </template>
                                     </div>
                                 </div>
                                 <div class="nds-grid nds-grid_align-center">
                                     <div class="nds-grid nds-grid_align-center nds-wrap nds-button-group-row nds-size_1-of-1 nds-medium-size_8-of-12 nds-p-horizontal_medium">
                                         <template if:true={hasPrev}>
-                                            <%vlocity_namespace%-navigate-action
+                                            <omnistudio-navigate-action
                                                 if:true={_isSeoEnabled}
                                                 target-type="Current Page"
                                                 use-href
                                                 class={navButton.previous.classes}
                                                 target-params={navButton.previous.targetParams}>
-                                                <%vlocity_namespace%-button
+                                                <omnistudio-button
                                                     type="button"
                                                     variant="neutral"
                                                     label={navButton.previous.label}
                                                     aria-label={prevStepAriaLabel}
                                                     extraclass="nds-button_stretch nds-p-around_xx-small nds-size_1-of-1"
                                                     theme={_theme}>
-                                                </%vlocity_namespace%-button>
-                                            </%vlocity_namespace%-navigate-action>
+                                                </omnistudio-button>
+                                            </omnistudio-navigate-action>
 
-                                            <%vlocity_namespace%-button
+                                            <omnistudio-button
                                                 if:false={_isSeoEnabled}
                                                 type="button"
                                                 variant="neutral"
@@ -140,7 +140,7 @@
                                                 class={navButton.previous.classes}
                                                 extraclass="nds-button_stretch nds-p-around_xx-small nds-size_1-of-1"
                                                 theme={_theme}>
-                                            </%vlocity_namespace%-button>
+                                            </omnistudio-button>
                                         </template>
                                     </div>
                                 </div>
@@ -148,30 +148,30 @@
                                     <div class="nds-grid nds-grid_align-center nds-wrap nds-button-group-row nds-size_1-of-1 nds-medium-size_8-of-12 nds-p-horizontal_medium">
 
                                         <template if:true={cancelAction}>
-                                            <%vlocity_namespace%-button type="button"
+                                            <omnistudio-button type="button"
                                                     label={cancelLabel}
                                                     variant="base"
                                                     class={navButton.save.classes}
                                                     extraclass="nds-button_stretch nds-p-around_xx-small nds-size_1-of-1"
                                                     onclick={cancel}
                                                     theme={_theme}>
-                                            </%vlocity_namespace%-button>
+                                            </omnistudio-button>
                                         </template>
-                                        <%vlocity_namespace%-navigate-action
+                                        <omnistudio-navigate-action
                                             data-omni-key="DEFAULT-CANCEL"
                                             target-type={_defaultCancel.type}
                                             target-params={_defaultCancel.params}>
-                                        </%vlocity_namespace%-navigate-action>
+                                        </omnistudio-navigate-action>
 
                                         <template if:true={allowSfl}>
-                                            <%vlocity_namespace%-button type="button"
+                                            <omnistudio-button type="button"
                                                                 variant="base"
                                                                 onclick={saveForLater}
                                                                 class={navButton.save.classes}
                                                                 label={navButton.save.label}
                                                                 extraclass="nds-button_stretch nds-p-around_xx-small nds-size_1-of-1"
                                                                 theme={_theme}>
-                                            </%vlocity_namespace%-button>
+                                            </omnistudio-button>
                                         </template>
                                     </div>
                                 </div>
@@ -179,12 +179,12 @@
                         </article>
 
                         <template if:true={bSflComplete}>
-                            <%vlocity_namespace%-omniscript-save-for-later-acknowledge result={bSflResult} layout={layout}></%vlocity_namespace%-omniscript-save-for-later-acknowledge>
+                            <omnistudio-omniscript-save-for-later-acknowledge result={bSflResult} layout={layout}></omnistudio-omniscript-save-for-later-acknowledge>
                         </template>
                         <template for:each={modalEvents}
                                 for:item="modallvl1"
                                 for:index="indexlvl1">
-                            <%vlocity_namespace%-omniscript-modal data-omni-key='omnimodal'
+                            <omnistudio-omniscript-modal data-omni-key='omnimodal'
                                     key={modallvl1.modalHeader}
                                     type={modallvl1.type}
                                     layout={layout}
@@ -195,7 +195,7 @@
                                     <h1>{modallvl1.modalHeader}</h1>
                                 </div>
                                 <div slot="content">
-                                    <%vlocity_namespace%-omniscript-formatted-rich-text value={modallvl1.modalMessage} disable-linkify></%vlocity_namespace%-omniscript-formatted-rich-text>
+                                    <omnistudio-omniscript-formatted-rich-text value={modallvl1.modalMessage} disable-linkify></omnistudio-omniscript-formatted-rich-text>
                                 </div>
                                 <div slot="footer">
                                     <ul class="slds-button-group-row">
@@ -214,7 +214,7 @@
                                         </template>
                                     </ul>
                                 </div>
-                            </%vlocity_namespace%-omniscript-modal>
+                            </omnistudio-omniscript-modal>
                         </template>
                     </template>
                 </template>
@@ -243,14 +243,14 @@
                                     <div class="nds-m-around_small">
                                         <div class="nds-grid">
                                             <div class="nds-grid nds-wrap nds-button-group-row nds-size_1-of-1 nds-medium-size_8-of-12 nds-p-horizontal_medium">
-                                                    <%vlocity_namespace%-button type="button"
+                                                    <omnistudio-button type="button"
                                                                         variant="brand"
                                                                         onclick={handleContinueInvalidSfl}
                                                                         label={allCustomLabelsUtil.OmniContinue}
                                                                         class="nds-m-left_x-small"
                                                                         extraclass="nds-button_stretch nds-p-around_xx-small nds-size_1-of-1"
                                                                         theme={_theme}>
-                                                    </%vlocity_namespace%-button>
+                                                    </omnistudio-button>
                                             </div>
                                         </div>
                                     </div>
