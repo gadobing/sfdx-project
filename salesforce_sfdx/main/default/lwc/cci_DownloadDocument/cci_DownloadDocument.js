@@ -42,7 +42,6 @@ export default class PrintJobsContainer extends LightningElement {
                 this.dispatchEvent(evt);
                 }
         }).catch(error => {
-            console.log('@@Error: ');
             console.log('Error: ' +error);
 
             const evt = new ShowToastEvent({
