@@ -8,11 +8,11 @@
  ISCHANGED( Salutation),
  ISCHANGED( FirstName),
  ISCHANGED( MiddleName),
- ISCHANGED( Suffix )
+ ISCHANGED( Suffix ),
+ ISCHANGED( HealthCloudGA__Gender__pc )
  ),
  RecordType.DeveloperName ='Member',
  $Profile.Name ='CSR Agent'
 )</errorConditionFormula>
-    <errorDisplayField>Name</errorDisplayField>
-    <errorMessage>You don’t have permission to edit the Member Name. Please contact your system administrator.</errorMessage>
+    <errorMessage>You don’t have permission to edit the Member Name or Gender. Please contact your system administrator.</errorMessage>
 </ValidationRule>
