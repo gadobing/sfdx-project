@@ -92,14 +92,19 @@
             <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>DeleteDraftKnowledgeArticleVersion</actionName>
+            <actionName>SubmitKnowledgeArticleVersionForApproval</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>4</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>DeleteArchiveKnowledgeArticleVersion</actionName>
+            <actionName>DeleteDraftKnowledgeArticleVersion</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>5</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>DeleteArchiveKnowledgeArticleVersion</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>6</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>

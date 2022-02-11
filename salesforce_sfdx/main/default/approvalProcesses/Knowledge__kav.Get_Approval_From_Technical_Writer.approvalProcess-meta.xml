@@ -36,7 +36,7 @@
             <type>KnowledgePublish</type>
         </action>
     </finalApprovalActions>
-    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
     <label>Get Approval From Technical Writer</label>
     <processOrder>1</processOrder>

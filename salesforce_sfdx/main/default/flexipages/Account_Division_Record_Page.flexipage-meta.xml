@@ -136,6 +136,11 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>forceKnowledge:articleSearchDesktop</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>rightsidebar</name>
         <type>Region</type>
     </flexiPageRegions>
