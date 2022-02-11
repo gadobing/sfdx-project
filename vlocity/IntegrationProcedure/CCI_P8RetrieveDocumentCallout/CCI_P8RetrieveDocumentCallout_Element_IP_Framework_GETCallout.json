@@ -1,30 +1,35 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DRPCreateP8Record",
+    "Name": "IP_Framework_GETCallout",
     "OmniProcessId": {
-        "Name": "P8 Document Upload Backend Process",
+        "Name": "P8 Retrieve Document",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/P8RetrieveDocumentCallout/Procedure",
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "DocumentId": "=IF(%DocumentUploadCallout:isSuccess%,%DocumentUploadCallout:FrameworkResponse%,'')",
-            "StatusUpdate": "=IF(%DocumentUploadCallout:isSuccess%,'Success','Failed - Awaiting Retry')"
+            "DynamicParams": "%SV_ServiceDetails:Document_Number%",
+            "Message_ID": "%SV_ServiceDetails:Message_Id%",
+            "Parent_Record_SFDC_ID": "%SV_ServiceDetails:Document_Number%",
+            "Service_Name": "%SV_ServiceDetails:Service_Name%"
         },
         "additionalOutput": {
         },
-        "bundle": "CreateP8SystemRecord",
         "chainOnStep": false,
         "disOnTplt": false,
+        "disableChainable": false,
         "executionConditionalFormula": "",
         "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "DataRaptorPostAction1",
+        "integrationProcedureKey": "Framework_HTTPGETCallout",
+        "label": "IntegrationProcedureAction1",
+        "remoteOptions": {
+        },
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
@@ -35,8 +40,8 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Post Action",
+    "Type": "Integration Procedure Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure/DRPCreateP8Record"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8RetrieveDocumentCallout/Procedure/IP_Framework_GETCallout"
 }

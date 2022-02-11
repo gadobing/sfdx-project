@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DRPCreateP8Record",
+    "Name": "RA_GetBase64String",
     "OmniProcessId": {
         "Name": "P8 Document Upload Backend Process",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -10,13 +10,13 @@
     },
     "PropertySetConfig": {
         "actionMessage": "",
+        "additionalChainableResponse": {
+        },
         "additionalInput": {
-            "DocumentId": "=IF(%DocumentUploadCallout:isSuccess%,%DocumentUploadCallout:FrameworkResponse%,'')",
-            "StatusUpdate": "=IF(%DocumentUploadCallout:isSuccess%,'Success','Failed - Awaiting Retry')"
+            "ContentDocumentId": "%DREGetDocumentDetails:ContentDocumentId%"
         },
         "additionalOutput": {
         },
-        "bundle": "CreateP8SystemRecord",
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",
@@ -24,19 +24,23 @@
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "DataRaptorPostAction1",
+        "label": "RemoteAction1",
+        "remoteClass": "CCI_GenericUtility",
+        "remoteMethod": "getBase64String",
+        "remoteOptions": {
+        },
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
         "sendJSONPath": "",
-        "sendOnlyAdditionalInput": false,
+        "sendOnlyAdditionalInput": true,
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Post Action",
+    "Type": "Remote Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure/DRPCreateP8Record"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure/RA_GetBase64String"
 }

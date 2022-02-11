@@ -96,6 +96,25 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "FormulaSequence": 1,
+        "GlobalKey": "DocumentContentVersionExtractCustom6305",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocumentContentVersionExtract",
+        "OmniDataTransformationId": {
+            "Name": "DocumentContentVersionExtract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocumentContentVersionExtract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "DocumentContentVersionExtractCustom4868",
         "InputFieldName": "ContentVersion:VersionData",
         "IsDisabled": false,
