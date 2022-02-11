@@ -9,13 +9,7 @@
     NK		    02/11/2022		  Initial Draft
 ***********************************************************************************************/
 public with sharing class CCI_DownloadDocumentController {
-    @AuraEnabled 
-    public static String getPdfFileAsBase64String() {
-        PageReference pdfPage = Page.envelope;
-        Blob pdfBlob = pdfPage.getContent();
-        String base64Pdf = EncodingUtil.base64Encode(pdfBlob);
-        return base64Pdf;
-    }
+ 
     @AuraEnabled 
     public static DocumentWrapper getDownloadDocumentDetails( string docSFId) {
 
