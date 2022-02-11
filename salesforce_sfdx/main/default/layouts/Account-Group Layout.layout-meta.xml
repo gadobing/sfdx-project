@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>DataDotComAccountInsights</excludeButtons>
+    <excludeButtons>DataDotComClean</excludeButtons>
+    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>true</customLabel>
@@ -170,6 +173,11 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Comment__c</fields>
+        <fields>Created_Date__c</fields>
+        <fields>Effective_Date__c</fields>
+        <fields>Expiration_Date__c</fields>
+        <fields>Type__c</fields>
         <relatedList>Additional_Information__c.Group__c</relatedList>
     </relatedLists>
     <relatedObjects>ParentId</relatedObjects>

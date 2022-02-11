@@ -121,19 +121,6 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListSingleContainer</componentName>
-                <visibilityRule>
-                    <booleanFilter>1 OR 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Technical Writer</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>System Administrator</rightValue>
-                    </criteria>
-                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <name>Facet-0ac32db3-1d07-425d-9511-470e1827a6fc</name>
@@ -236,19 +223,6 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListSingleContainer</componentName>
-                <visibilityRule>
-                    <booleanFilter>1 OR 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Technical Writer</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>System Administrator</rightValue>
-                    </criteria>
-                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <name>Facet-35b06c17-6adc-47cf-a32e-e0cf690d4814</name>
