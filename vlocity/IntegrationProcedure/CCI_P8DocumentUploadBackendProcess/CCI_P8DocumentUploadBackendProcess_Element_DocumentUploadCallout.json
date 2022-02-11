@@ -11,7 +11,7 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "base64String": "=BASE64ENCODE(TOSTRING(%DREGetDocumentDetails:Base64String%))",
+            "base64String": "%RA_GetBase64String:Base64String%",
             "caseId": "%DREGetDocumentDetails:CaseNumber%",
             "contractNumber": "000001",
             "docClass": "%DREGetDocumentDetails:DocumentClass%",

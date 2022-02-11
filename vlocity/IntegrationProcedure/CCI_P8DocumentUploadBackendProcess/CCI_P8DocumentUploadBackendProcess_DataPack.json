@@ -10,6 +10,7 @@
     "Name": "P8 Document Upload Backend Process",
     "OmniProcessElement": [
         "CCI_P8DocumentUploadBackendProcess_Element_DREGetDocumentDetails.json",
+        "CCI_P8DocumentUploadBackendProcess_Element_RA_GetBase64String.json",
         "CCI_P8DocumentUploadBackendProcess_Element_DocumentUploadCallout.json",
         "CCI_P8DocumentUploadBackendProcess_Element_DeleteAttachment.json",
         "CCI_P8DocumentUploadBackendProcess_Element_DRPCreateP8Record.json",
@@ -23,5 +24,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure",
-    "WebComponentKey": "3703790c-cd7a-daed-e7b1-87b3bf8fe73b"
+    "WebComponentKey": "e7d1db2d-13ba-7aff-b63c-e44926dfa04a"
 }
