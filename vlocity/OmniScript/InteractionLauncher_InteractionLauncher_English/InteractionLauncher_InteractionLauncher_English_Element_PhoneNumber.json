@@ -1,5 +1,5 @@
 {
-    "IsActive": true,
+    "IsActive": false,
     "IsOmniScriptEmbeddable": false,
     "Name": "PhoneNumber",
     "OmniProcessId": {
@@ -29,7 +29,7 @@
         "controlWidth": 12,
         "debounceValue": 0,
         "defaultValue": null,
-        "disOnTplt": true,
+        "disOnTplt": false,
         "help": false,
         "helpText": "",
         "hide": false,
@@ -45,7 +45,18 @@
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "PhoneNumber"
+                    }
+                ]
+            }
+        },
         "showInputWidth": false
     },
     "Type": "Text",

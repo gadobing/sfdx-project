@@ -26,7 +26,7 @@
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
         "conditionType": "Hide if False",
-        "controlWidth": 2,
+        "controlWidth": 3,
         "controllingField": {
             "element": "",
             "source": "",
@@ -37,6 +37,7 @@
         "enableCaption": true,
         "help": false,
         "helpText": "",
+        "helpTextPos": "bottom-left",
         "hide": false,
         "horizontalMode": "displayWide",
         "imageCountInRow": 3,

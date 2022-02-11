@@ -37,7 +37,7 @@
         "hide": false,
         "label": "",
         "maxDisplay": 8,
-        "mode": "Cards",
+        "mode": "LongCards",
         "newLabel": "New",
         "selectCheckBox": "openChosenAccount",
         "selectMode": "Single",

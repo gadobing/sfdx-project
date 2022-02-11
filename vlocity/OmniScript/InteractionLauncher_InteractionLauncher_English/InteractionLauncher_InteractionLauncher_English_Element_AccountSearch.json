@@ -38,9 +38,9 @@
         "message": {
         },
         "nextLabel": "Search",
-        "nextWidth": 3,
+        "nextWidth": "4",
         "previousLabel": "Previous",
-        "previousWidth": 3,
+        "previousWidth": "4",
         "pubsub": false,
         "remoteClass": "",
         "remoteMethod": "",

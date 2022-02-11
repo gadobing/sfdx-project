@@ -40,7 +40,7 @@
         "nextLabel": "Next",
         "nextWidth": "0",
         "previousLabel": "Previous",
-        "previousWidth": 3,
+        "previousWidth": "4",
         "pubsub": false,
         "remoteClass": "",
         "remoteMethod": "",
