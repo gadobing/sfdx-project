@@ -24,8 +24,10 @@ export default class Cci_ViewMemberIdCard extends LightningElement {
                     if(result.statusCode == 200 ){
                     this.cardDetails = result;
                     this.strData = 'data:'+this.cardDetails.format+ ';'+this.cardDetails.encoding+','+this.cardDetails.content;
-                    this.strData2 = 'data:'+this.cardDetails.format+ ';content-disposition:attachment;'+this.cardDetails.encoding+','+this.cardDetails.content;
-                   
+                  
+                  //download test
+                   // this.strData2 = 'data:'+this.cardDetails.format+ ';content-disposition:attachment;'+this.cardDetails.encoding+','+this.cardDetails.content;
+                 //  
                     console.log('result',result);
                 
                     }
