@@ -48,7 +48,18 @@
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Result:Detail:MemberID"
+                    }
+                ]
+            }
+        },
         "showInputWidth": false
     },
     "Type": "Text",

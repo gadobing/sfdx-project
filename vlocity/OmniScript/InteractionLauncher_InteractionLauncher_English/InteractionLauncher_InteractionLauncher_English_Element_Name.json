@@ -49,7 +49,18 @@
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "false",
+                        "field": "true"
+                    }
+                ]
+            }
+        },
         "showInputWidth": false
     },
     "Type": "Text",

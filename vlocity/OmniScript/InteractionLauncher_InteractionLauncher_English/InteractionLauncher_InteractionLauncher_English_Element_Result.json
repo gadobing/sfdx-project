@@ -38,7 +38,7 @@
         "message": {
         },
         "nextLabel": "Next",
-        "nextWidth": 3,
+        "nextWidth": "4",
         "previousLabel": "Previous",
         "previousWidth": "0",
         "pubsub": false,
