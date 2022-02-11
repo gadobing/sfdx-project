@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Riders_Surcharges</fullName>
+    <active>true</active>
+    <label>Riders &amp; Surcharges</label>
+    <picklistValues>
+        <picklist>PrimarySecondaryTertiary</picklist>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tertiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Line__c</picklist>
+        <values>
+            <fullName>ABCBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABCBS Regular Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walmart</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>BLUE DENTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic Individual%2C Basic Blue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Card Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Major Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENHANCED PLAN B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Source Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA Federal HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA Federal POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA Medipak HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA State HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA State POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Savings Acct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Savings Embed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA AREA 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA AREA 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA ST%2E VINCENT PPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD %28PPO%29 ESSENTIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD AREA 1 OPT 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD AREA 1 OPT1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD AREA 2 OPT 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD AREA 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD HMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD PLATINUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD PPO ELITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAPD ST%2EBERN PPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPAK ADV MA PFFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPAK ADV MA-PD OP1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPAK ADV MAPD OP2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPAK ADV MAPD PFFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPAK ADV MAPD PFFS1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPAK ADV MAPD PFFS2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPAK ADV PFFS - R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSO%2FPCN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medi-Pak Advantage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medipak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc PPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My Choice Blue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCN%2FFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PREMIER PDP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RX GROUP %28PDP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RX GROUP JVILLE FE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STANDARD PLAN A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self-Insured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique POS%2FPPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique PPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor PPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RelationshipToSubscriber</picklist>
+        <values>
+            <fullName>Child</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>VerificationStatus</picklist>
+        <values>
+            <fullName>Active - Verified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Checked</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

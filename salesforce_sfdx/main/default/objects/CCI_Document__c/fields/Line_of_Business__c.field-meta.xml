@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_of_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>Line of Business</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABEX</fullName>
+                <default>false</default>
+                <label>ABCBS - Exchange</label>
+            </value>
+            <value>
+                <fullName>ABOF</fullName>
+                <default>false</default>
+                <label>ABCBS - Off Exchange</label>
+            </value>
+            <value>
+                <fullName>ABSH</fullName>
+                <default>false</default>
+                <label>ABCBS Shop</label>
+            </value>
+            <value>
+                <fullName>AO</fullName>
+                <default>false</default>
+                <label>Access Only</label>
+            </value>
+            <value>
+                <fullName>BAA</fullName>
+                <default>false</default>
+                <label>Blue Advantage Reg Bus</label>
+            </value>
+            <value>
+                <fullName>BALF</fullName>
+                <default>false</default>
+                <label>Blue Advantage Level Funded</label>
+            </value>
+            <value>
+                <fullName>BANA</fullName>
+                <default>false</default>
+                <label>BANA</label>
+            </value>
+            <value>
+                <fullName>BCBS</fullName>
+                <default>false</default>
+                <label>ENTERPRISE WIDE</label>
+            </value>
+            <value>
+                <fullName>FEP</fullName>
+                <default>false</default>
+                <label>FEP</label>
+            </value>
+            <value>
+                <fullName>GCPS</fullName>
+                <default>false</default>
+                <label>ABCBS</label>
+            </value>
+            <value>
+                <fullName>HA</fullName>
+                <default>false</default>
+                <label>HEALTH ADVANTAGE</label>
+            </value>
+            <value>
+                <fullName>HAEX</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange</label>
+            </value>
+            <value>
+                <fullName>ITS</fullName>
+                <default>false</default>
+                <label>ITS</label>
+            </value>
+            <value>
+                <fullName>MA</fullName>
+                <default>false</default>
+                <label>Medipak Advantage</label>
+            </value>
+            <value>
+                <fullName>MDPK</fullName>
+                <default>false</default>
+                <label>Medipak</label>
+            </value>
+            <value>
+                <fullName>USA</fullName>
+                <default>false</default>
+                <label>BLUE ADVANTAGE</label>
+            </value>
+            <value>
+                <fullName>USAM</fullName>
+                <default>false</default>
+                <label>USAble Mutual</label>
+            </value>
+            <value>
+                <fullName>WM</fullName>
+                <default>false</default>
+                <label>Walmart</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

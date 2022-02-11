@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "CCI_P8RetrieveDocumentCallout_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "P8 Retrieve Document",
+    "OmniProcessElement": [
+        "CCI_P8RetrieveDocumentCallout_Element_SV_ServiceDetails.json",
+        "CCI_P8RetrieveDocumentCallout_Element_IP_Framework_GETCallout.json",
+        "CCI_P8RetrieveDocumentCallout_Element_CB_Success.json",
+        "CCI_P8RetrieveDocumentCallout_Element_RA_DocumentRetrieveSuccess.json",
+        "CCI_P8RetrieveDocumentCallout_Element_CB_Failure.json",
+        "CCI_P8RetrieveDocumentCallout_Element_RA_DocumentRetrieveFailure.json"
+    ],
+    "OmniProcessKey": "CCI_P8RetrieveDocumentCallout",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_P8RetrieveDocumentCallout_PropertySetConfig.json",
+    "SubType": "P8RetrieveDocumentCallout",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/P8RetrieveDocumentCallout/Procedure",
+    "WebComponentKey": "3bdbcc1d-1b7d-4273-1263-6324d5eacc42"
+}

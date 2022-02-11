@@ -1,0 +1,30 @@
+trigger:
+- develop
+
+variables:
+- group: CSW_SFDX_Vlocity_Variables
+
+pool:
+  vmImage: ubuntu-latest
+#container: jfgarcia268/vlocity_sfdx:latest
+
+stages:
+  - stage: CCIQADeployment
+    displayName: Deployment to CCIQA Org
+    jobs:
+      - deployment: CCIQADeployment
+        displayName: Deployment to CCIQA
+        environment: CCIQA
+        timeoutInMinutes: 180
+        container: jfgarcia268/vlocity_sfdx:alpha
+        variables:
+          - name: deploy_url
+            value: $(CCIQA)
+          - name: SF_USER
+            value: CCIQA  
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                - template: Deployment-template.yml

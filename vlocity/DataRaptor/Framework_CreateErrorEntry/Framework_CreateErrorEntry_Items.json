@@ -1,0 +1,136 @@
+[
+    {
+        "GlobalKey": "bdfc8c35-14df-4ea9-80a0-fd5d0544aafe",
+        "InputFieldName": "Error_Message",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Error_Message__c",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "c4851169-e048-4416-813e-07b8f292f740",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "34d83722-2ef4-4cf7-b749-fb433ed0eb5b",
+        "InputFieldName": "Message_ID",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Message_ID__c",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "d1ed40e5-2528-4512-923c-cec4d2f7af1b",
+        "InputFieldName": "Parent_Record_SFDC_ID",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Parent_Record_SFDC_ID__c",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "fee99fdf-d916-4996-99c0-c52e69ba0e3a",
+        "InputFieldName": "Retry_Reason",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Retry_Reason__c",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "0a8c8338-6b7d-4be6-b5b8-63dcb53adcfe",
+        "InputFieldName": "Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status__c",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "82b876cf-54a4-4076-a3bb-12b0712a9a48",
+        "InputFieldName": "System_Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "System_Name__c",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

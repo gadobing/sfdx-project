@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Object_Store__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADJ</fullName>
+                <default>false</default>
+                <label>Adjustment Request</label>
+            </value>
+            <value>
+                <fullName>CCM</fullName>
+                <default>false</default>
+                <label>Check Control Memo</label>
+            </value>
+            <value>
+                <fullName>COB</fullName>
+                <default>false</default>
+                <label>COB Questionairre</label>
+            </value>
+            <value>
+                <fullName>COCC</fullName>
+                <default>false</default>
+                <label>Certification of Credible Coverage</label>
+            </value>
+            <value>
+                <fullName>COR</fullName>
+                <default>false</default>
+                <label>Correspondence</label>
+            </value>
+            <value>
+                <fullName>RECON</fullName>
+                <default>false</default>
+                <label>Reconsideration and Appeals</label>
+            </value>
+            <value>
+                <fullName>REVIW</fullName>
+                <default>false</default>
+                <label>Prior auth., reviews, precert</label>
+            </value>
+            <value>
+                <fullName>SUBRO</fullName>
+                <default>false</default>
+                <label>Subrogation and Workers Comp</label>
+            </value>
+            <value>
+                <fullName>APEAL</fullName>
+                <default>false</default>
+                <label>Member Appeals</label>
+            </value>
+            <value>
+                <fullName>MSP1</fullName>
+                <default>false</default>
+                <label>MSP Demand Summary Letter</label>
+            </value>
+            <value>
+                <fullName>MSP2</fullName>
+                <default>false</default>
+                <label>MSP Interest Letter</label>
+            </value>
+            <value>
+                <fullName>MSP3</fullName>
+                <default>false</default>
+                <label>MSP Intent to Refer</label>
+            </value>
+            <value>
+                <fullName>MSP4</fullName>
+                <default>false</default>
+                <label>MSP Defense Letter</label>
+            </value>
+            <value>
+                <fullName>MSP5</fullName>
+                <default>false</default>
+                <label>MSP Resolve Letter</label>
+            </value>
+            <value>
+                <fullName>MSP6</fullName>
+                <default>false</default>
+                <label>MSP Treasury Letter</label>
+            </value>
+            <value>
+                <fullName>DLTR</fullName>
+                <default>false</default>
+                <label>Defense Letter</label>
+            </value>
+            <value>
+                <fullName>AUTHR</fullName>
+                <default>false</default>
+                <label>Authorizations</label>
+            </value>
+            <value>
+                <fullName>HIPAA</fullName>
+                <default>false</default>
+                <label>HIPAA Authorization</label>
+            </value>
+            <value>
+                <fullName>OSCAR</fullName>
+                <default>false</default>
+                <label>Coverage History</label>
+            </value>
+            <value>
+                <fullName>MSP</fullName>
+                <default>false</default>
+                <label>MSP - Medical Service Plan</label>
+            </value>
+            <value>
+                <fullName>ICOR</fullName>
+                <default>false</default>
+                <label>ICOR</label>
+            </value>
+            <value>
+                <fullName>INSD</fullName>
+                <default>false</default>
+                <label>Legal Insurance Department</label>
+            </value>
+            <value>
+                <fullName>PRVCY</fullName>
+                <default>false</default>
+                <label>Legal HIPAA Privacy Documents</label>
+            </value>
+            <value>
+                <fullName>APLS</fullName>
+                <default>false</default>
+                <label>Legal Appeals</label>
+            </value>
+            <value>
+                <fullName>LSUIT</fullName>
+                <default>false</default>
+                <label>Legal Lawsuits</label>
+            </value>
+            <value>
+                <fullName>MEREC</fullName>
+                <default>false</default>
+                <label>Medical Records</label>
+            </value>
+            <value>
+                <fullName>MRCOR</fullName>
+                <default>false</default>
+                <label>Medical Correspondence</label>
+            </value>
+            <value>
+                <fullName>MEFAC</fullName>
+                <default>false</default>
+                <label>Medical Facts</label>
+            </value>
+            <value>
+                <fullName>CASH</fullName>
+                <default>false</default>
+                <label>Daily Deposit Report</label>
+            </value>
+            <value>
+                <fullName>COC</fullName>
+                <default>false</default>
+                <label>Continuation</label>
+            </value>
+            <value>
+                <fullName>RTCD</fullName>
+                <default>false</default>
+                <label>Return Check Review</label>
+            </value>
+            <value>
+                <fullName>APPL</fullName>
+                <default>false</default>
+                <label>Appeals</label>
+            </value>
+            <value>
+                <fullName>DRAFT</fullName>
+                <default>false</default>
+                <label>Draft Cards</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>ADJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>CCM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>COB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>COCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <valueName>COR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>RECON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>REVIW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>SUBRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>APEAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>MSP1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>MSP2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>MSP3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>MSP4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>MSP5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>MSP6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>DLTR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>AUTHR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>HIPAA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>OSCAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <valueName>MSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <valueName>ICOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <valueName>CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <valueName>COC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <valueName>RTCD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <valueName>APPL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <valueName>DRAFT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <valueName>INSD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <valueName>PRVCY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <valueName>APLS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <valueName>LSUIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MedRecOS</controllingFieldValue>
+            <valueName>MEREC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MedRecOS</controllingFieldValue>
+            <valueName>MRCOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MedRecOS</controllingFieldValue>
+            <valueName>MEFAC</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

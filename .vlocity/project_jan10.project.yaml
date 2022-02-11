@@ -1,0 +1,12 @@
+Name: Project_Jan10
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/Framework_GetIntegrationSettings
+    - DataRaptor/Framework_CreateLogEntry
+    - DataRaptor/Framework_CreateErrorEntry
+    - IntegrationProcedure/Framework_HTTPGETCallout
+    - IntegrationProcedure/Framework_HTTPPOSTCallout
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+SalesforceTypesToFetch:
