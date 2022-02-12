@@ -2,10 +2,10 @@
 * @ClassName 				: CCI_ViewMemberIdCardController
   @testClass				: CCI_ViewMemberIdCardControllerTest
 * @Description 				: LWC Controller Class (CCI_ViewMemberIdCardC)
-* @Reason for Class Sharing : 
+* @Reason for Class Sharing :
 * @Author 					: SFDC
 * @RevisionHistory 			: NK
-* @Version          Date              Changes made 
+* @Version          Date              Changes made
     NK		    02/03/2022		  Initial Draft
 ***********************************************************************************************/
 public with sharing class CCI_ViewMemberIdCardController {
@@ -13,17 +13,17 @@ public with sharing class CCI_ViewMemberIdCardController {
     @Description : getMemberCardDetails(API callout using IP)
 	@Author 	 : SFDC
 	@Params 	 : String memberId
-	@Return 	 : MemberCardWrapper class 
+	@Return 	 : MemberCardWrapper class
     **************************************************************************************/
     @AuraEnabled
     public static MemberCardWrapper getMemberCardDetails(string memberId){
-       
+
            Account member = new account();
            member =[ SELECT Id,Member_Id__c FROM ACCOUNT WHERE Id =: memberId ];
            if(member.Member_Id__c == null){
            	if(! Test.isRunningTest()){throw new AuraHandledException('MemberId field is blank on this record. Please populate the MemberId field and try again!');}
             }
-            
+
  			try {
                 Map<String, Object> ipOutput = new Map<String, Object> ();
                 ipOutput = callIntegrationProcedure('CCI_P8RetrieveMemberCard',member.Member_Id__c);
@@ -41,7 +41,7 @@ public with sharing class CCI_ViewMemberIdCardController {
                     MemberCardWrapper memCardwrapper = new MemberCardWrapper((string) member.Member_Id__c,(string) ipOutput.get('type'), (string)ipOutputFile.get('format'),(string)ipOutputFile.get('encoding'), (string)ipOutputFile.get('content'),(integer)ipOutput.get('statusCode'),(string)ipOutput.get('status'));
                     return memCardwrapper;
                 }
-        
+
         } catch(Exception  e) {
         System.debug('The following exception has occurred: ' + e.getMessage());
             throw new AuraHandledException('The following exception has occurred: ' + e.getMessage()+' Line:' + String.valueOf(e.getLineNumber()));
@@ -63,7 +63,7 @@ public with sharing class CCI_ViewMemberIdCardController {
             this.statusCode		=	statusCode;
             this.status		    =	status;
         }
-        @AuraEnabled 
+        @AuraEnabled
         Public string memberId;
         @AuraEnabled
         Public String type;
@@ -82,7 +82,7 @@ public with sharing class CCI_ViewMemberIdCardController {
    /*************************************************************************************
     @Description : callIntegrationProcedure(API callout using IP)
 	@Author 	 : SFDC
-	@Params 	 : String IPName, String memberIdInput 
+	@Params 	 : String IPName, String memberIdInput
 	@Return 	 : Map<String, Object>
     **************************************************************************************/
     public static Map<String, Object> callIntegrationProcedure(String IPName, String memberIdInput ) {
@@ -90,7 +90,7 @@ public with sharing class CCI_ViewMemberIdCardController {
         Map<String, Object> ipOutput = new Map<String, Object> ();
         Map<String, Object> ipOptions = new Map<String, Object> ();
         ipInput.put('memberIdInput', memberIdInput);
-        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
+        ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
         return  ipOutput;
     }
 
