@@ -2,8 +2,20 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.HealthCloudGA__Gender__c</field>
+        <editable>true</editable>
+        <field>Case.Health_Condition__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Health_Condition_Heard__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Proactive_Listening_Details__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Proactive_Listening_Details__c</field>
         <readable>true</readable>
     </fieldPermissions>
 </Profile>
