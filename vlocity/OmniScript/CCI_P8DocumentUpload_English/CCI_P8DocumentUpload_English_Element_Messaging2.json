@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "MessageBlock",
+    "Name": "Messaging2",
     "OmniProcessId": {
         "Name": "CCI P8 Document Upload",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Step3",
+        "Name": "FileUploadBlock",
         "OmniProcessId": {
             "Name": "CCI P8 Document Upload",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,37 +17,46 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/Step3",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/FileUploadBlock",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Step3",
-    "ParentElementType": "Step",
+    "ParentElementName": "FileUploadBlock",
+    "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "accessibleInFutureSteps": false,
-        "collapse": false,
-        "conditionType": "Hide if False",
         "controlWidth": 12,
-        "hide": false,
-        "label": "",
-        "repeat": false,
-        "repeatClone": false,
-        "repeatLimit": null,
-        "show": {
+        "hideLabel": true,
+        "label": "Messaging2",
+        "messages": [
+            {
+                "active": false,
+                "text": "",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "Please upload a file less than 10MB.",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": null,
+        "validateExpression": {
             "group": {
                 "operator": "AND",
                 "rules": [
                     {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "isSuccess"
+                        "condition": "<=",
+                        "data": "10000000",
+                        "field": "File_Size_Limit"
                     }
                 ]
             }
         }
     },
-    "Type": "Block",
+    "Type": "Validation",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/MessageBlock"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/Messaging2"
 }

@@ -10,7 +10,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "CB_LoggingEnabled",
+        "Name": "CB_LoggingEnabled1",
         "OmniProcessId": {
             "Name": "HTTPPOSTCallout",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -18,10 +18,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_LoggingEnabled",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_LoggingEnabled1",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "CB_LoggingEnabled",
+    "ParentElementName": "CB_LoggingEnabled1",
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "disOnTplt": false,

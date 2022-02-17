@@ -1,3 +1,4 @@
 [
-    "DataRaptor/DocumentContentVersionExtract"
+    "DataRaptor/DocumentContentVersionExtract",
+    "IntegrationProcedure/CCI_P8UploadDocumentCallout"
 ]

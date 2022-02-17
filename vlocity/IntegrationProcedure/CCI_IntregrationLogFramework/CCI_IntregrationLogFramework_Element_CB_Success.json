@@ -1,22 +1,22 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "CB_LoggingEnabled",
+    "Name": "CB_Success",
     "OmniProcessId": {
-        "Name": "HTTPPOSTCallout",
+        "Name": "IntregrationLogFramework",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/Framework/HTTPPOSTCallout/Procedure",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/IntregrationLogFramework/Procedure",
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "PropertySetConfig": {
         "disOnTplt": false,
-        "executionConditionalFormula": "%DRE_ExtractEndpointSettings:Logging_Enabled__c% == true",
+        "executionConditionalFormula": "%statusCode% == 200 || %statusCode% == 201",
         "isIfElseBlock": false,
-        "label": "ConditionalBlock9",
+        "label": "ConditionalBlock2",
         "show": null
     },
     "Type": "Conditional Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_LoggingEnabled"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/IntregrationLogFramework/Procedure/CB_Success"
 }

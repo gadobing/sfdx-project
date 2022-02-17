@@ -1,34 +1,33 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "RA_GetBase64String",
+    "Name": "DRP_LogRequest",
     "OmniProcessId": {
-        "Name": "P8 Document Upload Backend Process",
+        "Name": "IntregrationLogFramework",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/IntregrationLogFramework/Procedure",
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "PropertySetConfig": {
         "actionMessage": "",
-        "additionalChainableResponse": {
-        },
         "additionalInput": {
-            "ContentDocumentId": "%DREGetDocumentDetails:ContentDocumentId%"
+            "IsError": false,
+            "Message_ID": "%Message_ID%",
+            "Parent_Record_SFDC_ID": "%Parent_Record_SFDC_ID%",
+            "Payload": "%RequestPayload%",
+            "Service_Name": "%Service_Name%"
         },
         "additionalOutput": {
         },
+        "bundle": "Framework_CreateLogEntry",
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",
-        "failOnStepError": false,
+        "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "RemoteAction1",
-        "remoteClass": "CCI_GenericUtility",
-        "remoteMethod": "getBase64String",
-        "remoteOptions": {
-        },
+        "label": "DataRaptorPostAction1",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
@@ -39,8 +38,8 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "Remote Action",
+    "Type": "DataRaptor Post Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure/RA_GetBase64String"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/IntregrationLogFramework/Procedure/DRP_LogRequest"
 }

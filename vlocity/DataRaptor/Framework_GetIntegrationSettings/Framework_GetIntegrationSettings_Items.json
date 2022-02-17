@@ -45,6 +45,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "Framework_GetIntegrationSettingsCustom1310",
+        "InputFieldName": "Endpoint_URL_Metadata:Apex_Method_Name__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Apex_Method_Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "Framework_GetIntegrationSettingsCustom7869",
         "InputFieldName": "Endpoint_URL_Metadata:Auth_Required__c",
         "IsDisabled": false,
@@ -270,6 +290,26 @@
         },
         "OutputCreationSequence": 1,
         "OutputFieldName": "SSL_Certificate_Name__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "Framework_GetIntegrationSettingsCustom9734",
+        "InputFieldName": "Endpoint_URL_Metadata:Use_Apex__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_GetIntegrationSettings",
+        "OmniDataTransformationId": {
+            "Name": "Framework_GetIntegrationSettings",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_GetIntegrationSettings",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Boolean",
+        "OutputFieldName": "Use_Apex",
         "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"

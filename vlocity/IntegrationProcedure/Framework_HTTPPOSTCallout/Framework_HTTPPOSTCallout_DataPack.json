@@ -15,8 +15,13 @@
         "Framework_HTTPPOSTCallout_Element_DRE_AuthToken.json",
         "Framework_HTTPPOSTCallout_Element_RA_GetApigeeAuth.json",
         "Framework_HTTPPOSTCallout_Element_HA_GetApigeeAuthToken.json",
+        "Framework_HTTPPOSTCallout_Element_CB_ShouldUseApex.json",
+        "Framework_HTTPPOSTCallout_Element_RA_PostCallout.json",
+        "Framework_HTTPPOSTCallout_Element_ReturnResponse_ApexCallout.json",
         "Framework_HTTPPOSTCallout_Element_HA_HTTPEndpointCallout.json",
         "Framework_HTTPPOSTCallout_Element_CB_LoggingEnabled.json",
+        "Framework_HTTPPOSTCallout_Element_IP_LoggingFramework.json",
+        "Framework_HTTPPOSTCallout_Element_CB_LoggingEnabled1.json",
         "Framework_HTTPPOSTCallout_Element_DRP_LogRequest.json",
         "Framework_HTTPPOSTCallout_Element_CB_Success.json",
         "Framework_HTTPPOSTCallout_Element_DRP_LogSuccessResponse.json",
@@ -34,5 +39,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/Framework/HTTPPOSTCallout/Procedure",
-    "WebComponentKey": "a7aefa70-5a21-d99c-ab1b-7eb05fdc700d"
+    "WebComponentKey": "e0da8a42-601f-720b-65fa-bcc73ec012aa"
 }

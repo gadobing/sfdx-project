@@ -11,9 +11,10 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "base64String": "%RA_GetBase64String:Base64String%",
+            "ContentDocumentId": "%DREGetDocumentDetails:ContentDocumentId%",
+            "base64String": "base64string",
             "caseId": "%DREGetDocumentDetails:CaseNumber%",
-            "contractNumber": "000001",
+            "contractNumber": "=IF(%DREGetDocumentDetails:RecordTypeName='Provider',%DREGetDocumentDetails:ProviderNPI%,%DREGetDocumentDetails:MemberId%)",
             "docClass": "%DREGetDocumentDetails:DocumentClass%",
             "docId": "%DREGetDocumentDetails:DocumentId%",
             "docType": "%DREGetDocumentDetails:DocumentType%",
@@ -43,7 +44,7 @@
         "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
         "sendJSONPath": "",
-        "sendOnlyAdditionalInput": false,
+        "sendOnlyAdditionalInput": true,
         "show": null,
         "useFormulas": true
     },

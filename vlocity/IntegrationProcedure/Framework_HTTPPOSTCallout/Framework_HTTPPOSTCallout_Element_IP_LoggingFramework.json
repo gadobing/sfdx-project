@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DRP_LogRequest",
+    "Name": "IP_LoggingFramework",
     "OmniProcessId": {
         "Name": "HTTPPOSTCallout",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "CB_LoggingEnabled1",
+        "Name": "CB_LoggingEnabled",
         "OmniProcessId": {
             "Name": "HTTPPOSTCallout",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,31 +17,38 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_LoggingEnabled1",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_LoggingEnabled",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "CB_LoggingEnabled1",
+    "ParentElementName": "CB_LoggingEnabled",
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "IsError": false,
+            "DynamicParams": "%DynamicParams%",
             "Message_ID": "%Message_ID%",
             "Parent_Record_SFDC_ID": "%Parent_Record_SFDC_ID%",
-            "Payload": "%Payload%",
-            "Service_Name": "%Service_Name%"
+            "RequestPayload": "%Payload%",
+            "Service_Name": "%Service_Name%",
+            "headers": "%HA_HTTPEndpointCalloutInfo%",
+            "payload": "%HA_HTTPEndpointCallout%",
+            "procedureName": "Framework_HTTPPOSTCallout",
+            "statusCode": "%HA_HTTPEndpointCalloutInfo:statusCode%"
         },
         "additionalOutput": {
         },
-        "bundle": "Framework_CreateLogEntry",
         "chainOnStep": false,
         "disOnTplt": false,
+        "disableChainable": false,
         "executionConditionalFormula": "",
         "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "DataRaptorPostAction1",
+        "integrationProcedureKey": "CCI_IntregrationLogFramework",
+        "label": "IntegrationProcedureAction1",
+        "remoteOptions": {
+        },
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
@@ -52,8 +59,8 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Post Action",
+    "Type": "Integration Procedure Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/DRP_LogRequest"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/IP_LoggingFramework"
 }

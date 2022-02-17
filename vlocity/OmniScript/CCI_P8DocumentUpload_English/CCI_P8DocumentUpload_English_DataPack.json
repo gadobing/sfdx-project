@@ -20,14 +20,15 @@
         "CCI_P8DocumentUpload_English_Element_Document_Title.json",
         "CCI_P8DocumentUpload_English_Element_File1.json",
         "CCI_P8DocumentUpload_English_Element_File_Count.json",
+        "CCI_P8DocumentUpload_English_Element_File_Size_Limit.json",
         "CCI_P8DocumentUpload_English_Element_Messaging1.json",
+        "CCI_P8DocumentUpload_English_Element_Messaging2.json",
         "CCI_P8DocumentUpload_English_Element_TextBlock1.json",
         "CCI_P8DocumentUpload_English_Element_Upload_Document.json",
         "CCI_P8DocumentUpload_English_Element_Step3.json",
-        "CCI_P8DocumentUpload_English_Element_MessageBlock.json",
         "CCI_P8DocumentUpload_English_Element_SuccessMsg.json",
-        "CCI_P8DocumentUpload_English_Element_FailureMsg.json",
         "CCI_P8DocumentUpload_English_Element_Block1.json",
+        "CCI_P8DocumentUpload_English_Element_TextBlock2.json",
         "CCI_P8DocumentUpload_English_Element_Upload_Another_Document.json"
     ],
     "OmniProcessType": "OmniScript",
@@ -37,5 +38,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/P8DocumentUpload/English",
-    "WebComponentKey": "916f8e60-02cc-ca88-2b03-5739bf3a5f33"
+    "WebComponentKey": "c1c31750-c164-5eaf-aed0-3f3fb5585115"
 }

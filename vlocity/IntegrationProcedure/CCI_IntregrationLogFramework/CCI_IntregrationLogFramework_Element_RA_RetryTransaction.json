@@ -1,0 +1,66 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "RA_RetryTransaction",
+    "OmniProcessId": {
+        "Name": "IntregrationLogFramework",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/IntregrationLogFramework/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CB_Error",
+        "OmniProcessId": {
+            "Name": "IntregrationLogFramework",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/IntregrationLogFramework/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/IntregrationLogFramework/Procedure/CB_Error",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CB_Error",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "ErrorObjectLogId": "%DRP_TransactionFailureRetryEntry:CCI_Integration_Error_Retry__c_1:Id%",
+            "IntegrationProcedureName": "%procedureName%",
+            "MessageID": "%Message_ID%",
+            "ParentRecordId": "%Parent_Record_SFDC_ID%",
+            "Path": "%DynamicParams%",
+            "Payload": "%RequestPayload%",
+            "SystemName": "%Service_Name%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "%statusCode% == \"404\" OR %statusCode% == \"504\" OR %statusCode% == \"444\" OR %headers:error% == \"Read timed out\"",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "CCI_FrmwrkTransportErrorRetry",
+        "remoteMethod": "retryRequest",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/IntregrationLogFramework/Procedure/RA_RetryTransaction"
+}

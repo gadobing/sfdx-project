@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "CB_Success",
+    "Name": "ReturnResponse_ApexCallout",
     "OmniProcessId": {
         "Name": "HTTPPOSTCallout",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "CB_LoggingEnabled1",
+        "Name": "CB_ShouldUseApex",
         "OmniProcessId": {
             "Name": "HTTPPOSTCallout",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,20 +17,33 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_LoggingEnabled1",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_ShouldUseApex",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "CB_LoggingEnabled1",
+    "ParentElementName": "CB_ShouldUseApex",
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
+        "additionalOutput": {
+        },
         "disOnTplt": false,
-        "executionConditionalFormula": "%HA_HTTPEndpointCalloutInfo:statusCode% == 200",
-        "isIfElseBlock": false,
-        "label": "ConditionalBlock1",
-        "show": null
+        "executionConditionalFormula": "",
+        "label": "ResponseAction2",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "%RA_PostCallout%",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
     },
-    "Type": "Conditional Block",
+    "Type": "Response Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_Success"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/ReturnResponse_ApexCallout"
 }

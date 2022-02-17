@@ -12,9 +12,9 @@
         "actionMessage": "",
         "additionalInput": {
             "Message_ID": "=GENERATEGLOBALKEY()",
-            "Parent_Record_SFDC_ID": "%docId%",
             "Payload": "%SV_Service_Details:Payload%",
-            "Service_Name": "P8DocumentUpload"
+            "Service_Name": "P8DocumentUpload",
+            "additionalMethodArguments": "contentDocumentId=%ContentDocumentId%&documentId=%docId%"
         },
         "additionalOutput": {
         },
@@ -36,7 +36,7 @@
         "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
         "sendJSONPath": "",
-        "sendOnlyAdditionalInput": false,
+        "sendOnlyAdditionalInput": true,
         "show": null,
         "useFormulas": true
     },

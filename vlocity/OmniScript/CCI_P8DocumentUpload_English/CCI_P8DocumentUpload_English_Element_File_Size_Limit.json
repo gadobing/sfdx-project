@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "SuccessMsg",
+    "Name": "File_Size_Limit",
     "OmniProcessId": {
         "Name": "CCI P8 Document Upload",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Step3",
+        "Name": "FileUploadBlock",
         "OmniProcessId": {
             "Name": "CCI P8 Document Upload",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,24 +17,28 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/Step3",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/FileUploadBlock",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Step3",
-    "ParentElementType": "Step",
+    "ParentElementName": "FileUploadBlock",
+    "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 12,
-        "dataJSON": false,
-        "label": "TextBlock3",
-        "lwcComponentOverride": "",
-        "sanitize": false,
+        "controlWidth": 0,
+        "dataType": null,
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "SUM(%Step2:FileUploadBlock:File1:size%)",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "",
+        "mask": null,
         "show": null,
-        "text": "<p style=\"text-align: center;\"><span style=\"color: #0d1461; font-size: 20px; background-color: #ffffff;\"><strong>Thank you, Your file will be loaded shortly !</strong></span></p>",
-        "textKey": ""
+        "showInputWidth": false
     },
-    "Type": "Text Block",
+    "Type": "Formula",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/SuccessMsg"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/File_Size_Limit"
 }

@@ -8,7 +8,7 @@
 * @Version          Date              Changes made 
     CH00		    2/11/2022		  Initial Draft
 ***********************************************************************************************/
-global class CCI_GenericUtility implements omnistudio.VlocityOpenInterface{
+global class CCI_GenericUtility implements %vlocity_namespace%.VlocityOpenInterface{
     
     /*************************************************************************************
     @Description : Used for P8DocumentUploadBackendProcess IP
@@ -28,6 +28,8 @@ global class CCI_GenericUtility implements omnistudio.VlocityOpenInterface{
             outMap.put('error', e.getMessage() + ' - ' + e.getStackTraceString());
             ret = false;
         }
+        System.debug('Heap Size--->'+Limits.getHeapSize());
+        System.debug('Heap Size--->'+Limits.getLimitHeapSize());
         return ret;
     }
     
@@ -39,8 +41,12 @@ global class CCI_GenericUtility implements omnistudio.VlocityOpenInterface{
     **************************************************************************************/
     global static void getBase64String(Map<String, Object> inputMap,Map<String, Object> outMap){
         String contentDocumentId = String.valueOf(inputMap.get(CCI_Constants.CONTENT_DOCUMENT_ID));
-        transient ContentVersion cv = [Select Id, VersionData from ContentVersion where ContentDocumentId=:contentDocumentId];
-        System.debug('----->'+EncodingUtil.base64Encode(cv.VersionData));
+        ContentVersion cv = [Select Id, VersionData from ContentVersion where ContentDocumentId=:contentDocumentId];
+        
         outMap.put(CCI_Constants.BASE64STRING, EncodingUtil.base64Encode(cv.VersionData));
+        System.debug('--->'+JSON.serialize(outMap));
+        cv = null;
+        System.debug('Heap Size'+Limits.getHeapSize());
+        System.debug('Heap Size'+Limits.getLimitHeapSize());
     }
 }

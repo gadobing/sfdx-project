@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "CB_LoggingEnabled",
+    "Name": "CB_ShouldUseApex",
     "OmniProcessId": {
         "Name": "HTTPPOSTCallout",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -10,13 +10,13 @@
     },
     "PropertySetConfig": {
         "disOnTplt": false,
-        "executionConditionalFormula": "%DRE_ExtractEndpointSettings:Logging_Enabled__c% == true",
+        "executionConditionalFormula": "%DRE_ExtractEndpointSettings:Use_Apex% == true",
         "isIfElseBlock": false,
-        "label": "ConditionalBlock9",
+        "label": "ConditionalBlock5",
         "show": null
     },
     "Type": "Conditional Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_LoggingEnabled"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_ShouldUseApex"
 }

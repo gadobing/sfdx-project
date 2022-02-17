@@ -74,7 +74,7 @@
     {
         "FilterGroup": 0,
         "FilterOperator": "=",
-        "FilterValue": "ContextId",
+        "FilterValue": "Id:CCI_Case__c",
         "GlobalKey": "DocumentContentVersionExtractCustom1940",
         "InputFieldName": "Id",
         "InputObjectName": "Case",
@@ -91,6 +91,54 @@
         },
         "OutputCreationSequence": 0,
         "OutputFieldName": "Case",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Case:AccountId",
+        "GlobalKey": "DocumentContentVersionExtractCustom5223",
+        "InputFieldName": "Id",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 5,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocumentContentVersionExtract",
+        "OmniDataTransformationId": {
+            "Name": "DocumentContentVersionExtract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocumentContentVersionExtract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Account",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Account:RecordTypeId",
+        "GlobalKey": "DocumentContentVersionExtractCustom3164",
+        "InputFieldName": "Id",
+        "InputObjectName": "RecordType",
+        "InputObjectQuerySequence": 6,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocumentContentVersionExtract",
+        "OmniDataTransformationId": {
+            "Name": "DocumentContentVersionExtract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocumentContentVersionExtract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "RecordType",
         "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
@@ -115,8 +163,8 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "DocumentContentVersionExtractCustom4868",
-        "InputFieldName": "ContentVersion:VersionData",
+        "GlobalKey": "DocumentContentVersionExtractCustom8886",
+        "InputFieldName": "Case:AccountId",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -129,7 +177,7 @@
         },
         "OutputCreationSequence": 1,
         "OutputFieldFormat": "String",
-        "OutputFieldName": "Base64String",
+        "OutputFieldName": "AccountID",
         "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
@@ -296,6 +344,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "DocumentContentVersionExtractCustom1880",
+        "InputFieldName": "Account:Member_Id__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocumentContentVersionExtract",
+        "OmniDataTransformationId": {
+            "Name": "DocumentContentVersionExtract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocumentContentVersionExtract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "MemberId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "DocumentContentVersionExtractCustom8423",
         "InputFieldName": "Id:Object_Store__c",
         "IsDisabled": false,
@@ -311,6 +379,65 @@
         "OutputCreationSequence": 1,
         "OutputFieldFormat": "String",
         "OutputFieldName": "ObjectStore",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocumentContentVersionExtractCustom5838",
+        "InputFieldName": "Account:NPI__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocumentContentVersionExtract",
+        "OmniDataTransformationId": {
+            "Name": "DocumentContentVersionExtract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocumentContentVersionExtract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "ProviderNPI",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocumentContentVersionExtractCustom6881",
+        "InputFieldName": "RecordType:DeveloperName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocumentContentVersionExtract",
+        "OmniDataTransformationId": {
+            "Name": "DocumentContentVersionExtract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocumentContentVersionExtract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "RecordTypeName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DocumentContentVersionExtractCustom7136",
+        "InputFieldName": "Account:RecordTypeId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DocumentContentVersionExtract",
+        "OmniDataTransformationId": {
+            "Name": "DocumentContentVersionExtract",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DocumentContentVersionExtract",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "recordTypeId",
         "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"

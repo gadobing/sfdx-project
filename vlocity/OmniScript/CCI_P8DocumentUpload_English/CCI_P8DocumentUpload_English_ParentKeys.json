@@ -1,4 +1,3 @@
 [
-    "DataRaptor/CreateP8SystemRecord",
     "IntegrationProcedure/CCI_P8DocumentUploadBackendProcess"
 ]
