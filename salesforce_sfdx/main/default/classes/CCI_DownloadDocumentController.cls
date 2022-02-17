@@ -34,7 +34,7 @@ public with sharing class CCI_DownloadDocumentController {
         Map<String, Object> ipOutput = new Map<String, Object> ();
         Map<String, Object> ipOptions = new Map<String, Object> ();
         ipInput.put('documentNumber', doc.Document_Id_Ext__c);
-        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService('CCI_P8RetrieveDocumentCallout', ipInput, ipOptions);
+        ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService('CCI_P8RetrieveDocumentCallout', ipInput, ipOptions);
         //////////////////
     
         if((integer)ipOutput.get('statusCode') !=200 ){

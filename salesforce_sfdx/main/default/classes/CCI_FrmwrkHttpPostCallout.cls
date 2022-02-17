@@ -8,7 +8,7 @@
 * @Version          Date              Changes made 
     CH00		     02/16/2022		        Initial Draft
 ************************************************************************/
-global with sharing class CCI_FrmwrkHttpPostCallout implements %vlocity_namespace%.VlocityOpenInterface {
+global with sharing class CCI_FrmwrkHttpPostCallout implements omnistudio.VlocityOpenInterface {
     global Boolean invokeMethod(String methodName, Map<String, Object> inputMap, Map<String, Object> outMap, Map<String, Object> options) {
         Boolean ret = true;
         try {
@@ -142,7 +142,7 @@ global with sharing class CCI_FrmwrkHttpPostCallout implements %vlocity_namespac
         SystemName=null;
         response = null;
 		dynamicParams = null;        
-        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(
+        ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(
             IPName, ipInput, ipOptions);
        
     }
