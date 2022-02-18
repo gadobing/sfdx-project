@@ -8,7 +8,7 @@
 * @Version          Date              Changes made 
     CH00		     02/16/2022		        Initial Draft
 ************************************************************************/
-global with sharing class CCI_FrmwrkHttpPostCallout implements omnistudio.VlocityOpenInterface {
+global with sharing class CCI_FrmwrkHttpPostCallout implements %vlocity_namespace%.VlocityOpenInterface {
     global Boolean invokeMethod(String methodName, Map<String, Object> inputMap, Map<String, Object> outMap, Map<String, Object> options) {
         Boolean ret = true;
         try {
@@ -59,14 +59,14 @@ global with sharing class CCI_FrmwrkHttpPostCallout implements omnistudio.Vlocit
         try{
             ContentVersion cv = [Select Id, VersionData from ContentVersion where ContentDocumentId=:contentDocumentId];
             System.debug('--->'+payload);
-            CCI_HTTPPostRequestWrapper reqWrapper = (CCI_HTTPPostRequestWrapper)JSON.deserialize(payload, CCI_HTTPPostRequestWrapper.class);
+            CCI_P8PostRequestWrapper reqWrapper = (CCI_P8PostRequestWrapper)JSON.deserialize(payload, CCI_P8PostRequestWrapper.class);
             Map<String, String> searchStringMap = new Map<String, String>();
-            for(CCI_HTTPPostRequestWrapper.cls_searchIndexes searchIndex : reqWrapper.searchIndexes){
+            for(CCI_P8PostRequestWrapper.cls_searchIndexes searchIndex : reqWrapper.searchIndexes){
                 searchStringMap.put(searchIndex.name,searchIndex.value);
             }
             reqWrapper.searchIndexes.clear();
             for(String key : searchStringMap.keySet()){
-                CCI_HTTPPostRequestWrapper.cls_searchIndexes searchIndex = new CCI_HTTPPostRequestWrapper.cls_searchIndexes();
+                CCI_P8PostRequestWrapper.cls_searchIndexes searchIndex = new CCI_P8PostRequestWrapper.cls_searchIndexes();
                 searchIndex.name = key;
                 searchIndex.value = searchStringMap.get(key);
                 reqWrapper.searchIndexes.add(searchIndex);
@@ -142,7 +142,7 @@ global with sharing class CCI_FrmwrkHttpPostCallout implements omnistudio.Vlocit
         SystemName=null;
         response = null;
 		dynamicParams = null;        
-        ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(
+        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(
             IPName, ipInput, ipOptions);
        
     }

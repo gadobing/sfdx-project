@@ -32,21 +32,21 @@ public class CCI_FrmwrkHttpPostCalloutTest {
         ];
         
         //String payLoad='{"searchIndexes":[{"name":"CaseID","value":"00001023"},{"name":"ContractNumber","value":""}],"image":{"format":"application/txt","content":"base64string"},"objectStore":"MemAppOS","documentClass":"MEMAPP","documentType":"APPL","lineOfBusiness":"BCBS"}';
-		//CCI_HTTPPostRequestWrapper reqWrapper = (CCI_HTTPPostRequestWrapper)JSON.deserialize(payload, CCI_HTTPPostRequestWrapper.class);
-        CCI_HTTPPostRequestWrapper reqWrapper = new CCI_HTTPPostRequestWrapper();
+		//CCI_P8PostRequestWrapper reqWrapper = (CCI_P8PostRequestWrapper)JSON.deserialize(payload, CCI_HTTPPostRequestWrapper.class);
+        CCI_P8PostRequestWrapper reqWrapper = new CCI_P8PostRequestWrapper();
         reqWrapper.objectStore = 'MemAppOS';
         reqWrapper.documentClass = 'MEMAPP';
         reqWrapper.documentType = 'APPL';
         reqWrapper.lineOfBusiness = 'BCBS';
         
-        Set<CCI_HTTPPostRequestWrapper.cls_searchIndexes> searchIndexes = new Set<CCI_HTTPPostRequestWrapper.cls_searchIndexes>();
-        CCI_HTTPPostRequestWrapper.cls_searchIndexes searchString = new CCI_HTTPPostRequestWrapper.cls_searchIndexes();
+        Set<CCI_P8PostRequestWrapper.cls_searchIndexes> searchIndexes = new Set<CCI_P8PostRequestWrapper.cls_searchIndexes>();
+        CCI_P8PostRequestWrapper.cls_searchIndexes searchString = new CCI_P8PostRequestWrapper.cls_searchIndexes();
         searchString.name = 'CaseID';
         searchString.value = '00001023';
         searchIndexes.add(searchString);
         reqWrapper.searchIndexes = searchIndexes;
         
-        CCI_HTTPPostRequestWrapper.cls_image imageData = new CCI_HTTPPostRequestWrapper.cls_image();
+        CCI_P8PostRequestWrapper.cls_image imageData = new CCI_P8PostRequestWrapper.cls_image();
         imageData.content = 'base64string';
         imageData.format = 'application/jpg';
         reqWrapper.image = imageData;
