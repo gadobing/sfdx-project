@@ -89,6 +89,10 @@
                 <behavior>Edit</behavior>
                 <field>Health_Condition_Heard__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SDOH_Heard__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
