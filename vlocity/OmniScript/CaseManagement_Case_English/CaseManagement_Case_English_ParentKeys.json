@@ -1,0 +1,5 @@
+[
+    "DataRaptor/GetCodeSet",
+    "IntegrationProcedure/CaseManagement_GetCase",
+    "IntegrationProcedure/CaseManagement_SaveCase"
+]
