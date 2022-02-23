@@ -2,10 +2,10 @@
 // * @ClassName 				: CCI_ShowInvoiceController
 //   @testClass				: CCI_ShowInvoiceControllerTest
 // * @Description 				: LWC Controller Class (CCI_ShowInvoice)
-// * @Reason for Class Sharing : 
+// * @Reason for Class Sharing :
 // * @Author 					: SFDC
 // * @RevisionHistory 			: NK
-// * @Version          Date              Changes made 
+// * @Version          Date              Changes made
 //     NK		    02/22/2022		  Initial Draft
 // ***********************************************************************************************/
 
@@ -18,12 +18,12 @@
 //     @Description : getMemberCardDetails(API callout using IP)
 // 	@Author 	 : SFDC
 // 	@Params 	 : String memberId
-// 	@Return 	 : MemberCardWrapper class 
+// 	@Return 	 : MemberCardWrapper class
 //     **************************************************************************************/
 //     @AuraEnabled
 //     public static InvoiceWrapper getInvoiceDetails(string memberId, string invoiceId){
-       
-            
+
+
 //  			try {
 //                 Map<String, Object> ipOutput = new Map<String, Object> ();
 //                 ipOutput = callIntegrationProcedure('CCI_RetrieveInvoice',memberId);
@@ -41,7 +41,7 @@
 //                     InvoiceWrapper invoiceDetails = new InvoiceWrapper((string) memberId,(string) invoiceId, (string)ipOutput.get('format'),(string)ipOutput.get('encoding'), (string)ipOutput.get('content'),(integer)ipOutput.get('statusCode'),(string)ipOutput.get('status'));
 //                     return invoiceDetails;
 //                 }
-        
+
 //         } catch(Exception  e) {
 //         System.debug('The following exception has occurred: ' + e.getMessage());
 //             throw new AuraHandledException('The following exception has occurred: ' + e.getMessage()+' Line:' + String.valueOf(e.getLineNumber()));
@@ -63,7 +63,7 @@
 //             this.statusCode		=	statusCode;
 //             this.status		    =	status;
 //         }
-//         @AuraEnabled 
+//         @AuraEnabled
 //         Public string memberId;
 //         @AuraEnabled
 //         Public String invoiceId;
@@ -82,7 +82,7 @@
 //    /*************************************************************************************
 //     @Description : callIntegrationProcedure(API callout using IP)
 // 	@Author 	 : SFDC
-// 	@Params 	 : String IPName, String memberIdInput 
+// 	@Params 	 : String IPName, String memberIdInput
 // 	@Return 	 : Map<String, Object>
 //     **************************************************************************************/
 //     public static Map<String, Object> callIntegrationProcedure(String IPName, String memberIdInput ) {
@@ -90,14 +90,14 @@
 //         Map<String, Object> ipOutput = new Map<String, Object> ();
 //         Map<String, Object> ipOptions = new Map<String, Object> ();
 //       //  ipInput.put('memberIdInput', memberIdInput);
-//         ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
+//         ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
 //         return  ipOutput;
 //     }
 // }
 
 
-global with sharing class CCI_ShowInvoiceController implements %vlocity_namespace%.VlocityOpenInterface2{
-    
+global with sharing class CCI_ShowInvoiceController implements omnistudio.VlocityOpenInterface2{
+
     public Boolean invokeMethod(
     String methodName,
     Map<String, Object> inputs,
@@ -123,9 +123,9 @@ global with sharing class CCI_ShowInvoiceController implements %vlocity_namespac
     {
 
         String memberId = (String)inputs.get('memberId');
-        String invoiceId = (String)inputs.get('invoiceId'); 
+        String invoiceId = (String)inputs.get('invoiceId');
 
-            
+
         try {
             Map<String, Object> ipOutput = new Map<String, Object> ();
             ipOutput = callIntegrationProcedure('CCI_RetrieveInvoice',memberId);
@@ -146,7 +146,7 @@ global with sharing class CCI_ShowInvoiceController implements %vlocity_namespac
                 outputs.put('status', (string)ipOutput.get('status'));
                 return true;
             }
-        
+
         } catch(Exception  e) {
         System.debug('The following exception has occurred: ' + e.getMessage());
             throw new AuraHandledException('The following exception has occurred: ' + e.getMessage()+' Line:' + String.valueOf(e.getLineNumber()));
@@ -157,6 +157,6 @@ global with sharing class CCI_ShowInvoiceController implements %vlocity_namespac
         Map<String, Object> ipInput = new Map<String, Object> ();
         Map<String, Object> ipOutput = new Map<String, Object> ();
         Map<String, Object> ipOptions = new Map<String, Object> ();
-        return (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
+        return (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
     }
 }
