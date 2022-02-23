@@ -28,8 +28,8 @@
         "conditionType": "Hide if False",
         "controlWidth": 12,
         "controllingField": {
-            "element": "Object_Store",
-            "source": "CCI_Document__c.Object_Store__c",
+            "element": "Document_Class",
+            "source": "CCI_Document__c.Document_Class__c",
             "type": "SObject"
         },
         "defaultValue": null,

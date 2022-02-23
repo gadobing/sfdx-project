@@ -11,9 +11,9 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>ElecClaimsOS</fullName>
+                <fullName>PaperClaimsOS</fullName>
                 <default>false</default>
-                <label>ElecClaimsOS</label>
+                <label>PaperClaimsOS</label>
             </value>
             <value>
                 <fullName>MemAppOS</fullName>
