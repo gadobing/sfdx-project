@@ -289,7 +289,14 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+            <componentName>caseManagement</componentName>
+                <identifier>c_caseManagement1</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>forceKnowledge:articleSearchDesktop</componentName>
+                <identifier>forceKnowledge_articleSearchDesktop1</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
