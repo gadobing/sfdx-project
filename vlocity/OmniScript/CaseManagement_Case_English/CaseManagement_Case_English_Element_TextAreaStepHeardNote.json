@@ -47,18 +47,7 @@
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "=",
-                        "data": "Yes",
-                        "field": "RadioSDOHHeard"
-                    }
-                ]
-            }
-        },
+        "show": null,
         "showInputWidth": false
     },
     "Type": "Text Area",

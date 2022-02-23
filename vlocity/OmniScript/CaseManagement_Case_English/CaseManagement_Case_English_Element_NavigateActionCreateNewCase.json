@@ -26,7 +26,7 @@
         "HTMLTemplateId": "",
         "businessCategory": "",
         "businessEvent": "",
-        "controlWidth": 6,
+        "controlWidth": 12,
         "iconName": "",
         "iconPosition": "left",
         "iconVariant": "",
@@ -44,7 +44,7 @@
         "targetId": "%ContextId%",
         "targetLWCLayout": "lightning",
         "targetName": "Case",
-        "targetType": "Object",
+        "targetType": "Restart OmniScript",
         "validationRequired": "Submit",
         "variant": "brand",
         "wpm": false

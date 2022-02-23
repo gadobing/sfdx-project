@@ -29,7 +29,7 @@
         "label": "TextBlock19",
         "sanitize": false,
         "show": null,
-        "text": "<h4><em>Thank you! Would you like to get the Case number for your reference?&nbsp;</em></h4>",
+        "text": "<p style=\"font-size: 14px;\"><em>Thank you! Would you like to get the Case number for your reference?&nbsp;</em></p>",
         "textKey": ""
     },
     "Type": "Text Block",

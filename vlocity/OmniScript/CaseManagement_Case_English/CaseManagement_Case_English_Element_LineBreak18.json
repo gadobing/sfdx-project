@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "TBGreeting",
+    "Name": "LineBreak18",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -24,16 +24,12 @@
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 12,
-        "dataJSON": false,
-        "label": "TextBlock1",
-        "sanitize": false,
-        "show": null,
-        "text": "<p style=\"font-size: 14px;\"><em>Thank you for calling your Health Care Advisor team, this is %UserFirstName%. How may I help/assist today?</em></p>",
-        "textKey": ""
+        "label": "LineBreak1",
+        "padding": 10,
+        "show": null
     },
-    "Type": "Text Block",
+    "Type": "Line Break",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/TBGreeting"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/LineBreak18"
 }

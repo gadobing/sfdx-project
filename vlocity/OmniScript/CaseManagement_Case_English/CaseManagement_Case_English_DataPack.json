@@ -15,6 +15,7 @@
         "CaseManagement_Case_English_Element_StepGreeting.json",
         "CaseManagement_Case_English_Element_TextBlock2.json",
         "CaseManagement_Case_English_Element_TBGreeting.json",
+        "CaseManagement_Case_English_Element_LineBreak18.json",
         "CaseManagement_Case_English_Element_CaseType.json",
         "CaseManagement_Case_English_Element_PhoneNumber.json",
         "CaseManagement_Case_English_Element_LineBreak1.json",
@@ -132,5 +133,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "dbd52f28-bd9d-bdce-f98e-f03647807127"
+    "WebComponentKey": "127daffd-dc94-44cb-c963-81c47c59d574"
 }

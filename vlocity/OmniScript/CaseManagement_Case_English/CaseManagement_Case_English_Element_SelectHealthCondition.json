@@ -51,10 +51,11 @@
         "hideEditButton": true,
         "hideMap": true,
         "inputWidth": 12,
-        "label": "Select Health Condition",
+        "label": "Specify Health Condition",
         "maxLength": 255,
         "minLength": 0,
         "newItemLabel": "",
+        "placeholder": "Please indicate health condition",
         "readOnly": false,
         "required": false,
         "show": {

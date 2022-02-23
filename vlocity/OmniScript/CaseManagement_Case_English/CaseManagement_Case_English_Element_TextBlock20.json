@@ -29,7 +29,7 @@
         "label": "TextBlock20",
         "sanitize": false,
         "show": null,
-        "text": "<h4><em>Is there anything else we can help you with?</em></h4>",
+        "text": "<p style=\"font-size: 14px;\"><em>Is there anything else we can help you with?</em></p>",
         "textKey": ""
     },
     "Type": "Text Block",
