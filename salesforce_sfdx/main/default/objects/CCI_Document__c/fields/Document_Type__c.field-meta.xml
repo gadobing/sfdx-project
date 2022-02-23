@@ -263,6 +263,22 @@
             <valueName>ICOR</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>COC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>RTCD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>APPL</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>LEGAL</controllingFieldValue>
             <valueName>INSD</valueName>
         </valueSettings>
