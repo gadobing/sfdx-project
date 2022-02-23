@@ -17,6 +17,11 @@
                 <label>Adjustment Request</label>
             </value>
             <value>
+                <fullName>COR</fullName>
+                <default>false</default>
+                <label>Correspondence</label>
+            </value>
+            <value>
                 <fullName>CCM</fullName>
                 <default>false</default>
                 <label>Check Control Memo</label>
@@ -30,11 +35,6 @@
                 <fullName>COCC</fullName>
                 <default>false</default>
                 <label>Certification of Credible Coverage</label>
-            </value>
-            <value>
-                <fullName>COR</fullName>
-                <default>false</default>
-                <label>Correspondence</label>
             </value>
             <value>
                 <fullName>RECON</fullName>
