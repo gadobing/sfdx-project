@@ -45,9 +45,9 @@
             "postal_code": "",
             "street": ""
         },
-        "help": false,
-        "helpText": "",
-        "helpTextPos": "",
+        "help": true,
+        "helpText": "Please indicate health condition",
+        "helpTextPos": "bottom-left",
         "hideEditButton": true,
         "hideMap": true,
         "inputWidth": 12,
@@ -57,7 +57,7 @@
         "newItemLabel": "",
         "placeholder": "Please indicate health condition",
         "readOnly": false,
-        "required": false,
+        "required": true,
         "show": {
             "group": {
                 "operator": "AND",

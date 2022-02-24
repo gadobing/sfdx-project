@@ -41,7 +41,7 @@
         "hide": false,
         "horizontalMode": "displayWide",
         "imageCountInRow": 3,
-        "label": "Social determinants of health heard?",
+        "label": "Social Determinants of Health (SDOH) Heard?",
         "optionHeight": 100,
         "optionSource": {
             "source": "",

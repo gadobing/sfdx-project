@@ -40,7 +40,7 @@
                 ]
             }
         },
-        "text": "<p style=\"font-size: 14px;\"><strong>Navigate to the barriers tab to add the Social Determinants of Health</strong></p>",
+        "text": "<p style=\"font-size: 12px;\"><strong>Navigate to the \"Barriers\" tab to add the Social Determinants of Health (SDOH)</strong></p>",
         "textKey": ""
     },
     "Type": "Text Block",

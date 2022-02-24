@@ -1,5 +1,5 @@
 {
-    "Description": "77608 - Launch Guided flow - Copy from version 7",
+    "Description": "77608 - Launch Guided flow - Copy from version 9",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
@@ -133,5 +133,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "127daffd-dc94-44cb-c963-81c47c59d574"
+    "WebComponentKey": "0315bdea-fa24-ae99-e6a3-0b5f264a5325"
 }
