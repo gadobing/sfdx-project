@@ -62,8 +62,8 @@ public without sharing class CCI_Constants {
      'application/vnd.ms-powerpoint' => 'ppt',
      'application/vnd.ms-powerpoint.presentation.macroEnabled.12' => 'pptm', 
      'application/vnd.openxmlformats-officedocument.presentationml.presentation' => 'pptx', 
-     'application/rtf' => 'rtf',
-     'text/rtf' => 'rtf2'
+    'text/rtf' => 'rtf2',
+    'application/rtf' => 'rtf'
      
     };
 }
