@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "CCI_IssuingIDCard_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Issuing ID Card",
+    "OmniProcessElement": [
+        "CCI_IssuingIDCard_Element_DR_getMemberId.json",
+        "CCI_IssuingIDCard_Element_SV_ServiceDetails.json",
+        "CCI_IssuingIDCard_Element_IP_Framework_GETCallout.json",
+        "CCI_IssuingIDCard_Element_DR_updateOrderDate.json",
+        "CCI_IssuingIDCard_Element_Is_Success.json",
+        "CCI_IssuingIDCard_Element_Is_Not_Issued.json",
+        "CCI_IssuingIDCard_Element_IP_Framework_PostCallout.json",
+        "CCI_IssuingIDCard_Element_Is_Success_Post.json",
+        "CCI_IssuingIDCard_Element_RA_PostCallout.json",
+        "CCI_IssuingIDCard_Element_RA_GETCallout.json"
+    ],
+    "OmniProcessKey": "CCI_IssuingIDCard",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_IssuingIDCard_PropertySetConfig.json",
+    "SubType": "IssuingIDCard",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/IssuingIDCard/Procedure",
+    "WebComponentKey": "46fd8dbb-5f09-d7af-aa58-dbb50e894cc5"
+}
