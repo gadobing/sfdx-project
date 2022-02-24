@@ -1,18 +1,51 @@
 import { LightningElement ,api, wire, track } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-import getInvoiceDetails from '@salesforce/apex/CCI_ShowInvoiceController.getInvoiceDetails';
-//import getInvoiceDetails from '@salesforce/apex/CCI_InvoiceController.getInvoiceDetails';
+//import getInvoiceDetails from '@salesforce/apex/CCI_ShowInvoiceController.getInvoiceDetails';
+////import getInvoiceDetails from '@salesforce/apex/CCI_InvoiceController.getInvoiceDetails';
+import { getNamespaceDotNotation } from '%vlocity_namespace%/omniscriptInternalUtils'; 
+//_%vlocity_namespace% = getNamespaceDotNotation();
+import { OmniscriptActionCommonUtil } from '%vlocity_namespace%/omniscriptActionUtils';
 export default class Cci_ShowInvoice extends LightningElement {
     strData;
     recId;
     invoice;
     connectedCallback() {
         setTimeout(() => {
-            this.invoiceDetails();
+          //  this.invoiceDetails();
+          this._actionUtilClass = new OmniscriptActionCommonUtil();
+          console.log("setTimeout");
+          this.triggerRemote();
         }, 1000);
-       
+    }
+
+    triggerRemote() {
+        console.log("triggerRemote");
+        const input = {
+            memberId: this.recId,
+            invoiceId:'123'
+        };
+        const params = {
+
+            input: JSON.stringify(input),
+            sClassName: 'CCI_ShowInvoiceController',
+            sMethodName: 'getInvoiceDetails',
+            options: '{}',
+        };
+    
+        this._actionUtilClass
+            .executeAction(params, null, this, null, null)
+            .then(response => {
+                console.log("response");
+                window.console.log(response);
+            })
+            .catch(error => {
+                console.log("response error");
+                window.console.log(error);
+            });
     }
     invoiceDetails(){
+
+        /*
         getInvoiceDetails({ memberId: this.recId,invoiceId:'1234' })
                 .then(result => {
                     
@@ -58,6 +91,6 @@ export default class Cci_ShowInvoice extends LightningElement {
                     });
                     this.dispatchEvent(evt);
                   
-                });
+                }); */
     }
 }
