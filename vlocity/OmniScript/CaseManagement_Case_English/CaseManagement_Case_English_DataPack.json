@@ -38,6 +38,7 @@
         "CaseManagement_Case_English_Element_TextBlock8.json",
         "CaseManagement_Case_English_Element_CheckboxSSN.json",
         "CaseManagement_Case_English_Element_TextBlock9.json",
+        "CaseManagement_Case_English_Element_Disclaimer.json",
         "CaseManagement_Case_English_Element_InquirerType.json",
         "CaseManagement_Case_English_Element_InquirerName.json",
         "CaseManagement_Case_English_Element_InquirerPhone.json",
@@ -133,5 +134,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "0315bdea-fa24-ae99-e6a3-0b5f264a5325"
+    "WebComponentKey": "1d036546-ae39-2376-9abb-930d7ff9c6a3"
 }

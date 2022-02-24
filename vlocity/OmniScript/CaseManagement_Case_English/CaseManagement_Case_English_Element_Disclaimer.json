@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "InquirerPhone",
+    "Name": "Disclaimer",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -24,46 +24,27 @@
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "accessibleInFutureSteps": false,
-        "autocomplete": null,
-        "conditionType": "Hide if False",
         "controlWidth": 12,
-        "debounceValue": 0,
-        "defaultValue": null,
-        "disOnTplt": false,
-        "help": false,
-        "helpText": "",
-        "helpTextPos": "",
-        "hide": false,
-        "inputWidth": 12,
-        "label": "Phone",
-        "mask": "",
-        "maxLength": 255,
-        "minLength": 0,
-        "pattern": "^\\(?([0-9]{3})\\)?[-.● ]?([0-9]{3})[-.●]?([0-9]{4})$",
-        "placeholder": "",
-        "ptrnErrText": "Please enter a valid phone number",
-        "readOnly": false,
-        "repeat": false,
-        "repeatClone": false,
-        "repeatLimit": null,
-        "required": false,
+        "dataJSON": false,
+        "label": "TextBlock4",
+        "sanitize": false,
         "show": {
             "group": {
                 "operator": "AND",
                 "rules": [
                     {
                         "condition": "=",
-                        "data": "Inquirer",
+                        "data": "Self",
                         "field": "RadioSelfInquirer"
                     }
                 ]
             }
         },
-        "showInputWidth": false
+        "text": "<p><br />For members, you must authenticate Member name, ID, DOB, and Mailing address. Last 4 of SSN can be substituted for one of these items.</p>",
+        "textKey": ""
     },
-    "Type": "Telephone",
+    "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/InquirerPhone"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Disclaimer"
 }
