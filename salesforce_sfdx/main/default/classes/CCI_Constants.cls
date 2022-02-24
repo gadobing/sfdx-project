@@ -28,6 +28,9 @@ public without sharing class CCI_Constants {
     public static final String UTILITY_METHOD		= 'utilityMethod';
     public static final String P8_POST_UPLOAD		= 'P8PostUpload';
     
+    public static final String UTILITY_METHOD		= 'utilityMethod';
+    public static final String P8_POST_UPLOAD		= 'P8PostUpload';
+    
     
     public static map<String, String> GET_MIMETYPE_MAPPING = new map<String, String> 
     {
@@ -62,8 +65,8 @@ public without sharing class CCI_Constants {
      'application/vnd.ms-powerpoint' => 'ppt',
      'application/vnd.ms-powerpoint.presentation.macroEnabled.12' => 'pptm', 
      'application/vnd.openxmlformats-officedocument.presentationml.presentation' => 'pptx', 
-     'application/rtf' => 'rtf',
-     'text/rtf' => 'rtf2'
+    'text/rtf' => 'rtf2',
+    'application/rtf' => 'rtf'
      
     };
 }
