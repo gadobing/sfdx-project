@@ -2006,15 +2006,15 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>SNF %1A Skilled Nursing Facility</fullName>
+            <fullName>SNF Skilled Nursing Facility</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>SNF %1A Skilled Nursing Facility Approved</fullName>
+            <fullName>SNF Skilled Nursing Facility Approved</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>SNF %1A Skilled Nursing Facility Denied</fullName>
+            <fullName>SNF Skilled Nursing Facility Denied</fullName>
             <default>false</default>
         </values>
         <values>
