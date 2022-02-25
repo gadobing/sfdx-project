@@ -19,6 +19,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "Framework_CreateErrorEntryCustom2229",
+        "InputFieldName": "Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "FilterOperator": "=",
         "GlobalKey": "c4851169-e048-4416-813e-07b8f292f740",
         "IsDisabled": true,
@@ -34,6 +54,26 @@
         },
         "OutputCreationSequence": 1,
         "OutputFieldName": "Id",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "Framework_CreateErrorEntryCustom1597",
+        "InputFieldName": "ipName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Integration_Procedure_Name__c",
         "OutputObjectName": "CCI_Integration_Error_Retry__c",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
@@ -91,6 +131,26 @@
         },
         "OutputCreationSequence": 1,
         "OutputFieldName": "Retry_Reason__c",
+        "OutputObjectName": "CCI_Integration_Error_Retry__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "Framework_CreateErrorEntryCustom843",
+        "InputFieldName": "Retry_Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "Framework_CreateErrorEntry",
+        "OmniDataTransformationId": {
+            "Name": "Framework_CreateErrorEntry",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/Framework_CreateErrorEntry",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Retry_Status__c",
         "OutputObjectName": "CCI_Integration_Error_Retry__c",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"

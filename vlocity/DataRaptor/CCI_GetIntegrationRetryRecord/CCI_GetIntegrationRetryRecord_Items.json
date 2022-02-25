@@ -1,0 +1,47 @@
+[
+    {
+        "FilterDataType": "ID",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Id",
+        "GlobalKey": "CCI_GetIntegrationRetryRecordCustom6344",
+        "InputFieldName": "Id",
+        "InputObjectName": "CCI_Integration_Error_Retry__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetIntegrationRetryRecord",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetIntegrationRetryRecord",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetIntegrationRetryRecord",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Retry_Record",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetIntegrationRetryRecordCustom2125",
+        "InputFieldName": "Error_Message__c",
+        "InputObjectName": "CCI_Integration_Error_Retry__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetIntegrationRetryRecord",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetIntegrationRetryRecord",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetIntegrationRetryRecord",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Retry_Record",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

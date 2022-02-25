@@ -8,7 +8,7 @@
 * @Version          Date              Changes made 
     CH00		    12/27/2021		  Initial Draft
 ***********************************************************************************************/
-global with sharing class CCI_FrmwrkOAuthImpl implements %vlocity_namespace%.VlocityOpenInterface {
+global with sharing class CCI_FrmwrkOAuthImpl implements omnistudio.VlocityOpenInterface {
 
     
     /*************************************************************************************

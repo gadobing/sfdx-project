@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "CCI_getMemberId_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CCI_getMemberId",
+    "OmniProcessElement": [
+        "CCI_getMemberId_Element_DR_getMemId.json",
+        "CCI_getMemberId_Element_ResponseAction.json",
+        "CCI_getMemberId_Element_ResponseAction2.json"
+    ],
+    "OmniProcessKey": "CCI_getMemberId",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_getMemberId_PropertySetConfig.json",
+    "SubType": "getMemberId",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/getMemberId/Procedure",
+    "WebComponentKey": "b8c3e598-d8b0-2b29-ef31-c0067a41264c"
+}

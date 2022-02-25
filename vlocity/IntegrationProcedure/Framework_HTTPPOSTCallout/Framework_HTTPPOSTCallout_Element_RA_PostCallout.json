@@ -1,0 +1,71 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "RA_PostCallout",
+    "OmniProcessId": {
+        "Name": "HTTPPOSTCallout",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Framework/HTTPPOSTCallout/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CB_ShouldUseApex",
+        "OmniProcessId": {
+            "Name": "HTTPPOSTCallout",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Framework/HTTPPOSTCallout/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/CB_ShouldUseApex",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CB_ShouldUseApex",
+    "ParentElementType": "Conditional Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "DynamicParams": "%DynamicParams%",
+            "Message_ID": "%Message_ID%",
+            "Payload": "%Payload%",
+            "Service_Name": "%Service_Name%",
+            "additionalMethodArguments": "%additionalMethodArguments%",
+            "authorization": "Bearer %HA_GetApigeeAuthToken:access_token%",
+            "contentType": "application/json",
+            "endpoint": "%DRE_ExtractEndpointSettings:Named_Credential__c%%DRE_ExtractEndpointSettings:Params__c%%DynamicParams%",
+            "ipName": "%ipName%",
+            "isLoggingEnabled": "%DRE_ExtractEndpointSettings:Logging_Enabled__c%",
+            "retryRecordId": "%retryRecordId%",
+            "utilityMethodName": "%DRE_ExtractEndpointSettings:Apex_Method_Name%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction3",
+        "remoteClass": "CCI_FrmwrkHttpPostCallout",
+        "remoteMethod": "utilityMethod",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Framework/HTTPPOSTCallout/Procedure/RA_PostCallout"
+}

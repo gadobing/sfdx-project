@@ -1,0 +1,27 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "IssueIDCard",
+    "OmniProcessElement": [
+        "CCI_IssueIDCard_English_Element_IP_CCIgetMemId.json",
+        "CCI_IssueIDCard_English_Element_Error.json",
+        "CCI_IssueIDCard_English_Element_TextBlock1.json",
+        "CCI_IssueIDCard_English_Element_IP_getInvoiceDetail.json",
+        "CCI_IssueIDCard_English_Element_Output.json",
+        "CCI_IssueIDCard_English_Element_LineBreak1.json",
+        "CCI_IssueIDCard_English_Element_message.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "CCI_IssueIDCard_English_PropertySetConfig.json",
+    "SubType": "IssueIDCard",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/IssueIDCard/English",
+    "WebComponentKey": "a267e606-2c61-1c39-d208-2943cffe5e9d"
+}

@@ -8,7 +8,7 @@
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Object_Store__c</controllingField>
+        <controllingField>Document_Class__c</controllingField>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
@@ -39,7 +39,7 @@
             <value>
                 <fullName>RECON</fullName>
                 <default>false</default>
-                <label>Reconsideration and Appeals</label>
+                <label>Reconsiderations and Appeal</label>
             </value>
             <value>
                 <fullName>REVIW</fullName>
@@ -149,7 +149,7 @@
             <value>
                 <fullName>MEFAC</fullName>
                 <default>false</default>
-                <label>Medical Facts</label>
+                <label>Medical Facts Questionairre</label>
             </value>
             <value>
                 <fullName>CASH</fullName>
@@ -159,7 +159,7 @@
             <value>
                 <fullName>COC</fullName>
                 <default>false</default>
-                <label>Continuation</label>
+                <label>Continuation of Coverage</label>
             </value>
             <value>
                 <fullName>RTCD</fullName>
@@ -178,137 +178,137 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>ADJ</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>CCM</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>COB</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>COCC</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
             <valueName>COR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>RECON</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>REVIW</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>SUBRO</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>APEAL</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>MSP1</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>MSP2</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>MSP3</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>MSP4</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>MSP5</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>MSP6</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>DLTR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>AUTHR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>HIPAA</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>OSCAR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>CLAIMS</controllingFieldValue>
             <valueName>MSP</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
+            <controllingFieldValue>INDIVIDUALUNDERWRITING</controllingFieldValue>
             <valueName>ICOR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>CASH</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>COC</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>RTCD</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>APPL</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>DRAFT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
             <valueName>INSD</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
             <valueName>PRVCY</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
             <valueName>APLS</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>LegalOS</controllingFieldValue>
+            <controllingFieldValue>LEGAL</controllingFieldValue>
             <valueName>LSUIT</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>MedRecOS</controllingFieldValue>
+            <controllingFieldValue>MEDRECBCBS</controllingFieldValue>
             <valueName>MEREC</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>MedRecOS</controllingFieldValue>
+            <controllingFieldValue>MEDRECBCBS</controllingFieldValue>
             <valueName>MRCOR</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>MedRecOS</controllingFieldValue>
+            <controllingFieldValue>MEDRECBCBS</controllingFieldValue>
             <valueName>MEFAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>COC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>RTCD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAPP</controllingFieldValue>
+            <valueName>APPL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEMAUX</controllingFieldValue>
+            <valueName>DRAFT</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

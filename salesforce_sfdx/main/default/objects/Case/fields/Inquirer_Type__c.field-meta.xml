@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquirer_Type__c</fullName>
+    <description>Field to capture the Type of the Inquirer who calls for some Inquiry</description>
+    <externalId>false</externalId>
+    <label>Inquirer Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grand Rounds</fullName>
+                <default>false</default>
+                <label>Grand Rounds</label>
+            </value>
+            <value>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+                <label>Vendor</label>
+            </value>
+            <value>
+                <fullName>TPA</fullName>
+                <default>false</default>
+                <label>TPA</label>
+            </value>
+            <value>
+                <fullName>Relative</fullName>
+                <default>false</default>
+                <label>Relative</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+            <value>
+                <fullName>Prospective Customer</fullName>
+                <default>false</default>
+                <label>Prospective Customer</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>OPM Appeals</fullName>
+                <default>false</default>
+                <label>OPM Appeals</label>
+            </value>
+            <value>
+                <fullName>Other Insurance Co</fullName>
+                <default>false</default>
+                <label>Other Insurance Co</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Internal Staff</fullName>
+                <default>false</default>
+                <label>Internal Staff</label>
+            </value>
+            <value>
+                <fullName>Insurance Dept</fullName>
+                <default>false</default>
+                <label>Insurance Dept</label>
+            </value>
+            <value>
+                <fullName>Group/Division</fullName>
+                <default>false</default>
+                <label>Group/Division</label>
+            </value>
+            <value>
+                <fullName>Gvt Agency</fullName>
+                <default>false</default>
+                <label>Gvt Agency</label>
+            </value>
+            <value>
+                <fullName>CMS</fullName>
+                <default>false</default>
+                <label>CMS</label>
+            </value>
+            <value>
+                <fullName>Blue Plan</fullName>
+                <default>false</default>
+                <label>Blue Plan</label>
+            </value>
+            <value>
+                <fullName>Bank</fullName>
+                <default>false</default>
+                <label>Bank</label>
+            </value>
+            <value>
+                <fullName>Attorney</fullName>
+                <default>false</default>
+                <label>Attorney</label>
+            </value>
+            <value>
+                <fullName>Authorized Person</fullName>
+                <default>false</default>
+                <label>Authorized Person</label>
+            </value>
+            <value>
+                <fullName>Agent Broker</fullName>
+                <default>false</default>
+                <label>Agent Broker</label>
+            </value>
+            <value>
+                <fullName>Medical Reviews</fullName>
+                <default>false</default>
+                <label>Medical Reviews</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IntregrationLogFramework",
+    "OmniProcessElement": [
+        "CCI_IntregrationLogFramework_Element_DRP_LogRequest.json",
+        "CCI_IntregrationLogFramework_Element_CB_Success.json",
+        "CCI_IntregrationLogFramework_Element_DRP_UpdareRetryRecord.json",
+        "CCI_IntregrationLogFramework_Element_DRP_LogSuccessResponse.json",
+        "CCI_IntregrationLogFramework_Element_CB_Error.json",
+        "CCI_IntregrationLogFramework_Element_DR_GetRetryRecord.json",
+        "CCI_IntregrationLogFramework_Element_DRP_TransactionFailureRetryEntry.json",
+        "CCI_IntregrationLogFramework_Element_DRP_LogFailureResponse.json",
+        "CCI_IntregrationLogFramework_Element_RA_RetryTransaction.json",
+        "CCI_IntregrationLogFramework_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "CCI_IntregrationLogFramework",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_IntregrationLogFramework_PropertySetConfig.json",
+    "SubType": "IntregrationLogFramework",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/IntregrationLogFramework/Procedure",
+    "WebComponentKey": "a8e0c712-0232-919e-1387-151ef01f6c82"
+}

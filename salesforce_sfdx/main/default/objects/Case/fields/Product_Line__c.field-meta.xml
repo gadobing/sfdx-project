@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Line__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Line</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABCBS</fullName>
+                <default>false</default>
+                <label>ABCBS</label>
+            </value>
+            <value>
+                <fullName>BANA</fullName>
+                <default>false</default>
+                <label>BANA</label>
+            </value>
+            <value>
+                <fullName>BARB</fullName>
+                <default>false</default>
+                <label>BARB</label>
+            </value>
+            <value>
+                <fullName>Exchange</fullName>
+                <default>false</default>
+                <label>Exchange</label>
+            </value>
+            <value>
+                <fullName>FEP</fullName>
+                <default>false</default>
+                <label>FEP</label>
+            </value>
+            <value>
+                <fullName>HA</fullName>
+                <default>false</default>
+                <label>HA</label>
+            </value>
+            <value>
+                <fullName>All LOB</fullName>
+                <default>false</default>
+                <label>All LOB</label>
+            </value>
+            <value>
+                <fullName>Medicare Advantage</fullName>
+                <default>false</default>
+                <label>Medicare Advantage</label>
+            </value>
+            <value>
+                <fullName>BlueCard</fullName>
+                <default>false</default>
+                <label>BlueCard</label>
+            </value>
+            <value>
+                <fullName>ASE/PSE</fullName>
+                <default>false</default>
+                <label>ASE/PSE</label>
+            </value>
+            <value>
+                <fullName>Regional</fullName>
+                <default>false</default>
+                <label>Regional</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

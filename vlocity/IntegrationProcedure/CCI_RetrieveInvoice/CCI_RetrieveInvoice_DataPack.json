@@ -1,0 +1,21 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Retrieve Invoice",
+    "OmniProcessElement": "CCI_RetrieveInvoice_Element_ResponseAction.json",
+    "OmniProcessKey": "CCI_RetrieveInvoice",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_RetrieveInvoice_PropertySetConfig.json",
+    "SubType": "RetrieveInvoice",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/RetrieveInvoice/Procedure",
+    "WebComponentKey": "4e24f876-ecda-346e-61b8-b2bfcc162f3e"
+}

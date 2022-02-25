@@ -1,0 +1,237 @@
+[
+    {
+        "FilterDataType": "PICKLIST",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "\"Mailing Address\"",
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom2678",
+        "InputFieldName": "AddressType",
+        "InputObjectName": "ContactPointAddress",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterDataType": "REFERENCE",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "AccountId",
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom3386",
+        "InputFieldName": "ParentId",
+        "InputObjectName": "ContactPointAddress",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterDataType": "BOOLEAN",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "$Vlocity.TRUE'",
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom3159",
+        "InputFieldName": "isActiveNow__c",
+        "InputObjectName": "ContactPointAddress",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom7926",
+        "InputFieldName": "ActiveFromDate",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom5799",
+        "InputFieldName": "ActiveToDate",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom5268",
+        "InputFieldName": "City",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom111",
+        "InputFieldName": "Country",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom7609",
+        "InputFieldName": "ParentId",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom9020",
+        "InputFieldName": "PostalCode",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom453",
+        "InputFieldName": "State",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_GetMailingAddressForMemberCustom4340",
+        "InputFieldName": "Street",
+        "InputObjectName": "ContactPointAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_GetMailingAddressForMember",
+        "OmniDataTransformationId": {
+            "Name": "CCI_GetMailingAddressForMember",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_GetMailingAddressForMember",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "MailingAddress",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -44,7 +44,7 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
-            <controllingFieldValue>ElecClaimsOS</controllingFieldValue>
+            <controllingFieldValue>PaperClaimsOS</controllingFieldValue>
             <valueName>CLAIMS</valueName>
         </valueSettings>
         <valueSettings>

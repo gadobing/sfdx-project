@@ -3,6 +3,10 @@
     <label>P8 Document Upload</label>
     <protected>false</protected>
     <values>
+        <field>Apex_Method_Name__c</field>
+        <value xsi:type="xsd:string">P8PostUpload</value>
+    </values>
+    <values>
         <field>Auth_Required__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
@@ -49,6 +53,10 @@
     <values>
         <field>Transport_Layer_Retry_Delay__c</field>
         <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>Use_Apex__c</field>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>UserName__c</field>

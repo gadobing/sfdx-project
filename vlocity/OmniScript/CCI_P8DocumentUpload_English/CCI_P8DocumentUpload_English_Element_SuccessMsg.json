@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "MessageBlock",
+        "Name": "Step3",
         "OmniProcessId": {
             "Name": "CCI P8 Document Upload",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,11 +17,11 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/MessageBlock",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8DocumentUpload/English/Step3",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "MessageBlock",
-    "ParentElementType": "Block",
+    "ParentElementName": "Step3",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
@@ -29,19 +29,8 @@
         "label": "TextBlock3",
         "lwcComponentOverride": "",
         "sanitize": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "=",
-                        "data": "True",
-                        "field": "isSuccess"
-                    }
-                ]
-            }
-        },
-        "text": "<p><span style=\"color: #2dc26b; font-size: 20px;\"><strong>Your file has been loaded successfully. To proceed with another file, please click on Submit another document button.</strong></span></p>",
+        "show": null,
+        "text": "<p style=\"text-align: center;\"><span style=\"color: #0d1461; font-size: 20px; background-color: #ffffff;\"><strong>Thank you, Your file will be loaded shortly !</strong></span></p>",
         "textKey": ""
     },
     "Type": "Text Block",
