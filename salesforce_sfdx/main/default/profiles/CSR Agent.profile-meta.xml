@@ -49,10 +49,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>CCI_InvoiceController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>CCI_P8PostRequestWrapper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
