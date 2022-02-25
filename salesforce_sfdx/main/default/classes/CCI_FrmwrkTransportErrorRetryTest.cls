@@ -25,7 +25,7 @@ public class CCI_FrmwrkTransportErrorRetryTest {
             CCI_Integration_Error_Retry__c obj = new CCI_Integration_Error_Retry__c();
             obj.Message_ID__c = 'Group_Upload';
             obj.Parent_Record_SFDC_ID__c = UserInfo.getUserId();
-            obj.System_Name__c = 'apigee';
+            obj.System_Name__c = 'P8DocumentUpload';
             obj.Error_Message__c = 'Test Error Message';
             obj.Status__c = 'Pending';
            	insert obj;

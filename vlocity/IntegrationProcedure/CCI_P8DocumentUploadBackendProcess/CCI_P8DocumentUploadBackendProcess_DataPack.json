@@ -1,5 +1,5 @@
 {
-    "CustomJavaScript": "{}",
+    "CustomJavaScript": "CCI_P8DocumentUploadBackendProcess_SampleInput.json",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": true,
     "IsMetadataCacheDisabled": false,
@@ -9,6 +9,7 @@
     "Language": "Procedure",
     "Name": "P8 Document Upload Backend Process",
     "OmniProcessElement": [
+        "CCI_P8DocumentUploadBackendProcess_Element_SV_DocumentId.json",
         "CCI_P8DocumentUploadBackendProcess_Element_DREGetDocumentDetails.json",
         "CCI_P8DocumentUploadBackendProcess_Element_DocumentUploadCallout.json",
         "CCI_P8DocumentUploadBackendProcess_Element_DRPCreateP8Record.json",
@@ -22,5 +23,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/P8DocumentUploadBackendProcess/Procedure",
-    "WebComponentKey": "045bc1f5-8ee3-0b42-9678-0c5b182fe3a7"
+    "WebComponentKey": "575dc004-47cf-fb1e-9774-d7a6ebcff1bf"
 }

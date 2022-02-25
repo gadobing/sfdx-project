@@ -34,11 +34,11 @@
         },
         "additionalOutput": {
         },
-        "bundle": null,
+        "bundle": "Framework_CreateLogEntry",
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",
-        "failOnStepError": true,
+        "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {
         },

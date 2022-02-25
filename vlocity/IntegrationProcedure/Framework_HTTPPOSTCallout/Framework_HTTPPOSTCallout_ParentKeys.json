@@ -1,4 +1,4 @@
 [
-    "DataRaptor/Framework_GetIntegrationSettings",
+    "DataRaptor/Framework_CreateErrorEntry",
     "IntegrationProcedure/CCI_IntregrationLogFramework"
 ]

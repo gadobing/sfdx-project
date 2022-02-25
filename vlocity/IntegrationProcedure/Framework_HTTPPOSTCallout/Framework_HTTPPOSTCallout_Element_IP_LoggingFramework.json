@@ -31,8 +31,10 @@
             "RequestPayload": "%Payload%",
             "Service_Name": "%Service_Name%",
             "headers": "%HA_HTTPEndpointCalloutInfo%",
+            "ipName": "%ipName%",
             "payload": "%HA_HTTPEndpointCallout%",
             "procedureName": "Framework_HTTPPOSTCallout",
+            "retryRecordId": "%retryRecordId%",
             "statusCode": "%HA_HTTPEndpointCalloutInfo:statusCode%"
         },
         "additionalOutput": {

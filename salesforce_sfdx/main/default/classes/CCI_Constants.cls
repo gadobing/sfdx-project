@@ -24,10 +24,22 @@ public without sharing class CCI_Constants {
     public static final String GET_BASE64STRING 	= 'getBase64String';
     public static final String CONTENT_DOCUMENT_ID 	= 'ContentDocumentId';
     public static final String BASE64STRING 		= 'Base64String';
-
+    
     public static final String UTILITY_METHOD		= 'utilityMethod';
+    public static final String RETRY_REQUEST_METHOD	= 'retryRequest';
     public static final String P8_POST_UPLOAD		= 'P8PostUpload';
     
+    public static final String INTEGRATION_LOG_FRAMEWORK		= 'CCI_IntregrationLogFramework';
+    
+    public static final String STATUS_SUCCESS						= 'Success';
+    public static final String STATUS_FAILURE_AWAITING_RETRY		= 'Failed - Awaiting Retry';
+    public static final String STATUS_FAILED						= 'Failed';
+    public static final String STATUS_RESUBMISSION_IN_PROGRESS		= 'Resubmission In Progress';
+    public static final String STATUS_ERROR							= 'Error';
+    
+    public static final String HTTP_METHOD_POST						= 'POST';
+    public static final String HTTP_HEADER_AUTHORIZATION			= 'Authorization';
+    public static final String HTTP_HEADER_CONTENT_TYPE				= 'Content-Type';
     
     public static map<String, String> GET_MIMETYPE_MAPPING = new map<String, String> 
     {
@@ -40,7 +52,7 @@ public without sharing class CCI_Constants {
      'application/vnd.ms-excel' => 'xls', 
      'application/vnd.ms-excel.sheet.macroEnabled.12' => 'xlsm', 
      'application/msword' => 'doc',
-     'image/tiff' => 'tiff',
+      'image/tiff' => 'tiff',
      'image/tif' => 'tif',
      'image/bmp' => 'bmp', 
      'image/gif' => 'gif', 
