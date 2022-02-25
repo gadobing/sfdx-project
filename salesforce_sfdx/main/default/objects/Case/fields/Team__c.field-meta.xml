@@ -343,6 +343,61 @@
                 <default>false</default>
                 <label>CRM AOR Change Requests</label>
             </value>
+            <value>
+                <fullName>CRM Dental COCC Requests</fullName>
+                <default>false</default>
+                <label>CRM Dental COCC Requests</label>
+            </value>
+            <value>
+                <fullName>CRM Effective Date Change Requests</fullName>
+                <default>false</default>
+                <label>CRM Effective Date Change Requests</label>
+            </value>
+            <value>
+                <fullName>CRM Escalations Team</fullName>
+                <default>false</default>
+                <label>CRM Escalations Team</label>
+            </value>
+            <value>
+                <fullName>CRM Medicare Adv and Rx Escalations</fullName>
+                <default>false</default>
+                <label>CRM Medicare Adv and Rx Escalations</label>
+            </value>
+            <value>
+                <fullName>CRM OP Service Return Mail</fullName>
+                <default>false</default>
+                <label>CRM OP Service Return Mail</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Service Emails</fullName>
+                <default>false</default>
+                <label>CRM Operations and Service Emails</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Service Faxes</fullName>
+                <default>false</default>
+                <label>CRM Operations and Service Faxes</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Service Mail</fullName>
+                <default>false</default>
+                <label>CRM Operations and Service Mail</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Services</fullName>
+                <default>false</default>
+                <label>CRM Operations and Services</label>
+            </value>
+            <value>
+                <fullName>CRM Operations Data Entry</fullName>
+                <default>false</default>
+                <label>CRM Operations Data Entry</label>
+            </value>
+            <value>
+                <fullName>CRM Out of State Residency</fullName>
+                <default>false</default>
+                <label>CRM Out of State Residency</label>
+            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
@@ -566,8 +621,60 @@
             <valueName>CRM AOR Change Requests</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Dental COCC Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Effective Date Change Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Escalations Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Medicare Adv and Rx Escalations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM OP Service Return Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Service Emails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Service Faxes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Service Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations Data Entry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Out of State Residency</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>Medical Review</controllingFieldValue>
             <valueName>Exchange Case Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>Exchange Medical Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>MARS Exchange Nurse</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Medical Review</controllingFieldValue>
