@@ -4,7 +4,7 @@ import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 ////import getInvoiceDetails from '@salesforce/apex/CCI_InvoiceController.getInvoiceDetails';
 //import { getNamespaceDotNotation } from '%vlocity_namespace%/omniscriptInternalUtils'; 
 //_%vlocity_namespace% = getNamespaceDotNotation();
-import { OmniscriptActionCommonUtil } from '%vlocity_namespace%/omniscriptActionUtils';
+import { OmniscriptActionCommonUtil } from 'omnistudio/omniscriptActionUtils';
 export default class Cci_ShowInvoice extends LightningElement {
     strData;
     recId;
