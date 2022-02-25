@@ -2,8 +2,8 @@ import { LightningElement ,api, wire, track } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 //import getInvoiceDetails from '@salesforce/apex/CCI_ShowInvoiceController.getInvoiceDetails';
 ////import getInvoiceDetails from '@salesforce/apex/CCI_InvoiceController.getInvoiceDetails';
-//import { getNamespaceDotNotation } from '%vlocity_namespace%/omniscriptInternalUtils'; 
-//_%vlocity_namespace% = getNamespaceDotNotation();
+//import { getNamespaceDotNotation } from 'omnistudio/omniscriptInternalUtils'; 
+//_omnistudio = getNamespaceDotNotation();
 import { OmniscriptActionCommonUtil } from 'omnistudio/omniscriptActionUtils';
 export default class Cci_ShowInvoice extends LightningElement {
     strData;

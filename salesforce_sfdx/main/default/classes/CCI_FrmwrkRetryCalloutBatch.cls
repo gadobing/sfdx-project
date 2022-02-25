@@ -90,7 +90,7 @@ global class CCI_FrmwrkRetryCalloutBatch implements Database.Batchable<sObject>,
         Map<String, Object> ipOptions = new Map<String, Object> ();
         ipInput.put(PARENT_RECORD_SFDC_ID, parentRecordId);
         ipInput.put(RETRY_RECORD_ID, retryRecordId);
-        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(
+        ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(
                 IPName, ipInput, ipOptions);
     }
 }

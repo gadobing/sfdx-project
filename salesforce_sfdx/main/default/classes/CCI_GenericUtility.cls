@@ -8,7 +8,7 @@
 * @Version          Date              Changes made 
     CH00		    2/11/2022		  Initial Draft
 ***********************************************************************************************/
-global class CCI_GenericUtility implements %vlocity_namespace%.VlocityOpenInterface{
+global class CCI_GenericUtility implements omnistudio.VlocityOpenInterface{
     
     /*************************************************************************************
     @Description : Used for P8DocumentUploadBackendProcess IP

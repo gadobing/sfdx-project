@@ -8,7 +8,7 @@
 * @Version          Date              Changes made 
     CH00		     02/16/2022		        Initial Draft
 ************************************************************************/
-global with sharing class CCI_FrmwrkHttpPostCallout implements %vlocity_namespace%.VlocityOpenInterface {
+global with sharing class CCI_FrmwrkHttpPostCallout implements omnistudio.VlocityOpenInterface {
     
     private static final String UTILITY_METHOD_NAME 			= 'utilityMethodName';
     private static final String ADDITIONAL_METHOD_ARGUEMENTS 	= 'additionalMethodArguments';
@@ -124,7 +124,7 @@ global with sharing class CCI_FrmwrkHttpPostCallout implements %vlocity_namespac
         additionalMethodArguments = null;
         retryRecordId = null;  
         ipNameToRetry = null;
-        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(
+        ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(
             IPName, ipInput, ipOptions);
        
     }
