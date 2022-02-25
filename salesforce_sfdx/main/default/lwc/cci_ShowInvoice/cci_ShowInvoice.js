@@ -4,7 +4,7 @@ import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 ////import getInvoiceDetails from '@salesforce/apex/CCI_InvoiceController.getInvoiceDetails';
 //import { getNamespaceDotNotation } from '%vlocity_namespace%/omniscriptInternalUtils'; 
 //_%vlocity_namespace% = getNamespaceDotNotation();
-import { OmniscriptActionCommonUtil } from 'omnistudio/omniscriptActionUtils';
+import { OmniscriptActionCommonUtil } from '%vlocity_namespace%/omniscriptActionUtils';
 export default class Cci_ShowInvoice extends LightningElement {
     strData;
     recId;
@@ -79,52 +79,5 @@ export default class Cci_ShowInvoice extends LightningElement {
     }
     invoiceDetails(){
 
-        /*
-        getInvoiceDetails({ memberId: this.recId,invoiceId:'1234' })
-                .then(result => {
-                    
-                   // this.showLoading =false;
-                    console.log('result',result);
-                    if(result.statusCode == 200 ){
-                    this.invoice = result;
-                    this.strData = 'data:'+this.invoice.format+ ';'+this.invoice.encoding+','+this.invoice.content;
-                  
-                     console.log('result',result);
-                
-                    }
-                    else if(result.statusCode == 404){
-                        const evt = new ShowToastEvent({
-                            title: 'Error',
-                            message: 'Invoice not found for this member',
-                            variant: 'error',
-                            mode: 'sticky'
-                        });
-                        this.dispatchEvent(evt);
-                       
-                    }
-                    else{
-                        const evt = new ShowToastEvent({
-                            title: 'Error',
-                            message: 'Something went wrong, please try again after some time(Error Code= '+result.statusCode+',Message = '+result.status+')!',
-                            variant: 'error',
-                            mode: 'sticky'
-                        });
-                        this.dispatchEvent(evt);
-                      
-                    }
-                })
-                .catch(error => {
-                    this.error = error;
-                    console.log('error',error);
-
-                    const evt = new ShowToastEvent({
-                        title: 'Error',
-                        message: error.body.message,
-                        variant: 'error',
-                        mode: 'sticky'
-                    });
-                    this.dispatchEvent(evt);
-                  
-                }); */
     }
 }
