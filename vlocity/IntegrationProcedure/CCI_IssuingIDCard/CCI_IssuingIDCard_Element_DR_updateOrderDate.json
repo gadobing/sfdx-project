@@ -8,6 +8,20 @@
         "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/IssuingIDCard/Procedure",
         "VlocityRecordSObjectType": "OmniProcess"
     },
+    "ParentElementId": {
+        "Name": "Is_Not_Issued",
+        "OmniProcessId": {
+            "Name": "Issuing ID Card",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/IssuingIDCard/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/IssuingIDCard/Procedure/Is_Not_Issued",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Is_Not_Issued",
+    "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {

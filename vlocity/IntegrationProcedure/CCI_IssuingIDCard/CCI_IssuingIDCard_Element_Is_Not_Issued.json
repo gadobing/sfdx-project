@@ -24,7 +24,7 @@
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "disOnTplt": false,
-        "executionConditionalFormula": "%IP_Framework_GETCallout:response:isOrderInProgress% == true",
+        "executionConditionalFormula": "%IP_Framework_GETCallout:response:isOrderInProgress% == false",
         "isIfElseBlock": false,
         "label": "ConditionalBlock2",
         "show": null

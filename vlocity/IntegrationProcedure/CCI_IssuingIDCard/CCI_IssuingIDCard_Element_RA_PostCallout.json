@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Is_Success_Post",
+        "Name": "Is_Not_Issued",
         "OmniProcessId": {
             "Name": "Issuing ID Card",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,11 +17,11 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/IssuingIDCard/Procedure/Is_Success_Post",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/IssuingIDCard/Procedure/Is_Not_Issued",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Is_Success_Post",
-    "ParentElementType": "Loop Block",
+    "ParentElementName": "Is_Not_Issued",
+    "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "additionalOutput": {
         },
@@ -35,8 +35,8 @@
         "responseJSONPath": "",
         "returnFullDataJSON": false,
         "returnOnlyAdditionalOutput": false,
-        "sendJSONNode": "",
-        "sendJSONPath": "IP_Framework_PostCallout:response",
+        "sendJSONNode": "Output",
+        "sendJSONPath": "IP_Framework_PostCallout:FrameworkResponse",
         "show": null,
         "useFormulas": true,
         "vlcResponseHeaders": {

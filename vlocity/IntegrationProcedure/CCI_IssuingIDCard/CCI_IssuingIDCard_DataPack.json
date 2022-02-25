@@ -12,13 +12,17 @@
         "CCI_IssuingIDCard_Element_DR_getMemberId.json",
         "CCI_IssuingIDCard_Element_SV_ServiceDetails.json",
         "CCI_IssuingIDCard_Element_IP_Framework_GETCallout.json",
-        "CCI_IssuingIDCard_Element_DR_updateOrderDate.json",
         "CCI_IssuingIDCard_Element_Is_Success.json",
         "CCI_IssuingIDCard_Element_Is_Not_Issued.json",
         "CCI_IssuingIDCard_Element_IP_Framework_PostCallout.json",
-        "CCI_IssuingIDCard_Element_Is_Success_Post.json",
+        "CCI_IssuingIDCard_Element_DR_updateOrderDate.json",
         "CCI_IssuingIDCard_Element_RA_PostCallout.json",
-        "CCI_IssuingIDCard_Element_RA_GETCallout.json"
+        "CCI_IssuingIDCard_Element_Is_Success_Post.json",
+        "CCI_IssuingIDCard_Element_RA_GETCallout.json",
+        "CCI_IssuingIDCard_Element_IS_Failure400.json",
+        "CCI_IssuingIDCard_Element_RA_Failure400.json",
+        "CCI_IssuingIDCard_Element_IS_Failure.json",
+        "CCI_IssuingIDCard_Element_RA_Failure.json"
     ],
     "OmniProcessKey": "CCI_IssuingIDCard",
     "OmniProcessType": "Integration Procedure",
@@ -28,5 +32,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/IssuingIDCard/Procedure",
-    "WebComponentKey": "46fd8dbb-5f09-d7af-aa58-dbb50e894cc5"
+    "WebComponentKey": "3148130d-77bb-0e6d-3fc7-400bfb4fca06"
 }
