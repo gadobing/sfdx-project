@@ -272,6 +272,12 @@
     </relatedLists>
     <relatedLists>
         <fields>Name</fields>
+        <fields>ConditionCode</fields>
+        <fields>Severity</fields>
+        <relatedList>HealthConditions</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
         <fields>LastModifiedDate</fields>
         <fields>LastModifiedBy</fields>
         <fields>Member</fields>

@@ -3,6 +3,7 @@
     <fullName>SDOH_Heard__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
+    <inlineHelpText>Social determinants of health heard</inlineHelpText>
     <label>SDOH Heard?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

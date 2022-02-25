@@ -20,6 +20,7 @@
             "InquirerPhone": "%Result:Case|1:ContactPhone%",
             "InquirerType": "%Result:Case|1:Inquirer_Type__c%",
             "PhoneNumber": "%Result:Case|1:ContactPhone%",
+            "SelectCaseType": "%Result:Case|1:RecordType:Name%",
             "SelectDepartmentRouteAnotherTeam": "%Result:Case|1:Department__c%",
             "SelectPriority": "%Result:Case|1:Priority%",
             "SelectProactiveListeningOutcome": "%Result:Case|1:Proactive_Listening_Outcome__c%",

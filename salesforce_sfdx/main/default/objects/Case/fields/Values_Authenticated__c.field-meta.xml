@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Values_Authenticated__c</fullName>
+    <externalId>false</externalId>
+    <label>Values Authenticated</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Member ID</fullName>
+                <default>false</default>
+                <label>Member ID</label>
+            </value>
+            <value>
+                <fullName>Date of birth</fullName>
+                <default>false</default>
+                <label>Date of birth</label>
+            </value>
+            <value>
+                <fullName>Mailing Address</fullName>
+                <default>false</default>
+                <label>Mailing Address</label>
+            </value>
+            <value>
+                <fullName>Member Name</fullName>
+                <default>false</default>
+                <label>Member Name</label>
+            </value>
+            <value>
+                <fullName>Last four digits of SSN</fullName>
+                <default>false</default>
+                <label>Last four digits of SSN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

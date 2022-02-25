@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Last_4_Digit_Of_SSN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Member_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.SDOH_Heard__c</field>
@@ -10,15 +19,33 @@
         <editable>true</editable>
         <field>Case.Health_Condition__c</field>
         <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Health_Condition_Heard__c</field>
         <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Department__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Product_Line__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Team__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Proactive_Listening_Details__c</field>
         <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Proactive_Listening_Outcome__c</field>
         <readable>true</readable>

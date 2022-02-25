@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team__c</fullName>
+    <externalId>false</externalId>
+    <label>Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exchange CCM Adjustments</fullName>
+                <default>false</default>
+                <label>Exchange CCM Adjustments</label>
+            </value>
+            <value>
+                <fullName>Exchange Corrected Claims</fullName>
+                <default>false</default>
+                <label>Exchange Corrected Claims</label>
+            </value>
+            <value>
+                <fullName>Exchange CSR Adjustments</fullName>
+                <default>false</default>
+                <label>Exchange CSR Adjustments</label>
+            </value>
+            <value>
+                <fullName>Exchange Escalated NDR Adjustment Issues</fullName>
+                <default>false</default>
+                <label>Exchange Escalated NDR Adjustment Issues</label>
+            </value>
+            <value>
+                <fullName>Exchange Instate Eligibility</fullName>
+                <default>false</default>
+                <label>Exchange Instate Eligibility</label>
+            </value>
+            <value>
+                <fullName>Exchange Instate Re-Review</fullName>
+                <default>false</default>
+                <label>Exchange Instate Re-Review</label>
+            </value>
+            <value>
+                <fullName>Exchange Overpayments/Refunds - Claims</fullName>
+                <default>false</default>
+                <label>Exchange Overpayments/Refunds - Claims</label>
+            </value>
+            <value>
+                <fullName>Exchange Refunds CSR</fullName>
+                <default>false</default>
+                <label>Exchange Refunds CSR</label>
+            </value>
+            <value>
+                <fullName>Exchange Timely Filing</fullName>
+                <default>false</default>
+                <label>Exchange Timely Filing</label>
+            </value>
+            <value>
+                <fullName>Exchange WalkThrough Claims</fullName>
+                <default>false</default>
+                <label>Exchange WalkThrough Claims</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange CCM Adjustments</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange CCM Adjustments</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange- Corrected Claims</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange- Corrected Claims</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Escalated NDR Adjustment Issues</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Escalated NDR Adjustment Issues</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Instate Eligibility</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Instate Eligibility</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Instate Re-Review</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Instate Re-Review</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Overpayments/Refunds - Claims</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Overpayments/Refunds - Claims</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Refunds CSR</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Refunds CSR</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Walkthrough Claims</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Walkthrough Claims</label>
+            </value>
+            <value>
+                <fullName>Health Advatage Exchange CSR Adjustments</fullName>
+                <default>false</default>
+                <label>Health Advatage Exchange CSR Adjustments</label>
+            </value>
+            <value>
+                <fullName>Exchange - ITS Legal Appeals</fullName>
+                <default>false</default>
+                <label>Exchange - ITS Legal Appeals</label>
+            </value>
+            <value>
+                <fullName>Exchange CSR ITS Adjustments</fullName>
+                <default>false</default>
+                <label>Exchange CSR ITS Adjustments</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange COB Claims/Adjustments</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange COB Claims/Adjustments</label>
+            </value>
+            <value>
+                <fullName>Exchange ITS B2 Incoming Appeals</fullName>
+                <default>false</default>
+                <label>Exchange ITS B2 Incoming Appeals</label>
+            </value>
+            <value>
+                <fullName>Exchange  COB Claims/Adjustments</fullName>
+                <default>false</default>
+                <label>Exchange  COB Claims/Adjustments</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange ITS CSR Adjustments</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange ITS CSR Adjustments</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange- ITS Legal Appeals</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange- ITS Legal Appeals</label>
+            </value>
+            <value>
+                <fullName>815 Exchange</fullName>
+                <default>false</default>
+                <label>815 Exchange</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership PCP Update</fullName>
+                <default>false</default>
+                <label>Exchange - Membership PCP Update</label>
+            </value>
+            <value>
+                <fullName>Exchange - Voice Mail</fullName>
+                <default>false</default>
+                <label>Exchange - Voice Mail</label>
+            </value>
+            <value>
+                <fullName>Exchange Authorizations</fullName>
+                <default>false</default>
+                <label>Exchange Authorizations</label>
+            </value>
+            <value>
+                <fullName>Exchange Customer Service</fullName>
+                <default>false</default>
+                <label>Exchange Customer Service</label>
+            </value>
+            <value>
+                <fullName>Exchange Incoming Correspondence</fullName>
+                <default>false</default>
+                <label>Exchange Incoming Correspondence</label>
+            </value>
+            <value>
+                <fullName>Exchange Outgoing Correspondence</fullName>
+                <default>false</default>
+                <label>Exchange Outgoing Correspondence</label>
+            </value>
+            <value>
+                <fullName>Exchg - Customer Service Email</fullName>
+                <default>false</default>
+                <label>Exchg - Customer Service Email</label>
+            </value>
+            <value>
+                <fullName>Exchange Prior Approval Request (Faxes/Incoming Mail Only)</fullName>
+                <default>false</default>
+                <label>Exchange Prior Approval Request (Faxes/Incoming Mail Only)</label>
+            </value>
+            <value>
+                <fullName>Exchg - Customer Service Researchers</fullName>
+                <default>false</default>
+                <label>Exchg - Customer Service Researchers</label>
+            </value>
+            <value>
+                <fullName>Social - Exchange</fullName>
+                <default>false</default>
+                <label>Social - Exchange</label>
+            </value>
+            <value>
+                <fullName>Pre-service Benefit Inquiry</fullName>
+                <default>false</default>
+                <label>Pre-service Benefit Inquiry</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership HICS Review</fullName>
+                <default>false</default>
+                <label>Exchange - Membership HICS Review</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership 1095A</fullName>
+                <default>false</default>
+                <label>Exchange - Membership 1095A</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership 1095B</fullName>
+                <default>false</default>
+                <label>Exchange - Membership 1095B</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Cancellation</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Cancellation</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Enrollment</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Enrollment</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Off Exchange</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Off Exchange</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Pharmacy Requests</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Pharmacy Requests</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Welcome Packets</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Welcome Packets</label>
+            </value>
+            <value>
+                <fullName>Exchange Retroactivity</fullName>
+                <default>false</default>
+                <label>Exchange Retroactivity</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Retroactivity</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Retroactivity</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Reinstatements</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Reinstatements</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Alacriti Payment Questions</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Alacriti Payment Questions</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Draft</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Draft</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Financial</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Financial</label>
+            </value>
+            <value>
+                <fullName>Exchange - Membership Refunds</fullName>
+                <default>false</default>
+                <label>Exchange - Membership Refunds</label>
+            </value>
+            <value>
+                <fullName>Exchange Liability and Recovery</fullName>
+                <default>false</default>
+                <label>Exchange Liability and Recovery</label>
+            </value>
+            <value>
+                <fullName>Exchange Case Management</fullName>
+                <default>false</default>
+                <label>Exchange Case Management</label>
+            </value>
+            <value>
+                <fullName>Exchange Medical Management</fullName>
+                <default>false</default>
+                <label>Exchange Medical Management</label>
+            </value>
+            <value>
+                <fullName>MARS Exchange Nurse</fullName>
+                <default>false</default>
+                <label>MARS Exchange Nurse</label>
+            </value>
+            <value>
+                <fullName>Exchange CM - Do not route to this queue</fullName>
+                <default>false</default>
+                <label>Exchange CM - Do not route to this queue</label>
+            </value>
+            <value>
+                <fullName>MARS OP EXCH PA Follow Up</fullName>
+                <default>false</default>
+                <label>MARS OP EXCH PA Follow Up</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange Legal Appeals</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange Legal Appeals</label>
+            </value>
+            <value>
+                <fullName>Health Advantage Exchange ITS Legal Appeals</fullName>
+                <default>false</default>
+                <label>Health Advantage Exchange ITS Legal Appeals</label>
+            </value>
+            <value>
+                <fullName>Exchange MURS ITS Prepay Nurse</fullName>
+                <default>false</default>
+                <label>Exchange MURS ITS Prepay Nurse</label>
+            </value>
+            <value>
+                <fullName>Exchange MURS ITS Re-Review</fullName>
+                <default>false</default>
+                <label>Exchange MURS ITS Re-Review</label>
+            </value>
+            <value>
+                <fullName>Exchange MURS P2P</fullName>
+                <default>false</default>
+                <label>Exchange MURS P2P</label>
+            </value>
+            <value>
+                <fullName>MARS OP EXCH PA Received</fullName>
+                <default>false</default>
+                <label>MARS OP EXCH PA Received</label>
+            </value>
+            <value>
+                <fullName>CRM AOR Change Requests</fullName>
+                <default>false</default>
+                <label>CRM AOR Change Requests</label>
+            </value>
+            <value>
+                <fullName>CRM Dental COCC Requests</fullName>
+                <default>false</default>
+                <label>CRM Dental COCC Requests</label>
+            </value>
+            <value>
+                <fullName>CRM Effective Date Change Requests</fullName>
+                <default>false</default>
+                <label>CRM Effective Date Change Requests</label>
+            </value>
+            <value>
+                <fullName>CRM Escalations Team</fullName>
+                <default>false</default>
+                <label>CRM Escalations Team</label>
+            </value>
+            <value>
+                <fullName>CRM Medicare Adv and Rx Escalations</fullName>
+                <default>false</default>
+                <label>CRM Medicare Adv and Rx Escalations</label>
+            </value>
+            <value>
+                <fullName>CRM OP Service Return Mail</fullName>
+                <default>false</default>
+                <label>CRM OP Service Return Mail</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Service Emails</fullName>
+                <default>false</default>
+                <label>CRM Operations and Service Emails</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Service Faxes</fullName>
+                <default>false</default>
+                <label>CRM Operations and Service Faxes</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Service Mail</fullName>
+                <default>false</default>
+                <label>CRM Operations and Service Mail</label>
+            </value>
+            <value>
+                <fullName>CRM Operations and Services</fullName>
+                <default>false</default>
+                <label>CRM Operations and Services</label>
+            </value>
+            <value>
+                <fullName>CRM Operations Data Entry</fullName>
+                <default>false</default>
+                <label>CRM Operations Data Entry</label>
+            </value>
+            <value>
+                <fullName>CRM Out of State Residency</fullName>
+                <default>false</default>
+                <label>CRM Out of State Residency</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange CCM Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange Corrected Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange CSR Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange Escalated NDR Adjustment Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange Instate Eligibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange Instate Re-Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange Overpayments/Refunds - Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange Refunds CSR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange Timely Filing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange WalkThrough Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange CCM Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange- Corrected Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange Escalated NDR Adjustment Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange Instate Eligibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange Instate Re-Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange Overpayments/Refunds - Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange Refunds CSR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange Walkthrough Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advatage Exchange CSR Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange - ITS Legal Appeals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange CSR ITS Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange COB Claims/Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Exchange ITS B2 Incoming Appeals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Exchange  COB Claims/Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange ITS CSR Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>Health Advantage Exchange- ITS Legal Appeals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>815 Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchange - Membership PCP Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchange - Voice Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchange Authorizations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchange Customer Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchange Incoming Correspondence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchange Outgoing Correspondence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchg - Customer Service Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchange Prior Approval Request (Faxes/Incoming Mail Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Exchg - Customer Service Researchers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Social - Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <valueName>Pre-service Benefit Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership HICS Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership 1095A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership 1095B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Enrollment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Off Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Pharmacy Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Welcome Packets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange Retroactivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Health Advantage Exchange Retroactivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Reinstatements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Alacriti Payment Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Draft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange - Membership Refunds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>Exchange Liability and Recovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM AOR Change Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Dental COCC Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Effective Date Change Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Escalations Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Medicare Adv and Rx Escalations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM OP Service Return Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Service Emails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Service Faxes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Service Mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations and Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Operations Data Entry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <valueName>CRM Out of State Residency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>Exchange Case Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>Exchange Medical Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>MARS Exchange Nurse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>MARS OP EXCH PA Follow Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>Exchange MURS ITS Prepay Nurse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>Exchange MURS ITS Re-Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>Exchange MURS P2P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Review</controllingFieldValue>
+            <valueName>MARS OP EXCH PA Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Exchange CM - Do not route to this queue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Health Advantage Exchange Legal Appeals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Health Advantage Exchange ITS Legal Appeals</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
