@@ -14,7 +14,7 @@
             "IsError": false,
             "Message_ID": "%Message_ID%",
             "Parent_Record_SFDC_ID": "%Parent_Record_SFDC_ID%",
-            "Payload": "%RequestPayload%",
+            "Payload": "=SUBSTRING(%RequestPayload%,0,2000)",
             "Service_Name": "%Service_Name%"
         },
         "additionalOutput": {

@@ -35,7 +35,9 @@
             "authorization": "Bearer %HA_GetApigeeAuthToken:access_token%",
             "contentType": "application/json",
             "endpoint": "%DRE_ExtractEndpointSettings:Named_Credential__c%%DRE_ExtractEndpointSettings:Params__c%%DynamicParams%",
+            "ipName": "%ipName%",
             "isLoggingEnabled": "%DRE_ExtractEndpointSettings:Logging_Enabled__c%",
+            "retryRecordId": "%retryRecordId%",
             "utilityMethodName": "%DRE_ExtractEndpointSettings:Apex_Method_Name%"
         },
         "additionalOutput": {

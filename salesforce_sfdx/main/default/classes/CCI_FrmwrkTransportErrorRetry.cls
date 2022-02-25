@@ -19,8 +19,18 @@ global with sharing class CCI_FrmwrkTransportErrorRetry implements omnistudio.Vl
     global String payload;
     global String ipName;
     global String systemName;
+    global String additionalMethodArguments;
     global List<CCI_Integration_System_Setting__mdt> mdtSettings;
     global CCI_Integration_Error_Retry__c fmwkBatchProcessLog;
+    
+    //private strings
+    private static final String JOB_PREFIX = 'Retry Integration Framework - ';
+    private static final String PARENT_RECORD_ID = 'ParentRecordId';
+    private static final String SYSTEM_NAME = 'SystemName';
+	private static final String ERROR_OBJECT_LOG_ID = 'ErrorObjectLogId';
+    private static final String MAX_RETRY_LIMIT_MESSAGE_1 = '\nMax Retry Limit Reached! \nMax retry allowed: ';
+	private static final String MAX_RETRY_LIMIT_MESSAGE_2 = '\nNumber of retries already attempted: ';
+
 
     /*************************************************************************************
     @Description : Called from the IP
@@ -31,7 +41,7 @@ global with sharing class CCI_FrmwrkTransportErrorRetry implements omnistudio.Vl
     global Boolean invokeMethod(String methodName, Map<String, Object> inputMap, Map<String, Object> outMap, Map<String, Object> options) {
         Boolean ret = true;
         try {
-            if (methodName.equals('retryRequest')) {
+            if (methodName.equals(CCI_Constants.RETRY_REQUEST_METHOD)) {
                 retryRequest(inputMap);
             }
         } catch (Exception e) {
@@ -42,7 +52,7 @@ global with sharing class CCI_FrmwrkTransportErrorRetry implements omnistudio.Vl
         }
         return ret;
     }
-
+    
     /*************************************************************************************
     @Description : Used for the retry mechanism
 	@Author 	 : SFDC
@@ -50,84 +60,56 @@ global with sharing class CCI_FrmwrkTransportErrorRetry implements omnistudio.Vl
 	@Return 	 : None
     **************************************************************************************/
     public void retryRequest(Map<String, Object> inputMap) {
-        System.debug('Here');
-        if (String.isNotBlank(String.valueOf(inputMap.get('ParentRecordId')))) {
-            this.recordId = String.valueOf(inputMap.get('ParentRecordId'));
-            this.retryRequestId = (Id) String.valueOf(inputMap.get('ErrorObjectLogId'));
-            this.systemName = String.valueOf(inputMap.get('SystemName'));
-            this.path = String.valueOf(inputMap.get('Path'));
-            this.messageID = String.valueOf(inputMap.get('MessageID'));
-            this.payload = String.valueOf(inputMap.get('Payload'));
-            this.ipName = String.valueOf(inputMap.get('IntegrationProcedureName'));
-            
-            this.fmwkBatchProcessLog = (CCI_Integration_Error_Retry__c) [SELECT Id FROM CCI_Integration_Error_Retry__c WHERE Id = :this.retryRequestId LIMIT 1];
-            setRetryCount();
+        if (String.isNotBlank(String.valueOf(inputMap.get(PARENT_RECORD_ID)))) {
+            this.systemName = String.valueOf(inputMap.get(SYSTEM_NAME));
+            this.retryRequestId = (Id) String.valueOf(inputMap.get(ERROR_OBJECT_LOG_ID));
+            this.fmwkBatchProcessLog = (CCI_Integration_Error_Retry__c) [SELECT Id,Retry_Count__c,Retry_Status__c,
+                                                                         Error_Message__c
+                                                                         FROM CCI_Integration_Error_Retry__c 
+                                                                         WHERE Id = :this.retryRequestId LIMIT 1];
             setmdtSettings();
             if (this.mdtSettings.size() > 0) {
-                if (this.retryCount <= this.mdtSettings[0].Transport_Error_Max_Retry__c) {
-                    String sch = generateSchedule();
-                    String jobName = 'Integration Framework - ID: ' + this.recordId + ' RETRY_COUNT: ' + String.valueOf(this.retryCount);
-                    CCI_FrmwrkRQRErrorRetrySchedulable m = new CCI_FrmwrkRQRErrorRetrySchedulable(this.ipName, this.recordId, this.retryRequestId, this.systemName, this.messageID, this.path, this.payload);               
-                    String jobID = System.schedule(jobName, sch, m);
-                    System.debug('Scheduled Job'+jobId);
-                } else if(this.mdtSettings[0].Transport_Error_Max_Retry__c!=0) {
-                    updateRQRBatch('Error', 'Max Retry Limit Reached! \nMax retry allowed: '
-                            + this.mdtSettings[0].Transport_Error_Max_Retry__c + '\nNumber of retries already attempted: ' + this.retryCount);
+                Integer retrytimeInterval = (Integer) this.mdtSettings[0].Transport_Layer_Retry_Delay__c;
+                Integer maxRetries = (Integer) this.mdtSettings[0].Transport_Error_Max_Retry__c;
+                if (this.fmwkBatchProcessLog.Retry_Count__c < maxRetries) {
+                    Integer batchSize = 1;
+                    List<CronTrigger> cronTriggers = [SELECT Id, NextFireTime, CronJobDetail.Name FROM CronTrigger
+                                                      WHERE CronJobDetail.Name LIKE :'%' + this.systemName + '%' AND NextFireTime != NULL];
+                    if(cronTriggers.isEmpty()){
+                        CCI_FrmwrkRetryCalloutBatch batchJob = new CCI_FrmwrkRetryCalloutBatch(this.systemName);
+                        String jobDescription = JOB_PREFIX + this.systemName + ' - ' + System.now();
+                        System.scheduleBatch(batchJob, jobDescription, retrytimeInterval, batchSize);//scheduling batch for resubmission of network failed orders. 
+                    }
+                    updateRQRBatch(CCI_Constants.STATUS_RESUBMISSION_IN_PROGRESS, (Integer) this.fmwkBatchProcessLog.Retry_Count__c+1, null);
+                }
+                else if(!(this.mdtSettings[0].Transport_Error_Max_Retry__c==0)) {
+                    updateRQRBatch(CCI_Constants.STATUS_ERROR, null,this.fmwkBatchProcessLog.Error_Message__c + MAX_RETRY_LIMIT_MESSAGE_1
+                            + this.mdtSettings[0].Transport_Error_Max_Retry__c + MAX_RETRY_LIMIT_MESSAGE_2 + (Integer) this.fmwkBatchProcessLog.Retry_Count__c);
                 }
                 else{
-                    updateRQRBatch('Error', null);
+                    updateRQRBatch(CCI_Constants.STATUS_ERROR, 0, null);
                 }
             }
-
+            
+            
         }
     }
-
-    /*************************************************************************************
-    @Description : Used to schedule the apex class
-	@Author 	 : SFDC
-	@Params 	 : None
-	@Return 	 : String
-    **************************************************************************************/
-    private String generateSchedule() {
-        Integer RetryDelay = (Integer) this.mdtSettings[0].Transport_Layer_Retry_Delay__c;
-        Datetime NewDatetime = Datetime.now();
-        NewDatetime = NewDatetime.addMinutes(this.retryCount * RetryDelay);
-        String Year = String.valueOf(NewDatetime).substring(0, 4);
-        String Day = String.valueOf(NewDatetime).substring(8, 10);
-        String Month = String.valueOf(NewDatetime).substring(5, 7);
-        String Hour = String.valueOf(NewDatetime).substring(11, 13);
-        String Minute = String.valueOf(NewDatetime).substring(14, 16);
-        String sch = '0 ' + Minute + ' ' + Hour + ' ' + Day + ' ' + Month + ' ? ' + Year;
-        return sch;
-    }
-
+    
     /*************************************************************************************
     @Description : Used to update the status of the error retry object
 	@Author 	 : SFDC
-	@Params 	 : String status, String errorMessage
+	@Params 	 : String status,  Integer retryCount, String errorMessage
 	@Return 	 : None
     **************************************************************************************/
-    private void updateRQRBatch(String status, String errorMessage) {
-        this.fmwkBatchProcessLog.Status__c = status;
-        if(errorMessage!=null){  
+    private void updateRQRBatch(String status, Integer retryCount, String errorMessage) {
+        this.fmwkBatchProcessLog.Retry_Status__c = status;  
+        if(errorMessage!=null){
             this.fmwkBatchProcessLog.Error_Message__c = errorMessage;
         }
+        if(retryCount!=null){
+            this.fmwkBatchProcessLog.Retry_Count__c = retryCount;
+        }
         update this.fmwkBatchProcessLog;
-    }
-
-    /*************************************************************************************
-    @Description : Return the count of Error retry object
-	@Author 	 : SFDC
-	@Params 	 : None
-	@Return 	 : None
-    **************************************************************************************/
-    private void setRetryCount() {
-        this.retryCount = [
-                SELECT COUNT()
-                FROM CCI_Integration_Error_Retry__c
-                WHERE Parent_Record_SFDC_ID__c = :this.recordId 
-                AND System_Name__c = :this.systemName
-        ];
     }
 
     /*************************************************************************************

@@ -25,12 +25,14 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "Error_Message": "%payload%",
+            "Error_Message": "=IF(ISNOTBLANK(%retryRecordId%),CONCAT(%DR_GetRetryRecord:Retry_Record:Error_Message__c%,'-',%payload%),%payload%)",
+            "Id": "%retryRecordId%",
             "Message_ID": "%Message_ID%",
             "Parent_Record_SFDC_ID": "%Parent_Record_SFDC_ID%",
             "Retry_Reason": "%statusCode%",
             "Status": "Pending",
-            "System_Name": "%Service_Name%"
+            "System_Name": "%Service_Name%",
+            "ipName": "%ipName%"
         },
         "additionalOutput": {
         },
@@ -38,7 +40,7 @@
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",
-        "failOnStepError": true,
+        "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {
         },

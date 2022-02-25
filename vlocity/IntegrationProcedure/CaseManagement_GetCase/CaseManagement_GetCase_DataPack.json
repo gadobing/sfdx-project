@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "CaseManagement_GetCase_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IPGetCaseInfo",
+    "OmniProcessElement": [
+        "CaseManagement_GetCase_Element_DataRaptorTurboGetCaseInfo.json",
+        "CaseManagement_GetCase_Element_DataRaptorTurboGetUserInfo.json",
+        "CaseManagement_GetCase_Element_DataRaptorTurboGetCaseType.json",
+        "CaseManagement_GetCase_Element_DataRaptorTurboGetMemberDetails.json",
+        "CaseManagement_GetCase_Element_DataRaptorTurboGetMailingAddressForMember.json",
+        "CaseManagement_GetCase_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "CaseManagement_GetCase",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CaseManagement_GetCase_PropertySetConfig.json",
+    "SubType": "GetCase",
+    "Type": "CaseManagement",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CaseManagement/GetCase/Procedure",
+    "WebComponentKey": "5ea245fc-0340-7642-061c-7da67c4a3b91"
+}

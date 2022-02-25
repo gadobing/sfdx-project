@@ -103,6 +103,20 @@
             <controllingFieldValue>Medicare Advantage</controllingFieldValue>
             <controllingFieldValue>BlueCard</controllingFieldValue>
             <controllingFieldValue>ASE/PSE</controllingFieldValue>
+            <valueName>Underwriting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Regional</controllingFieldValue>
+            <controllingFieldValue>ABCBS</controllingFieldValue>
+            <controllingFieldValue>BANA</controllingFieldValue>
+            <controllingFieldValue>BARB</controllingFieldValue>
+            <controllingFieldValue>Exchange</controllingFieldValue>
+            <controllingFieldValue>FEP</controllingFieldValue>
+            <controllingFieldValue>HA</controllingFieldValue>
+            <controllingFieldValue>All LOB</controllingFieldValue>
+            <controllingFieldValue>Medicare Advantage</controllingFieldValue>
+            <controllingFieldValue>BlueCard</controllingFieldValue>
+            <controllingFieldValue>ASE/PSE</controllingFieldValue>
             <valueName>Pharmacy</valueName>
         </valueSettings>
         <valueSettings>

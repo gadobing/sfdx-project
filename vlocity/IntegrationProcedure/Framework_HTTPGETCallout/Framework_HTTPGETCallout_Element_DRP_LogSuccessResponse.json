@@ -29,7 +29,7 @@
             "IsError": false,
             "Message_ID": "%Message_ID%",
             "Parent_Record_SFDC_ID": "%Parent_Record_SFDC_ID%",
-            "Payload": "%HA_HTTPEndpointCallout%",
+            "Payload": "=SUBSTRING(%HA_HTTPEndpointCallout%,0,2000)",
             "Service_Name": "%Service_Name%"
         },
         "additionalOutput": {

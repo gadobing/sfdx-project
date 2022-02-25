@@ -27,19 +27,15 @@
         "additionalChainableResponse": {
         },
         "additionalInput": {
-            "ErrorObjectLogId": "%DRP_TransactionFailureRetryEntry:CCI_Integration_Error_Retry__c_1:Id%",
-            "IntegrationProcedureName": "%procedureName%",
-            "MessageID": "%Message_ID%",
+            "ErrorObjectLogId": "=IF(ISNOTBLANK(%retryRecordId%),%retryRecordId%,%DRP_TransactionFailureRetryEntry:CCI_Integration_Error_Retry__c_1:Id%)",
             "ParentRecordId": "%Parent_Record_SFDC_ID%",
-            "Path": "%DynamicParams%",
-            "Payload": "%RequestPayload%",
             "SystemName": "%Service_Name%"
         },
         "additionalOutput": {
         },
         "chainOnStep": false,
         "disOnTplt": false,
-        "executionConditionalFormula": "%statusCode% == \"404\" OR %statusCode% == \"504\" OR %statusCode% == \"444\" OR %headers:error% == \"Read timed out\"",
+        "executionConditionalFormula": "%statusCode% == \"404\" OR %statusCode% == \"504\" OR %statusCode% == \"444\" OR %headers:error% == \"Read timed out\" OR %statusCode% == \"500\"",
         "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {

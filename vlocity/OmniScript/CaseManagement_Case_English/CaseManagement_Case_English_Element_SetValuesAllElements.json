@@ -1,0 +1,49 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValuesAllElements",
+    "OmniProcessId": {
+        "Name": "CaseManagement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "CaseNumber": "%Result:Case|1:CaseNumber%",
+            "CaseType": "%Result:Case|1:RecordType:Name%",
+            "CaseTypeValue": "%Result:Case|1:CaseType%",
+            "DateFollowUpDate": "%Result:Case|1:Follow_Up__c%",
+            "InquirerName": "%Result:Case|1:Inquirer__c%",
+            "InquirerPhone": "%Result:Case|1:ContactPhone%",
+            "InquirerType": "%Result:Case|1:Inquirer_Type__c%",
+            "PhoneNumber": "%Result:Case|1:ContactPhone%",
+            "SelectCaseType": "%Result:Case|1:RecordType:Name%",
+            "SelectDepartmentRouteAnotherTeam": "%Result:Case|1:Department__c%",
+            "SelectPriority": "%Result:Case|1:Priority%",
+            "SelectProactiveListeningOutcome": "%Result:Case|1:Proactive_Listening_Outcome__c%",
+            "SelectProductLine": "%Result:Case|1:Product_Line__c%",
+            "SelectReason": "%Result:Case|1:Reason%",
+            "SelectResult": "%Result:Case|1:Result__c%",
+            "SelectTeamRouteAnotherTeam": "%Result:Case|1:Team__c%",
+            "UserFirstName": "%Result:User|1:FirstName%"
+        },
+        "label": "SetValuesAllElements",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SetValuesAllElements"
+}

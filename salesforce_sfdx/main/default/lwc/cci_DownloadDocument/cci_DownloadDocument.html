@@ -1,13 +1,33 @@
 <template>
-    <lightning-card title="Download Document">
+  
+    <lightning-card class="slds-text-align_center"  title="">
         <lightning-layout>
-            <div class="slds-p-around_small" >
+            <div class="slds-p-around_small slds-text-align_center" style=" width: 100% !important" >
+                 <div class="slds-text-align_center">
+                <b><h1 class="slds-text-heading_medium" >Downloading the file...</h1></b>
+                </div>
                 <br/><br/>
-                <lightning-button variant="brand" label="Download Document" onclick={downloadFile}></lightning-button>            
+               
                 <template if:true={boolShowSpinner}>
                     <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
                 </template>
+
             </div>
         </lightning-layout>
     </lightning-card>
+
+    <!--lightning-card class="slds-text-align_center"  title=" Download Document">
+        <lightning-layout>
+            <div class="slds-p-around_small slds-text-align_center" >
+                <br/><br/>
+                <lightning-button variant="brand" label="Download Document" onclick={downloadFile}></lightning-button>
+            
+              
+                <template if:true={boolShowSpinner}>
+                    <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+                </template>
+
+            </div>
+        </lightning-layout>
+    </lightning-card-->
 </template>

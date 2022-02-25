@@ -18,10 +18,11 @@
             "docClass": "%DREGetDocumentDetails:DocumentClass%",
             "docId": "%DREGetDocumentDetails:DocumentId%",
             "docType": "%DREGetDocumentDetails:DocumentType%",
-            "groupNumber": "B00281",
+            "ipName": "CCI_P8DocumentUploadBackendProcess",
             "lineOfBusiness": "%DREGetDocumentDetails:LineOfBusiness%",
             "mimeType": "=CONCAT(\"application/\",%DREGetDocumentDetails:FileExtension%)",
-            "objectStore": "%DREGetDocumentDetails:ObjectStore%"
+            "objectStore": "%DREGetDocumentDetails:ObjectStore%",
+            "retryRecordId": "%Retry_Record_Id%"
         },
         "additionalOutput": {
         },
