@@ -53,6 +53,11 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentName>cfCci_MemberActions</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>lookupContext</name>
                     <value>Id</value>
