@@ -1,16 +1,16 @@
 <template>
             <div class="slds-grid slds-wrap slds-is-relative ">
             <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
-  <%vlocity_namespace%-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </%vlocity_namespace%-toast>
+  <omnistudio-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </omnistudio-toast>
 </div>
             <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
   <div>
-   <%vlocity_namespace%-spinner
+   <omnistudio-spinner
       variant="brand"
       alternative-text="Loading content..."
       size="medium"
       theme="slds"
-      ></%vlocity_namespace%-spinner>
+      ></omnistudio-spinner>
   </div>
 </div>
             <template if:false={hasPermission}>
@@ -19,47 +19,47 @@
             <template if:true={hasPermission}>
               <template if:true={hasRecords}>
                         <template for:each={_records} for:item="record" for:index="rindex">
-                            <%vlocity_namespace%-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+                            <omnistudio-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
       <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
-          <div data-style-id="state0element0" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="      
+          <div data-style-id="state0element0" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="
          " >
-    <%vlocity_namespace%-action data-style-id="state0element0_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"View Invoices","flyoutLwc":"view-invoices-english","flyoutType":"OmniScripts","id":"flex-action-1645698794905","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"View/Invoices/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout">  <c-view-invoices-english   layout='lightning'    ></c-view-invoices-english></div></%vlocity_namespace%-action>
-    </div><div data-style-id="state0element1" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="      
+    <omnistudio-action data-style-id="state0element0_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"View Invoices","flyoutLwc":"view-invoices-english","flyoutType":"OmniScripts","id":"flex-action-1645698794905","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"View/Invoices/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout">  <c-view-invoices-english   layout='lightning'    ></c-view-invoices-english></div></omnistudio-action>
+    </div><div data-style-id="state0element1" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="
          " >
-    <%vlocity_namespace%-action data-style-id="state0element1_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"Request ID Card","flyoutLwc":"c-c-i-issue-i-d-card-english","flyoutParams":{"ContextId":"{recordId}"},"flyoutType":"OmniScripts","hasExtraParams":true,"id":"flex-action-1645718905025","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"CCI/IssueIDCard/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout"> <%vlocity_namespace%-custom-lwc-wrapper element-name="c-c-c-i-issue-i-d-card-english" property='\{"prefill":"{\"ContextId\":\"{recordId}\"}"}' records={records} record-id={recordId} record={record}  card={card} >
+    <omnistudio-action data-style-id="state0element1_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"Request ID Card","flyoutLwc":"c-c-i-issue-i-d-card-english","flyoutParams":{"ContextId":"{recordId}"},"flyoutType":"OmniScripts","hasExtraParams":true,"id":"flex-action-1645718905025","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"CCI/IssueIDCard/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout"> <omnistudio-custom-lwc-wrapper element-name="c-c-c-i-issue-i-d-card-english" property='\{"prefill":"{\"ContextId\":\"{recordId}\"}"}' records={records} record-id={recordId} record={record}  card={card} >
      <c-c-c-i-issue-i-d-card-english   layout='lightning'    ></c-c-c-i-issue-i-d-card-english>
-    </%vlocity_namespace%-custom-lwc-wrapper></div></%vlocity_namespace%-action>
+    </omnistudio-custom-lwc-wrapper></div></omnistudio-action>
     </div>
         </div>
-      </%vlocity_namespace%-flex-card-state>
+      </omnistudio-flex-card-state>
                         </template>
                       </template>
                       <template if:false={hasRecords}>
-                            <%vlocity_namespace%-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+                            <omnistudio-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
       <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
-          <div data-style-id="state0element0" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="      
+          <div data-style-id="state0element0" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="
          " >
-    <%vlocity_namespace%-action data-style-id="state0element0_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"View Invoices","flyoutLwc":"view-invoices-english","flyoutType":"OmniScripts","id":"flex-action-1645698794905","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"View/Invoices/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout">  <c-view-invoices-english   layout='lightning'    ></c-view-invoices-english></div></%vlocity_namespace%-action>
-    </div><div data-style-id="state0element1" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="      
+    <omnistudio-action data-style-id="state0element0_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"View Invoices","flyoutLwc":"view-invoices-english","flyoutType":"OmniScripts","id":"flex-action-1645698794905","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"View/Invoices/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout">  <c-view-invoices-english   layout='lightning'    ></c-view-invoices-english></div></omnistudio-action>
+    </div><div data-style-id="state0element1" class="slds-col    slds-size_6-of-12  " data-rindex={rindex} style="
          " >
-    <%vlocity_namespace%-action data-style-id="state0element1_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"Request ID Card","flyoutLwc":"c-c-i-issue-i-d-card-english","flyoutParams":{"ContextId":"{recordId}"},"flyoutType":"OmniScripts","hasExtraParams":true,"id":"flex-action-1645718905025","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"CCI/IssueIDCard/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout"> <%vlocity_namespace%-custom-lwc-wrapper element-name="c-c-c-i-issue-i-d-card-english" property='\{"prefill":"{\"ContextId\":\"{recordId}\"}"}' records={records} record-id={recordId} record={record}  card={card} >
+    <omnistudio-action data-style-id="state0element1_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  display-as-button="true"  state-action='\{"displayName":"Request ID Card","flyoutLwc":"c-c-i-issue-i-d-card-english","flyoutParams":{"ContextId":"{recordId}"},"flyoutType":"OmniScripts","hasExtraParams":true,"id":"flex-action-1645718905025","layoutType":"lightning","openFlyoutIn":"Modal","openUrlIn":"Current Window","osName":"CCI/IssueIDCard/English","type":"Flyout","vlocityIcon":"utility-forward_up"}'  theme="slds" ><div slot="flyout"> <omnistudio-custom-lwc-wrapper element-name="c-c-c-i-issue-i-d-card-english" property='\{"prefill":"{\"ContextId\":\"{recordId}\"}"}' records={records} record-id={recordId} record={record}  card={card} >
      <c-c-c-i-issue-i-d-card-english   layout='lightning'    ></c-c-c-i-issue-i-d-card-english>
-    </%vlocity_namespace%-custom-lwc-wrapper></div></%vlocity_namespace%-action>
+    </omnistudio-custom-lwc-wrapper></div></omnistudio-action>
     </div>
         </div>
-      </%vlocity_namespace%-flex-card-state>
+      </omnistudio-flex-card-state>
                       </template>
             </template>
             <template if:true={hasError}>
             {error}
             </template>
-            
-      <%vlocity_namespace%-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
-      
-      </%vlocity_namespace%-action>
-  
-            <%vlocity_namespace%-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
-            
-            </%vlocity_namespace%-action>
+
+      <omnistudio-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+
+      </omnistudio-action>
+
+            <omnistudio-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+
+            </omnistudio-action>
             </div>
           </template>

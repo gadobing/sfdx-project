@@ -1,48 +1,48 @@
-import { FlexCardMixin } from "%vlocity_namespace%/flexCardMixin";
-    import {interpolateWithRegex, interpolateKeyValue, fetchCustomLabels, loadCssFromStaticResource } from "%vlocity_namespace%/flexCardUtility";
-    
+import { FlexCardMixin } from "omnistudio/flexCardMixin";
+    import {interpolateWithRegex, interpolateKeyValue, fetchCustomLabels, loadCssFromStaticResource } from "omnistudio/flexCardUtility";
+
           import { LightningElement, api, track } from "lwc";
-          
-          import pubsub from "%vlocity_namespace%/pubsub";
-          
+
+          import pubsub from "omnistudio/pubsub";
+
           import data from "./definition";
-          
+
           import styleDef from "./styleDefinition";
-              
+
           export default class cfCci_MemberActions extends FlexCardMixin(LightningElement){
               @api debug;
               @api recordId;
               @api objectApiName;
-              
+
               @track record;
-              
+
 
               _regexPattern = /\{([a-zA-Z.0-9_]+)\}/g; //for {} fields by default
-              
+
               pubsubEvent = [];
               customEvent = [];
-              
+
               connectedCallback() {
                 super.connectedCallback();
                 this.registerEvents();
                 this.setStyleDefinition(styleDef);
                 data.Session = {} //reinitialize on reload
-                
-                
-                
+
+
+
                 this.setDefinition(data);
-                
-                
+
+
               }
-              
+
               disconnectedCallback(){
                 super.disconnectedCallback();
-                    
-                    
+
+
 
                   this.unregisterEvents();
               }
-                  
+
               executeAction(event) {
                 let dataset = event.currentTarget.dataset;
                 if (dataset && dataset.onchange === 'setValue' ) {
@@ -62,16 +62,16 @@ import { FlexCardMixin } from "%vlocity_namespace%/flexCardMixin";
               }
 
               registerEvents() {
-                
+
               }
 
               unregisterEvents(){
-                
+
               }
-            
+
               renderedCallback() {
                 super.renderedCallback();
-                
+
               }
 
               handleEventAction(eventObj, eventIndex, event) {
