@@ -1,7 +1,7 @@
 import { api, track } from 'lwc';
-import OmniscriptHeader from '%vlocity_namespace%/omniscriptHeader';
-import { isOffPlatform, setConnection, getConnection } from '%vlocity_namespace%/omniscriptRestApi';
-import { RUN_MODES, registerNs } from '%vlocity_namespace%/omniscriptInternalUtils';
+import OmniscriptHeader from 'omnistudio/omniscriptHeader';
+import { isOffPlatform, setConnection, getConnection } from 'omnistudio/omniscriptRestApi';
+import { RUN_MODES, registerNs } from 'omnistudio/omniscriptInternalUtils';
 import { OMNIDEF } from './viewInvoicesEnglish_def.js';
 import tmpl from './viewInvoicesEnglish.html';
 import tmpl_nds from './viewInvoicesEnglish_nds.html';
