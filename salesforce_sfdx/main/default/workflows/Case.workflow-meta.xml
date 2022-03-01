@@ -7,8 +7,17 @@
         <recipients>
             <type>owner</type>
         </recipients>
-        <senderAddress>abcbs.noreply2@gmail.com</senderAddress>
+        <senderAddress>abcbs.noreply@gmail.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/Case_Nearing_Deadline</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>ChangePriorityToHigh</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Changes the case priority to high.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
 </Workflow>
