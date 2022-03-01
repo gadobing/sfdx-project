@@ -54,10 +54,6 @@
                 <behavior>Edit</behavior>
                 <field>Service_Type__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Effective_Reason__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -77,10 +73,6 @@
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Exp_Date__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Term_Date__c</field>
@@ -117,6 +109,10 @@
         <fields>Expiration_Date__c</fields>
         <fields>Type__c</fields>
         <relatedList>Additional_Information__c.Contract__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Agency_of_Record__c.Member_Plan__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
