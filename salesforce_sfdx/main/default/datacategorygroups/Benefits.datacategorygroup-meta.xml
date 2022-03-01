@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ABCBS - Medical</label>
+                <name>ABCBS_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS - Dental</label>
+                <name>ABCBS_Dental</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS - Pharmacy</label>
+                <name>ABCBS_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS - Vision</label>
+                <name>ABCBS_Vision</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS - Wellness</label>
+                <name>ABCBS_Wellness</name>
+            </dataCategory>
+            <label>ABCBS</label>
+            <name>ABCBS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>FEP - Medical</label>
+                <name>FEP_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP - Dental</label>
+                <name>FEP_Dental</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP - Pharmacy</label>
+                <name>FEP_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP - Vision</label>
+                <name>FEP_Vision</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP - Wellness</label>
+                <name>FEP_Wellness</name>
+            </dataCategory>
+            <label>FEP</label>
+            <name>FEP</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Sara Lee - Medical</label>
+                <name>Sara_Lee_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sara Lee - Pharmacy</label>
+                <name>Sara_Lee_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sara Lee - Wellness</label>
+                <name>Sara_Lee_Wellness</name>
+            </dataCategory>
+            <label>Sara Lee Frozen Bakery</label>
+            <name>Sara_Lee_Frozen_Bakery</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>BANA Tyson – Medical</label>
+                <name>BANA_Tyson_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Tyson – Pharmacy</label>
+                <name>BANA_Tyson_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BABA Tyson - Wellness</label>
+                <name>BABA_Tyson_Wellness</name>
+            </dataCategory>
+            <label>BANA Tyson</label>
+            <name>BANA_Tyson</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>BANA Walmart – Medical</label>
+                <name>BANA_Walmart_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Walmart – Pharmacy</label>
+                <name>BANA_Walmart_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Walmart - Wellness</label>
+                <name>BANA_Walmart_Wellness</name>
+            </dataCategory>
+            <label>BANA Walmart</label>
+            <name>BANA_Walmart</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>BARB – Medical</label>
+                <name>BARB_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BARB – Pharmacy</label>
+                <name>BARB_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BARB - Wellness</label>
+                <name>BARB_Wellness</name>
+            </dataCategory>
+            <label>BARB</label>
+            <name>BARB</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Exchange - Medical</label>
+                <name>Exchange_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exchange - Pharmacy</label>
+                <name>Exchange_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exchange - Wellness</label>
+                <name>Exchange_Wellness</name>
+            </dataCategory>
+            <label>Exchange</label>
+            <name>Exchange</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Health Advantage ASE/PSE - Medical</label>
+                <name>Health_Advantage_ASE_PSE_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage ASE/PSE - Pharmacy</label>
+                <name>Health_Advantage_ASE_PSE_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage ASE/PSE - Wellness</label>
+                <name>Health_Advantage_ASE_PSE_Wellness</name>
+            </dataCategory>
+            <label>Health Advantage – ASE/PSE</label>
+            <name>Health_Advantage_ASE_PSE</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Health Advantage Commercial - Medical</label>
+                <name>Health_Advantage_Commercial_Medical</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage Commercial - Pharmacy</label>
+                <name>Health_Advantage_Commercial_Pharmacy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage Commercial - Wellness</label>
+                <name>Health_Advantage_Commercial_Wellness</name>
+            </dataCategory>
+            <label>Health Advantage – Commercial</label>
+            <name>Health_Advantage_Commercial</name>
+        </dataCategory>
+        <label>Benefits</label>
+        <name>Benefits</name>
+    </dataCategory>
+    <label>Benefits</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>
