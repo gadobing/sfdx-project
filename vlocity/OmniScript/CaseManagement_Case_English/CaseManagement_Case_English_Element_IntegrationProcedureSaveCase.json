@@ -1,5 +1,5 @@
 {
-    "IsActive": false,
+    "IsActive": true,
     "IsOmniScriptEmbeddable": false,
     "Name": "IntegrationProcedureSaveCase",
     "OmniProcessId": {

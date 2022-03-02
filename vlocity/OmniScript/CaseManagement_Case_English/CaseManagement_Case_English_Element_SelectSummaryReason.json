@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "Block3",
+    "Name": "SelectSummaryReason",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "StepFollowUp",
+        "Name": "StepCaseSummary",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,37 +17,45 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepFollowUp",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepCaseSummary",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "StepFollowUp",
+    "ParentElementName": "StepCaseSummary",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "collapse": false,
         "conditionType": "Hide if False",
         "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
         "hide": false,
-        "label": "",
+        "inputWidth": 12,
+        "label": "Reason",
+        "optionSource": {
+            "source": "Case.Reason",
+            "type": "SObject"
+        },
+        "options": [
+        ],
+        "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "=",
-                        "data": "Yes",
-                        "field": "RadioFollowUpRequested"
-                    }
-                ]
-            }
-        }
+        "required": true,
+        "show": null,
+        "showInputWidth": false
     },
-    "Type": "Block",
+    "Type": "Select",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Block3"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SelectSummaryReason"
 }

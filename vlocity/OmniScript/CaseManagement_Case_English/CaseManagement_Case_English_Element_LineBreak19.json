@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "TextBlock25",
+    "Name": "LineBreak19",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "StepCaseSummary",
+        "Name": "StepFollowUp",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,23 +17,30 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepCaseSummary",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepFollowUp",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "StepCaseSummary",
+    "ParentElementName": "StepFollowUp",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 3,
-        "dataJSON": false,
-        "label": "TextBlock25",
-        "sanitize": false,
-        "show": null,
-        "text": "<p>Product Line:&nbsp;</p>",
-        "textKey": ""
+        "label": "LineBreak19",
+        "padding": 20,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioFollowUpRequested"
+                    }
+                ]
+            }
+        }
     },
-    "Type": "Text Block",
+    "Type": "Line Break",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/TextBlock25"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/LineBreak19"
 }

@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DateFollowUpDate",
+    "Name": "DateFollowUpDateTime",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block3",
+        "Name": "StepFollowUp",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,18 +17,17 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Block3",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepFollowUp",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block3",
-    "ParentElementType": "Block",
+    "ParentElementName": "StepFollowUp",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
         "conditionType": "Hide if False",
         "controlWidth": 12,
         "dateFormat": "MM-dd-yyyy",
-        "dateType": "string",
         "defaultValue": null,
         "disOnTplt": false,
         "help": false,
@@ -39,17 +38,30 @@
         "label": "Follow up date",
         "maxDate": "",
         "minDate": "",
-        "modelDateFormat": "yyyy-MM-dd",
         "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": null,
-        "showInputWidth": false
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioFollowUpRequested"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false,
+        "timeFormat": "hh:mm a",
+        "timeInterval": 15,
+        "timezone": "Local"
     },
-    "Type": "Date",
+    "Type": "Date/Time (Local)",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/DateFollowUpDate"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/DateFollowUpDateTime"
 }

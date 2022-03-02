@@ -29,7 +29,7 @@
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<h2 style=\"text-align: center; font-weight: 500;\">Case Number: <strong>%CaseNumber%</strong></h2>",
+        "text": "<h2 style=\"text-align: center; font-weight: 500; margin-bottom: 0;\">Case Number: <strong>%CaseNumber%</strong></h2>\n<h3 style=\"text-align: center; font-weight: 500; font-size: 16px;\">&nbsp;&bull; Summary &bull;&nbsp;</h3>",
         "textKey": ""
     },
     "Type": "Text Block",

@@ -40,7 +40,7 @@
                 ]
             }
         },
-        "text": "<p dir=\"ltr\" style=\"text-align: left;\">%Result:Member:MailingAddress:Street% %Result:Member:MailingAddress:City%, %Result:Member:MailingAddress:State% %Result:Member:MailingAddress:PostalCode%</p>",
+        "text": "<p><br />%FullAddress%</p>",
         "textKey": ""
     },
     "Type": "Text Block",

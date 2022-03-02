@@ -1,5 +1,5 @@
 {
-    "CustomJavaScript": "{}",
+    "CustomJavaScript": "CaseManagement_SaveCase_SampleInput.json",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": true,
     "IsMetadataCacheDisabled": false,
@@ -10,7 +10,8 @@
     "Name": "IPSaveCaseInfo",
     "OmniProcessElement": [
         "CaseManagement_SaveCase_Element_DataRaptorPostUpdateCaseInfo.json",
-        "CaseManagement_SaveCase_Element_ResponseAction1.json"
+        "CaseManagement_SaveCase_Element_DataRaptorPostCreateTask.json",
+        "CaseManagement_SaveCase_Element_ResponseAction.json"
     ],
     "OmniProcessKey": "CaseManagement_SaveCase",
     "OmniProcessType": "Integration Procedure",
@@ -20,5 +21,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/SaveCase/Procedure",
-    "WebComponentKey": "3ebb6ae4-00ea-ba59-bb61-4e501c0d8753"
+    "WebComponentKey": "a02f5b65-7ef4-c0e9-28a5-dd6729783911"
 }

@@ -56,7 +56,7 @@
         "minLength": 0,
         "newItemLabel": "New",
         "readOnly": false,
-        "required": false,
+        "required": true,
         "show": null,
         "showInputWidth": false,
         "typeAheadKey": "Name",

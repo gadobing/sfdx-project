@@ -1,0 +1,55 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValuesGreetings",
+    "OmniProcessId": {
+        "Name": "IPGetCaseInfo",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/GetCase/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Greetings": [
+                {
+                    "key": "ABCBS",
+                    "value": "Thank you for calling Arkansas Blue Cross, this is %Result:User|1:FirstName% speaking, how may I assist you today?"
+                },
+                {
+                    "key": "BARB",
+                    "value": "Thank you for calling Customer Service, this is %Result:User|1:FirstName%. How may I assist you today?"
+                },
+                {
+                    "key": "BANA",
+                    "value": "Thank you for calling your Health Care Advisor team, this is %Result:User|1:FirstName%. How may I help/assist today?"
+                },
+                {
+                    "key": "FEP",
+                    "value": "Thank you for calling the Arkansas Federal Employee Program. My name is %Result:User|1:FirstName%. How may I assist you today?"
+                },
+                {
+                    "key": "BlueCard",
+                    "value": "Thank you for calling Arkansas Blue Cross, this is %Result:User|1:FirstName% speaking, how may I assist you today?"
+                },
+                {
+                    "key": "ASE/PSE",
+                    "value": "Thank you for calling State and School, this is %Result:User|1:FirstName%. How may I help/assist today?"
+                }
+            ]
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "Greetings",
+        "responseJSONPath": "Greetings",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/GetCase/Procedure/SetValuesGreetings"
+}

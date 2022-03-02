@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DataRaptorPostUpdateCaseInfo",
+    "Name": "DataRaptorPostCreateTask",
     "OmniProcessId": {
         "Name": "IPSaveCaseInfo",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -14,16 +14,16 @@
         },
         "additionalOutput": {
         },
-        "bundle": "UpdateCaseInfo",
+        "bundle": "CCI_DRCreateTask",
         "chainOnStep": false,
         "disOnTplt": false,
-        "executionConditionalFormula": "",
+        "executionConditionalFormula": "StepFollowUp:RadioFollowUpRequested == 'Yes'",
         "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "DataRaptorPostAction1",
-        "responseJSONNode": "response:Case",
+        "label": "DataRaptorPostAction2",
+        "responseJSONNode": "response:Task",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,
@@ -36,5 +36,5 @@
     "Type": "DataRaptor Post Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/SaveCase/Procedure/DataRaptorPostUpdateCaseInfo"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/SaveCase/Procedure/DataRaptorPostCreateTask"
 }
