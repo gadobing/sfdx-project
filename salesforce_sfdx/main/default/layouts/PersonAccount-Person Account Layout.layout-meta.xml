@@ -38,7 +38,7 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Member_Id__c</field>
             </layoutItems>
             <layoutItems>
@@ -46,11 +46,11 @@
                 <field>Member_Exchange_ID__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>SSN__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Status__c</field>
             </layoutItems>
             <layoutItems>
@@ -85,7 +85,7 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Spoken_Language__c</field>
             </layoutItems>
             <layoutItems>
@@ -97,7 +97,7 @@
                 <field>Communication_Preference__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>MyBluePrint_Status__c</field>
             </layoutItems>
         </layoutColumns>
@@ -110,7 +110,7 @@
         <label>Risk Score</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Risk_Score__c</field>
             </layoutItems>
         </layoutColumns>
@@ -129,29 +129,29 @@
         <label>Care Coordination Details</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Primary_Care_Manager_Name__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Primary_Care_Manager_Phone__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Primary_Care_Manager_Department__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Social_Worker_Name__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Social_Worker_Phone__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Social_Worker_Department__c</field>
             </layoutItems>
         </layoutColumns>
