@@ -24,7 +24,7 @@
                 <field>DOD__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>HealthCloudGA__Gender__pc</field>
             </layoutItems>
             <layoutItems>
