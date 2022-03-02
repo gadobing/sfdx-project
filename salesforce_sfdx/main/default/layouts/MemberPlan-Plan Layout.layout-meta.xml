@@ -96,10 +96,6 @@
                 <behavior>Edit</behavior>
                 <field>Medicare_HIC_MBI__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Med_Dental_HIPAA_Time_Credit__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -116,10 +112,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>PreExisting_Effective_Term_Start_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Wait_Period__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -154,6 +146,9 @@
     <relatedLists>
         <fields>Name</fields>
         <fields>Member</fields>
+        <fields>CoverageType</fields>
+        <fields>BenefitNotes</fields>
+        <fields>CreatedDate</fields>
         <relatedList>CoverageBenefits</relatedList>
     </relatedLists>
     <relatedLists>
@@ -164,6 +159,10 @@
         <fields>Expiration_Date__c</fields>
         <fields>Type__c</fields>
         <relatedList>Additional_Information__c.Contract__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Agency_of_Record__c.Member_Plan__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
