@@ -225,6 +225,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "GetCaseInfoCustom7286",
+        "InputFieldName": "Inquirer_Phone__c",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "GetCaseInfoCustom9009",
         "InputFieldName": "Inquirer_Type__c",
         "InputObjectName": "Case",

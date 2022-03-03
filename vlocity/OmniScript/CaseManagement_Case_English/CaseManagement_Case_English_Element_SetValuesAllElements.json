@@ -31,7 +31,7 @@
             "InquirerName": "%Result:Case|1:Inquirer__c%",
             "InquirerPhone": "%Result:Case|1:ContactPhone%",
             "InquirerType": "%Result:Case|1:Inquirer_Type__c%",
-            "PhoneNumber": "=%Result:Case|1:ContactPhone%",
+            "PhoneNumber": "=%Result:Case|1:Inquirer_Phone__c%",
             "RadioHealthConditionHeard": "=IF(%Result:Case|1:Health_Condition_Heard__c% == true, 'Yes', 'No')",
             "RadioSDOHHeard": "=IF(%Result:Case|1:SDOH_Heard__c% == true, 'Yes', 'No')",
             "SelectCaseType": "%Result:Case|1:RecordType:Name%",

@@ -42,7 +42,7 @@
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "required": false,
+        "required": true,
         "show": {
             "group": {
                 "operator": "AND",
