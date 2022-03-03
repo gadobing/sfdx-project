@@ -1,31 +1,12 @@
 {
-    "Case": {
-        "Case_1": [
-            {
-                "Comments": "This is internal comment",
-                "ContactPhone": "631-922-4166",
-                "Department__c": "Customer Service",
-                "Description": "This is a document call",
-                "Health_Condition_Heard__c": true,
-                "Health_Condition__c": "0hs7j000000ChdyAAC",
-                "Id": "5007j00000B4q9OAAR",
-                "Proactive_Listening_Details__c": "This is my life",
-                "Proactive_Listening_Outcome__c": "Transferred to Social Worker",
-                "Product_Line__c": "BANA",
-                "Reason": "Appeal",
-                "Result__c": "Appeal",
-                "SDOH_Heard__c": true,
-                "Subject": "This is a subject",
-                "Team__c": "Exchange - Voice Mail",
-                "UpsertSObjectType": "Case",
-                "UpsertSuccess": true
-            }
-        ],
-        "error": "OK",
-        "responseType": "SObject"
-    },
-    "CaseId": "5007j00000B4q9OAAR",
-    "CaseNumber": "00001131",
+    "Case": [
+        {
+            "CaseNumber": "00001129",
+            "Id": "5007j00000B4p4EAAR"
+        }
+    ],
+    "CaseId": "5007j00000B4p4EAAR",
+    "CaseNumber": "00001129",
     "CaseTypeValue": [
         {
             "Id": "0125f000000hYRKAA2",
@@ -116,15 +97,15 @@
             "Name": "Other"
         }
     ],
-    "DateFollowUpDate": "2022-03-17",
+    "DateFollowUpDate": "2022-03-10",
     "FullAddress": "1122 15th Street Shallowater, TX 79363",
-    "Greeting": "Thank you for calling your Health Care Advisor team, this is Adner. How may I help/assist today?",
-    "ProactivelyEducated": "",
+    "Greeting": "Thank you for calling Customer Service, this is Adner. How may I assist you today?",
+    "ProactivelyEducated": "Case Management;Social Worker;",
     "Result": {
         "Case": [
             {
                 "AccountId": "0017j00000fDBSZAA4",
-                "CaseNumber": "00001131",
+                "CaseNumber": "00001129",
                 "CaseType": [
                     {
                         "Id": "0125f000000hYRKAA2",
@@ -215,39 +196,32 @@
                         "Name": "Other"
                     }
                 ],
-                "ContactId": "0037j00000fIf2uAAC",
                 "ContactPhone": "631-922-4166",
                 "Department__c": "Customer Service",
-                "Description": "This is a document call",
-                "Follow_Up__c": "2022-03-17",
-                "Health_Condition_Heard__c": true,
-                "Health_Condition__c": "0hs7j000000ChdyAAC",
-                "Id": "5007j00000B4q9OAAR",
-                "Inquirer_Type__c": "Vendor",
-                "Inquirer__c": "Mich Buchamel",
+                "Description": "This is document caller",
+                "Follow_Up__c": "2022-03-10",
+                "Health_Condition_Heard__c": false,
+                "Id": "5007j00000B4p4EAAR",
                 "Priority": "Medium",
-                "Proactive_Listening_Details__c": "This is my life",
-                "Proactive_Listening_Outcome__c": "Transferred to Social Worker",
-                "Proactively_Educated__c": "Vendors;Additional services/Benefits",
-                "Product_Line__c": "BANA",
+                "Proactive_Listening_Outcome__c": "Transferred to Nurse",
+                "Product_Line__c": "Exchange",
                 "Reason": "Appeal",
                 "RecordType": {
-                    "Id": "0125f000000hiT1AAI",
-                    "Name": "CareGap",
+                    "Id": "0125f000000hYRLAA2",
+                    "Name": "Appeal",
                     "attributes": {
                         "type": "RecordType",
-                        "url": "/services/data/v54.0/sobjects/RecordType/0125f000000hiT1AAI"
+                        "url": "/services/data/v54.0/sobjects/RecordType/0125f000000hYRLAA2"
                     }
                 },
-                "RecordTypeId": "0125f000000hiT1AAI",
-                "Result__c": "Appeal",
-                "SDOH_Heard__c": true,
+                "RecordTypeId": "0125f000000hYRLAA2",
+                "Result__c": "Received in Error",
+                "SDOH_Heard__c": false,
                 "Subject": "This is a subject",
-                "Team__c": "Exchange - Voice Mail",
-                "Values_Authenticated__c": "Member ID;Date of birth;Mailing Address;Member Name"
+                "Team__c": "Exchange - Membership PCP Update",
+                "Values_Authenticated__c": "Date of birth;Last four digits of SSN"
             }
         ],
-        "LineOfBusinessGreeting": "Thank you for calling your Health Care Advisor team, this is Adner. How may I help/assist today?",
         "Member": {
             "FirstName": "Jason",
             "HealthCloudGA__BirthDate__pc": "February 5, 1963",
@@ -279,56 +253,60 @@
         ]
     },
     "StepCaseSummary": {
-        "SelectSummaryProductLine": "BANA",
+        "SelectSummaryProductLine": "Exchange",
         "SelectSummaryReason": "Appeal",
-        "SelectSummaryResult": "Appeal"
+        "SelectSummaryResult": "Received in Error"
     },
     "StepDocumentCaller": {
-        "Description": "This is a document call",
+        "Description": "This is document caller",
         "Subject": "This is a subject"
     },
-    "StepFollowUp": null,
+    "StepFollowUp": {
+        "DateFollowUpDateTime": "2022-03-04T19:15:00.000Z",
+        "FollowUpComment": "this is a follow up comment",
+        "FollowUpSubject": "This is a follow up subject",
+        "RadioFollowUpRequested": "Yes",
+        "SelectPriority": "Medium"
+    },
     "StepGreeting": {
         "CaseType-Block": {
-            "CaseType": "CareGap"
+            "CaseType": "Appeal"
         },
         "PhoneNumber": "631-922-4166"
     },
     "StepHeard": {
-        "FormulaRadioHealthConditionHeard": true,
-        "FormulaRadioSDOHHeard": true,
-        "RadioHealthConditionHeard": "Yes",
-        "RadioSDOHHeard": "Yes",
-        "SelectHealthCondition-Block": {
-            "Id": "0hs7j000000ChdyAAC",
-            "Name": "Cancer",
-            "SelectHealthCondition": "Cancer"
-        },
-        "SelectProactiveListeningOutcome": "Transferred to Social Worker",
-        "TextAreaStepHeardNote": "This is my life"
-    },
-    "StepInternalComment": {
-        "TextAreaInternalComments": "This is internal comment"
+        "FormulaRadioHealthConditionHeard": false,
+        "FormulaRadioSDOHHeard": false,
+        "RadioHealthConditionHeard": "No",
+        "RadioSDOHHeard": "No",
+        "SelectHealthCondition-Block": null,
+        "SelectProactiveListeningOutcome": null,
+        "TextAreaStepHeardNote": "Proactive notes"
     },
     "StepQuestionCallAnswer": {
-        "RadioAnswerQuestionToday": "Yes",
-        "TextAreaAdditionalComments": null
+        "RadioAnswerQuestionToday": "No",
+        "TextAreaAdditionalComments": "additional comment"
     },
     "StepReasonResult": {
         "SelectCaseType-Block": {
-            "SelectCaseType": "CareGap"
+            "SelectCaseType": "Appeal"
         },
-        "SelectProductLine": "BANA",
+        "SelectProductLine": "Exchange",
         "SelectReason": "Appeal",
-        "SelectResult": "Appeal"
+        "SelectResult": "Received in Error"
     },
-    "StepRouteCase": null,
+    "StepRouteCase": {
+        "RadioRouteToAnotherTeam": "Yes",
+        "SelectDepartmentRouteAnotherTeam": "Customer Service",
+        "SelectProductLineRouteAnotherTeam": "Exchange",
+        "SelectTeamRouteAnotherTeam": "CRM Dental COCC Requests"
+    },
     "StepSelfInquirer": {
-        "Checkbox": false,
+        "Checkbox": true,
         "CheckboxDOB": false,
-        "CheckboxMailingAddress": false,
+        "CheckboxMailingAddress": true,
         "CheckboxMemberID": false,
-        "CheckboxSSN": false,
+        "CheckboxSSN": true,
         "FormulaMemberBirthday": "02/05/1963",
         "InquirerName": null,
         "InquirerPhone": null,
@@ -338,14 +316,15 @@
     "StepTalkingPoints": {
         "Block2": {
             "CheckboxAdditionaServicesBenefits": false,
-            "CheckboxCaseManagement": false,
+            "CheckboxCaseManagement": true,
             "CheckboxSocialVendors": false,
-            "CheckboxSocialWorker": false
-        }
+            "CheckboxSocialWorker": true
+        },
+        "TextAreaCaseNotes": "Some notes"
     },
     "UserFirstName": "Adner",
-    "ValuesAuthenticated": "",
-    "timeStamp": "2022-03-02T19:34:50.485Z",
+    "ValuesAuthenticated": "Mailing Address;Member Name;Last four digits of SSN;",
+    "timeStamp": "2022-03-02T16:50:28.447Z",
     "userCurrencyCode": "USD",
     "userId": "0057j000002saQHAAY",
     "userName": "aramosdelarosa@salesforce.com.ccidev",

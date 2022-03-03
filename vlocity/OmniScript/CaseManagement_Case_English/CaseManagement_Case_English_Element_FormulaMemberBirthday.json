@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "TextBlock28",
+    "Name": "FormulaMemberBirthday",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "StepCaseSummary",
+        "Name": "StepSelfInquirer",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,23 +17,28 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepCaseSummary",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepSelfInquirer",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "StepCaseSummary",
+    "ParentElementName": "StepSelfInquirer",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 9,
-        "dataJSON": false,
-        "label": "TextBlock24",
-        "sanitize": false,
+        "controlWidth": null,
+        "dataType": null,
+        "dateFormat": "MM/dd/yyyy",
+        "disOnTplt": false,
+        "expression": "MOMENT(%Result:Member:PersonBirthdate%).format(\"MM/DD/YYYY\")",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "",
+        "mask": null,
         "show": null,
-        "text": "<p>%StepReasonResult:SelectCaseType-Block:SelectCaseType%</p>",
-        "textKey": ""
+        "showInputWidth": false
     },
-    "Type": "Text Block",
+    "Type": "Formula",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/TextBlock28"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/FormulaMemberBirthday"
 }

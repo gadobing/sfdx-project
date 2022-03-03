@@ -4,7 +4,7 @@
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "CaseId",
-        "GlobalKey": "GetCaseInfoCustom1886",
+        "GlobalKey": "GetCaseInfoCustom4479",
         "InputFieldName": "Id",
         "InputObjectName": "Case",
         "InputObjectQuerySequence": 1,
@@ -85,6 +85,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "GetCaseInfoCustom710",
+        "InputFieldName": "ContactId",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "GetCaseInfoCustom4441",
         "InputFieldName": "ContactPhone",
         "InputObjectName": "Case",
@@ -125,6 +145,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "GetCaseInfoCustom5834",
+        "InputFieldName": "Description",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "GetCaseInfoCustom89",
         "InputFieldName": "Follow_Up__c",
         "InputObjectName": "Case",
@@ -147,6 +187,26 @@
     {
         "GlobalKey": "GetCaseInfoCustom9847",
         "InputFieldName": "Health_Condition_Heard__c",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoCustom8534",
+        "InputFieldName": "Health_Condition__c",
         "InputObjectName": "Case",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
@@ -225,8 +285,48 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "GetCaseInfoCustom6220",
+        "InputFieldName": "Proactive_Listening_Details__c",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "GetCaseInfoCustom1894",
         "InputFieldName": "Proactive_Listening_Outcome__c",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoCustom9561",
+        "InputFieldName": "Proactively_Educated__c",
         "InputObjectName": "Case",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
@@ -365,6 +465,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "GetCaseInfoCustom4846",
+        "InputFieldName": "Subject",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "GetCaseInfoCustom6815",
         "InputFieldName": "Team__c",
         "InputObjectName": "Case",
@@ -387,6 +507,26 @@
     {
         "GlobalKey": "GetCaseInfoCustom8580",
         "InputFieldName": "Type",
+        "InputObjectName": "Case",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoCustom5367",
+        "InputFieldName": "Values_Authenticated__c",
         "InputObjectName": "Case",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,

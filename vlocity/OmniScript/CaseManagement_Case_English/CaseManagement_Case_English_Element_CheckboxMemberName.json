@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "Block1",
+    "Name": "CheckboxMemberName",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "StepRouteCase",
+        "Name": "StepSelfInquirer",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,19 +17,25 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepRouteCase",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepSelfInquirer",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "StepRouteCase",
+    "ParentElementName": "StepSelfInquirer",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "collapse": false,
+        "checkLabel": "Member Name:",
         "conditionType": "Hide if False",
-        "controlWidth": 12,
+        "controlWidth": 5,
+        "defaultValue": false,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
         "hide": false,
-        "label": "",
+        "label": "Checkbox1",
+        "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
@@ -39,15 +45,15 @@
                 "rules": [
                     {
                         "condition": "=",
-                        "data": "Yes",
-                        "field": "RadioRouteToAnotherTeam"
+                        "data": "Self",
+                        "field": "RadioSelfInquirer"
                     }
                 ]
             }
         }
     },
-    "Type": "Block",
+    "Type": "Checkbox",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Block1"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/CheckboxMemberName"
 }

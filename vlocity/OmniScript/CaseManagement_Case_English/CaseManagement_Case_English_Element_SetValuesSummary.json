@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "SetValuesCaseId",
+    "Name": "SetValuesSummary",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -12,9 +12,11 @@
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementValueMap": {
-            "CaseId": "%Case|1:Id%"
+            "SelectSummaryProductLine": "%StepReasonResult:SelectProductLine%",
+            "SelectSummaryReason": "%StepReasonResult:SelectReason%",
+            "SelectSummaryResult": "%StepReasonResult:SelectResult%"
         },
-        "label": "SetValuesCaseId",
+        "label": "SetValuesSummary",
         "message": {
         },
         "pubsub": false,
@@ -29,5 +31,5 @@
     "Type": "Set Values",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SetValuesCaseId"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SetValuesSummary"
 }

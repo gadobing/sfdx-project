@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "TextBlock18",
+    "Name": "SelectSummaryResult",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -24,16 +24,38 @@
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 9,
-        "dataJSON": false,
-        "label": "TextBlock18",
-        "sanitize": false,
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "SelectSummaryReason",
+            "source": "Case.Reason",
+            "type": "SObject"
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Result",
+        "optionSource": {
+            "source": "Case.Result__c",
+            "type": "SObject"
+        },
+        "options": [
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
         "show": null,
-        "text": "<p>%StepReasonResult:SelectResult%</p>",
-        "textKey": ""
+        "showInputWidth": false
     },
-    "Type": "Text Block",
+    "Type": "Select",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/TextBlock18"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SelectSummaryResult"
 }

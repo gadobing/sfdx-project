@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block1",
+        "Name": "StepRouteCase",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,19 +17,19 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Block1",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepRouteCase",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block1",
-    "ParentElementType": "Block",
+    "ParentElementName": "StepRouteCase",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
         "conditionType": "Hide if False",
         "controlWidth": 12,
         "controllingField": {
-            "element": "SelectProductLineRouteAnotherTeam",
-            "source": "Case.Product_Line__c",
+            "element": "SelectDepartmentRouteAnotherTeam",
+            "source": "Case.Department__c",
             "type": "SObject"
         },
         "defaultValue": null,
@@ -51,7 +51,18 @@
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioRouteToAnotherTeam"
+                    }
+                ]
+            }
+        },
         "showInputWidth": false
     },
     "Type": "Select",

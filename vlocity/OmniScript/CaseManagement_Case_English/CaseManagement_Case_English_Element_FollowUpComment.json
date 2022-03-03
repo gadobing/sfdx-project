@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "PhoneNumber",
+    "Name": "FollowUpComment",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "StepGreeting",
+        "Name": "StepFollowUp",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepGreeting",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepFollowUp",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "StepGreeting",
+    "ParentElementName": "StepFollowUp",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
@@ -36,23 +36,33 @@
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "I see your phone number is:",
-        "mask": "",
-        "maxLength": null,
+        "label": "Follow up Comment",
+        "maxLength": 255,
         "minLength": 0,
-        "pattern": "^\\(?([0-9]{3})\\)?[- ]?([0-9]{3})[-]?([0-9]{4})$",
+        "pattern": "",
         "placeholder": "",
-        "ptrnErrText": "Please enter a valid phone number",
+        "ptrnErrText": "",
         "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioFollowUpRequested"
+                    }
+                ]
+            }
+        },
         "showInputWidth": false
     },
-    "Type": "Telephone",
+    "Type": "Text Area",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/PhoneNumber"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/FollowUpComment"
 }

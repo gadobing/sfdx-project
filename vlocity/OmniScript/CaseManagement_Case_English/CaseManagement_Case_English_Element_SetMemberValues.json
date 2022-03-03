@@ -12,7 +12,7 @@
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementValueMap": {
-            "ValuesAuthenticated": "=IF(%CheckboxMemberID%, \"Member ID;\",\"\")+IF(%CheckboxDOB%, \"Date of birth;\",\"\")+IF(%CheckboxMailingAddress%, \"Mailing Address;\",\"\")+IF(%Checkbox%, \"Member Name;\",\"\")+IF(%CheckboxSSN%, \"Last four digits of SSN;\",\"\")"
+            "ValuesAuthenticated": "=IF(%CheckboxMemberID%, \"Member ID;\",\"\")+IF(%CheckboxDOB%, \"Date of birth;\",\"\")+IF(%CheckboxMailingAddress%, \"Mailing Address;\",\"\")+IF(%CheckboxMemberName%, \"Member Name;\",\"\")+IF(%CheckboxSSN%, \"Last four digits of SSN;\",\"\")"
         },
         "label": "SetMemberValues",
         "message": {

@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ResponseAction1",
+    "Name": "ResponseAction",
     "OmniProcessId": {
         "Name": "IPSaveCaseInfo",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -22,7 +22,7 @@
         "returnFullDataJSON": false,
         "returnOnlyAdditionalOutput": false,
         "sendJSONNode": "",
-        "sendJSONPath": "",
+        "sendJSONPath": "response",
         "show": null,
         "useFormulas": true,
         "vlcResponseHeaders": {
@@ -31,5 +31,5 @@
     "Type": "Response Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/SaveCase/Procedure/ResponseAction1"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/SaveCase/Procedure/ResponseAction"
 }

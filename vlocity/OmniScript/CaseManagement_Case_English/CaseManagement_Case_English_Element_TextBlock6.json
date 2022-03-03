@@ -40,7 +40,7 @@
                 ]
             }
         },
-        "text": "<p><br />%Result:Member:PersonBirthdate%&nbsp;</p>",
+        "text": "<p><br />%FormulaMemberBirthday%&nbsp;</p>",
         "textKey": ""
     },
     "Type": "Text Block",

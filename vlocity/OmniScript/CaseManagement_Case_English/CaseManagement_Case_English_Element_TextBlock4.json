@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "LineBreak7",
+    "Name": "TextBlock4",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -24,12 +24,16 @@
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "label": "LineBreak3",
-        "padding": 10,
-        "show": null
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock4",
+        "sanitize": false,
+        "show": null,
+        "text": "<p class=\"slds-form-element__label slds-show_inline\">Case Type</p>\n<div class=\"slds-input\">%StepReasonResult:SelectCaseType-Block:SelectCaseType%</div>",
+        "textKey": ""
     },
-    "Type": "Line Break",
+    "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/LineBreak7"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/TextBlock4"
 }

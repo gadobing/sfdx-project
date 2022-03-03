@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block3",
+        "Name": "StepFollowUp",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,11 +17,11 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Block3",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepFollowUp",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block3",
-    "ParentElementType": "Block",
+    "ParentElementName": "StepFollowUp",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
@@ -41,7 +41,7 @@
         "inputWidth": 12,
         "label": "Priority",
         "optionSource": {
-            "source": "Case.Priority",
+            "source": "Task.Priority",
             "type": "SObject"
         },
         "options": [
@@ -61,7 +61,18 @@
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioFollowUpRequested"
+                    }
+                ]
+            }
+        },
         "showInputWidth": false
     },
     "Type": "Select",
