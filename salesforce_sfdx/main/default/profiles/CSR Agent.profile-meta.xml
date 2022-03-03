@@ -80,6 +80,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Agency_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Member_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -492,15 +497,14 @@
         <layout>MemberPlan-Riders %26 Surcharges Layout</layout>
         <recordType>MemberPlan.Riders_Surcharges</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Agency</layout>
+        <recordType>Account.Agency</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Case.Appeal</recordType>
         <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Case.CCI_Appeal_Complaint</recordType>
-        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>

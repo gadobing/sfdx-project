@@ -8,6 +8,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Agency_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Employment_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -106,11 +111,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Case.CCI_Appeal_Complaint</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Case.Complaint</recordType>
         <visible>true</visible>
     </recordTypeVisibilities> 
@@ -119,4 +119,8 @@
         <recordType>Account.Agency</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <layoutAssignments>
+        <layout>Account-Agency</layout>
+        <recordType>Account.Agency</recordType>
+    </layoutAssignments>
 </Profile>
