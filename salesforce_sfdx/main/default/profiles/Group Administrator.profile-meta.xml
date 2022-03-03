@@ -100,7 +100,7 @@
         <readable>true</readable>
     </fieldPermissions> 
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Case.Appeal</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

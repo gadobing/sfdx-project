@@ -493,7 +493,7 @@
         <recordType>MemberPlan.Riders_Surcharges</recordType>
     </layoutAssignments>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Case.Appeal</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
