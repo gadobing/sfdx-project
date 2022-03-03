@@ -1,5 +1,7 @@
 [
     "DataRaptor/CCI_DRGetMemberDetails",
+    "DataRaptor/CCI_GetMailingAddressForMember",
     "DataRaptor/GetCaseInfo",
+    "DataRaptor/GetCaseType",
     "DataRaptor/GetUserInfo"
 ]
