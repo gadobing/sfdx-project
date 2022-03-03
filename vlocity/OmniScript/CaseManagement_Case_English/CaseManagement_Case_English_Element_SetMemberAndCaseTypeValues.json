@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "SetMemberValues",
+    "Name": "SetMemberAndCaseTypeValues",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -12,9 +12,10 @@
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementValueMap": {
+            "SelectCaseType": "%StepGreeting:CaseType-Block:CaseType%",
             "ValuesAuthenticated": "=IF(%CheckboxMemberID%, \"Member ID;\",\"\")+IF(%CheckboxDOB%, \"Date of birth;\",\"\")+IF(%CheckboxMailingAddress%, \"Mailing Address;\",\"\")+IF(%CheckboxMemberName%, \"Member Name;\",\"\")+IF(%CheckboxSSN%, \"Last four digits of SSN;\",\"\")"
         },
-        "label": "SetMemberValues",
+        "label": "SetMemberAndCaseTypeValues",
         "message": {
         },
         "pubsub": false,
@@ -29,5 +30,5 @@
     "Type": "Set Values",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SetMemberValues"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SetMemberAndCaseTypeValues"
 }

@@ -1,5 +1,5 @@
 {
-    "Description": "81935 - Update launch guided flow - Member flow",
+    "Description": "81935 - Update launch guided flow - Member flow - UI Adjustments",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
@@ -45,7 +45,7 @@
         "CaseManagement_Case_English_Element_InquirerName.json",
         "CaseManagement_Case_English_Element_InquirerPhone.json",
         "CaseManagement_Case_English_Element_LineBreak3.json",
-        "CaseManagement_Case_English_Element_SetMemberValues.json",
+        "CaseManagement_Case_English_Element_SetMemberAndCaseTypeValues.json",
         "CaseManagement_Case_English_Element_StepReasonResult.json",
         "CaseManagement_Case_English_Element_TextBlock10.json",
         "CaseManagement_Case_English_Element_SelectCaseType.json",
@@ -132,5 +132,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "ca9eb6dd-0727-4dc4-b48f-9397e3b44f10"
+    "WebComponentKey": "3f68a87c-bea2-a7b8-d512-6421d829686f"
 }
