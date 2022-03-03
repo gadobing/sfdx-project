@@ -62,24 +62,6 @@
         <type>Flexipage</type>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
     </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Document_Record_Page</content>
-        <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>CCI_Document__c</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Document_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>CCI_Document__c</pageOrSobjectType>
-    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -458,21 +440,9 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Case</tabs>
     <tabs>Knowledge__kav</tabs>
-    <tabs>CCI_Document__c</tabs>
-    <tabs>CCI_Integration_Error_Retry__c</tabs>
-    <tabs>CCI_Integration_Log__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>CCI_Console_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>CCI_Document__c</tab>
-        </mappings>
-        <mappings>
-            <tab>CCI_Integration_Error_Retry__c</tab>
-        </mappings>
-        <mappings>
-            <tab>CCI_Integration_Log__c</tab>
-        </mappings>
         <mappings>
             <tab>Knowledge__kav</tab>
         </mappings>
