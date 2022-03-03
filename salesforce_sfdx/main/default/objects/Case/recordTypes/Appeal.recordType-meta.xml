@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Appeal</fullName>
     <active>true</active>
-    <businessProcess>Appeals</businessProcess>
+    <businessProcess>General</businessProcess>
     <description>Record type for review and disposition of an appeal related to a prior authorization or admission decision.</description>
     <label>Appeal</label>
     <picklistValues>

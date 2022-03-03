@@ -86,5 +86,20 @@
         <editable>false</editable>
         <field>Contact.HealthCloudGA__Gender__c</field>
         <readable>true</readable>
-    </fieldPermissions>
+    </fieldPermissions> 
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Appeal</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.CCI_Appeal_Complaint</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.Complaint</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
 </Profile>
