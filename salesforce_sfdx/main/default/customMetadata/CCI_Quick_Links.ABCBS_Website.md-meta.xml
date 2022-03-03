@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>Link_URL__c</field>
-        <value xsi:type="xsd:string">abcbs.com</value>
+        <value xsi:type="xsd:string">http://abcbs.com</value>
     </values>
 </CustomMetadata>
