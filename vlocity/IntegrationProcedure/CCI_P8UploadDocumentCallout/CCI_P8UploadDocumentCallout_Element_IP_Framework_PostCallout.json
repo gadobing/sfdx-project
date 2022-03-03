@@ -12,7 +12,7 @@
         "actionMessage": "",
         "additionalInput": {
             "Message_ID": "=GENERATEGLOBALKEY()",
-            "Payload": "%SV_Service_Details:Payload%",
+            "Payload": "=IF((%objectStore% =='PaperClaimsOS' || %objectStore% =='LegalOS') ,%SV_Service_Details_Without_CaseId:Payload%,%SV_Service_Details:Payload%)",
             "Service_Name": "P8DocumentUpload",
             "additionalMethodArguments": "contentDocumentId=%ContentDocumentId%&documentId=%docId%",
             "ipName": "%ipName%",

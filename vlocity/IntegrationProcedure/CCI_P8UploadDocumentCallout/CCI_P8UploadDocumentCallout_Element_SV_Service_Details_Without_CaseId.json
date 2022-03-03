@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "SV_Service_Details",
+    "Name": "SV_Service_Details_Without_CaseId",
     "OmniProcessId": {
         "Name": "P8 Upload Document Callout",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -24,17 +24,13 @@
                 "objectStore": "%objectStore%",
                 "searchIndexes": [
                     {
-                        "name": "CaseID",
-                        "value": "%caseId%"
-                    },
-                    {
                         "name": "ContractNumber",
                         "value": "%contractNumber%"
                     }
                 ]
             }
         },
-        "executionConditionalFormula": "%objectStore% == \"MemAppOS\" || %objectStore% == \"MedRecOS\" ",
+        "executionConditionalFormula": "%objectStore% == \"PaperClaimsOS\" || %objectStore% ==\"LegalOS\" ",
         "failOnStepError": false,
         "failureConditionalFormula": "",
         "label": "SetValues1",
@@ -45,5 +41,5 @@
     "Type": "Set Values",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8UploadDocumentCallout/Procedure/SV_Service_Details"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8UploadDocumentCallout/Procedure/SV_Service_Details_Without_CaseId"
 }

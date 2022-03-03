@@ -10,6 +10,7 @@
     "Name": "P8 Upload Document Callout",
     "OmniProcessElement": [
         "CCI_P8UploadDocumentCallout_Element_SV_Service_Details.json",
+        "CCI_P8UploadDocumentCallout_Element_SV_Service_Details_Without_CaseId.json",
         "CCI_P8UploadDocumentCallout_Element_IP_Framework_PostCallout.json",
         "CCI_P8UploadDocumentCallout_Element_Success.json",
         "CCI_P8UploadDocumentCallout_Element_RASuccessDocCallout.json",
@@ -24,5 +25,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/P8UploadDocumentCallout/Procedure",
-    "WebComponentKey": "7cb6e30a-1b74-1717-b55f-0a02d0295ca6"
+    "WebComponentKey": "13d2d936-e4c0-5c6c-a512-ebad99237a7e"
 }
