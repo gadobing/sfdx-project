@@ -18,8 +18,8 @@
         "chainOnStep": false,
         "dataRaptor Input Parameters": [
             {
-                "element": "CaseId",
-                "inputParam": "CaseId"
+                "element": "ContextId",
+                "inputParam": "ContextId"
             }
         ],
         "disOnTplt": false,
