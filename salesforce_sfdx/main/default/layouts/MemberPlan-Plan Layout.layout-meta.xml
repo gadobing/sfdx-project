@@ -55,6 +55,10 @@
                 <behavior>Edit</behavior>
                 <field>Risk_Pop__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Coverage_Poilicy_URL__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -159,6 +163,17 @@
         <fields>Expiration_Date__c</fields>
         <fields>Type__c</fields>
         <relatedList>Additional_Information__c.Contract__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>Agent__c</fields>
+        <fields>Agency__c</fields>
+        <fields>Effective_Date__c</fields>
+        <fields>Termination_Date__c</fields>
+        <fields>Agent_Phone__c</fields>
+        <relatedList>Agency_of_Record__c.Member_Plan__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
