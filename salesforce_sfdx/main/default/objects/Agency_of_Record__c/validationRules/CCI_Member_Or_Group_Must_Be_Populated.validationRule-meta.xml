@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCI_Member_Or_Group_Must_Be_Populated</fullName>
+    <active>true</active>
+    <description>if Member Plan OR Group field is not populated then it Throws the error to populate either one of them before saving</description>
+    <errorConditionFormula>AND(ISBLANK(Member_Plan__c),ISBLANK(Group__c))</errorConditionFormula>
+    <errorMessage>Group OR Member Plan must be populated</errorMessage>
+</ValidationRule>
