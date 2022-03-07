@@ -51,7 +51,7 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>%vlocity_namespace%__Vlocity_Digital_Studio</application>
+        <application>omnistudio__Vlocity_Digital_Studio</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -2852,1323 +2852,1323 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ActiveIntegrationProcedureDynPicklist</apexClass>
+        <apexClass>omnistudio__ActiveIntegrationProcedureDynPicklist</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ApplicationDisplayController</apexClass>
+        <apexClass>omnistudio__ApplicationDisplayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ApplicationResource</apexClass>
+        <apexClass>omnistudio__ApplicationResource</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ApplicationService</apexClass>
+        <apexClass>omnistudio__ApplicationService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ApplicationServiceTest</apexClass>
+        <apexClass>omnistudio__ApplicationServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__AutoCustomLabelReferenceTestCards</apexClass>
+        <apexClass>omnistudio__AutoCustomLabelReferenceTestCards</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__AutoCustomLabelReferenceTestComponents</apexClass>
+        <apexClass>omnistudio__AutoCustomLabelReferenceTestComponents</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__AutoCustomLabelReferenceTestDocgen</apexClass>
+        <apexClass>omnistudio__AutoCustomLabelReferenceTestDocgen</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__AutoCustomLabelReferenceTestOui</apexClass>
+        <apexClass>omnistudio__AutoCustomLabelReferenceTestOui</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__AutoCustomLabelReferenceTestPlatform</apexClass>
+        <apexClass>omnistudio__AutoCustomLabelReferenceTestPlatform</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BaseDisplayController</apexClass>
+        <apexClass>omnistudio__BaseDisplayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BaseDisplayControllerTest</apexClass>
+        <apexClass>omnistudio__BaseDisplayControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessContTest</apexClass>
+        <apexClass>omnistudio__BusinessProcessContTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessController</apexClass>
+        <apexClass>omnistudio__BusinessProcessController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessDisplayController</apexClass>
+        <apexClass>omnistudio__BusinessProcessDisplayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessTest</apexClass>
+        <apexClass>omnistudio__BusinessProcessTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessTriggerHandler</apexClass>
+        <apexClass>omnistudio__BusinessProcessTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessTriggerHandlerTest</apexClass>
+        <apexClass>omnistudio__BusinessProcessTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessUtility</apexClass>
+        <apexClass>omnistudio__BusinessProcessUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__BusinessProcessUtilityTest</apexClass>
+        <apexClass>omnistudio__BusinessProcessUtilityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CLMUtilityService</apexClass>
+        <apexClass>omnistudio__CLMUtilityService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CLMUtilityServiceTest</apexClass>
+        <apexClass>omnistudio__CLMUtilityServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ClmMockHttpPdfResponse</apexClass>
+        <apexClass>omnistudio__ClmMockHttpPdfResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ComponentController</apexClass>
+        <apexClass>omnistudio__ComponentController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ComponentControllerTest</apexClass>
+        <apexClass>omnistudio__ComponentControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CoreGlobalInterfaces</apexClass>
+        <apexClass>omnistudio__CoreGlobalInterfaces</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CreateEleTypeToHTMLTemplateList</apexClass>
+        <apexClass>omnistudio__CreateEleTypeToHTMLTemplateList</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CreateEleTypeToHTMLTemplateListTest</apexClass>
+        <apexClass>omnistudio__CreateEleTypeToHTMLTemplateListTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CreateRelativeResumeLinkBatch</apexClass>
+        <apexClass>omnistudio__CreateRelativeResumeLinkBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CreateRelativeResumeLinkBatchTest</apexClass>
+        <apexClass>omnistudio__CreateRelativeResumeLinkBatchTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CurrencyCode</apexClass>
+        <apexClass>omnistudio__CurrencyCode</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CurrencyCodeTest</apexClass>
+        <apexClass>omnistudio__CurrencyCodeTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CustomLabelTranslationController</apexClass>
+        <apexClass>omnistudio__CustomLabelTranslationController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CustomLabelTranslationControllerTest</apexClass>
+        <apexClass>omnistudio__CustomLabelTranslationControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__CustomTokenDataExtractorTest</apexClass>
+        <apexClass>omnistudio__CustomTokenDataExtractorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRBundleTriggerHandler</apexClass>
+        <apexClass>omnistudio__DRBundleTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRCleanupBatch</apexClass>
+        <apexClass>omnistudio__DRCleanupBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataModelUtility</apexClass>
+        <apexClass>omnistudio__DRDataModelUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackFoundOpenImplementation</apexClass>
+        <apexClass>omnistudio__DRDataPackFoundOpenImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackMappingsUtility</apexClass>
+        <apexClass>omnistudio__DRDataPackMappingsUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackOUIOpenImplementation</apexClass>
+        <apexClass>omnistudio__DRDataPackOUIOpenImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackRestResource</apexClass>
+        <apexClass>omnistudio__DRDataPackRestResource</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackRunnerController</apexClass>
+        <apexClass>omnistudio__DRDataPackRunnerController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackService</apexClass>
+        <apexClass>omnistudio__DRDataPackService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackServiceBatch</apexClass>
+        <apexClass>omnistudio__DRDataPackServiceBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackServiceFoundationTest</apexClass>
+        <apexClass>omnistudio__DRDataPackServiceFoundationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDataPackTriggerHandler</apexClass>
+        <apexClass>omnistudio__DRDataPackTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDocTemplateIntegrationTest</apexClass>
+        <apexClass>omnistudio__DRDocTemplateIntegrationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDocTemplateIntegrationUtilityService</apexClass>
+        <apexClass>omnistudio__DRDocTemplateIntegrationUtilityService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRDuplicateFoundException</apexClass>
+        <apexClass>omnistudio__DRDuplicateFoundException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DREngine</apexClass>
+        <apexClass>omnistudio__DREngine</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DREngineUtilitiesFoundation</apexClass>
+        <apexClass>omnistudio__DREngineUtilitiesFoundation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRErrorUtility</apexClass>
+        <apexClass>omnistudio__DRErrorUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRGlobal</apexClass>
+        <apexClass>omnistudio__DRGlobal</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRInsertObject</apexClass>
+        <apexClass>omnistudio__DRInsertObject</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRMapItemTriggerHandler</apexClass>
+        <apexClass>omnistudio__DRMapItemTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRMapItemTriggerHandlerTest</apexClass>
+        <apexClass>omnistudio__DRMapItemTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRMapperControllerFoundation</apexClass>
+        <apexClass>omnistudio__DRMapperControllerFoundation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRMapperControllerFoundationTest</apexClass>
+        <apexClass>omnistudio__DRMapperControllerFoundationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DROpenImplementationClass</apexClass>
+        <apexClass>omnistudio__DROpenImplementationClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRProcessBatch</apexClass>
+        <apexClass>omnistudio__DRProcessBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRProcessException</apexClass>
+        <apexClass>omnistudio__DRProcessException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRProcessObject</apexClass>
+        <apexClass>omnistudio__DRProcessObject</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRProcessResult</apexClass>
+        <apexClass>omnistudio__DRProcessResult</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRProcessor</apexClass>
+        <apexClass>omnistudio__DRProcessor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRProcessorTest</apexClass>
+        <apexClass>omnistudio__DRProcessorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRQueryException</apexClass>
+        <apexClass>omnistudio__DRQueryException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRQueryObject</apexClass>
+        <apexClass>omnistudio__DRQueryObject</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRQueryResult</apexClass>
+        <apexClass>omnistudio__DRQueryResult</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRQueryRunner</apexClass>
+        <apexClass>omnistudio__DRQueryRunner</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRQueryService</apexClass>
+        <apexClass>omnistudio__DRQueryService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRReprocessBatch</apexClass>
+        <apexClass>omnistudio__DRReprocessBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRRestResource</apexClass>
+        <apexClass>omnistudio__DRRestResource</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRRestResourceV2</apexClass>
+        <apexClass>omnistudio__DRRestResourceV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRSObjectGenerator</apexClass>
+        <apexClass>omnistudio__DRSObjectGenerator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRSObjectGeneratorTest</apexClass>
+        <apexClass>omnistudio__DRSObjectGeneratorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRScheduler</apexClass>
+        <apexClass>omnistudio__DRScheduler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRTestUtilities</apexClass>
+        <apexClass>omnistudio__DRTestUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRTriggerHandler</apexClass>
+        <apexClass>omnistudio__DRTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRUtilities</apexClass>
+        <apexClass>omnistudio__DRUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRUtilitiesTest</apexClass>
+        <apexClass>omnistudio__DRUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DRUtilityService</apexClass>
+        <apexClass>omnistudio__DRUtilityService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultDROmniScriptIntegration</apexClass>
+        <apexClass>omnistudio__DefaultDROmniScriptIntegration</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultDocuSignOmniScriptIntegration</apexClass>
+        <apexClass>omnistudio__DefaultDocuSignOmniScriptIntegration</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultDocuSignOmniScriptIntegrationTest</apexClass>
+        <apexClass>omnistudio__DefaultDocuSignOmniScriptIntegrationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultFetchPicklistOptionsImpl</apexClass>
+        <apexClass>omnistudio__DefaultFetchPicklistOptionsImpl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultFetchPicklistOptionsImplTest</apexClass>
+        <apexClass>omnistudio__DefaultFetchPicklistOptionsImplTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultGenGlobalKeyVersionImplementation</apexClass>
+        <apexClass>omnistudio__DefaultGenGlobalKeyVersionImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultGenerateGlobalKeyImplementation</apexClass>
+        <apexClass>omnistudio__DefaultGenerateGlobalKeyImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultGetProductListImplementation</apexClass>
+        <apexClass>omnistudio__DefaultGetProductListImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultInvocableAction</apexClass>
+        <apexClass>omnistudio__DefaultInvocableAction</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultInvocableActionTest</apexClass>
+        <apexClass>omnistudio__DefaultInvocableActionTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultKnowledgeOmniScriptIntegration</apexClass>
+        <apexClass>omnistudio__DefaultKnowledgeOmniScriptIntegration</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptApplicationService</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptApplicationService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptApplicationServiceTest</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptApplicationServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptEditBlock</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptEditBlock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptEditBlockTest</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptEditBlockTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptImplTests</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptImplTests</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptMatrix</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptMatrix</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptMatrixTest</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptMatrixTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptNamedCredentialCallout</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptNamedCredentialCallout</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptSObjectPicklist</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptSObjectPicklist</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptSObjectPicklistTest</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptSObjectPicklistTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptSendEmail</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptSendEmail</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptSendEmailTest</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptSendEmailTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptTypeAheadLookup</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptTypeAheadLookup</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniScriptTypeAheadLookupTest</apexClass>
+        <apexClass>omnistudio__DefaultOmniScriptTypeAheadLookupTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultOmniscriptApexRestService</apexClass>
+        <apexClass>omnistudio__DefaultOmniscriptApexRestService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultPDFOmniScriptIntegration</apexClass>
+        <apexClass>omnistudio__DefaultPDFOmniScriptIntegration</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DefaultUserCustomLabelsImplementation</apexClass>
+        <apexClass>omnistudio__DefaultUserCustomLabelsImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenInvokeService</apexClass>
+        <apexClass>omnistudio__DocGenInvokeService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenObjectMappings</apexClass>
+        <apexClass>omnistudio__DocGenObjectMappings</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenObjectMappingsTest</apexClass>
+        <apexClass>omnistudio__DocGenObjectMappingsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenPermUtil</apexClass>
+        <apexClass>omnistudio__DocGenPermUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenPermUtilTest</apexClass>
+        <apexClass>omnistudio__DocGenPermUtilTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenSecurityChecker</apexClass>
+        <apexClass>omnistudio__DocGenSecurityChecker</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenSecurityCheckerTest</apexClass>
+        <apexClass>omnistudio__DocGenSecurityCheckerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenUtility</apexClass>
+        <apexClass>omnistudio__DocGenUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocGenUtilityTest</apexClass>
+        <apexClass>omnistudio__DocGenUtilityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocTemplateListController</apexClass>
+        <apexClass>omnistudio__DocTemplateListController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocTemplateListControllerTest</apexClass>
+        <apexClass>omnistudio__DocTemplateListControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocTemplateMappingAbstractClass</apexClass>
+        <apexClass>omnistudio__DocTemplateMappingAbstractClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocgenAppHandler</apexClass>
+        <apexClass>omnistudio__DocgenAppHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocgenAppHandlerTest</apexClass>
+        <apexClass>omnistudio__DocgenAppHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocgenOpenInterfaceSharingWrapper</apexClass>
+        <apexClass>omnistudio__DocgenOpenInterfaceSharingWrapper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocgenPermSetMethods</apexClass>
+        <apexClass>omnistudio__DocgenPermSetMethods</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocgenPermSetMethodsTest</apexClass>
+        <apexClass>omnistudio__DocgenPermSetMethodsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocgenPostInstallClass</apexClass>
+        <apexClass>omnistudio__DocgenPostInstallClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocgenPostInstallClassTest</apexClass>
+        <apexClass>omnistudio__DocgenPostInstallClassTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocuSignAccountSetting</apexClass>
+        <apexClass>omnistudio__DocuSignAccountSetting</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocuSignCredentialController</apexClass>
+        <apexClass>omnistudio__DocuSignCredentialController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocuSignCredentialControllerTest</apexClass>
+        <apexClass>omnistudio__DocuSignCredentialControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentClauseTriggerHandler</apexClass>
+        <apexClass>omnistudio__DocumentClauseTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentClauseTriggerHandlerTest</apexClass>
+        <apexClass>omnistudio__DocumentClauseTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentServiceClient</apexClass>
+        <apexClass>omnistudio__DocumentServiceClient</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentServiceClientTest</apexClass>
+        <apexClass>omnistudio__DocumentServiceClientTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentServiceGateway</apexClass>
+        <apexClass>omnistudio__DocumentServiceGateway</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentServiceGatewayTest</apexClass>
+        <apexClass>omnistudio__DocumentServiceGatewayTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateDisplayController</apexClass>
+        <apexClass>omnistudio__DocumentTemplateDisplayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateDisplayControllerTest</apexClass>
+        <apexClass>omnistudio__DocumentTemplateDisplayControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateSectionModel</apexClass>
+        <apexClass>omnistudio__DocumentTemplateSectionModel</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateSectionTriggerHandler</apexClass>
+        <apexClass>omnistudio__DocumentTemplateSectionTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateSectionTriggerTest</apexClass>
+        <apexClass>omnistudio__DocumentTemplateSectionTriggerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateService</apexClass>
+        <apexClass>omnistudio__DocumentTemplateService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateServiceTest</apexClass>
+        <apexClass>omnistudio__DocumentTemplateServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateTriggerHandler</apexClass>
+        <apexClass>omnistudio__DocumentTemplateTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocumentTemplateTriggerHandlerTest</apexClass>
+        <apexClass>omnistudio__DocumentTemplateTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocxGenUtil</apexClass>
+        <apexClass>omnistudio__DocxGenUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__DocxGenUtilTest</apexClass>
+        <apexClass>omnistudio__DocxGenUtilTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ElementTriggerHandler</apexClass>
+        <apexClass>omnistudio__ElementTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ElementTriggerHandlerTest</apexClass>
+        <apexClass>omnistudio__ElementTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__EmbeddingBusinessProcessController</apexClass>
+        <apexClass>omnistudio__EmbeddingBusinessProcessController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FetchStaticResourceUrl</apexClass>
+        <apexClass>omnistudio__FetchStaticResourceUrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FetchStaticResourceUrlTest</apexClass>
+        <apexClass>omnistudio__FetchStaticResourceUrlTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FetchUserDetails</apexClass>
+        <apexClass>omnistudio__FetchUserDetails</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FetchUserDetailsTest</apexClass>
+        <apexClass>omnistudio__FetchUserDetailsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FlexCardController</apexClass>
+        <apexClass>omnistudio__FlexCardController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FlexCardControllerTest</apexClass>
+        <apexClass>omnistudio__FlexCardControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FlexCardException</apexClass>
+        <apexClass>omnistudio__FlexCardException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FlexRuntime</apexClass>
+        <apexClass>omnistudio__FlexRuntime</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FlexRuntimeTest</apexClass>
+        <apexClass>omnistudio__FlexRuntimeTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FontUtility</apexClass>
+        <apexClass>omnistudio__FontUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FontUtilityTest</apexClass>
+        <apexClass>omnistudio__FontUtilityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FormulaParser</apexClass>
+        <apexClass>omnistudio__FormulaParser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__FormulaParserTest</apexClass>
+        <apexClass>omnistudio__FormulaParserTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__GuestUserRESTController</apexClass>
+        <apexClass>omnistudio__GuestUserRESTController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__GuestUserUtilities</apexClass>
+        <apexClass>omnistudio__GuestUserUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__GuestUserUtilitiesTest</apexClass>
+        <apexClass>omnistudio__GuestUserUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__HexUtil</apexClass>
+        <apexClass>omnistudio__HexUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IDRPreprocess</apexClass>
+        <apexClass>omnistudio__IDRPreprocess</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IDRPreprocessTest</apexClass>
+        <apexClass>omnistudio__IDRPreprocessTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IPPickList</apexClass>
+        <apexClass>omnistudio__IPPickList</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ITrigger</apexClass>
+        <apexClass>omnistudio__ITrigger</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IntegrationProcedureDataSourceProvider</apexClass>
+        <apexClass>omnistudio__IntegrationProcedureDataSourceProvider</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IntegrationProcedureExternalObject</apexClass>
+        <apexClass>omnistudio__IntegrationProcedureExternalObject</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IntegrationProcedureResourceV1</apexClass>
+        <apexClass>omnistudio__IntegrationProcedureResourceV1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IntegrationProcedureService</apexClass>
+        <apexClass>omnistudio__IntegrationProcedureService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IntegrationProcedureServiceTest</apexClass>
+        <apexClass>omnistudio__IntegrationProcedureServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__InvokeResource</apexClass>
+        <apexClass>omnistudio__InvokeResource</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__InvokeService</apexClass>
+        <apexClass>omnistudio__InvokeService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__IsFoundationPkg</apexClass>
+        <apexClass>omnistudio__IsFoundationPkg</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__JSONDownloadController</apexClass>
+        <apexClass>omnistudio__JSONDownloadController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__JSONMessage</apexClass>
+        <apexClass>omnistudio__JSONMessage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__JSONResult</apexClass>
+        <apexClass>omnistudio__JSONResult</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__JSONUtilities</apexClass>
+        <apexClass>omnistudio__JSONUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__JsonToXml</apexClass>
+        <apexClass>omnistudio__JsonToXml</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__JsonToXmlTest</apexClass>
+        <apexClass>omnistudio__JsonToXmlTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LWCDesignerController</apexClass>
+        <apexClass>omnistudio__LWCDesignerController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LWCDesignerControllerTest</apexClass>
+        <apexClass>omnistudio__LWCDesignerControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LWCPicklist</apexClass>
+        <apexClass>omnistudio__LWCPicklist</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LWCUtilities</apexClass>
+        <apexClass>omnistudio__LWCUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LWCUtilitiesTest</apexClass>
+        <apexClass>omnistudio__LWCUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LabelUtilityService</apexClass>
+        <apexClass>omnistudio__LabelUtilityService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LabelUtilityServiceTest</apexClass>
+        <apexClass>omnistudio__LabelUtilityServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__Logger</apexClass>
+        <apexClass>omnistudio__Logger</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__LoggerTest</apexClass>
+        <apexClass>omnistudio__LoggerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__MapUtility</apexClass>
+        <apexClass>omnistudio__MapUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__MapUtilityTest</apexClass>
+        <apexClass>omnistudio__MapUtilityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__MatchingKeyService</apexClass>
+        <apexClass>omnistudio__MatchingKeyService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__MatchingKeyServiceTest</apexClass>
+        <apexClass>omnistudio__MatchingKeyServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__MetadataQueryWithoutSharing</apexClass>
+        <apexClass>omnistudio__MetadataQueryWithoutSharing</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__MockDocuSignCalloutResponse</apexClass>
+        <apexClass>omnistudio__MockDocuSignCalloutResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__MockDocuSignCalloutTemplatesResponse</apexClass>
+        <apexClass>omnistudio__MockDocuSignCalloutTemplatesResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__NamespaceUtilities</apexClass>
+        <apexClass>omnistudio__NamespaceUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__NamespaceUtilitiesTest</apexClass>
+        <apexClass>omnistudio__NamespaceUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__NewportUtilities</apexClass>
+        <apexClass>omnistudio__NewportUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__NewportUtilitiesTest</apexClass>
+        <apexClass>omnistudio__NewportUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectCopyUtility</apexClass>
+        <apexClass>omnistudio__ObjectCopyUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectDescriberV2</apexClass>
+        <apexClass>omnistudio__ObjectDescriberV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectDescriberV2Test</apexClass>
+        <apexClass>omnistudio__ObjectDescriberV2Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectDocumentCreationDocxController</apexClass>
+        <apexClass>omnistudio__ObjectDocumentCreationDocxController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectDocumentCreationDocxControllerTest</apexClass>
+        <apexClass>omnistudio__ObjectDocumentCreationDocxControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectDocumentCreationDocxHandler</apexClass>
+        <apexClass>omnistudio__ObjectDocumentCreationDocxHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectDocumentCreationDocxService</apexClass>
+        <apexClass>omnistudio__ObjectDocumentCreationDocxService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectDocumentCreationDocxServiceTest</apexClass>
+        <apexClass>omnistudio__ObjectDocumentCreationDocxServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectUtilities</apexClass>
+        <apexClass>omnistudio__ObjectUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ObjectUtilitiesTest</apexClass>
+        <apexClass>omnistudio__ObjectUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniLanguageDynamicPicklist</apexClass>
+        <apexClass>omnistudio__OmniLanguageDynamicPicklist</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniLanguageDynamicPicklistTest</apexClass>
+        <apexClass>omnistudio__OmniLanguageDynamicPicklistTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniNamedCredentialMockResponse</apexClass>
+        <apexClass>omnistudio__OmniNamedCredentialMockResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptCompilerCtrl</apexClass>
+        <apexClass>omnistudio__OmniScriptCompilerCtrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptDesignerController</apexClass>
+        <apexClass>omnistudio__OmniScriptDesignerController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptDesignerControllerTest</apexClass>
+        <apexClass>omnistudio__OmniScriptDesignerControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptHomeController</apexClass>
+        <apexClass>omnistudio__OmniScriptHomeController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptHomeControllerTest</apexClass>
+        <apexClass>omnistudio__OmniScriptHomeControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptInstanceController</apexClass>
+        <apexClass>omnistudio__OmniScriptInstanceController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptUtil</apexClass>
+        <apexClass>omnistudio__OmniScriptUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniScriptWorkbenchController</apexClass>
+        <apexClass>omnistudio__OmniScriptWorkbenchController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniStudioPostInstallClass</apexClass>
+        <apexClass>omnistudio__OmniStudioPostInstallClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniStudioPostInstallClassTest</apexClass>
+        <apexClass>omnistudio__OmniStudioPostInstallClassTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniStudioPostUninstallClass</apexClass>
+        <apexClass>omnistudio__OmniStudioPostUninstallClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniStudioPostUninstallClassTest</apexClass>
+        <apexClass>omnistudio__OmniStudioPostUninstallClassTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniSubTypeDynamicPicklist</apexClass>
+        <apexClass>omnistudio__OmniSubTypeDynamicPicklist</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniSubTypeDynamicPicklistTest</apexClass>
+        <apexClass>omnistudio__OmniSubTypeDynamicPicklistTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniTypeDynamicPicklist</apexClass>
+        <apexClass>omnistudio__OmniTypeDynamicPicklist</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniTypeDynamicPicklistTest</apexClass>
+        <apexClass>omnistudio__OmniTypeDynamicPicklistTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniUiCardTriggerHandler</apexClass>
+        <apexClass>omnistudio__OmniUiCardTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OmniUiCardTriggerHandlerTest</apexClass>
+        <apexClass>omnistudio__OmniUiCardTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OrgCacheManager</apexClass>
+        <apexClass>omnistudio__OrgCacheManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OrgCacheManagerInterface</apexClass>
+        <apexClass>omnistudio__OrgCacheManagerInterface</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__OrgCacheManagerTest</apexClass>
+        <apexClass>omnistudio__OrgCacheManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PDFTRonUtil</apexClass>
+        <apexClass>omnistudio__PDFTRonUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PDFTronUtilTest</apexClass>
+        <apexClass>omnistudio__PDFTronUtilTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PersonAccountSetting</apexClass>
+        <apexClass>omnistudio__PersonAccountSetting</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PersonAccountSettingTest</apexClass>
+        <apexClass>omnistudio__PersonAccountSettingTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PicklistTranslationController</apexClass>
+        <apexClass>omnistudio__PicklistTranslationController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PicklistTranslationControllerTest</apexClass>
+        <apexClass>omnistudio__PicklistTranslationControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformApplicationUtilities</apexClass>
+        <apexClass>omnistudio__PlatformApplicationUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformApplicationUtilitiesTest</apexClass>
+        <apexClass>omnistudio__PlatformApplicationUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformCoreTriggerFactory</apexClass>
+        <apexClass>omnistudio__PlatformCoreTriggerFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformCustomSettingsUtilities</apexClass>
+        <apexClass>omnistudio__PlatformCustomSettingsUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformCustomSettingsUtilitiesTest</apexClass>
+        <apexClass>omnistudio__PlatformCustomSettingsUtilitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformDocuSignIntegrationService</apexClass>
+        <apexClass>omnistudio__PlatformDocuSignIntegrationService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformGeneralSettingsUtilities</apexClass>
+        <apexClass>omnistudio__PlatformGeneralSettingsUtilities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformGeneralSettingsUtilitiesAux</apexClass>
+        <apexClass>omnistudio__PlatformGeneralSettingsUtilitiesAux</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformInvokeInterface</apexClass>
+        <apexClass>omnistudio__PlatformInvokeInterface</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformInvokeService</apexClass>
+        <apexClass>omnistudio__PlatformInvokeService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformObjectMappings</apexClass>
+        <apexClass>omnistudio__PlatformObjectMappings</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformOmniStudioUtils</apexClass>
+        <apexClass>omnistudio__PlatformOmniStudioUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformSecurityChecker</apexClass>
+        <apexClass>omnistudio__PlatformSecurityChecker</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformSecurityCheckerTest</apexClass>
+        <apexClass>omnistudio__PlatformSecurityCheckerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformTriggerFactory</apexClass>
+        <apexClass>omnistudio__PlatformTriggerFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformVFPageControllerBase</apexClass>
+        <apexClass>omnistudio__PlatformVFPageControllerBase</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PlatformVFPageControllerBaseTest</apexClass>
+        <apexClass>omnistudio__PlatformVFPageControllerBaseTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PricingMatrixCalculationService</apexClass>
+        <apexClass>omnistudio__PricingMatrixCalculationService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__PricingMatrixCalculationServiceTest</apexClass>
+        <apexClass>omnistudio__PricingMatrixCalculationServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ProcedureTestFrameworkV1</apexClass>
+        <apexClass>omnistudio__ProcedureTestFrameworkV1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__Puff</apexClass>
+        <apexClass>omnistudio__Puff</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__RTEPropSetManager</apexClass>
+        <apexClass>omnistudio__RTEPropSetManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__RTEPropSetManagerTest</apexClass>
+        <apexClass>omnistudio__RTEPropSetManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SObjectProxy</apexClass>
+        <apexClass>omnistudio__SObjectProxy</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SObjectProxyTest</apexClass>
+        <apexClass>omnistudio__SObjectProxyTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ScaleCacheService</apexClass>
+        <apexClass>omnistudio__ScaleCacheService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SessionIdHandler</apexClass>
+        <apexClass>omnistudio__SessionIdHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SideBySideNavigationController</apexClass>
+        <apexClass>omnistudio__SideBySideNavigationController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SideBySideNavigationControllerTest</apexClass>
+        <apexClass>omnistudio__SideBySideNavigationControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SingleRequestMock2</apexClass>
+        <apexClass>omnistudio__SingleRequestMock2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlCondition</apexClass>
+        <apexClass>omnistudio__SoqlCondition</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlConditionBuilder</apexClass>
+        <apexClass>omnistudio__SoqlConditionBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlConditionBuilderTest</apexClass>
+        <apexClass>omnistudio__SoqlConditionBuilderTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlConditionTest</apexClass>
+        <apexClass>omnistudio__SoqlConditionTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlLimit</apexClass>
+        <apexClass>omnistudio__SoqlLimit</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlLimitTest</apexClass>
+        <apexClass>omnistudio__SoqlLimitTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlOrder</apexClass>
+        <apexClass>omnistudio__SoqlOrder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlOrderTest</apexClass>
+        <apexClass>omnistudio__SoqlOrderTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlParameter</apexClass>
+        <apexClass>omnistudio__SoqlParameter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlParameterTest</apexClass>
+        <apexClass>omnistudio__SoqlParameterTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlPredicate</apexClass>
+        <apexClass>omnistudio__SoqlPredicate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlPredicateTest</apexClass>
+        <apexClass>omnistudio__SoqlPredicateTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlQuery</apexClass>
+        <apexClass>omnistudio__SoqlQuery</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlQueryBuilder</apexClass>
+        <apexClass>omnistudio__SoqlQueryBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlQueryBuilderTest</apexClass>
+        <apexClass>omnistudio__SoqlQueryBuilderTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__SoqlQueryTest</apexClass>
+        <apexClass>omnistudio__SoqlQueryTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__TokenExtractionUtility</apexClass>
+        <apexClass>omnistudio__TokenExtractionUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__TokenExtractionUtilityTest</apexClass>
+        <apexClass>omnistudio__TokenExtractionUtilityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__TokenMappingComponentController</apexClass>
+        <apexClass>omnistudio__TokenMappingComponentController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__TokenMappingComponentControllerTest</apexClass>
+        <apexClass>omnistudio__TokenMappingComponentControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__TranformServiceTest</apexClass>
+        <apexClass>omnistudio__TranformServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__TransformService</apexClass>
+        <apexClass>omnistudio__TransformService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__TriggerException</apexClass>
+        <apexClass>omnistudio__TriggerException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__UserCustomLabelsController</apexClass>
+        <apexClass>omnistudio__UserCustomLabelsController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__UserCustomLabelsService</apexClass>
+        <apexClass>omnistudio__UserCustomLabelsService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__UserCustomLabelsServiceTest</apexClass>
+        <apexClass>omnistudio__UserCustomLabelsServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__UserProfile</apexClass>
+        <apexClass>omnistudio__UserProfile</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__Utils</apexClass>
+        <apexClass>omnistudio__Utils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__UtilsUnitTest</apexClass>
+        <apexClass>omnistudio__UtilsUnitTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VFActionFunctionController</apexClass>
+        <apexClass>omnistudio__VFActionFunctionController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VFActionFunctionControllerTest</apexClass>
+        <apexClass>omnistudio__VFActionFunctionControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityBatchFramework</apexClass>
+        <apexClass>omnistudio__VlocityBatchFramework</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityBatchFrameworkTest</apexClass>
+        <apexClass>omnistudio__VlocityBatchFrameworkTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityBatchSObjectJob</apexClass>
+        <apexClass>omnistudio__VlocityBatchSObjectJob</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityContinuationIntegration</apexClass>
+        <apexClass>omnistudio__VlocityContinuationIntegration</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityDocsUtils</apexClass>
+        <apexClass>omnistudio__VlocityDocsUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityDocsUtilsTest</apexClass>
+        <apexClass>omnistudio__VlocityDocsUtilsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityErrorLoggingService</apexClass>
+        <apexClass>omnistudio__VlocityErrorLoggingService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityErrorLoggingServiceTest</apexClass>
+        <apexClass>omnistudio__VlocityErrorLoggingServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityOpenInterface</apexClass>
+        <apexClass>omnistudio__VlocityOpenInterface</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityOpenInterface2</apexClass>
+        <apexClass>omnistudio__VlocityOpenInterface2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityOpenInterfaceExecutor</apexClass>
+        <apexClass>omnistudio__VlocityOpenInterfaceExecutor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityOpenInterfaceExecutorTest</apexClass>
+        <apexClass>omnistudio__VlocityOpenInterfaceExecutorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityScheduledJobTriggerHandler</apexClass>
+        <apexClass>omnistudio__VlocityScheduledJobTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityTrackingEntryMigrationBatch</apexClass>
+        <apexClass>omnistudio__VlocityTrackingEntryMigrationBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityTrackingService</apexClass>
+        <apexClass>omnistudio__VlocityTrackingService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityTrackingServiceFieldMappings</apexClass>
+        <apexClass>omnistudio__VlocityTrackingServiceFieldMappings</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityTrackingServiceFieldMappingsTest</apexClass>
+        <apexClass>omnistudio__VlocityTrackingServiceFieldMappingsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__VlocityTrackingServiceFoundationTest</apexClass>
+        <apexClass>omnistudio__VlocityTrackingServiceFoundationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__XmlToJson</apexClass>
+        <apexClass>omnistudio__XmlToJson</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__XmlToJsonTest</apexClass>
+        <apexClass>omnistudio__XmlToJsonTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__Zippex</apexClass>
+        <apexClass>omnistudio__Zippex</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>%vlocity_namespace%__ZippexTests</apexClass>
+        <apexClass>omnistudio__ZippexTests</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -4350,23 +4350,23 @@
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
-        <name>%vlocity_namespace%__CardFrameworkConfiguration__c</name>
+        <name>omnistudio__CardFrameworkConfiguration__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
-        <name>%vlocity_namespace%__DREncryption__c</name>
+        <name>omnistudio__DREncryption__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
-        <name>%vlocity_namespace%__DRWorker__c</name>
+        <name>omnistudio__DRWorker__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
-        <name>%vlocity_namespace%__TriggerSetup__c</name>
+        <name>omnistudio__TriggerSetup__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
-        <name>%vlocity_namespace%__UISettings__c</name>
+        <name>omnistudio__UISettings__c</name>
     </customSettingAccesses>
     <fieldPermissions>
         <editable>true</editable>
@@ -25150,832 +25150,832 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBatchQueue__c.%vlocity_namespace%__DRBundleName__c</field>
+        <field>omnistudio__DRBatchQueue__c.omnistudio__DRBundleName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBatchQueue__c.%vlocity_namespace%__DRStatus__c</field>
+        <field>omnistudio__DRBatchQueue__c.omnistudio__DRStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__AsyncApexJobId__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__AsyncApexJobId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__BulkChunkId__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__BulkChunkId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__BulkChunkStatus__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__BulkChunkStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__DRBundleName__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__DRBundleName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__DRError__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__DRError__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__DRProgressData__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__DRProgressData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__DRStatus__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__DRStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__Data__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__Data__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__DRBulkData__c.%vlocity_namespace%__GlobalKey__c</field>
+        <field>omnistudio__DRBulkData__c.omnistudio__GlobalKey__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column001__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column001__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column002__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column002__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column003__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column003__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column004__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column004__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column005__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column005__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column006__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column006__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column007__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column007__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column008__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column008__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column009__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column009__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column010__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column010__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column011__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column011__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column012__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column012__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column013__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column013__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column014__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column014__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column015__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column015__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column016__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column016__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column017__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column017__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column018__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column018__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column019__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column019__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column020__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column020__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column021__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column021__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column022__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column022__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column023__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column023__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column024__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column024__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column025__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column025__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column026__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column026__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column027__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column027__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column028__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column028__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column029__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column029__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column030__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column030__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column031__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column031__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column032__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column032__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column033__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column033__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column034__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column034__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column035__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column035__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column036__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column036__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column037__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column037__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column038__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column038__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column039__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column039__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column040__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column040__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column041__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column041__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column042__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column042__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column043__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column043__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column044__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column044__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column045__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column045__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column046__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column046__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column047__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column047__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column048__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column048__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column049__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column049__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column050__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column050__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column051__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column051__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column052__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column052__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column053__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column053__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column054__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column054__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column055__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column055__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column056__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column056__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column057__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column057__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column058__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column058__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column059__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column059__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column060__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column060__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column061__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column061__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column062__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column062__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column063__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column063__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column064__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column064__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column065__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column065__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column066__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column066__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column067__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column067__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column068__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column068__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column069__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column069__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column070__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column070__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column071__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column071__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column072__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column072__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column073__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column073__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column074__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column074__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column075__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column075__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column076__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column076__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column077__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column077__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column078__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column078__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column079__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column079__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column080__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column080__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column081__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column081__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column082__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column082__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column083__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column083__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column084__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column084__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column085__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column085__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column086__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column086__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column087__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column087__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column088__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column088__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column089__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column089__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__Column090__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__Column090__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__DRBundleName__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__DRBundleName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__DRError__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__DRError__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__DRProgressData__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__DRProgressData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__DRStatus__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__DRStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__Interface_DRGeneric__c.%vlocity_namespace%__LargeData__c</field>
+        <field>omnistudio__Interface_DRGeneric__c.omnistudio__LargeData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__TestResult__c.%vlocity_namespace%__AsyncApexJobId__c</field>
+        <field>omnistudio__TestResult__c.omnistudio__AsyncApexJobId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__TestResult__c.%vlocity_namespace%__Status__c</field>
+        <field>omnistudio__TestResult__c.omnistudio__Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__TestResult__c.%vlocity_namespace%__TestName__c</field>
+        <field>omnistudio__TestResult__c.omnistudio__TestName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__TestResult__c.%vlocity_namespace%__TestSuiteUniqueKey__c</field>
+        <field>omnistudio__TestResult__c.omnistudio__TestSuiteUniqueKey__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__ActivationStatus__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__ActivationStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__AsyncApexJobId__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__AsyncApexJobId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__AsyncApexJobType__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__AsyncApexJobType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__Description__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__IsLastProcessed__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__IsLastProcessed__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__LastProcessedBy__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__LastProcessedBy__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__LastProcessedDateTime__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__LastProcessedDateTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__PrimaryDataPackType__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__PrimaryDataPackType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__Source__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__Source__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__Status__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__Type__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDataPack__c.%vlocity_namespace%__Version__c</field>
+        <field>omnistudio__VlocityDataPack__c.omnistudio__Version__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDocuSignTemplate__c.%vlocity_namespace%__Description__c</field>
+        <field>omnistudio__VlocityDocuSignTemplate__c.omnistudio__Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDocuSignTemplate__c.%vlocity_namespace%__DocuSignAccountId__c</field>
+        <field>omnistudio__VlocityDocuSignTemplate__c.omnistudio__DocuSignAccountId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDocuSignTemplate__c.%vlocity_namespace%__RoleTabs__c</field>
+        <field>omnistudio__VlocityDocuSignTemplate__c.omnistudio__RoleTabs__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDocuSignTemplate__c.%vlocity_namespace%__RolesData__c</field>
+        <field>omnistudio__VlocityDocuSignTemplate__c.omnistudio__RolesData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDocuSignTemplate__c.%vlocity_namespace%__TabsData__c</field>
+        <field>omnistudio__VlocityDocuSignTemplate__c.omnistudio__TabsData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityDocuSignTemplate__c.%vlocity_namespace%__TemplateIdentifier__c</field>
+        <field>omnistudio__VlocityDocuSignTemplate__c.omnistudio__TemplateIdentifier__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__Action__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__Action__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__ContextId__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__ContextId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__ErrorCode__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__ErrorCode__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__ErrorMessage__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__ErrorMessage__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__ErrorTime__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__ErrorTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__ErrorType__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__ErrorType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__InputData__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__InputData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__ObjectName__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__ObjectName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__SourceName__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__SourceName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__SourceType__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__SourceType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityErrorLogEntry__c.%vlocity_namespace%__VlocityInteractionToken__c</field>
+        <field>omnistudio__VlocityErrorLogEntry__c.omnistudio__VlocityInteractionToken__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__AsyncApexJobId__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__AsyncApexJobId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__BatchSize__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__BatchSize__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__DataSourceData__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__DataSourceData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__DataSourceSpec__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__DataSourceSpec__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__DataSourceType__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__DataSourceType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__Description__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__EmailAddressList__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__EmailAddressList__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__Frequency__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__Frequency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__GlobalKey__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__GlobalKey__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__IsActive__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__IsActive__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__IsInputAsList__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__IsInputAsList__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__JobQueue__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__JobQueue__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__LastRunDateTime__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__LastRunDateTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__LastRunErrorMessage__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__LastRunErrorMessage__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__NextRunDateTime__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__NextRunDateTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__NextScheduledJobId__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__NextScheduledJobId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__ProcessName__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__ProcessName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__ProcessType__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__ProcessType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__SendEmailOn__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__SendEmailOn__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__WrapUpProcessName__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__WrapUpProcessName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityScheduledJob__c.%vlocity_namespace%__WrapUpProcessType__c</field>
+        <field>omnistudio__VlocityScheduledJob__c.omnistudio__WrapUpProcessType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityTrackingEntry__c.%vlocity_namespace%__ContextId__c</field>
+        <field>omnistudio__VlocityTrackingEntry__c.omnistudio__ContextId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityTrackingEntry__c.%vlocity_namespace%__CustomerInteractionToken__c</field>
+        <field>omnistudio__VlocityTrackingEntry__c.omnistudio__CustomerInteractionToken__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityTrackingEntry__c.%vlocity_namespace%__Data__c</field>
+        <field>omnistudio__VlocityTrackingEntry__c.omnistudio__Data__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityTrackingEntry__c.%vlocity_namespace%__Timestamp__c</field>
+        <field>omnistudio__VlocityTrackingEntry__c.omnistudio__Timestamp__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityTrackingEntry__c.%vlocity_namespace%__TrackingService__c</field>
+        <field>omnistudio__VlocityTrackingEntry__c.omnistudio__TrackingService__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>%vlocity_namespace%__VlocityTrackingEntry__c.%vlocity_namespace%__VlocityInteractionToken__c</field>
+        <field>omnistudio__VlocityTrackingEntry__c.omnistudio__VlocityInteractionToken__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <flowAccesses>
@@ -27354,31 +27354,31 @@
         <recordType>afl__afl_Article_Feedback__c.afl__recordTypeGetPicklist</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__DRBatchQueue__c-%vlocity_namespace%__DRBatch Queue Layout</layout>
+        <layout>omnistudio__DRBatchQueue__c-omnistudio__DRBatch Queue Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__DRBulkData__c-%vlocity_namespace%__DataRaptor Bulk Data Layout</layout>
+        <layout>omnistudio__DRBulkData__c-omnistudio__DataRaptor Bulk Data Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__Interface_DRGeneric__c-%vlocity_namespace%__Interface_DRGeneric Layout</layout>
+        <layout>omnistudio__Interface_DRGeneric__c-omnistudio__Interface_DRGeneric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__TestResult__c-%vlocity_namespace%__Test Result Layout</layout>
+        <layout>omnistudio__TestResult__c-omnistudio__Test Result Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__VlocityDataPack__c-%vlocity_namespace%__Vlocity Data Pack Layout</layout>
+        <layout>omnistudio__VlocityDataPack__c-omnistudio__Vlocity Data Pack Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__VlocityDocuSignTemplate__c-%vlocity_namespace%__Vlocity DocuSign Template Layout</layout>
+        <layout>omnistudio__VlocityDocuSignTemplate__c-omnistudio__Vlocity DocuSign Template Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__VlocityErrorLogEntry__c-%vlocity_namespace%__Vlocity Error Log Entry Layout</layout>
+        <layout>omnistudio__VlocityErrorLogEntry__c-omnistudio__Vlocity Error Log Entry Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__VlocityScheduledJob__c-%vlocity_namespace%__Vlocity Scheduled Job Layout</layout>
+        <layout>omnistudio__VlocityScheduledJob__c-omnistudio__Vlocity Scheduled Job Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>%vlocity_namespace%__VlocityTrackingEntry__c-%vlocity_namespace%__Vlocity Tracking Entry Layout</layout>
+        <layout>omnistudio__VlocityTrackingEntry__c-omnistudio__Vlocity Tracking Entry Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -28292,135 +28292,135 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__BusinessProcessActivateVersionDesigner</apexPage>
+        <apexPage>omnistudio__BusinessProcessActivateVersionDesigner</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__BusinessProcessCloneDesigner</apexPage>
+        <apexPage>omnistudio__BusinessProcessCloneDesigner</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__BusinessProcessDeactivateVersionDesigner</apexPage>
+        <apexPage>omnistudio__BusinessProcessDeactivateVersionDesigner</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__CustomLabelTranslation</apexPage>
+        <apexPage>omnistudio__CustomLabelTranslation</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__DRHome</apexPage>
+        <apexPage>omnistudio__DRHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__DRMapper</apexPage>
+        <apexPage>omnistudio__DRMapper</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__DataPacksHome</apexPage>
+        <apexPage>omnistudio__DataPacksHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__DocGenFileUtil</apexPage>
+        <apexPage>omnistudio__DocGenFileUtil</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__DocTemplateList</apexPage>
+        <apexPage>omnistudio__DocTemplateList</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__DocuSignCredentialSetup</apexPage>
+        <apexPage>omnistudio__DocuSignCredentialSetup</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__DocumentTemplate</apexPage>
+        <apexPage>omnistudio__DocumentTemplate</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__EmbeddingBusinessProcessPage</apexPage>
+        <apexPage>omnistudio__EmbeddingBusinessProcessPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__FlexCardCompilePage</apexPage>
+        <apexPage>omnistudio__FlexCardCompilePage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__IntegrationProcedureDesigner</apexPage>
+        <apexPage>omnistudio__IntegrationProcedureDesigner</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__IntegrationProcedureHome</apexPage>
+        <apexPage>omnistudio__IntegrationProcedureHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__JSONDownload</apexPage>
+        <apexPage>omnistudio__JSONDownload</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__LWCPreviewVFPage</apexPage>
+        <apexPage>omnistudio__LWCPreviewVFPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniDesignerCustomLabelDeployer</apexPage>
+        <apexPage>omnistudio__OmniDesignerCustomLabelDeployer</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniLwcCompile</apexPage>
+        <apexPage>omnistudio__OmniLwcCompile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniLwcDesignerTinyMceEditor</apexPage>
+        <apexPage>omnistudio__OmniLwcDesignerTinyMceEditor</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniScriptDesigner</apexPage>
+        <apexPage>omnistudio__OmniScriptDesigner</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniScriptDocuSignReturnPage</apexPage>
+        <apexPage>omnistudio__OmniScriptDocuSignReturnPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniScriptHome</apexPage>
+        <apexPage>omnistudio__OmniScriptHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniScriptInstancePage</apexPage>
+        <apexPage>omnistudio__OmniScriptInstancePage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniScriptLwcDocuSignViewPdf</apexPage>
+        <apexPage>omnistudio__OmniScriptLwcDocuSignViewPdf</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniScriptPreviewPage</apexPage>
+        <apexPage>omnistudio__OmniScriptPreviewPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__OmniscriptLwcPreviewPage</apexPage>
+        <apexPage>omnistudio__OmniscriptLwcPreviewPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__SessionIdHandler</apexPage>
+        <apexPage>omnistudio__SessionIdHandler</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__SessionPage</apexPage>
+        <apexPage>omnistudio__SessionPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__SideBySideNavigation</apexPage>
+        <apexPage>omnistudio__SideBySideNavigation</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__TemplateCompilerVFPage</apexPage>
+        <apexPage>omnistudio__TemplateCompilerVFPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__UserCustomLabels</apexPage>
+        <apexPage>omnistudio__UserCustomLabels</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>%vlocity_namespace%__picklistTranslationPage</apexPage>
+        <apexPage>omnistudio__picklistTranslationPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
@@ -29128,35 +29128,35 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__DataPacks</tab>
+        <tab>omnistudio__DataPacks</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__DataRaptor</tab>
+        <tab>omnistudio__DataRaptor</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__DocumentTemplate</tab>
+        <tab>omnistudio__DocumentTemplate</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__FlexCards</tab>
+        <tab>omnistudio__FlexCards</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__IntegrationProcedureHome</tab>
+        <tab>omnistudio__IntegrationProcedureHome</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__OmniScriptHome</tab>
+        <tab>omnistudio__OmniScriptHome</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__OmniScriptWorkbench</tab>
+        <tab>omnistudio__OmniScriptWorkbench</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>%vlocity_namespace%__VlocityDocuSignSetup</tab>
+        <tab>omnistudio__VlocityDocuSignSetup</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
