@@ -28,7 +28,7 @@
         "dataType": null,
         "dateFormat": "MM/dd/yyyy",
         "disOnTplt": false,
-        "expression": "MOMENT(%Result:Member:PersonBirthdate%).format(\"MM/DD/YYYY\")",
+        "expression": "IF(%Result:Member:PersonBirthdate%, MOMENT(%Result:Member:PersonBirthdate%).format(\"MM/DD/YYYY\"), \"\") ",
         "hide": true,
         "hideGroupSep": false,
         "inputWidth": 12,

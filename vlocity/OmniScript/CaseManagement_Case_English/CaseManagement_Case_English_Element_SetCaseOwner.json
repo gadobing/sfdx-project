@@ -1,7 +1,7 @@
 {
-    "IsActive": false,
+    "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "SetValuesCaseId",
+    "Name": "SetCaseOwner",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -12,13 +12,24 @@
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementValueMap": {
-            "CaseId": "%Case|1:Id%"
+            "CaseOwnerId": "%CaseQueue|1:Id%"
         },
-        "label": "SetValuesCaseId",
+        "label": "SetCaseOwner",
         "message": {
         },
         "pubsub": false,
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioRouteToAnotherTeam"
+                    }
+                ]
+            }
+        },
         "showPersistentComponent": [
             true,
             false
@@ -29,5 +40,5 @@
     "Type": "Set Values",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SetValuesCaseId"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/SetCaseOwner"
 }

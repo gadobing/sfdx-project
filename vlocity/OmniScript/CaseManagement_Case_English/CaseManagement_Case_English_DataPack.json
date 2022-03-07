@@ -1,5 +1,5 @@
 {
-    "Description": "81935 - Update launch guided flow - Member flow",
+    "Description": "81935 - Update launch guided flow - Member flow - UI Adjustments",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
@@ -11,6 +11,7 @@
     "OmniProcessElement": [
         "CaseManagement_Case_English_Element_GetCaseIdByUserId.json",
         "CaseManagement_Case_English_Element_SetValuesCaseId.json",
+        "CaseManagement_Case_English_Element_SetValuesGuidedFlowType.json",
         "CaseManagement_Case_English_Element_IntegrationProcedureGetCase.json",
         "CaseManagement_Case_English_Element_SetValuesAllElements.json",
         "CaseManagement_Case_English_Element_StepGreeting.json",
@@ -45,7 +46,7 @@
         "CaseManagement_Case_English_Element_InquirerName.json",
         "CaseManagement_Case_English_Element_InquirerPhone.json",
         "CaseManagement_Case_English_Element_LineBreak3.json",
-        "CaseManagement_Case_English_Element_SetMemberValues.json",
+        "CaseManagement_Case_English_Element_SetMemberAndCaseTypeValues.json",
         "CaseManagement_Case_English_Element_StepReasonResult.json",
         "CaseManagement_Case_English_Element_TextBlock10.json",
         "CaseManagement_Case_English_Element_SelectCaseType.json",
@@ -104,6 +105,8 @@
         "CaseManagement_Case_English_Element_SelectProductLineRouteAnotherTeam.json",
         "CaseManagement_Case_English_Element_SelectDepartmentRouteAnotherTeam.json",
         "CaseManagement_Case_English_Element_SelectTeamRouteAnotherTeam.json",
+        "CaseManagement_Case_English_Element_DataRaptorTurboGetRouteQueue.json",
+        "CaseManagement_Case_English_Element_SetCaseOwner.json",
         "CaseManagement_Case_English_Element_StepFollowUp.json",
         "CaseManagement_Case_English_Element_TextBlock21.json",
         "CaseManagement_Case_English_Element_RadioFollowUpRequested.json",
@@ -132,5 +135,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "ca9eb6dd-0727-4dc4-b48f-9397e3b44f10"
+    "WebComponentKey": "0e1ad73f-1b69-ae09-0571-0902e860e3ba"
 }
