@@ -30,11 +30,12 @@
                 <field>PlanId</field>
             </layoutItems>
             <layoutItems>
-                <emptySpace>true</emptySpace>
+                <behavior>Edit</behavior>
+                <field>Total_Rate__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Total_Rate__c</field>
+                <field>Line_Of_Business__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -53,6 +54,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Service_Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>EffectiveFrom</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>EffectiveTo</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>

@@ -326,6 +326,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MemberPlan.Contract_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MemberPlan.Eligibility_Change_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MemberPlan.Provider_Network_Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>MemberPlan.Line_Of_Business__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -341,7 +356,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MemberPlan.Region__c</field>
+        <field>MemberPlan.Network__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
