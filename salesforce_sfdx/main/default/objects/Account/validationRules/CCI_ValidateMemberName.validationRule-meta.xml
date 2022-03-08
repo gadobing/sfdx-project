@@ -8,8 +8,7 @@
  ISCHANGED( Salutation),
  ISCHANGED( FirstName),
  ISCHANGED( MiddleName),
- ISCHANGED( Suffix ),
- ISCHANGED( HealthCloudGA__Gender__pc )
+ ISCHANGED( Suffix )
  ),
  RecordType.DeveloperName ='Member',
  $Profile.Name ='CSR Agent'

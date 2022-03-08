@@ -272,14 +272,14 @@
         <relatedList>RelatedContentNoteList</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>Name</fields>
+        <fields>Plan</fields>
         <fields>MemberNumber</fields>
         <fields>PrimarySecondaryTertiary</fields>
         <fields>EffectiveFrom</fields>
         <fields>Status</fields>
         <fields>Payer</fields>
         <fields>GroupNumber</fields>
-        <fields>Plan</fields>
-        <fields>Name</fields>
         <fields>Record_Type__c</fields>
         <relatedList>MemberPlans</relatedList>
     </relatedLists>
