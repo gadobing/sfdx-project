@@ -1,4 +1,6 @@
 [
-    "DataRaptor/CCI_DRCreateTask",
-    "DataRaptor/UpdateCaseInfo"
+    "DataRaptor/CCI_DRCreateBenefitDiscussed",
+    "DataRaptor/UpdateCaseInfo",
+    "DataRaptor/UpdateProspectiveMemberCaseInfo",
+    "DataRaptor/UpdateProviderCaseInfo"
 ]

@@ -1,0 +1,167 @@
+[
+    {
+        "FilterDataType": "ID",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "LeadId",
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom0jI7j000000004SEAQItem0",
+        "InputFieldName": "Id",
+        "InputObjectName": "Lead",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom2214",
+        "InputFieldName": "Email",
+        "InputObjectName": "Lead",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom3875",
+        "InputFieldName": "FirstName",
+        "InputObjectName": "Lead",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom9334",
+        "InputFieldName": "LastName",
+        "InputObjectName": "Lead",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom2020",
+        "InputFieldName": "MobilePhone",
+        "InputObjectName": "Lead",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom9769",
+        "InputFieldName": "Name",
+        "InputObjectName": "Lead",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom7351",
+        "InputFieldName": "Phone",
+        "InputObjectName": "Lead",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetProspectiveMemberDetailsCustom5687",
+        "InputFieldName": "RecordTypeId",
+        "InputObjectName": "Lead",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetProspectiveMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetProspectiveMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetProspectiveMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

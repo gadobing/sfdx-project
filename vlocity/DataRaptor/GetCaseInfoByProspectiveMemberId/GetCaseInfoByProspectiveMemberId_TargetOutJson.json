@@ -1,0 +1,37 @@
+{
+    "Case": [
+        {
+            "AccountId": "0017j00000fDBSZAA4",
+            "CaseNumber": "00001133",
+            "ContactId": "0037j00000fIf2uAAC",
+            "ContactPhone": "631-922-4166",
+            "Department__c": "Claims",
+            "Description": "Testing",
+            "Follow_Up__c": "2022-03-23",
+            "Health_Condition_Heard__c": true,
+            "Health_Condition__c": "0hs7j000000ChdyAAC",
+            "Id": "5007j00000B4qLAAAZ",
+            "Inquirer_Phone__c": "(456) 847-4653",
+            "Priority": "Medium",
+            "Proactive_Listening_Details__c": "Notes for proactive details",
+            "Proactive_Listening_Outcome__c": "Transferred to Social Worker",
+            "Proactively_Educated__c": "Case Management;Vendors",
+            "Product_Line__c": "ABCBS",
+            "Reason": "Appeal",
+            "RecordType": {
+                "Id": "0125f000000hYRLAA2",
+                "Name": "Appeal",
+                "attributes": {
+                    "type": "RecordType",
+                    "url": "/services/data/v54.0/sobjects/RecordType/0125f000000hYRLAA2"
+                }
+            },
+            "RecordTypeId": "0125f000000hYRLAA2",
+            "Result__c": "Provider Appeal",
+            "SDOH_Heard__c": true,
+            "Subject": "Customer Issue",
+            "Team__c": "Exchange Instate Eligibility",
+            "Values_Authenticated__c": "Member ID;Date of birth;Last four digits of SSN"
+        }
+    ]
+}
