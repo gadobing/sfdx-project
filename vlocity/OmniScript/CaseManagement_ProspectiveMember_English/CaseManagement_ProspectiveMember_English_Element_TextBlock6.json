@@ -1,0 +1,39 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TextBlock6",
+    "OmniProcessId": {
+        "Name": "Prospective Member Guided Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/ProspectiveMember/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "StepFollowUp",
+        "OmniProcessId": {
+            "Name": "Prospective Member Guided Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/ProspectiveMember/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/ProspectiveMember/English/StepFollowUp",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "StepFollowUp",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": null,
+        "text": "<h2 style=\"text-align: center; font-weight: 500;\">Case Number: <strong>%CaseNumber%</strong></h2>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/ProspectiveMember/English/TextBlock6"
+}

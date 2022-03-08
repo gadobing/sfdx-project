@@ -1,6 +1,6 @@
 [
     {
-        "FormulaExpression": "CONCAT(StepTalkingPoints:TextAreaCaseNotes,'\\n',StepHeard:TextAreaStepHeardNote,'\\n',StepQuestionCallAnswer:TextAreaAdditionalComments,'\\n',StepFollowUp:FollowUpComment)",
+        "FormulaExpression": "CONCAT(StepTalkingPoints:TextAreaCaseNotes,'\\n',StepHeard:TextAreaStepHeardNote,'\\n',StepSelectBenefit:AdditionalInfo,'\\n',StepQuestionCallAnswer:TextAreaAdditionalComments,'\\n',StepFollowUp:FollowUpComment)",
         "FormulaResultPath": "ConcatenatedCaseComments",
         "FormulaSequence": 10,
         "GlobalKey": "UpdateCaseInfoCustom6200",

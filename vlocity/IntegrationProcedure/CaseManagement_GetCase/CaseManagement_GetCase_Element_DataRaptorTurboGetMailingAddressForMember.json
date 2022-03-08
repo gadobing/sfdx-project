@@ -23,7 +23,7 @@
             }
         ],
         "disOnTplt": false,
-        "executionConditionalFormula": "",
+        "executionConditionalFormula": "GuidedFlowType == \"Member\" || GuidedFlowType == \"Provider\"",
         "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {

@@ -1,5 +1,6 @@
 {
     "CustomJavaScript": "CaseManagement_SaveCase_SampleInput.json",
+    "Description": "US-77409: Acknowledge Benefit Discussed",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": true,
     "IsMetadataCacheDisabled": false,
@@ -9,7 +10,10 @@
     "Language": "Procedure",
     "Name": "IPSaveCaseInfo",
     "OmniProcessElement": [
+        "CaseManagement_SaveCase_Element_DataRaptorPostBenefitDiscussed.json",
         "CaseManagement_SaveCase_Element_DataRaptorPostUpdateCaseInfo.json",
+        "CaseManagement_SaveCase_Element_DataRaptorPostUpdateProviderCaseInfo.json",
+        "CaseManagement_SaveCase_Element_DataRaptorPostUpdateProspectiveMemberCaseInfo.json",
         "CaseManagement_SaveCase_Element_DataRaptorPostCreateTask.json",
         "CaseManagement_SaveCase_Element_ResponseAction.json"
     ],
@@ -21,5 +25,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/SaveCase/Procedure",
-    "WebComponentKey": "a02f5b65-7ef4-c0e9-28a5-dd6729783911"
+    "WebComponentKey": "325e8cfc-6464-5fc7-3358-cf87cfdfa742"
 }

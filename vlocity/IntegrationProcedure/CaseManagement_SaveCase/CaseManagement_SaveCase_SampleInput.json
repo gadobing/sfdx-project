@@ -1,111 +1,24 @@
 {
-    "Case": [
+    "CaseNumber": "00001169",
+    "CaseOwnerId": "00G7j000001XesREAS",
+    "CaseQueue": [
         {
-            "CaseNumber": "00001129",
-            "Id": "5007j00000B4p4EAAR"
+            "Id": "00G7j000001XesREAS",
+            "Name": "Customer Service",
+            "Type": "Queue"
         }
     ],
-    "CaseId": "5007j00000B4p4EAAR",
-    "CaseNumber": "00001129",
-    "CaseTypeValue": [
-        {
-            "Id": "0125f000000hYRKAA2",
-            "Name": "Admission"
-        },
-        {
-            "Id": "0125f000000hYRLAA2",
-            "Name": "Appeal"
-        },
-        {
-            "Id": "0125f000000hYRMAA2",
-            "Name": "Complaint"
-        },
-        {
-            "Id": "0125f000000hYRNAA2",
-            "Name": "Concurrent Review"
-        },
-        {
-            "Id": "0125f000000hYROAA2",
-            "Name": "Drug Request"
-        },
-        {
-            "Id": "0125f000000hYRPAA2",
-            "Name": "Grievance"
-        },
-        {
-            "Id": "0125f000000hYRQAA2",
-            "Name": "Service Request"
-        },
-        {
-            "Id": "0125f000000hiT1AAI",
-            "Name": "CareGap"
-        },
-        {
-            "Id": "0125f000000hiT2AAI",
-            "Name": "CarePlan"
-        },
-        {
-            "Id": "0127j000000H67jAAC",
-            "Name": "Billing/Premiums"
-        },
-        {
-            "Id": "0127j000000H67oAAC",
-            "Name": "Claims"
-        },
-        {
-            "Id": "0127j000000H67tAAC",
-            "Name": "Correspondence"
-        },
-        {
-            "Id": "0127j000000H67yAAC",
-            "Name": "Courtesy Review"
-        },
-        {
-            "Id": "0127j000000H683AAC",
-            "Name": "Eligibility/Benefits"
-        },
-        {
-            "Id": "0127j000000H688AAC",
-            "Name": "Group/Employer"
-        },
-        {
-            "Id": "0127j000000H68DAAS",
-            "Name": "ID Card Activation"
-        },
-        {
-            "Id": "0127j000000H68IAAS",
-            "Name": "Medical Records"
-        },
-        {
-            "Id": "0127j000000H68NAAS",
-            "Name": "My Blueprint/Web Questions"
-        },
-        {
-            "Id": "0127j000000H68SAAS",
-            "Name": "Pre-Certification"
-        },
-        {
-            "Id": "0127j000000H68XAAS",
-            "Name": "Pre-Notification/Prior Approval (PA)"
-        },
-        {
-            "Id": "0127j000000H68cAAC",
-            "Name": "Provider Verification/Information"
-        },
-        {
-            "Id": "0127j000000H68hAAC",
-            "Name": "Other"
-        }
-    ],
-    "DateFollowUpDate": "2022-03-10",
-    "FullAddress": "1122 15th Street Shallowater, TX 79363",
-    "Greeting": "Thank you for calling Customer Service, this is Adner. How may I assist you today?",
+    "ContextId": "0017j00000geHCjAAM",
+    "DateFollowUpDate": "",
+    "FullAddress": "123 Evergreen St Springfield, IL 60601",
+    "Greeting": "Thank you for calling Customer Service, this is Nasrudeen. How may I assist you today?",
+    "GuidedFlowType": "Member",
     "ProactivelyEducated": "Case Management;Social Worker;",
     "Result": {
         "Case": [
             {
-                "AccountId": "0017j00000fDBSZAA4",
-                "CaseNumber": "00001129",
+                "AccountId": "0017j00000geHCjAAM",
+                "CaseNumber": "00001169",
                 "CaseType": [
                     {
                         "Id": "0125f000000hYRKAA2",
@@ -196,83 +109,68 @@
                         "Name": "Other"
                     }
                 ],
-                "ContactPhone": "631-922-4166",
-                "Department__c": "Customer Service",
-                "Description": "This is document caller",
-                "Follow_Up__c": "2022-03-10",
+                "ContactId": "0037j00000fJSbYAAW",
                 "Health_Condition_Heard__c": false,
-                "Id": "5007j00000B4p4EAAR",
+                "Id": "5007j00000B4zKcAAJ",
                 "Priority": "Medium",
-                "Proactive_Listening_Outcome__c": "Transferred to Nurse",
-                "Product_Line__c": "Exchange",
-                "Reason": "Appeal",
                 "RecordType": {
-                    "Id": "0125f000000hYRLAA2",
-                    "Name": "Appeal",
-                    "attributes": {
-                        "type": "RecordType",
-                        "url": "/services/data/v54.0/sobjects/RecordType/0125f000000hYRLAA2"
-                    }
+                    "Id": "0125f000000hYRKAA2",
+                    "Name": "Admission"
                 },
-                "RecordTypeId": "0125f000000hYRLAA2",
-                "Result__c": "Received in Error",
-                "SDOH_Heard__c": false,
-                "Subject": "This is a subject",
-                "Team__c": "Exchange - Membership PCP Update",
-                "Values_Authenticated__c": "Date of birth;Last four digits of SSN"
+                "SDOH_Heard__c": false
             }
         ],
         "Member": {
-            "FirstName": "Jason",
-            "HealthCloudGA__BirthDate__pc": "February 5, 1963",
-            "Id": "0017j00000fDBSZAA4",
-            "LastName": "White",
-            "Last_4_Digit_Of_SSN__c": 8880,
+            "FirstName": "Homer",
+            "HealthCloudGA__BirthDate__pc": "February 4, 1960",
+            "Id": "0017j00000geHCjAAM",
+            "LastName": "Simpson",
+            "Last_4_Digit_Of_SSN__c": 6789,
             "MailingAddress": {
-                "ActiveFromDate": "2022-01-18",
-                "ActiveToDate": "2029-02-23",
-                "City": "Shallowater",
-                "Country": "United States",
-                "Id": "8lW7j00000004nqEAA",
-                "ParentId": "0017j00000fDBSZAA4",
-                "PostalCode": "79363",
-                "State": "TX",
-                "Street": "1122 15th Street"
+                "ActiveFromDate": "2022-02-01",
+                "City": "Springfield",
+                "Country": "USA",
+                "Id": "8lW7j000000052vEAA",
+                "ParentId": "0017j00000geHCjAAM",
+                "PostalCode": "60601",
+                "State": "IL",
+                "Street": "123 Evergreen St"
             },
-            "Member_Id__c": "8798989",
-            "NPI__c": "1234ghjjjj",
-            "Name": "Jason White",
-            "PersonBirthdate": "1963-02-05"
+            "Member_Id__c": "12972630W05",
+            "Name": "Homer Simpson",
+            "PersonBirthdate": "1960-02-04"
         },
         "User": [
             {
-                "FirstName": "Adner",
-                "Id": "0057j000002saQHAAY",
-                "Product_Line__c": "ABCBS"
+                "FirstName": "Nasrudeen",
+                "Id": "0057j000002sbJHAAY"
             }
         ]
     },
+    "SelectCaseDepartment": "",
     "StepCaseSummary": {
-        "SelectSummaryProductLine": "Exchange",
+        "SelectSummaryProductLine": "BANA",
         "SelectSummaryReason": "Appeal",
-        "SelectSummaryResult": "Received in Error"
+        "SelectSummaryResult": "Appeal"
     },
     "StepDocumentCaller": {
-        "Description": "This is document caller",
-        "Subject": "This is a subject"
+        "Description": "yfhgh",
+        "Subject": "6876876"
     },
     "StepFollowUp": {
-        "DateFollowUpDateTime": "2022-03-04T19:15:00.000Z",
-        "FollowUpComment": "this is a follow up comment",
-        "FollowUpSubject": "This is a follow up subject",
+        "DateFollowUpDateTime": "2022-03-19T06:30:00.000Z",
+        "FollowUpComment": "lkjnk",
+        "FollowUpSubject": "89767",
         "RadioFollowUpRequested": "Yes",
         "SelectPriority": "Medium"
     },
     "StepGreeting": {
         "CaseType-Block": {
-            "CaseType": "Appeal"
+            "CaseType": "Eligibility/Benefits",
+            "Id": "0127j000000H683AAC",
+            "Name": "Eligibility/Benefits"
         },
-        "PhoneNumber": "631-922-4166"
+        "PhoneNumber": "7656898777"
     },
     "StepHeard": {
         "FormulaRadioHealthConditionHeard": false,
@@ -281,33 +179,32 @@
         "RadioSDOHHeard": "No",
         "SelectHealthCondition-Block": null,
         "SelectProactiveListeningOutcome": null,
-        "TextAreaStepHeardNote": "Proactive notes"
+        "TextAreaStepHeardNote": null
     },
     "StepQuestionCallAnswer": {
-        "RadioAnswerQuestionToday": "No",
-        "TextAreaAdditionalComments": "additional comment"
+        "RadioAnswerQuestionToday": "No"
     },
     "StepReasonResult": {
         "SelectCaseType-Block": {
-            "SelectCaseType": "Appeal"
+            "SelectCaseType": "Eligibility/Benefits"
         },
-        "SelectProductLine": "Exchange",
+        "SelectProductLine": "BANA",
         "SelectReason": "Appeal",
-        "SelectResult": "Received in Error"
+        "SelectResult": "Appeal"
     },
     "StepRouteCase": {
         "RadioRouteToAnotherTeam": "Yes",
         "SelectDepartmentRouteAnotherTeam": "Customer Service",
-        "SelectProductLineRouteAnotherTeam": "Exchange",
-        "SelectTeamRouteAnotherTeam": "CRM Dental COCC Requests"
+        "SelectProductLineRouteAnotherTeam": "BANA",
+        "SelectTeamRouteAnotherTeam": "Exchange - Membership PCP Update"
     },
     "StepSelfInquirer": {
-        "Checkbox": true,
-        "CheckboxDOB": false,
+        "CheckboxDOB": true,
         "CheckboxMailingAddress": true,
-        "CheckboxMemberID": false,
+        "CheckboxMemberID": true,
+        "CheckboxMemberName": true,
         "CheckboxSSN": true,
-        "FormulaMemberBirthday": "02/05/1963",
+        "FormulaMemberBirthday": "02/04/1960",
         "InquirerName": null,
         "InquirerPhone": null,
         "InquirerType": null,
@@ -319,15 +216,14 @@
             "CheckboxCaseManagement": true,
             "CheckboxSocialVendors": false,
             "CheckboxSocialWorker": true
-        },
-        "TextAreaCaseNotes": "Some notes"
+        }
     },
-    "UserFirstName": "Adner",
-    "ValuesAuthenticated": "Mailing Address;Member Name;Last four digits of SSN;",
-    "timeStamp": "2022-03-02T16:50:28.447Z",
+    "UserFirstName": "Nasrudeen",
+    "ValuesAuthenticated": "Member ID;Date of birth;Mailing Address;Member Name;Last four digits of SSN;",
+    "timeStamp": "2022-03-07T20:08:22.050Z",
     "userCurrencyCode": "USD",
-    "userId": "0057j000002saQHAAY",
-    "userName": "aramosdelarosa@salesforce.com.ccidev",
+    "userId": "0057j000002sbJHAAY",
+    "userName": "nusmanbaik@salesforce.com.ccidev",
     "userProfile": "System Administrator",
-    "userTimeZone": "-360"
+    "userTimeZone": "-480"
 }

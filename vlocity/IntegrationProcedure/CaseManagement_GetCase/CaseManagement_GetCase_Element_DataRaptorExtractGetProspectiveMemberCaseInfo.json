@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DataRaptorTurboGetCaseInfo",
+    "Name": "DataRaptorExtractGetProspectiveMemberCaseInfo",
     "OmniProcessId": {
         "Name": "IPGetCaseInfo",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -14,22 +14,22 @@
         },
         "additionalOutput": {
         },
-        "bundle": "GetCaseInfo",
+        "bundle": "GetCaseInfoByProspectiveMemberId",
         "chainOnStep": false,
         "dataRaptor Input Parameters": [
             {
-                "element": "CaseId",
-                "inputParam": "CaseId"
+                "element": "ContextId",
+                "inputParam": "ContextId"
             }
         ],
         "disOnTplt": false,
-        "executionConditionalFormula": "",
+        "executionConditionalFormula": "GuidedFlowType == \"ProspectiveMember\"",
         "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
         "ignoreCache": false,
-        "label": "DataRaptorTurboAction1",
+        "label": "DataRaptorExtractAction1",
         "responseJSONNode": "Result:Case",
         "responseJSONPath": "Case",
         "returnOnlyAdditionalOutput": false,
@@ -40,8 +40,8 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Turbo Action",
+    "Type": "DataRaptor Extract Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/GetCase/Procedure/DataRaptorTurboGetCaseInfo"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/GetCase/Procedure/DataRaptorExtractGetProspectiveMemberCaseInfo"
 }

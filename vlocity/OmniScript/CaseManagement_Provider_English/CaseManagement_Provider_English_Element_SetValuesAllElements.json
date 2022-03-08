@@ -1,0 +1,46 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValuesAllElements",
+    "OmniProcessId": {
+        "Name": "Provider Guided Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/Provider/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "CaseId": "%Result:Case|1:Id%",
+            "CaseNumber": "%Result:Case|1:CaseNumber%",
+            "CaseType": "%Result:Case|1:RecordType:Name%",
+            "CaseTypeValue": "%Result:Case|1:CaseType%",
+            "Description": "%Result:Case|1:Description%",
+            "Greeting": "=IF(%Result:LineOfBusinessGreeting%, %Result:LineOfBusinessGreeting%, \"Thank you for calling Customer Service, this is \"+%Result:User|1:FirstName%+\". How may I assist you today?\")",
+            "InquirerName": "%Result:Case|1:Inquirer__c%",
+            "InquirerPhone": "%Result:Case|1:Inquirer_Phone__c%",
+            "SelectCaseType": "%Result:Case|1:RecordType:Name%",
+            "SelectProductLine": "%Result:Case|1:Product_Line__c%",
+            "SelectReason": "%Result:Case|1:Reason%",
+            "SelectResult": "%Result:Case|1:Result__c%",
+            "Subject": "%Result:Case|1:Subject%",
+            "UserFirstName": "%Result:User|1:FirstName%"
+        },
+        "label": "SetValuesAllElements",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Provider/English/SetValuesAllElements"
+}

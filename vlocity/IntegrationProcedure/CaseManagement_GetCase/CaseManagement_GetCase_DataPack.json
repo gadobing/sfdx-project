@@ -17,6 +17,7 @@
         "CaseManagement_GetCase_Element_SetValuesFoundGreeting.json",
         "CaseManagement_GetCase_Element_DataRaptorTurboGetCaseType.json",
         "CaseManagement_GetCase_Element_DataRaptorTurboGetMemberDetails.json",
+        "CaseManagement_GetCase_Element_DataRaptorTurboGetProspectiveMemberDetails.json",
         "CaseManagement_GetCase_Element_DataRaptorTurboGetMailingAddressForMember.json",
         "CaseManagement_GetCase_Element_ResponseAction1.json"
     ],

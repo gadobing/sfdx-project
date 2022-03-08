@@ -1,0 +1,66 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DateFollowUpDateTime",
+    "OmniProcessId": {
+        "Name": "Provider Guided Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/Provider/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "StepFollowUp",
+        "OmniProcessId": {
+            "Name": "Provider Guided Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/Provider/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Provider/English/StepFollowUp",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "StepFollowUp",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "dateFormat": "MM-dd-yyyy",
+        "dateType": "string",
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Follow Up Date",
+        "maxDate": "",
+        "minDate": "",
+        "modelDateFormat": "yyyy-MM-dd",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioFollowUpRequested"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "Type": "Date",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Provider/English/DateFollowUpDateTime"
+}

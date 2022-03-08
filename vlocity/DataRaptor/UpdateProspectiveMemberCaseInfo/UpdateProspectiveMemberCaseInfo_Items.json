@@ -1,0 +1,414 @@
+[
+    {
+        "FormulaExpression": "IF(StepQuestionCallAnswer:RadioAnswerQuestionToday == 'Yes', \"Closed\", IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', \"Transferred\", \"Working\"))",
+        "FormulaResultPath": "Status",
+        "FormulaSequence": 4,
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', StepRouteCase:SelectDepartmentRouteAnotherTeam, Result:Case|1:Department__c)",
+        "FormulaResultPath": "Department",
+        "FormulaSequence": 2,
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', StepRouteCase:SelectProductLineRouteAnotherTeam, StepReasonResult:SelectProductLine)",
+        "FormulaResultPath": "ProductLine",
+        "FormulaSequence": 1,
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', StepRouteCase:SelectTeamRouteAnotherTeam, Result:Case|1:Team__c)",
+        "FormulaResultPath": "Team",
+        "FormulaSequence": 3,
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem19",
+        "InputFieldName": "StepInternalComment:TextAreaInternalComments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Comments",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem8",
+        "InputFieldName": "Department",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Department__c",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem12",
+        "InputFieldName": "StepQuestionCallAnswer:TextAreaAdditionalComments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Description",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem18",
+        "InputFieldName": "StepFollowUp:DateFollowUpDateTime",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Follow_Up__c",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem6",
+        "InputFieldName": "CaseId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem4",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem15",
+        "InputFieldName": "StepGreeting:PhoneNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Inquirer_Phone__c",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem7",
+        "InputFieldName": "CaseOwnerId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "OwnerId",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem9",
+        "InputFieldName": "ProductLine",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Product_Line__c",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem14",
+        "InputFieldName": "StepReasonResult:SelectReason",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Reason",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem20",
+        "InputFieldName": "StepGreeting:CaseType-Block:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RecordTypeId",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem16",
+        "InputFieldName": "StepReasonResult:SelectResult",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Result__c",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem17",
+        "InputFieldName": "Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem11",
+        "InputFieldName": "StepDocumentCaller:Subject",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Subject",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem10",
+        "InputFieldName": "Team",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Team__c",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem21",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CaseComment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "UpdateProspectiveMemberCaseInfoCustom0jI7j000000004XEAQItem22",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedFieldName": "Id",
+        "LinkedObjectSequence": 1,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "UpdateProspectiveMemberCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateProspectiveMemberCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateProspectiveMemberCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 2,
+        "OutputFieldName": "ParentId",
+        "OutputObjectName": "CaseComment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]
