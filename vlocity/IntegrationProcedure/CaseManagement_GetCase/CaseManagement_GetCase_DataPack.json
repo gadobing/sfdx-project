@@ -1,6 +1,6 @@
 {
     "CustomJavaScript": "CaseManagement_GetCase_SampleInput.json",
-    "Description": "Add a list of greetings",
+    "Description": "81935 - Changed DR Turbo DataRaptorTurboGetCaseInfo for a DR Extract to get Health Condition(CodeSet) Object",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": true,
     "IsMetadataCacheDisabled": false,
@@ -11,7 +11,7 @@
     "Name": "IPGetCaseInfo",
     "OmniProcessElement": [
         "CaseManagement_GetCase_Element_DataRaptorTurboGetUserInfo.json",
-        "CaseManagement_GetCase_Element_DataRaptorTurboGetCaseInfo.json",
+        "CaseManagement_GetCase_Element_DataRaptorExtractGetCaseInfo.json",
         "CaseManagement_GetCase_Element_SetValuesGreetings.json",
         "CaseManagement_GetCase_Element_LoopBlockGreetings.json",
         "CaseManagement_GetCase_Element_SetValuesFoundGreeting.json",
@@ -28,5 +28,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/GetCase/Procedure",
-    "WebComponentKey": "61e01155-4e6b-8ddf-e448-445598c9e74f"
+    "WebComponentKey": "14153f01-f8a6-ecd5-0f0c-234a3e0e5630"
 }
