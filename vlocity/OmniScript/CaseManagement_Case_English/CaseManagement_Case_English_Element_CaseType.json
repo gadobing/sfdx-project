@@ -28,7 +28,7 @@
         "callFrequency": 300,
         "conditionType": "Hide if False",
         "controlWidth": 12,
-        "dataJsonPath": "CaseTypeValue",
+        "dataJsonPath": "Result:Case|1:CaseType",
         "dataProcessorFunction": "",
         "debounceValue": 0,
         "disableDataFilter": false,
