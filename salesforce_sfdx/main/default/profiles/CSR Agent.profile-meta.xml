@@ -4373,6 +4373,11 @@
         <name>omnistudio__UISettings__c</name>
     </customSettingAccesses>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Prospective_Member__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.ABCBS_ID__c</field>
         <readable>true</readable>
