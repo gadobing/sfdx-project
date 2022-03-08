@@ -1,0 +1,60 @@
+[
+    {
+        "GlobalKey": "CCI_DRCreateBenefitDiscussedCustom1270",
+        "InputFieldName": "CaseId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRCreateBenefitDiscussed",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRCreateBenefitDiscussed",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRCreateBenefitDiscussed",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case__c",
+        "OutputObjectName": "Benefit_Discussed__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRCreateBenefitDiscussedCustom7489",
+        "InputFieldName": "StepSelectBenefit:searchMultiBenefit:SearchBenefit-Block:CodeSetId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRCreateBenefitDiscussed",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRCreateBenefitDiscussed",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRCreateBenefitDiscussed",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Code_Set__c",
+        "OutputObjectName": "Benefit_Discussed__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "CCI_DRCreateBenefitDiscussedCustom5327",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "CCI_DRCreateBenefitDiscussed",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRCreateBenefitDiscussed",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRCreateBenefitDiscussed",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "Benefit_Discussed__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

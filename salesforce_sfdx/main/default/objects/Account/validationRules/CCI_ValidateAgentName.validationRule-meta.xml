@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCI_ValidateAgentName</fullName>
+    <active>true</active>
+    <description>This is a validation rule is for checking if the user is changing the agent name then it will throw error that you cannot update the name of the Agent</description>
+    <errorConditionFormula>AND(
+OR(
+ISCHANGED( LastName),
+ISCHANGED( Salutation),
+ISCHANGED( FirstName),
+ISCHANGED( MiddleName),
+ISCHANGED( Suffix )
+),
+RecordType.DeveloperName ='Agency',
+OR($Profile.Name ='CSR Agent',$Profile.Name ='Group Administrator') 
+)</errorConditionFormula>
+    <errorMessage>You don’t have permission to edit the Agency Name. Please contact your system administrator.</errorMessage>
+</ValidationRule>

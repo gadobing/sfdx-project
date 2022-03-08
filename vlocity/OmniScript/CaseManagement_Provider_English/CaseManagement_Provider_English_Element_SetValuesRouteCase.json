@@ -1,0 +1,35 @@
+{
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValuesRouteCase",
+    "OmniProcessId": {
+        "Name": "Provider Guided Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/Provider/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "SelectDepartmentRouteAnotherTeam": "%Result:Case|1:Department__c%",
+            "SelectProductLineRouteAnotherTeam": "%Result:Case|1:Product_Line__c%",
+            "SelectTeamRouteAnotherTeam": "%Result:Case|1:Team__c%"
+        },
+        "label": "SetValuesRouteCase",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Provider/English/SetValuesRouteCase"
+}

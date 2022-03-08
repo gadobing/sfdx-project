@@ -1,0 +1,733 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "\"$Vlocity.TRUE\"",
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem4",
+        "InputFieldName": "IsCreatedInLast5Minutes__c",
+        "InputObjectName": "Case",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "ContextId",
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem3",
+        "InputFieldName": "Prospective_Member__c",
+        "InputObjectName": "Case",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "\"New\"",
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem0",
+        "InputFieldName": "Status",
+        "InputObjectName": "Case",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "LIMIT",
+        "FilterValue": "1",
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem1",
+        "InputObjectName": "Case",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "ORDER BY",
+        "FilterValue": "CreatedDate desc",
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem2",
+        "InputObjectName": "Case",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Case",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Case:Health_Condition__c",
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem5",
+        "InputFieldName": "Id",
+        "InputObjectName": "CodeSet",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "CodeSet",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem35",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Case",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem6",
+        "InputFieldName": "Case:AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem7",
+        "InputFieldName": "Case:CaseNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:CaseNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem8",
+        "InputFieldName": "Case:Comments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Comments",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem10",
+        "InputFieldName": "Case:ContactId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:ContactId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem11",
+        "InputFieldName": "Case:ContactPhone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:ContactPhone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem13",
+        "InputFieldName": "Case:Department__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Department__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem14",
+        "InputFieldName": "Case:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem15",
+        "InputFieldName": "Case:Follow_Up__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Follow_Up__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem17",
+        "InputFieldName": "CodeSet:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Health_Condition:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem9",
+        "InputFieldName": "CodeSet:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Health_Condition:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem16",
+        "InputFieldName": "Case:Health_Condition_Heard__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Health_Condition_Heard__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem18",
+        "InputFieldName": "Case:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem12",
+        "InputFieldName": "Case:Inquirer_Phone__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Inquirer_Phone__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem19",
+        "InputFieldName": "Case:Inquirer_Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Inquirer_Type__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem20",
+        "InputFieldName": "Case:Inquirer__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Inquirer__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem21",
+        "InputFieldName": "Case:Priority",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Priority",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem22",
+        "InputFieldName": "Case:Proactive_Listening_Details__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Proactive_Listening_Details__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem23",
+        "InputFieldName": "Case:Proactive_Listening_Outcome__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Proactive_Listening_Outcome__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem24",
+        "InputFieldName": "Case:Proactively_Educated__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Proactively_Educated__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem25",
+        "InputFieldName": "Case:Product_Line__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Product_Line__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom6383",
+        "InputFieldName": "Case:Prospective_Member__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Prospective_Member__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem26",
+        "InputFieldName": "Case:Reason",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Reason",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem33",
+        "InputFieldName": "Case:RecordTypeId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:RecordType:Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem27",
+        "InputFieldName": "Case:RecordTypeName__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:RecordType:Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem28",
+        "InputFieldName": "Case:Result__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Result__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem29",
+        "InputFieldName": "Case:SDOH_Heard__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:SDOH_Heard__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem30",
+        "InputFieldName": "Case:Subject",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Subject",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem31",
+        "InputFieldName": "Case:Team__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Team__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem32",
+        "InputFieldName": "Case:Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetCaseInfoByProspectiveMemberIdCustom0jI7j000000004NEAQItem34",
+        "InputFieldName": "Case:Values_Authenticated__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetCaseInfoByProspectiveMemberId",
+        "OmniDataTransformationId": {
+            "Name": "GetCaseInfoByProspectiveMemberId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetCaseInfoByProspectiveMemberId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Case:Values_Authenticated__c",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]
