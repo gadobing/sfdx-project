@@ -42,6 +42,7 @@
         "redirectPreviousWidth": 3,
         "redirectTemplateUrl": "vlcAcknowledge.html",
         "remoteOptions": {
+            "ContextId": "%ContextId%",
             "chainable": false,
             "postTransformBundle": "",
             "preTransformBundle": "",

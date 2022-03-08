@@ -1,130 +1,25 @@
 {
-    "Case": {
-        "Case_1": [
-            {
-                "Comments": "This is internal comment",
-                "ContactPhone": "631-922-4166",
-                "Department__c": "Customer Service",
-                "Description": "This is a document call",
-                "Health_Condition_Heard__c": true,
-                "Health_Condition__c": "0hs7j000000ChdyAAC",
-                "Id": "5007j00000B4q9OAAR",
-                "Proactive_Listening_Details__c": "This is my life",
-                "Proactive_Listening_Outcome__c": "Transferred to Social Worker",
-                "Product_Line__c": "BANA",
-                "Reason": "Appeal",
-                "Result__c": "Appeal",
-                "SDOH_Heard__c": true,
-                "Subject": "This is a subject",
-                "Team__c": "Exchange - Voice Mail",
-                "UpsertSObjectType": "Case",
-                "UpsertSuccess": true
-            }
-        ],
-        "error": "OK",
-        "responseType": "SObject"
-    },
-    "CaseId": "5007j00000B4q9OAAR",
-    "CaseNumber": "00001131",
-    "CaseTypeValue": [
+    "CaseId": "5007j00000B4xjfAAB",
+    "CaseNumber": "00001155",
+    "CaseOwnerId": "00G7j000001XesREAS",
+    "CaseQueue": [
         {
-            "Id": "0125f000000hYRKAA2",
-            "Name": "Admission"
-        },
-        {
-            "Id": "0125f000000hYRLAA2",
-            "Name": "Appeal"
-        },
-        {
-            "Id": "0125f000000hYRMAA2",
-            "Name": "Complaint"
-        },
-        {
-            "Id": "0125f000000hYRNAA2",
-            "Name": "Concurrent Review"
-        },
-        {
-            "Id": "0125f000000hYROAA2",
-            "Name": "Drug Request"
-        },
-        {
-            "Id": "0125f000000hYRPAA2",
-            "Name": "Grievance"
-        },
-        {
-            "Id": "0125f000000hYRQAA2",
-            "Name": "Service Request"
-        },
-        {
-            "Id": "0125f000000hiT1AAI",
-            "Name": "CareGap"
-        },
-        {
-            "Id": "0125f000000hiT2AAI",
-            "Name": "CarePlan"
-        },
-        {
-            "Id": "0127j000000H67jAAC",
-            "Name": "Billing/Premiums"
-        },
-        {
-            "Id": "0127j000000H67oAAC",
-            "Name": "Claims"
-        },
-        {
-            "Id": "0127j000000H67tAAC",
-            "Name": "Correspondence"
-        },
-        {
-            "Id": "0127j000000H67yAAC",
-            "Name": "Courtesy Review"
-        },
-        {
-            "Id": "0127j000000H683AAC",
-            "Name": "Eligibility/Benefits"
-        },
-        {
-            "Id": "0127j000000H688AAC",
-            "Name": "Group/Employer"
-        },
-        {
-            "Id": "0127j000000H68DAAS",
-            "Name": "ID Card Activation"
-        },
-        {
-            "Id": "0127j000000H68IAAS",
-            "Name": "Medical Records"
-        },
-        {
-            "Id": "0127j000000H68NAAS",
-            "Name": "My Blueprint/Web Questions"
-        },
-        {
-            "Id": "0127j000000H68SAAS",
-            "Name": "Pre-Certification"
-        },
-        {
-            "Id": "0127j000000H68XAAS",
-            "Name": "Pre-Notification/Prior Approval (PA)"
-        },
-        {
-            "Id": "0127j000000H68cAAC",
-            "Name": "Provider Verification/Information"
-        },
-        {
-            "Id": "0127j000000H68hAAC",
-            "Name": "Other"
+            "Id": "00G7j000001XesREAS",
+            "Name": "Customer Service",
+            "Type": "Queue"
         }
     ],
-    "DateFollowUpDate": "2022-03-17",
+    "ContextId": "0017j00000fDBSZAA4",
+    "DateFollowUpDate": "",
+    "DocumentBenefitsDiscussed": null,
     "FullAddress": "1122 15th Street Shallowater, TX 79363",
-    "Greeting": "Thank you for calling your Health Care Advisor team, this is Adner. How may I help/assist today?",
-    "ProactivelyEducated": "",
+    "Greeting": "Thank you for calling Customer Service, this is Aniket. How may I assist you today?",
+    "ProactivelyEducated": "Case Management;Vendors;Social Worker;Additional services/Benefits;",
     "Result": {
         "Case": [
             {
                 "AccountId": "0017j00000fDBSZAA4",
-                "CaseNumber": "00001131",
+                "CaseNumber": "00001155",
                 "CaseType": [
                     {
                         "Id": "0125f000000hYRKAA2",
@@ -217,43 +112,21 @@
                 ],
                 "ContactId": "0037j00000fIf2uAAC",
                 "ContactPhone": "631-922-4166",
-                "Department__c": "Customer Service",
-                "Description": "This is a document call",
-                "Follow_Up__c": "2022-03-17",
-                "Health_Condition_Heard__c": true,
-                "Health_Condition__c": "0hs7j000000ChdyAAC",
-                "Id": "5007j00000B4q9OAAR",
-                "Inquirer_Type__c": "Vendor",
-                "Inquirer__c": "Mich Buchamel",
+                "Health_Condition_Heard__c": false,
+                "Id": "5007j00000B4xjfAAB",
                 "Priority": "Medium",
-                "Proactive_Listening_Details__c": "This is my life",
-                "Proactive_Listening_Outcome__c": "Transferred to Social Worker",
-                "Proactively_Educated__c": "Vendors;Additional services/Benefits",
-                "Product_Line__c": "BANA",
-                "Reason": "Appeal",
                 "RecordType": {
-                    "Id": "0125f000000hiT1AAI",
-                    "Name": "CareGap",
-                    "attributes": {
-                        "type": "RecordType",
-                        "url": "/services/data/v54.0/sobjects/RecordType/0125f000000hiT1AAI"
-                    }
+                    "Id": "0125f000000hYRKAA2",
+                    "Name": "Admission"
                 },
-                "RecordTypeId": "0125f000000hiT1AAI",
-                "Result__c": "Appeal",
-                "SDOH_Heard__c": true,
-                "Subject": "This is a subject",
-                "Team__c": "Exchange - Voice Mail",
-                "Values_Authenticated__c": "Member ID;Date of birth;Mailing Address;Member Name"
+                "SDOH_Heard__c": false
             }
         ],
-        "LineOfBusinessGreeting": "Thank you for calling your Health Care Advisor team, this is Adner. How may I help/assist today?",
         "Member": {
             "FirstName": "Jason",
-            "HealthCloudGA__BirthDate__pc": "February 5, 1963",
             "Id": "0017j00000fDBSZAA4",
             "LastName": "White",
-            "Last_4_Digit_Of_SSN__c": 8880,
+            "Last_4_Digit_Of_SSN__c": 8811,
             "MailingAddress": {
                 "ActiveFromDate": "2022-01-18",
                 "ActiveToDate": "2029-02-23",
@@ -268,68 +141,79 @@
             "Member_Id__c": "8798989",
             "NPI__c": "1234ghjjjj",
             "Name": "Jason White",
-            "PersonBirthdate": "1963-02-05"
+            "Phone": "631-922-4166"
         },
         "User": [
             {
-                "FirstName": "Adner",
-                "Id": "0057j000002saQHAAY",
-                "Product_Line__c": "ABCBS"
+                "Department__c": "Claims",
+                "FirstName": "Aniket",
+                "Id": "0057j000002sbJ2AAI",
+                "Product_Line__c": "Exchange"
             }
         ]
     },
+    "SelectCaseDepartment": "Claims",
     "StepCaseSummary": {
-        "SelectSummaryProductLine": "BANA",
+        "SelectSummaryProductLine": "Exchange",
         "SelectSummaryReason": "Appeal",
-        "SelectSummaryResult": "Appeal"
+        "SelectSummaryResult": "Received in Error"
     },
     "StepDocumentCaller": {
-        "Description": "This is a document call",
-        "Subject": "This is a subject"
+        "Description": "test2",
+        "Subject": "test1"
     },
-    "StepFollowUp": null,
+    "StepFollowUp": {
+        "DateFollowUpDateTime": "2022-03-07T06:30:00.000Z",
+        "FollowUpComment": "Followup comment",
+        "FollowUpSubject": "follow",
+        "RadioFollowUpRequested": "Yes",
+        "SelectPriority": "High"
+    },
     "StepGreeting": {
         "CaseType-Block": {
-            "CaseType": "CareGap"
+            "CaseType": "Admission"
         },
-        "PhoneNumber": "631-922-4166"
+        "PhoneNumber": "9999999990"
     },
     "StepHeard": {
         "FormulaRadioHealthConditionHeard": true,
-        "FormulaRadioSDOHHeard": true,
+        "FormulaRadioSDOHHeard": false,
         "RadioHealthConditionHeard": "Yes",
-        "RadioSDOHHeard": "Yes",
+        "RadioSDOHHeard": "No",
         "SelectHealthCondition-Block": {
-            "Id": "0hs7j000000ChdyAAC",
-            "Name": "Cancer",
-            "SelectHealthCondition": "Cancer"
+            "SelectHealthCondition": "Asthma"
         },
         "SelectProactiveListeningOutcome": "Transferred to Social Worker",
-        "TextAreaStepHeardNote": "This is my life"
+        "TextAreaStepHeardNote": "sdoh"
     },
     "StepInternalComment": {
-        "TextAreaInternalComments": "This is internal comment"
+        "TextAreaInternalComments": "internal comment"
     },
     "StepQuestionCallAnswer": {
-        "RadioAnswerQuestionToday": "Yes",
-        "TextAreaAdditionalComments": null
+        "RadioAnswerQuestionToday": "No",
+        "TextAreaAdditionalComments": "additional "
     },
     "StepReasonResult": {
         "SelectCaseType-Block": {
-            "SelectCaseType": "CareGap"
+            "SelectCaseType": "Admission"
         },
-        "SelectProductLine": "BANA",
+        "SelectProductLine": "Exchange",
         "SelectReason": "Appeal",
-        "SelectResult": "Appeal"
+        "SelectResult": "Received in Error"
     },
-    "StepRouteCase": null,
+    "StepRouteCase": {
+        "RadioRouteToAnotherTeam": "Yes",
+        "SelectDepartmentRouteAnotherTeam": "Customer Service",
+        "SelectProductLineRouteAnotherTeam": "BANA",
+        "SelectTeamRouteAnotherTeam": "Exchange - Membership PCP Update"
+    },
     "StepSelfInquirer": {
-        "Checkbox": false,
         "CheckboxDOB": false,
-        "CheckboxMailingAddress": false,
-        "CheckboxMemberID": false,
-        "CheckboxSSN": false,
-        "FormulaMemberBirthday": "02/05/1963",
+        "CheckboxMailingAddress": true,
+        "CheckboxMemberID": true,
+        "CheckboxMemberName": true,
+        "CheckboxSSN": true,
+        "FormulaMemberBirthday": "",
         "InquirerName": null,
         "InquirerPhone": null,
         "InquirerType": null,
@@ -337,18 +221,19 @@
     },
     "StepTalkingPoints": {
         "Block2": {
-            "CheckboxAdditionaServicesBenefits": false,
-            "CheckboxCaseManagement": false,
-            "CheckboxSocialVendors": false,
-            "CheckboxSocialWorker": false
-        }
+            "CheckboxAdditionaServicesBenefits": true,
+            "CheckboxCaseManagement": true,
+            "CheckboxSocialVendors": true,
+            "CheckboxSocialWorker": true
+        },
+        "TextAreaCaseNotes": "note1"
     },
-    "UserFirstName": "Adner",
-    "ValuesAuthenticated": "",
-    "timeStamp": "2022-03-02T19:34:50.485Z",
+    "UserFirstName": "Aniket",
+    "ValuesAuthenticated": "Member ID;Mailing Address;Member Name;Last four digits of SSN;",
+    "timeStamp": "2022-03-07T11:17:46.638Z",
     "userCurrencyCode": "USD",
-    "userId": "0057j000002saQHAAY",
-    "userName": "aramosdelarosa@salesforce.com.ccidev",
+    "userId": "0057j000002sbJ2AAI",
+    "userName": "abhalerao@salesforce.com.ccidev",
     "userProfile": "System Administrator",
-    "userTimeZone": "-360"
+    "userTimeZone": "-480"
 }

@@ -11,6 +11,7 @@
     "OmniProcessElement": [
         "CaseManagement_Case_English_Element_GetCaseIdByUserId.json",
         "CaseManagement_Case_English_Element_SetValuesCaseId.json",
+        "CaseManagement_Case_English_Element_SetValuesGuidedFlowType.json",
         "CaseManagement_Case_English_Element_IntegrationProcedureGetCase.json",
         "CaseManagement_Case_English_Element_SetValuesAllElements.json",
         "CaseManagement_Case_English_Element_StepGreeting.json",
@@ -104,6 +105,8 @@
         "CaseManagement_Case_English_Element_SelectProductLineRouteAnotherTeam.json",
         "CaseManagement_Case_English_Element_SelectDepartmentRouteAnotherTeam.json",
         "CaseManagement_Case_English_Element_SelectTeamRouteAnotherTeam.json",
+        "CaseManagement_Case_English_Element_DataRaptorTurboGetRouteQueue.json",
+        "CaseManagement_Case_English_Element_SetCaseOwner.json",
         "CaseManagement_Case_English_Element_StepFollowUp.json",
         "CaseManagement_Case_English_Element_TextBlock21.json",
         "CaseManagement_Case_English_Element_RadioFollowUpRequested.json",
