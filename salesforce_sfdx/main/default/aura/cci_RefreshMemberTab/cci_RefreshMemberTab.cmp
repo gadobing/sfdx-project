@@ -1,0 +1,6 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,flexipage:availableForAllPageTypes">
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }"/>
+
+    <lightning:workspaceAPI aura:id="myworkspace"/>
+    <c:cci_MemberRefresh onpagereload="{!c.refresh}" recordId="{!v.recordId}"/>
+</aura:component>
