@@ -46,27 +46,27 @@
           <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
             <span class="slds-form-element__label">Phone</span>
             <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! Account.Phone }</span>
+              <span class="slds-form-element__static">{! $Currentpage.parameters.phonenumber }</span>
             </div>
           </div>
           <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
             <span class="slds-form-element__label">Member ID</span>
             <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! Account.Phone }</span>
-            </div>
-          </div>
-          <!-- <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
-            <span class="slds-form-element__label">????</span>
-            <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! Account.Phone }</span>
+              <span class="slds-form-element__static">{! $Currentpage.parameters.memberid }</span>
             </div>
           </div>
           <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
-            <span class="slds-form-element__label">????</span>
+            <span class="slds-form-element__label">Authenticated?</span>
             <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! Account.Phone }</span>
+              <span class="slds-form-element__static">{! $Currentpage.parameters.authenticated }</span>
             </div>
-          </div> -->
+          </div>
+          <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
+            <span class="slds-form-element__label">NPI</span>
+            <div class="slds-form-element__control">
+              <span class="slds-form-element__static">{! $Currentpage.parameters.npi }</span>
+            </div>
+          </div>
         </div>
         <div class="slds-panel__section slds-has-divider--bottom">
           <div class="slds-media">
