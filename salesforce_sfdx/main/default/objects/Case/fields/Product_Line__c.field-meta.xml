@@ -42,11 +42,6 @@
                 <label>HA</label>
             </value>
             <value>
-                <fullName>All LOB</fullName>
-                <default>false</default>
-                <label>All LOB</label>
-            </value>
-            <value>
                 <fullName>Medicare Advantage</fullName>
                 <default>false</default>
                 <label>Medicare Advantage</label>
@@ -65,6 +60,36 @@
                 <fullName>Regional</fullName>
                 <default>false</default>
                 <label>Regional</label>
+            </value>
+            <value>
+                <fullName>USAble</fullName>
+                <default>false</default>
+                <label>USAble</label>
+            </value>
+            <value>
+                <fullName>ABCBS Reg Business</fullName>
+                <default>false</default>
+                <label>ABCBS Reg Business</label>
+            </value>
+            <value>
+                <fullName>Medicare Advantage/RX</fullName>
+                <default>false</default>
+                <label>Medicare Advantage/RX</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>SIU</fullName>
+                <default>false</default>
+                <label>SIU</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
             </value>
         </valueSetDefinition>
     </valueSet>
