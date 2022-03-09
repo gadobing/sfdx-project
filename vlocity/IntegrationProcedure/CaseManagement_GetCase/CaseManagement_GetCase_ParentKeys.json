@@ -1,6 +1,0 @@
-[
-    "DataRaptor/CCI_DRGetMemberDetails",
-    "DataRaptor/CCI_DRGetProspectiveMemberDetails",
-    "DataRaptor/GetCaseInfoById",
-    "DataRaptor/GetCaseInfoByProspectiveMemberId"
-]

@@ -39,7 +39,7 @@
             "SelectHealthCondition": "%Result:Case|1:Health_Condition:Name%",
             "SelectPriority": "%Result:Case|1:Priority%",
             "SelectProactiveListeningOutcome": "%Result:Case|1:Proactive_Listening_Outcome__c%",
-            "SelectProductLine": "%Result:User|1:Product_Line__c%",
+            "SelectProductLine": "%Result:Case|1:Product_Line__c%",
             "SelectReason": "%Result:Case|1:Reason%",
             "SelectResult": "%Result:Case|1:Result__c%",
             "Subject": "%Result:Case|1:Subject%",

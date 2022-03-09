@@ -12,6 +12,7 @@
     "OmniProcessElement": [
         "CaseManagement_GetCase_Element_DataRaptorTurboGetUserInfo.json",
         "CaseManagement_GetCase_Element_DataRaptorExtractGetCaseInfo.json",
+        "CaseManagement_GetCase_Element_DataRaptorExtractGetProspectiveMemberCaseInfo.json",
         "CaseManagement_GetCase_Element_SetValuesGreetings.json",
         "CaseManagement_GetCase_Element_LoopBlockGreetings.json",
         "CaseManagement_GetCase_Element_SetValuesFoundGreeting.json",
@@ -29,5 +30,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/GetCase/Procedure",
-    "WebComponentKey": "14153f01-f8a6-ecd5-0f0c-234a3e0e5630"
+    "WebComponentKey": "cae9535b-0584-8463-abff-843d3fc05ab8"
 }

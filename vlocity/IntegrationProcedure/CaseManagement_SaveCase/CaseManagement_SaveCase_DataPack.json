@@ -12,6 +12,7 @@
     "OmniProcessElement": [
         "CaseManagement_SaveCase_Element_DataRaptorPostBenefitDiscussed.json",
         "CaseManagement_SaveCase_Element_DataRaptorPostUpdateCaseInfo.json",
+        "CaseManagement_SaveCase_Element_DataRaptorPostCreateCaseComments.json",
         "CaseManagement_SaveCase_Element_DataRaptorPostUpdateProviderCaseInfo.json",
         "CaseManagement_SaveCase_Element_DataRaptorPostUpdateProspectiveMemberCaseInfo.json",
         "CaseManagement_SaveCase_Element_DataRaptorPostCreateTask.json",
@@ -25,5 +26,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/SaveCase/Procedure",
-    "WebComponentKey": "325e8cfc-6464-5fc7-3358-cf87cfdfa742"
+    "WebComponentKey": "551cfb3b-4c1b-e3be-da8b-525f557ec15e"
 }

@@ -1,6 +1,4 @@
 [
-    "DataRaptor/CCI_DRCreateBenefitDiscussed",
-    "DataRaptor/UpdateCaseInfo",
-    "DataRaptor/UpdateProspectiveMemberCaseInfo",
-    "DataRaptor/UpdateProviderCaseInfo"
+    "DataRaptor/CCI_DRCreateCaseComments",
+    "DataRaptor/UpdateCaseInfo"
 ]

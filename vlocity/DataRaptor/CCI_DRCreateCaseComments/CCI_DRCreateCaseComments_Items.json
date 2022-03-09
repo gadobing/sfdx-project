@@ -1,0 +1,81 @@
+[
+    {
+        "FormulaExpression": "CONCAT(StepTalkingPoints:TextAreaCaseNotes,'\\n',StepHeard:TextAreaStepHeardNote,'\\n',StepSelectBenefit:AdditionalInfo,'\\n',StepQuestionCallAnswer:TextAreaAdditionalComments,'\\n',StepFollowUp:FollowUpComment)",
+        "FormulaResultPath": "ConcatenatedCaseComments",
+        "FormulaSequence": 1,
+        "GlobalKey": "CCI_DRCreateCaseCommentsCustom28",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRCreateCaseComments",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRCreateCaseComments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRCreateCaseComments",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRCreateCaseCommentsCustom6743",
+        "InputFieldName": "ConcatenatedCaseComments",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRCreateCaseComments",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRCreateCaseComments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRCreateCaseComments",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CommentBody",
+        "OutputObjectName": "CaseComment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "CCI_DRCreateCaseCommentsCustom3395",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "CCI_DRCreateCaseComments",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRCreateCaseComments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRCreateCaseComments",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "CaseComment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRCreateCaseCommentsCustom2630",
+        "InputFieldName": "CaseId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRCreateCaseComments",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRCreateCaseComments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRCreateCaseComments",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ParentId",
+        "OutputObjectName": "CaseComment",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

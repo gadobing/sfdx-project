@@ -1,11 +1,11 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DataRaptorExtractGetCaseInfo",
+    "Name": "DataRaptorPostCreateCaseComments",
     "OmniProcessId": {
-        "Name": "IPGetCaseInfo",
+        "Name": "IPSaveCaseInfo",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/GetCase/Procedure",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseManagement/SaveCase/Procedure",
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "PropertySetConfig": {
@@ -14,24 +14,17 @@
         },
         "additionalOutput": {
         },
-        "bundle": "GetCaseInfoById",
+        "bundle": "CCI_DRCreateCaseComments",
         "chainOnStep": false,
-        "dataRaptor Input Parameters": [
-            {
-                "element": "ContextId",
-                "inputParam": "ContextId"
-            }
-        ],
         "disOnTplt": false,
-        "executionConditionalFormula": "GuidedFlowType == \"Member\" || GuidedFlowType == \"Provider\"",
+        "executionConditionalFormula": "ISNOTBLANK(CONCAT(StepTalkingPoints:TextAreaCaseNotes,StepHeard:TextAreaStepHeardNote,StepSelectBenefit:AdditionalInfo,StepQuestionCallAnswer:TextAreaAdditionalComments,StepFollowUp:FollowUpComment))",
         "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "ignoreCache": false,
-        "label": "DataRaptorExtractAction1",
-        "responseJSONNode": "Result:Case",
-        "responseJSONPath": "Case",
+        "label": "DataRaptorPostAction6",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
@@ -40,8 +33,8 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Extract Action",
+    "Type": "DataRaptor Post Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/GetCase/Procedure/DataRaptorExtractGetCaseInfo"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/SaveCase/Procedure/DataRaptorPostCreateCaseComments"
 }
