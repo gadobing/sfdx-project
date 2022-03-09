@@ -98,11 +98,6 @@
                 <default>false</default>
                 <label>Claim support</label>
             </value>
-            <value>
-                <fullName>Other</fullName>
-                <default>false</default>
-                <label>Other</label>
-            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Regional</controllingFieldValue>
