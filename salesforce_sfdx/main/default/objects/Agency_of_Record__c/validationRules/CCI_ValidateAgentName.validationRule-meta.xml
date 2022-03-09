@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCI_ValidateAgentName</fullName>
+    <active>true</active>
+    <description>You don’t have permission to edit the Agent Name. Please contact your system administrator.</description>
+    <errorConditionFormula>AND(ISCHANGED(Agent__c),OR($Profile.Name = 'CSR Agent',$Profile.Name = 'Group Administrator'))</errorConditionFormula>
+    <errorMessage>You don’t have permission to edit the Agent Name. Please contact your system administrator.</errorMessage>
+</ValidationRule>
