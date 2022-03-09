@@ -1255,7 +1255,7 @@
                 <label>Website Questions</label>
             </value>
             <value>
-                <fullName>SNF  Skilled Nursing Facility</fullName>
+                <fullName>SNF %1A Skilled Nursing Facility</fullName>
                 <default>false</default>
                 <label>SNF  Skilled Nursing Facility</label>
             </value>
