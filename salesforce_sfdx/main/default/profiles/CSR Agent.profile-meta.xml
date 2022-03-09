@@ -4373,6 +4373,16 @@
         <name>omnistudio__UISettings__c</name>
     </customSettingAccesses>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Benefit_Discussed__c.Service_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Benefit_Discussed__c.Service_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Prospective_Member__c</field>
         <readable>true</readable>
