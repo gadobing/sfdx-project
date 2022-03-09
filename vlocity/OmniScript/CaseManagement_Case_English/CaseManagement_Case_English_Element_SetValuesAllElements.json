@@ -12,6 +12,7 @@
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementValueMap": {
+            "CaseId": "%Result:Case|1:Id%",
             "CaseNumber": "%Result:Case|1:CaseNumber%",
             "CaseOwnerId": "%Result:User|1:Id%",
             "CaseType": "%Result:Case|1:RecordType:Name%",
@@ -34,6 +35,7 @@
             "PhoneNumber": "=%Result:Case|1:Inquirer_Phone__c%",
             "RadioHealthConditionHeard": "=IF(%Result:Case|1:Health_Condition_Heard__c% == true, 'Yes', 'No')",
             "RadioSDOHHeard": "=IF(%Result:Case|1:SDOH_Heard__c% == true, 'Yes', 'No')",
+            "SelectCaseDepartment": "%Result:User|1:Department__c%",
             "SelectHealthCondition": "%Result:Case|1:Health_Condition:Name%",
             "SelectPriority": "%Result:Case|1:Priority%",
             "SelectProactiveListeningOutcome": "%Result:Case|1:Proactive_Listening_Outcome__c%",

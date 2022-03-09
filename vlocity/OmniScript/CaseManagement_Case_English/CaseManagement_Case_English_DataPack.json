@@ -1,5 +1,5 @@
 {
-    "Description": "81935 - Update launch guided flow - Member flow - UI Adjustments",
+    "Description": "77409- Acknowledge Benefit Discussed",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
@@ -55,6 +55,7 @@
         "CaseManagement_Case_English_Element_SelectResult.json",
         "CaseManagement_Case_English_Element_LineBreak4.json",
         "CaseManagement_Case_English_Element_NavigateAction2.json",
+        "CaseManagement_Case_English_Element_SetValuesForCaseType.json",
         "CaseManagement_Case_English_Element_StepTalkingPoints.json",
         "CaseManagement_Case_English_Element_TextBlock11.json",
         "CaseManagement_Case_English_Element_TextBlock12.json",
@@ -67,6 +68,18 @@
         "CaseManagement_Case_English_Element_TextAreaCaseNotes.json",
         "CaseManagement_Case_English_Element_LineBreak5.json",
         "CaseManagement_Case_English_Element_NavigateAction3.json",
+        "CaseManagement_Case_English_Element_StepSelectBenefit.json",
+        "CaseManagement_Case_English_Element_Heading.json",
+        "CaseManagement_Case_English_Element_LineBreak7.json",
+        "CaseManagement_Case_English_Element_selectMultiBenefit.json",
+        "CaseManagement_Case_English_Element_searchMultiBenefit.json",
+        "CaseManagement_Case_English_Element_SearchBenefit.json",
+        "CaseManagement_Case_English_Element_CodeSetName.json",
+        "CaseManagement_Case_English_Element_CodeSetId.json",
+        "CaseManagement_Case_English_Element_Code.json",
+        "CaseManagement_Case_English_Element_DR_fetchCodeSet.json",
+        "CaseManagement_Case_English_Element_CodeSet.json",
+        "CaseManagement_Case_English_Element_AdditionalInfo.json",
         "CaseManagement_Case_English_Element_SetValuesTalkPoints.json",
         "CaseManagement_Case_English_Element_StepHeard.json",
         "CaseManagement_Case_English_Element_TextBlock14.json",
@@ -135,5 +148,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "88587528-249f-ea7d-dfe8-4a687d9e5675"
+    "WebComponentKey": "3ab6eb22-3240-e352-cc72-b49804fc598f"
 }
