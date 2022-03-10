@@ -229,4 +229,35 @@
             <default>false</default>
         </values>
     </picklistValues>
+    <picklistValues>
+        <picklist>Values_Authenticated__c</picklist>
+        <values>
+            <fullName>Date of birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Last four digits of SSN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mailing Address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Name</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
