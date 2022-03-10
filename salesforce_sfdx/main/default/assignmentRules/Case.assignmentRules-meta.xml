@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Case Assignment to Department</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Accounting</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(OR( ISNEW() ,ISCHANGED( Department__c )), ISPICKVAL(Department__c,'Accounting') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Case_management</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Case management') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claim_support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Claim support') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Claims</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Claims') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Configuration</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Configuration') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CRM_Operations_Service</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'CRM Operations &amp; Service') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Customer_Accounts</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Customer Accounts') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Customer_Service</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Customer Service') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Legal</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Legal') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>MARS</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'MARS') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>MURS</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'MURS') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Pharmacy</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Pharmacy') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>SIU</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'SIU') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>System_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'System Support') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Underwriting</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Underwriting') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Utilization_Management</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Utilization Management') )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Utilization_review</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(ISCHANGED( Department__c ), ISPICKVAL(Department__c,'Utilization review') )</formula>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>
