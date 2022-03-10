@@ -118,6 +118,8 @@
         "CaseManagement_Case_English_Element_SelectProductLineRouteAnotherTeam.json",
         "CaseManagement_Case_English_Element_SelectDepartmentRouteAnotherTeam.json",
         "CaseManagement_Case_English_Element_SelectTeamRouteAnotherTeam.json",
+        "CaseManagement_Case_English_Element_DataRaptorTurboGetRouteQueue.json",
+        "CaseManagement_Case_English_Element_SetCaseOwner.json",
         "CaseManagement_Case_English_Element_StepFollowUp.json",
         "CaseManagement_Case_English_Element_TextBlock21.json",
         "CaseManagement_Case_English_Element_RadioFollowUpRequested.json",
@@ -146,5 +148,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "f8e33f7c-2f82-2770-f6e8-c68ef5e6bd29"
+    "WebComponentKey": "2bfefbd7-b2a6-bb36-56d1-c0bb585cea9d"
 }

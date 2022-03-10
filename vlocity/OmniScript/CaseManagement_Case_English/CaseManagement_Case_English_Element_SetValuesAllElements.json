@@ -14,7 +14,7 @@
         "elementValueMap": {
             "CaseId": "%Result:Case|1:Id%",
             "CaseNumber": "%Result:Case|1:CaseNumber%",
-            "CaseOwnerId": "%Result:User|1:Id%",
+            "CaseOwnerId": "%Result:Case|1:CaseOwnerId%",
             "CaseType": "%Result:Case|1:RecordType:Name%",
             "CheckboxAdditionaServicesBenefits": "=IF(CONTAINS(%Result:Case|1:Proactively_Educated__c%, \"Additional services/Benefits\"), true, false)",
             "CheckboxCaseManagement": "=IF(CONTAINS(%Result:Case|1:Proactively_Educated__c%, \"Case Management\"), true, false)",
