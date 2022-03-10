@@ -36,7 +36,7 @@
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Document the Caller's Need",
+        "label": "Document the Caller's Need (Call Comments)",
         "maxLength": 255,
         "minLength": 0,
         "pattern": "",
