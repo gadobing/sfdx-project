@@ -19,7 +19,7 @@
     <formulas>
         <name>strQuickLink</name>
         <dataType>String</dataType>
-        <expression>HYPERLINK({!iterateQuickLinks.Link_URL__c},{!iterateQuickLinks.Label},"_blank")&amp;BR()</expression>
+        <expression>HYPERLINK({!iterateQuickLinks.Link_URL__c},{!iterateQuickLinks.Label},"_blank")&amp;BR()&amp;BR()</expression>
     </formulas>
     <interviewLabel>CCI Quick Links {!$Flow.CurrentDateTime}</interviewLabel>
     <label>CCI Quick Links</label>
