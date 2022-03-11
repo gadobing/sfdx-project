@@ -1,6 +1,8 @@
 <template>
     <lightning-card variant="Narrow">
-        <c-case-management--case-english layout="lightning">
+        <template if:true={recordId}>
+        <c-case-management--case-english prefill={prefill} layout="lightning">
         </c-case-management--case-english>
+    </template>
     </lightning-card>
 </template>

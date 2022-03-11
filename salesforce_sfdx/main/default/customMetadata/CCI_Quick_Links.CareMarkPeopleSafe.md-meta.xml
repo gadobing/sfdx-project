@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CareMark PeopleSafe</label>
+    <protected>false</protected>
+    <values>
+        <field>Link_URL__c</field>
+        <value xsi:type="xsd:string">https://client.caremark.com/wps/portal/client/welcome/!ut/p/z1/hc1Ba8JAEAXgv6KHeJFmVmw1CFKiqKTUShOr6V7KJIxJMMluZ9Om-OubNhR6UJzbvPfgAwkhyBI_swSrTJWYN_-rHL25q93Ls5iPR5vxdig8by0CfzEbOMs72F8byKYWF84V8AAyyVXUUm4ZDZ0EJNOBmNj-4CZOq0qbiSUsUde1HWVlYseqsIQh5Di9f5_GyFQgH_ualM6pb_BAPcPx1FvcBL-jmfrqLTf-ukkC__bpHJUqU0H4Xzi3ak2NjIWB8A_utHDnBwZdhKdH2jvG7Xa_ASMrm4E!/dz/d5/L2dBISEvZ0FBIS9nQSEh/</value>
+    </values>
+</CustomMetadata>

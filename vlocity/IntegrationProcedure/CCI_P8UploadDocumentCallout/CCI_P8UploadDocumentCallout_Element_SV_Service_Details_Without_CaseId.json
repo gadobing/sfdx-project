@@ -1,0 +1,45 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SV_Service_Details_Without_CaseId",
+    "OmniProcessId": {
+        "Name": "P8 Upload Document Callout",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/P8UploadDocumentCallout/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Payload": {
+                "documentClass": "%docClass%",
+                "documentType": "%docType%",
+                "image": {
+                    "content": "%base64String%",
+                    "format": "%mimeType%"
+                },
+                "lineOfBusiness": "%lineOfBusiness%",
+                "objectStore": "%objectStore%",
+                "searchIndexes": [
+                    {
+                        "name": "ContractNumber",
+                        "value": "%contractNumber%"
+                    }
+                ]
+            }
+        },
+        "executionConditionalFormula": "%objectStore% == \"PaperClaimsOS\" || %objectStore% ==\"LegalOS\" ",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/P8UploadDocumentCallout/Procedure/SV_Service_Details_Without_CaseId"
+}

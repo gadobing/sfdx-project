@@ -1,0 +1,6 @@
+[
+    "DataRaptor/DRE_RecordType",
+    "DataRaptor/GetPersonAccountForPolicyHolder",
+    "DataRaptor/UpsertMemberPlan",
+    "DataRaptor/UpsertMemberRider"
+]

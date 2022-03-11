@@ -1,5 +1,215 @@
 [
     {
+        "FormulaExpression": "CONCAT(StepTalkingPoints:TextAreaCaseNotes,'\\n',StepHeard:TextAreaStepHeardNote,'\\n',StepSelectBenefit:AdditionalInfo,'\\n',StepQuestionCallAnswer:TextAreaAdditionalComments,'\\n',StepFollowUp:FollowUpComment)",
+        "FormulaResultPath": "ConcatenatedCaseComments",
+        "FormulaSequence": 10,
+        "GlobalKey": "UpdateCaseInfoCustom6200",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepHeard:FormulaRadioHealthConditionHeard == true, StepHeard:SelectProactiveListeningOutcome, NULL)",
+        "FormulaResultPath": "ProactiveListeningOutcome",
+        "FormulaSequence": 4,
+        "GlobalKey": "UpdateCaseInfoCustom8456",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepQuestionCallAnswer:RadioAnswerQuestionToday == 'Yes', \"Closed\", IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', \"Under Review\", \"Working\"))",
+        "FormulaResultPath": "Status",
+        "FormulaSequence": 9,
+        "GlobalKey": "UpdateCaseInfoCustom2030",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', StepRouteCase:SelectDepartmentRouteAnotherTeam, Result:Case|1:Department__c)",
+        "FormulaResultPath": "Department",
+        "FormulaSequence": 2,
+        "GlobalKey": "UpdateCaseInfoCustom7991",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', StepRouteCase:SelectProductLineRouteAnotherTeam, StepReasonResult:SelectProductLine)",
+        "FormulaResultPath": "ProductLine",
+        "FormulaSequence": 1,
+        "GlobalKey": "UpdateCaseInfoCustom5402",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepRouteCase:RadioRouteToAnotherTeam == 'Yes', StepRouteCase:SelectTeamRouteAnotherTeam, Result:Case|1:Team__c)",
+        "FormulaResultPath": "Team",
+        "FormulaSequence": 3,
+        "GlobalKey": "UpdateCaseInfoCustom1417",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepSelfInquirer:RadioSelfInquirer == 'Inquirer', StepSelfInquirer:InquirerName, NULL)",
+        "FormulaResultPath": "InquirerName",
+        "FormulaSequence": 6,
+        "GlobalKey": "UpdateCaseInfoCustom6355",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepSelfInquirer:RadioSelfInquirer == 'Inquirer', StepSelfInquirer:InquirerPhone, NULL)",
+        "FormulaResultPath": "InquirerPhone",
+        "FormulaSequence": 7,
+        "GlobalKey": "UpdateCaseInfoCustom8019",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepSelfInquirer:RadioSelfInquirer == 'Inquirer', StepSelfInquirer:InquirerType, NULL)",
+        "FormulaResultPath": "InquirerType",
+        "FormulaSequence": 5,
+        "GlobalKey": "UpdateCaseInfoCustom8444",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(StepSelfInquirer:RadioSelfInquirer == 'Self', ValuesAuthenticated, NULL)",
+        "FormulaResultPath": "ValuesAuthenticatedSelf",
+        "FormulaSequence": 8,
+        "GlobalKey": "UpdateCaseInfoCustom4118",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "UpdateCaseInfoCustom5367",
         "InputFieldName": "StepInternalComment:TextAreaInternalComments",
         "IsDisabled": false,
@@ -19,7 +229,7 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "UpdateCaseInfoCustom7819",
+        "GlobalKey": "UpdateCaseInfoCustom4549",
         "InputFieldName": "StepGreeting:PhoneNumber",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
@@ -38,8 +248,46 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "UpdateCaseInfoCustom2653",
-        "InputFieldName": "StepFollowUp:Block3:DateFollowUpDate",
+        "GlobalKey": "UpdateCaseInfoCustom7801",
+        "InputFieldName": "Department",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Department__c",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateCaseInfoCustom4487",
+        "InputFieldName": "StepDocumentCaller:Description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Description",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateCaseInfoCustom2761",
+        "InputFieldName": "StepFollowUp:DateFollowUpDateTime",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -72,6 +320,29 @@
         "OutputCreationSequence": 1,
         "OutputFieldName": "Health_Condition_Heard__c",
         "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateCaseInfoCustom7664",
+        "InputFieldName": "StepHeard:SelectHealthCondition-Block:SelectHealthCondition",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "CodeSet",
+        "LookupReturnedFieldName": "Id",
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Health_Condition__c",
+        "OutputObjectName": "Case",
+        "TransformValueMappings": "{}",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
@@ -116,7 +387,7 @@
     },
     {
         "GlobalKey": "UpdateCaseInfoCustom2162",
-        "InputFieldName": "StepSelfInquirer:InquirerPhone",
+        "InputFieldName": "InquirerPhone",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -135,7 +406,7 @@
     },
     {
         "GlobalKey": "UpdateCaseInfoCustom1004",
-        "InputFieldName": "StepSelfInquirer:InquirerType",
+        "InputFieldName": "InquirerType",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -154,7 +425,7 @@
     },
     {
         "GlobalKey": "UpdateCaseInfoCustom1208",
-        "InputFieldName": "StepSelfInquirer:InquirerName",
+        "InputFieldName": "InquirerName",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -172,8 +443,8 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "UpdateCaseInfoCustom2756",
-        "InputFieldName": "StepFollowUp:Block3:SelectPriority",
+        "GlobalKey": "UpdateCaseInfoCustom802",
+        "InputFieldName": "CaseOwnerId",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -185,14 +456,33 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Priority",
+        "OutputFieldName": "OwnerId",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateCaseInfoCustom817",
+        "InputFieldName": "StepHeard:TextAreaStepHeardNote",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Proactive_Listening_Details__c",
         "OutputObjectName": "Case",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
         "GlobalKey": "UpdateCaseInfoCustom1432",
-        "InputFieldName": "StepHeard:SelectProactiveListeningOutcome",
+        "InputFieldName": "ProactiveListeningOutcome",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -229,8 +519,8 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "UpdateCaseInfoCustom1638",
-        "InputFieldName": "StepResonResult:SelectProductLine",
+        "GlobalKey": "UpdateCaseInfoCustom5607",
+        "InputFieldName": "ProductLine",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -249,7 +539,7 @@
     },
     {
         "GlobalKey": "UpdateCaseInfoCustom7790",
-        "InputFieldName": "StepResonResult:SelectReason",
+        "InputFieldName": "StepReasonResult:SelectReason",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -267,8 +557,27 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "UpdateCaseInfoCustom8121",
+        "InputFieldName": "StepGreeting:CaseType-Block:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RecordTypeId",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "UpdateCaseInfoCustom4444",
-        "InputFieldName": "StepResonResult:SelectResult",
+        "InputFieldName": "StepReasonResult:SelectResult",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -305,8 +614,46 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "UpdateCaseInfoCustom1636",
-        "InputFieldName": "StepRouteCase:Block1:SelectTeamRouteAnotherTeam",
+        "GlobalKey": "UpdateCaseInfoCustom867",
+        "InputFieldName": "Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateCaseInfoCustom8384",
+        "InputFieldName": "StepDocumentCaller:Subject",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdateCaseInfo",
+        "OmniDataTransformationId": {
+            "Name": "UpdateCaseInfo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdateCaseInfo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Subject",
+        "OutputObjectName": "Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpdateCaseInfoCustom6417",
+        "InputFieldName": "Team",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -324,8 +671,8 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "UpdateCaseInfoCustom5729",
-        "InputFieldName": "ValuesAuthenticated",
+        "GlobalKey": "UpdateCaseInfoCustom8716",
+        "InputFieldName": "ValuesAuthenticatedSelf",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,

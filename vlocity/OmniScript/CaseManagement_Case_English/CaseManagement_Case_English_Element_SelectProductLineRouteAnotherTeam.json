@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block1",
+        "Name": "StepRouteCase",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,11 +17,11 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Block1",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepRouteCase",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block1",
-    "ParentElementType": "Block",
+    "ParentElementName": "StepRouteCase",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
@@ -50,8 +50,19 @@
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "required": false,
-        "show": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RadioRouteToAnotherTeam"
+                    }
+                ]
+            }
+        },
         "showInputWidth": false
     },
     "Type": "Select",

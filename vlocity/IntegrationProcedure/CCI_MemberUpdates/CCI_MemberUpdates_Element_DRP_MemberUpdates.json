@@ -1,0 +1,53 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DRP_MemberUpdates",
+    "OmniProcessId": {
+        "Name": "MemberUpdates",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/MemberUpdates/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "CareManagerDepartment": "%Payload:CareManager:Department%",
+            "CareManagerName": "%Payload:CareManager:FirstName% %Payload:CareManager:LastName%",
+            "CareManagerPhone": "%Payload:CareManager:Phone:Country%%Payload:CareManager:Phone:AreaCode% %Payload:CareManager:Phone:PhoneNumber%",
+            "CoveragePoilicyURL": "%Payload:Urls:CoveragePoilicyURL%",
+            "Id": "%Account:Id%",
+            "MyBluePrint": "%Payload:Urls:MyBluePrint%",
+            "MyBlueprintAdminURL": "%Payload:Urls:MyBlueprintAdminURL%",
+            "MyBlueprintPreRegistration": "%Payload:Urls:MyBlueprintPreRegistration%",
+            "PrimaryEmail": "%Payload:EmailAddresses:Primary%",
+            "SecondaryEmail": "%Payload:EmailAddresses:Secondary%",
+            "SocialWorkerDepartment1": "%Payload:CareManager:Department%",
+            "SocialWorkerName1": "%Payload:SocialWorker:FirstName% %Payload:SocialWorker:LastName%",
+            "SocialWorkerPhone1": "%Payload:SocialWorker:Phone:Country%%Payload:SocialWorker:Phone:AreaCode% %Payload:SocialWorker:Phone:PhoneNumber%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "UpsertMemberDetails",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataRaptorPostAction1",
+        "responseJSONNode": "AccountInfo",
+        "responseJSONPath": "Account_1|1",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "Payload",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberUpdates/Procedure/DRP_MemberUpdates"
+}

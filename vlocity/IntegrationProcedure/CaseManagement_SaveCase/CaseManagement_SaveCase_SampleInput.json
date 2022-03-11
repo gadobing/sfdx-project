@@ -1,0 +1,229 @@
+{
+    "CaseNumber": "00001169",
+    "CaseOwnerId": "00G7j000001XesREAS",
+    "CaseQueue": [
+        {
+            "Id": "00G7j000001XesREAS",
+            "Name": "Customer Service",
+            "Type": "Queue"
+        }
+    ],
+    "ContextId": "0017j00000geHCjAAM",
+    "DateFollowUpDate": "",
+    "FullAddress": "123 Evergreen St Springfield, IL 60601",
+    "Greeting": "Thank you for calling Customer Service, this is Nasrudeen. How may I assist you today?",
+    "GuidedFlowType": "Member",
+    "ProactivelyEducated": "Case Management;Social Worker;",
+    "Result": {
+        "Case": [
+            {
+                "AccountId": "0017j00000geHCjAAM",
+                "CaseNumber": "00001169",
+                "CaseType": [
+                    {
+                        "Id": "0125f000000hYRKAA2",
+                        "Name": "Admission"
+                    },
+                    {
+                        "Id": "0125f000000hYRLAA2",
+                        "Name": "Appeal"
+                    },
+                    {
+                        "Id": "0125f000000hYRMAA2",
+                        "Name": "Complaint"
+                    },
+                    {
+                        "Id": "0125f000000hYRNAA2",
+                        "Name": "Concurrent Review"
+                    },
+                    {
+                        "Id": "0125f000000hYROAA2",
+                        "Name": "Drug Request"
+                    },
+                    {
+                        "Id": "0125f000000hYRPAA2",
+                        "Name": "Grievance"
+                    },
+                    {
+                        "Id": "0125f000000hYRQAA2",
+                        "Name": "Service Request"
+                    },
+                    {
+                        "Id": "0125f000000hiT1AAI",
+                        "Name": "CareGap"
+                    },
+                    {
+                        "Id": "0125f000000hiT2AAI",
+                        "Name": "CarePlan"
+                    },
+                    {
+                        "Id": "0127j000000H67jAAC",
+                        "Name": "Billing/Premiums"
+                    },
+                    {
+                        "Id": "0127j000000H67oAAC",
+                        "Name": "Claims"
+                    },
+                    {
+                        "Id": "0127j000000H67tAAC",
+                        "Name": "Correspondence"
+                    },
+                    {
+                        "Id": "0127j000000H67yAAC",
+                        "Name": "Courtesy Review"
+                    },
+                    {
+                        "Id": "0127j000000H683AAC",
+                        "Name": "Eligibility/Benefits"
+                    },
+                    {
+                        "Id": "0127j000000H688AAC",
+                        "Name": "Group/Employer"
+                    },
+                    {
+                        "Id": "0127j000000H68DAAS",
+                        "Name": "ID Card Activation"
+                    },
+                    {
+                        "Id": "0127j000000H68IAAS",
+                        "Name": "Medical Records"
+                    },
+                    {
+                        "Id": "0127j000000H68NAAS",
+                        "Name": "My Blueprint/Web Questions"
+                    },
+                    {
+                        "Id": "0127j000000H68SAAS",
+                        "Name": "Pre-Certification"
+                    },
+                    {
+                        "Id": "0127j000000H68XAAS",
+                        "Name": "Pre-Notification/Prior Approval (PA)"
+                    },
+                    {
+                        "Id": "0127j000000H68cAAC",
+                        "Name": "Provider Verification/Information"
+                    },
+                    {
+                        "Id": "0127j000000H68hAAC",
+                        "Name": "Other"
+                    }
+                ],
+                "ContactId": "0037j00000fJSbYAAW",
+                "Health_Condition_Heard__c": false,
+                "Id": "5007j00000B4zKcAAJ",
+                "Priority": "Medium",
+                "RecordType": {
+                    "Id": "0125f000000hYRKAA2",
+                    "Name": "Admission"
+                },
+                "SDOH_Heard__c": false
+            }
+        ],
+        "Member": {
+            "FirstName": "Homer",
+            "HealthCloudGA__BirthDate__pc": "February 4, 1960",
+            "Id": "0017j00000geHCjAAM",
+            "LastName": "Simpson",
+            "Last_4_Digit_Of_SSN__c": 6789,
+            "MailingAddress": {
+                "ActiveFromDate": "2022-02-01",
+                "City": "Springfield",
+                "Country": "USA",
+                "Id": "8lW7j000000052vEAA",
+                "ParentId": "0017j00000geHCjAAM",
+                "PostalCode": "60601",
+                "State": "IL",
+                "Street": "123 Evergreen St"
+            },
+            "Member_Id__c": "12972630W05",
+            "Name": "Homer Simpson",
+            "PersonBirthdate": "1960-02-04"
+        },
+        "User": [
+            {
+                "FirstName": "Nasrudeen",
+                "Id": "0057j000002sbJHAAY"
+            }
+        ]
+    },
+    "SelectCaseDepartment": "",
+    "StepCaseSummary": {
+        "SelectSummaryProductLine": "BANA",
+        "SelectSummaryReason": "Appeal",
+        "SelectSummaryResult": "Appeal"
+    },
+    "StepDocumentCaller": {
+        "Description": "yfhgh",
+        "Subject": "6876876"
+    },
+    "StepFollowUp": {
+        "DateFollowUpDateTime": "2022-03-19T06:30:00.000Z",
+        "FollowUpComment": "lkjnk",
+        "FollowUpSubject": "89767",
+        "RadioFollowUpRequested": "Yes",
+        "SelectPriority": "Medium"
+    },
+    "StepGreeting": {
+        "CaseType-Block": {
+            "CaseType": "Eligibility/Benefits",
+            "Id": "0127j000000H683AAC",
+            "Name": "Eligibility/Benefits"
+        },
+        "PhoneNumber": "7656898777"
+    },
+    "StepHeard": {
+        "FormulaRadioHealthConditionHeard": false,
+        "FormulaRadioSDOHHeard": false,
+        "RadioHealthConditionHeard": "No",
+        "RadioSDOHHeard": "No",
+        "SelectHealthCondition-Block": null,
+        "SelectProactiveListeningOutcome": null,
+        "TextAreaStepHeardNote": null
+    },
+    "StepQuestionCallAnswer": {
+        "RadioAnswerQuestionToday": "No"
+    },
+    "StepReasonResult": {
+        "SelectCaseType-Block": {
+            "SelectCaseType": "Eligibility/Benefits"
+        },
+        "SelectProductLine": "BANA",
+        "SelectReason": "Appeal",
+        "SelectResult": "Appeal"
+    },
+    "StepRouteCase": {
+        "RadioRouteToAnotherTeam": "Yes",
+        "SelectDepartmentRouteAnotherTeam": "Customer Service",
+        "SelectProductLineRouteAnotherTeam": "BANA",
+        "SelectTeamRouteAnotherTeam": "Exchange - Membership PCP Update"
+    },
+    "StepSelfInquirer": {
+        "CheckboxDOB": true,
+        "CheckboxMailingAddress": true,
+        "CheckboxMemberID": true,
+        "CheckboxMemberName": true,
+        "CheckboxSSN": true,
+        "FormulaMemberBirthday": "02/04/1960",
+        "InquirerName": null,
+        "InquirerPhone": null,
+        "InquirerType": null,
+        "RadioSelfInquirer": "Self"
+    },
+    "StepTalkingPoints": {
+        "Block2": {
+            "CheckboxAdditionaServicesBenefits": false,
+            "CheckboxCaseManagement": true,
+            "CheckboxSocialVendors": false,
+            "CheckboxSocialWorker": true
+        }
+    },
+    "UserFirstName": "Nasrudeen",
+    "ValuesAuthenticated": "Member ID;Date of birth;Mailing Address;Member Name;Last four digits of SSN;",
+    "timeStamp": "2022-03-07T20:08:22.050Z",
+    "userCurrencyCode": "USD",
+    "userId": "0057j000002sbJHAAY",
+    "userName": "nusmanbaik@salesforce.com.ccidev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480"
+}

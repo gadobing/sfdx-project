@@ -38,14 +38,8 @@
                 <field>Benefits_Package__c</field>
             </layoutItems>
             <layoutItems>
-                <emptySpace>true</emptySpace>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Coverage_Policy_Manual__c</field>
-            </layoutItems>
-            <layoutItems>
-                <emptySpace>true</emptySpace>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -54,6 +48,42 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Risk_Pop__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Coverage_Poilicy_URL__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Change_Id__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Corporation__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Benefit_Program__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Line_Of_Business__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Eligibility_Change_Reason__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Provider_Network_Region__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Product_Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Policy_Plan__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -90,15 +120,36 @@
                 <field>Division__c</field>
             </layoutItems>
             <layoutItems>
-                <emptySpace>true</emptySpace>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Medicare_HIC_MBI__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Med_Dental_HIPAA_Time_Credit__c</field>
+                <behavior>Readonly</behavior>
+                <field>Region__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Cobra_Eligible_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Cobra_Effective_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Cobra_Termination_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Network__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Rate_Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Contract_Type__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -116,10 +167,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>PreExisting_Effective_Term_Start_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Wait_Period__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -154,6 +201,9 @@
     <relatedLists>
         <fields>Name</fields>
         <fields>Member</fields>
+        <fields>CoverageType</fields>
+        <fields>BenefitNotes</fields>
+        <fields>CreatedDate</fields>
         <relatedList>CoverageBenefits</relatedList>
     </relatedLists>
     <relatedLists>
@@ -164,6 +214,17 @@
         <fields>Expiration_Date__c</fields>
         <fields>Type__c</fields>
         <relatedList>Additional_Information__c.Contract__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>Agent__c</fields>
+        <fields>Agency__c</fields>
+        <fields>Effective_Date__c</fields>
+        <fields>Termination_Date__c</fields>
+        <fields>Agent_Phone__c</fields>
+        <relatedList>Agency_of_Record__c.Member_Plan__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

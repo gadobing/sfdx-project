@@ -1,5 +1,5 @@
 {
-    "IsActive": true,
+    "IsActive": false,
     "IsOmniScriptEmbeddable": false,
     "Name": "SetValuesCaseId",
     "OmniProcessId": {
@@ -12,7 +12,7 @@
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementValueMap": {
-            "CaseId": "5007j00000B4jB8AAJ"
+            "CaseId": "%Case|1:Id%"
         },
         "label": "SetValuesCaseId",
         "message": {

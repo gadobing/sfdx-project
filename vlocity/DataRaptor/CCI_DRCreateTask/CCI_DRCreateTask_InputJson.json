@@ -1,0 +1,348 @@
+{
+    "Case": [
+        {
+            "CaseNumber": "00001112",
+            "Id": "5007j00000B4fNkAAJ"
+        },
+        {
+            "CaseNumber": "00001110",
+            "Id": "5007j00000B4a0QAAR"
+        },
+        {
+            "CaseNumber": "00001124",
+            "Id": "5007j00000B4jB8AAJ"
+        }
+    ],
+    "CaseId": "5007j00000B4fNkAAJ",
+    "CaseNumber": "00001112",
+    "CaseTypeValue": [
+        {
+            "Id": "0125f000000hYRKAA2",
+            "Name": "Admission"
+        },
+        {
+            "Id": "0125f000000hYRLAA2",
+            "Name": "Appeal"
+        },
+        {
+            "Id": "0125f000000hYRMAA2",
+            "Name": "Complaint"
+        },
+        {
+            "Id": "0125f000000hYRNAA2",
+            "Name": "Concurrent Review"
+        },
+        {
+            "Id": "0125f000000hYROAA2",
+            "Name": "Drug Request"
+        },
+        {
+            "Id": "0125f000000hYRPAA2",
+            "Name": "Grievance"
+        },
+        {
+            "Id": "0125f000000hYRQAA2",
+            "Name": "Service Request"
+        },
+        {
+            "Id": "0125f000000hiT1AAI",
+            "Name": "CareGap"
+        },
+        {
+            "Id": "0125f000000hiT2AAI",
+            "Name": "CarePlan"
+        },
+        {
+            "Id": "0127j000000H67eAAC",
+            "Name": "Appeal/Complaint"
+        },
+        {
+            "Id": "0127j000000H67jAAC",
+            "Name": "Billing/Premiums"
+        },
+        {
+            "Id": "0127j000000H67oAAC",
+            "Name": "Claims"
+        },
+        {
+            "Id": "0127j000000H67tAAC",
+            "Name": "Correspondence"
+        },
+        {
+            "Id": "0127j000000H67yAAC",
+            "Name": "Courtesy Review"
+        },
+        {
+            "Id": "0127j000000H683AAC",
+            "Name": "Eligibility/Benefits"
+        },
+        {
+            "Id": "0127j000000H688AAC",
+            "Name": "Group/Employer"
+        },
+        {
+            "Id": "0127j000000H68DAAS",
+            "Name": "ID Card Activation"
+        },
+        {
+            "Id": "0127j000000H68IAAS",
+            "Name": "Medical Records"
+        },
+        {
+            "Id": "0127j000000H68NAAS",
+            "Name": "My Blueprint/Web Questions"
+        },
+        {
+            "Id": "0127j000000H68SAAS",
+            "Name": "Pre-Certification"
+        },
+        {
+            "Id": "0127j000000H68XAAS",
+            "Name": "Pre-Notification/Prior Approval (PA)"
+        },
+        {
+            "Id": "0127j000000H68cAAC",
+            "Name": "Provider Verification/Information"
+        },
+        {
+            "Id": "0127j000000H68hAAC",
+            "Name": "Other"
+        }
+    ],
+    "FullAddress": "1122 15th Street Shallowater, TX 79363",
+    "Greeting": "Thank you for calling Customer Service, this is Adner. How may I assist you today?",
+    "ProactivelyEducated": "Case Management;Vendors;Social Worker;Additional services/Benefits;",
+    "Result": {
+        "Case": [
+            {
+                "AccountId": "0017j00000fDBSZAA4",
+                "CaseNumber": "00001112",
+                "CaseType": [
+                    {
+                        "Id": "0125f000000hYRKAA2",
+                        "Name": "Admission"
+                    },
+                    {
+                        "Id": "0125f000000hYRLAA2",
+                        "Name": "Appeal"
+                    },
+                    {
+                        "Id": "0125f000000hYRMAA2",
+                        "Name": "Complaint"
+                    },
+                    {
+                        "Id": "0125f000000hYRNAA2",
+                        "Name": "Concurrent Review"
+                    },
+                    {
+                        "Id": "0125f000000hYROAA2",
+                        "Name": "Drug Request"
+                    },
+                    {
+                        "Id": "0125f000000hYRPAA2",
+                        "Name": "Grievance"
+                    },
+                    {
+                        "Id": "0125f000000hYRQAA2",
+                        "Name": "Service Request"
+                    },
+                    {
+                        "Id": "0125f000000hiT1AAI",
+                        "Name": "CareGap"
+                    },
+                    {
+                        "Id": "0125f000000hiT2AAI",
+                        "Name": "CarePlan"
+                    },
+                    {
+                        "Id": "0127j000000H67eAAC",
+                        "Name": "Appeal/Complaint"
+                    },
+                    {
+                        "Id": "0127j000000H67jAAC",
+                        "Name": "Billing/Premiums"
+                    },
+                    {
+                        "Id": "0127j000000H67oAAC",
+                        "Name": "Claims"
+                    },
+                    {
+                        "Id": "0127j000000H67tAAC",
+                        "Name": "Correspondence"
+                    },
+                    {
+                        "Id": "0127j000000H67yAAC",
+                        "Name": "Courtesy Review"
+                    },
+                    {
+                        "Id": "0127j000000H683AAC",
+                        "Name": "Eligibility/Benefits"
+                    },
+                    {
+                        "Id": "0127j000000H688AAC",
+                        "Name": "Group/Employer"
+                    },
+                    {
+                        "Id": "0127j000000H68DAAS",
+                        "Name": "ID Card Activation"
+                    },
+                    {
+                        "Id": "0127j000000H68IAAS",
+                        "Name": "Medical Records"
+                    },
+                    {
+                        "Id": "0127j000000H68NAAS",
+                        "Name": "My Blueprint/Web Questions"
+                    },
+                    {
+                        "Id": "0127j000000H68SAAS",
+                        "Name": "Pre-Certification"
+                    },
+                    {
+                        "Id": "0127j000000H68XAAS",
+                        "Name": "Pre-Notification/Prior Approval (PA)"
+                    },
+                    {
+                        "Id": "0127j000000H68cAAC",
+                        "Name": "Provider Verification/Information"
+                    },
+                    {
+                        "Id": "0127j000000H68hAAC",
+                        "Name": "Other"
+                    }
+                ],
+                "ContactId": "0037j00000fIf2uAAC",
+                "ContactPhone": "631-922-4166",
+                "Department__c": "Claims",
+                "Follow_Up__c": "2022-03-01T18:30:00.000Z",
+                "Health_Condition_Heard__c": true,
+                "Id": "5007j00000B4fNkAAJ",
+                "Priority": "Medium",
+                "Proactive_Listening_Outcome__c": "Transferred to Social Worker",
+                "Product_Line__c": "Regional",
+                "Reason": "ABCBS Employee",
+                "RecordType": {
+                    "Id": "0125f000000hYRMAA2",
+                    "Name": "Complaint",
+                    "attributes": {
+                        "type": "RecordType",
+                        "url": "/services/data/v54.0/sobjects/RecordType/0125f000000hYRMAA2"
+                    }
+                },
+                "RecordTypeId": "0125f000000hYRMAA2",
+                "Result__c": "Focus Care Comments",
+                "SDOH_Heard__c": true,
+                "Team__c": "Exchange CCM Adjustments",
+                "Values_Authenticated__c": "Member ID;Date of birth;Mailing Address;Member Name;Last four digits of SSN"
+            }
+        ],
+        "Member": {
+            "FirstName": "Jason",
+            "HealthCloudGA__BirthDate__pc": "February 5, 1963",
+            "Id": "0017j00000fDBSZAA4",
+            "LastName": "White",
+            "Last_4_Digit_Of_SSN__c": 8880,
+            "MailingAddress": {
+                "ActiveFromDate": "2022-01-18",
+                "ActiveToDate": "2029-02-23",
+                "City": "Shallowater",
+                "Country": "United States",
+                "Id": "8lW7j00000004nqEAA",
+                "ParentId": "0017j00000fDBSZAA4",
+                "PostalCode": "79363",
+                "State": "TX",
+                "Street": "1122 15th Street"
+            },
+            "Member_Id__c": "8798989",
+            "NPI__c": "1234ghjjjj",
+            "Name": "Jason White",
+            "PersonBirthdate": "1963-02-05"
+        },
+        "User": [
+            {
+                "FirstName": "Adner",
+                "Id": "0057j000002saQHAAY"
+            }
+        ]
+    },
+    "StepCaseSummary": {
+        "SelectSummaryProductLine": "Regional",
+        "SelectSummaryReason": "ABCBS Employee",
+        "SelectSummaryResult": "Focus Care Comments"
+    },
+    "StepDocumentCaller": {
+        "Description": "doc caller",
+        "Subject": "This subject"
+    },
+    "StepFollowUp": {
+        "DateFollowUpDateTime": "2022-03-01T19:00:00.000Z",
+        "FollowUpComment": "Follow the comment",
+        "FollowUpSubject": "Follow the subject",
+        "RadioFollowUpRequested": "Yes",
+        "SelectPriority": "Medium"
+    },
+    "StepGreeting": {
+        "CaseType-Block": {
+            "CaseType": "Admission",
+            "Id": "0125f000000hYRKAA2",
+            "Name": "Admission"
+        },
+        "PhoneNumber": "631-922-4166"
+    },
+    "StepHeard": {
+        "FormulaRadioHealthConditionHeard": true,
+        "FormulaRadioSDOHHeard": true,
+        "RadioHealthConditionHeard": "Yes",
+        "RadioSDOHHeard": "Yes",
+        "SelectHealthCondition-Block": {
+            "Id": "0hs7j000000CheIAAS",
+            "Name": "Diabetes",
+            "SelectHealthCondition": "Diabetes"
+        },
+        "SelectProactiveListeningOutcome": "Transferred to Social Worker"
+    },
+    "StepQuestionCallAnswer": {
+        "RadioAnswerQuestionToday": "No"
+    },
+    "StepReasonResult": {
+        "SelectCaseType-Block": {
+            "SelectCaseType": "Complaint"
+        },
+        "SelectProductLine": "Regional",
+        "SelectReason": "ABCBS Employee",
+        "SelectResult": "Focus Care Comments"
+    },
+    "StepRouteCase": {
+        "RadioRouteToAnotherTeam": "Yes",
+        "SelectDepartmentRouteAnotherTeam": "Claims",
+        "SelectProductLineRouteAnotherTeam": "Exchange",
+        "SelectTeamRouteAnotherTeam": "CRM Dental COCC Requests"
+    },
+    "StepSelfInquirer": {
+        "Checkbox": true,
+        "CheckboxDOB": true,
+        "CheckboxMailingAddress": true,
+        "CheckboxMemberID": true,
+        "CheckboxSSN": true,
+        "InquirerName": null,
+        "InquirerPhone": null,
+        "InquirerType": null,
+        "RadioSelfInquirer": "Self"
+    },
+    "StepTalkingPoints": {
+        "Block2": {
+            "CheckboxAdditionaServicesBenefits": true,
+            "CheckboxCaseManagement": true,
+            "CheckboxSocialVendors": true,
+            "CheckboxSocialWorker": true
+        }
+    },
+    "UserFirstName": "Adner",
+    "ValuesAuthenticated": "Member ID;Date of birth;Mailing Address;Member Name;Last four digits of SSN;",
+    "timeStamp": "2022-03-01T16:22:42.168Z",
+    "userCurrencyCode": "USD",
+    "userId": "0057j000002saQHAAY",
+    "userName": "aramosdelarosa@salesforce.com.ccidev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-360"
+}

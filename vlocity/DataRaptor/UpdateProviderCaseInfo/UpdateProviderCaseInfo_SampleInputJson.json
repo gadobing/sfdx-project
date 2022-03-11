@@ -1,0 +1,263 @@
+{
+    "CaseId": "5007j00000B4zEKAAZ",
+    "CaseNumber": "00001167",
+    "CaseTypeValue": [
+        {
+            "Id": "0125f000000hYRKAA2",
+            "Name": "Admission"
+        },
+        {
+            "Id": "0125f000000hYRLAA2",
+            "Name": "Appeal"
+        },
+        {
+            "Id": "0125f000000hYRMAA2",
+            "Name": "Complaint"
+        },
+        {
+            "Id": "0125f000000hYRNAA2",
+            "Name": "Concurrent Review"
+        },
+        {
+            "Id": "0125f000000hYROAA2",
+            "Name": "Drug Request"
+        },
+        {
+            "Id": "0125f000000hYRPAA2",
+            "Name": "Grievance"
+        },
+        {
+            "Id": "0125f000000hYRQAA2",
+            "Name": "Service Request"
+        },
+        {
+            "Id": "0125f000000hiT1AAI",
+            "Name": "CareGap"
+        },
+        {
+            "Id": "0125f000000hiT2AAI",
+            "Name": "CarePlan"
+        },
+        {
+            "Id": "0127j000000H67jAAC",
+            "Name": "Billing/Premiums"
+        },
+        {
+            "Id": "0127j000000H67oAAC",
+            "Name": "Claims"
+        },
+        {
+            "Id": "0127j000000H67tAAC",
+            "Name": "Correspondence"
+        },
+        {
+            "Id": "0127j000000H67yAAC",
+            "Name": "Courtesy Review"
+        },
+        {
+            "Id": "0127j000000H683AAC",
+            "Name": "Eligibility/Benefits"
+        },
+        {
+            "Id": "0127j000000H688AAC",
+            "Name": "Group/Employer"
+        },
+        {
+            "Id": "0127j000000H68DAAS",
+            "Name": "ID Card Activation"
+        },
+        {
+            "Id": "0127j000000H68IAAS",
+            "Name": "Medical Records"
+        },
+        {
+            "Id": "0127j000000H68NAAS",
+            "Name": "My Blueprint/Web Questions"
+        },
+        {
+            "Id": "0127j000000H68SAAS",
+            "Name": "Pre-Certification"
+        },
+        {
+            "Id": "0127j000000H68XAAS",
+            "Name": "Pre-Notification/Prior Approval (PA)"
+        },
+        {
+            "Id": "0127j000000H68cAAC",
+            "Name": "Provider Verification/Information"
+        },
+        {
+            "Id": "0127j000000H68hAAC",
+            "Name": "Other"
+        }
+    ],
+    "ContextId": "00Q7j000005fbo7EAA",
+    "Greeting": "Thank you for calling Customer Service, this is Nasrudeen. How may I assist you today?",
+    "GuidedFlowType": "ProspectiveMember",
+    "Result": {
+        "Case": [
+            {
+                "CaseNumber": "00001167",
+                "CaseType": [
+                    {
+                        "Id": "0125f000000hYRKAA2",
+                        "Name": "Admission"
+                    },
+                    {
+                        "Id": "0125f000000hYRLAA2",
+                        "Name": "Appeal"
+                    },
+                    {
+                        "Id": "0125f000000hYRMAA2",
+                        "Name": "Complaint"
+                    },
+                    {
+                        "Id": "0125f000000hYRNAA2",
+                        "Name": "Concurrent Review"
+                    },
+                    {
+                        "Id": "0125f000000hYROAA2",
+                        "Name": "Drug Request"
+                    },
+                    {
+                        "Id": "0125f000000hYRPAA2",
+                        "Name": "Grievance"
+                    },
+                    {
+                        "Id": "0125f000000hYRQAA2",
+                        "Name": "Service Request"
+                    },
+                    {
+                        "Id": "0125f000000hiT1AAI",
+                        "Name": "CareGap"
+                    },
+                    {
+                        "Id": "0125f000000hiT2AAI",
+                        "Name": "CarePlan"
+                    },
+                    {
+                        "Id": "0127j000000H67jAAC",
+                        "Name": "Billing/Premiums"
+                    },
+                    {
+                        "Id": "0127j000000H67oAAC",
+                        "Name": "Claims"
+                    },
+                    {
+                        "Id": "0127j000000H67tAAC",
+                        "Name": "Correspondence"
+                    },
+                    {
+                        "Id": "0127j000000H67yAAC",
+                        "Name": "Courtesy Review"
+                    },
+                    {
+                        "Id": "0127j000000H683AAC",
+                        "Name": "Eligibility/Benefits"
+                    },
+                    {
+                        "Id": "0127j000000H688AAC",
+                        "Name": "Group/Employer"
+                    },
+                    {
+                        "Id": "0127j000000H68DAAS",
+                        "Name": "ID Card Activation"
+                    },
+                    {
+                        "Id": "0127j000000H68IAAS",
+                        "Name": "Medical Records"
+                    },
+                    {
+                        "Id": "0127j000000H68NAAS",
+                        "Name": "My Blueprint/Web Questions"
+                    },
+                    {
+                        "Id": "0127j000000H68SAAS",
+                        "Name": "Pre-Certification"
+                    },
+                    {
+                        "Id": "0127j000000H68XAAS",
+                        "Name": "Pre-Notification/Prior Approval (PA)"
+                    },
+                    {
+                        "Id": "0127j000000H68cAAC",
+                        "Name": "Provider Verification/Information"
+                    },
+                    {
+                        "Id": "0127j000000H68hAAC",
+                        "Name": "Other"
+                    }
+                ],
+                "Health_Condition_Heard__c": false,
+                "Id": "5007j00000B4zEKAAZ",
+                "Priority": "Medium",
+                "Prospective_Member__c": "00Q7j000005fbo7EAA",
+                "RecordType": {
+                    "Id": "0125f000000hYRLAA2",
+                    "Name": "Appeal"
+                },
+                "SDOH_Heard__c": false
+            }
+        ],
+        "Member": {
+            "Email": "cmoss@gmail.com",
+            "FirstName": "Carrie-Anne",
+            "Id": "00Q7j000005fbo7EAA",
+            "LastName": "Moss",
+            "Name": "Carrie-Anne Moss",
+            "Phone": "930-938-9883",
+            "RecordTypeId": "0127j000000H5J5AAK"
+        },
+        "User": [
+            {
+                "FirstName": "Nasrudeen",
+                "Id": "0057j000002sbJHAAY"
+            }
+        ]
+    },
+    "StepDocumentCaller": {
+        "Description": "ewrgfdg",
+        "Subject": "34536456"
+    },
+    "StepFollowUp": {
+        "DateFollowUpDateTime": "2022-03-25",
+        "FollowUpComment": "345345345345345",
+        "FollowUpSubject": "343534534534",
+        "RadioFollowUpRequested": "Yes",
+        "SelectPriority": "High"
+    },
+    "StepGreeting": {
+        "CaseType-Block": {
+            "CaseType": "Appeal"
+        },
+        "PhoneNumber": "1234776787"
+    },
+    "StepInternalComment": {
+        "TextAreaInternalComments": "sdfgsdfgsdfgsdfg"
+    },
+    "StepQuestionCallAnswer": {
+        "RadioAnswerQuestionToday": "No",
+        "TextAreaAdditionalComments": "ewrgfdgsdfgsd"
+    },
+    "StepReasonResult": {
+        "SelectCaseType-Block": {
+            "SelectCaseType": "Appeal"
+        },
+        "SelectProductLine": "BANA",
+        "SelectReason": "ABCBS Employee",
+        "SelectResult": "Focus Care Comments"
+    },
+    "StepRouteCase": {
+        "RadioRouteToAnotherTeam": "Yes",
+        "SelectDepartmentRouteAnotherTeam": "Claims",
+        "SelectProductLineRouteAnotherTeam": "BANA",
+        "SelectTeamRouteAnotherTeam": "Exchange CSR Adjustments"
+    },
+    "UserFirstName": "Nasrudeen",
+    "timeStamp": "2022-03-07T22:42:25.112Z",
+    "userCurrencyCode": "USD",
+    "userId": "0057j000002sbJHAAY",
+    "userName": "nusmanbaik@salesforce.com.ccidev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-480"
+}

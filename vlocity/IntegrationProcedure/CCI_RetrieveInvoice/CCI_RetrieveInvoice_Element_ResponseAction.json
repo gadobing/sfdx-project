@@ -1,5 +1,5 @@
 {
-    "IsActive": true,
+    "IsActive": false,
     "IsOmniScriptEmbeddable": false,
     "Name": "ResponseAction",
     "OmniProcessId": {

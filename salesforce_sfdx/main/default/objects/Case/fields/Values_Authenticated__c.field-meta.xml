@@ -37,6 +37,16 @@
                 <default>false</default>
                 <label>Last four digits of SSN</label>
             </value>
+            <value>
+                <fullName>Provider Name</fullName>
+                <default>false</default>
+                <label>Provider Name</label>
+            </value>
+            <value>
+                <fullName>NPI</fullName>
+                <default>false</default>
+                <label>NPI</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <visibleLines>5</visibleLines>

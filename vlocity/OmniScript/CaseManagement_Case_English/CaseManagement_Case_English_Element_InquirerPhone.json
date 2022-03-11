@@ -40,7 +40,7 @@
         "mask": "",
         "maxLength": 255,
         "minLength": 0,
-        "pattern": "^\\(?([0-9]{3})\\)?[-.● ]?([0-9]{3})[-.●]?([0-9]{4})$",
+        "pattern": "^\\(?([0-9]{3})\\)?[- ]?([0-9]{3})[-]?([0-9]{4})$",
         "placeholder": "",
         "ptrnErrText": "Please enter a valid phone number",
         "readOnly": false,

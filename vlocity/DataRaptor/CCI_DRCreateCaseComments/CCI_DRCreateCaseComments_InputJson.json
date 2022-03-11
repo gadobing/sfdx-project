@@ -1,0 +1,19 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostBenefitDiscussed": null,
+        "DataRaptorPostCreateTask": null,
+        "DataRaptorPostUpdateCaseInfo": null,
+        "DataRaptorPostUpdateProspectiveMemberCaseInfo": null,
+        "DataRaptorPostUpdateProviderCaseInfo": null,
+        "DataRaptorTurboCreateCaseComments": null,
+        "ResponseAction": null
+    }
+}

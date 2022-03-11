@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "StepCaseSummary",
+        "Name": "StepSelectBenefit",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,15 +17,15 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepCaseSummary",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepSelectBenefit",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "StepCaseSummary",
+    "ParentElementName": "StepSelectBenefit",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "label": "LineBreak3",
-        "padding": 10,
+        "label": "LineBreak7",
+        "padding": 0,
         "show": null
     },
     "Type": "Line Break",

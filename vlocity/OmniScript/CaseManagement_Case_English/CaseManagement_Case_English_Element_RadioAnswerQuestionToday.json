@@ -32,7 +32,7 @@
             "source": "",
             "type": ""
         },
-        "defaultValue": "No",
+        "defaultValue": "Yes",
         "disOnTplt": false,
         "enableCaption": true,
         "help": false,

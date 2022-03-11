@@ -38,7 +38,7 @@ global with sharing class CCI_ShowInvoiceController implements omnistudio.Vlocit
             
         try {
             Map<String, Object> ipOutput = new Map<String, Object> ();
-            ipOutput = callIntegrationProcedure('CCI_RetrieveInvoice',memberId);
+            ipOutput = callIntegrationProcedure('CCI_RetrieveInvoice',memberId, invoiceId);
             if(Test.isRunningTest()){
             ipOutput.put('statusCode',200);
             ipOutput.put('status','OK');
@@ -74,8 +74,10 @@ global with sharing class CCI_ShowInvoiceController implements omnistudio.Vlocit
         }
     }
 
-    private static Map<String, Object> callIntegrationProcedure(String IPName, String memberIdInput ) {
+    private static Map<String, Object> callIntegrationProcedure(String IPName, String memberIdInput, string invoiceIdInput ) {
         Map<String, Object> ipInput = new Map<String, Object> ();
+        ipInput.put('memberId',memberIdInput);
+        ipInput.put('invoiceId',invoiceIdInput);
         Map<String, Object> ipOutput = new Map<String, Object> ();
         Map<String, Object> ipOptions = new Map<String, Object> ();
         return (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);

@@ -39,14 +39,64 @@
                 <label>Pharmacy</label>
             </value>
             <value>
-                <fullName>Medical Review</fullName>
+                <fullName>Utilization Management</fullName>
                 <default>false</default>
-                <label>Medical Review</label>
+                <label>Utilization Management</label>
             </value>
             <value>
-                <fullName>Other</fullName>
+                <fullName>Utilization review</fullName>
                 <default>false</default>
-                <label>Other</label>
+                <label>Utilization review</label>
+            </value>
+            <value>
+                <fullName>MURS</fullName>
+                <default>false</default>
+                <label>MURS</label>
+            </value>
+            <value>
+                <fullName>MARS</fullName>
+                <default>false</default>
+                <label>MARS</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>System Support</fullName>
+                <default>false</default>
+                <label>System Support</label>
+            </value>
+            <value>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+                <label>Configuration</label>
+            </value>
+            <value>
+                <fullName>SIU</fullName>
+                <default>false</default>
+                <label>SIU</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Case management</fullName>
+                <default>false</default>
+                <label>Case management</label>
+            </value>
+            <value>
+                <fullName>CRM Operations &amp; Service</fullName>
+                <default>false</default>
+                <label>CRM Operations &amp; Service</label>
+            </value>
+            <value>
+                <fullName>Claim support</fullName>
+                <default>false</default>
+                <label>Claim support</label>
             </value>
         </valueSetDefinition>
         <valueSettings>
@@ -57,7 +107,6 @@
             <controllingFieldValue>Exchange</controllingFieldValue>
             <controllingFieldValue>FEP</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
-            <controllingFieldValue>All LOB</controllingFieldValue>
             <controllingFieldValue>Medicare Advantage</controllingFieldValue>
             <controllingFieldValue>BlueCard</controllingFieldValue>
             <controllingFieldValue>ASE/PSE</controllingFieldValue>
@@ -71,7 +120,6 @@
             <controllingFieldValue>Exchange</controllingFieldValue>
             <controllingFieldValue>FEP</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
-            <controllingFieldValue>All LOB</controllingFieldValue>
             <controllingFieldValue>Medicare Advantage</controllingFieldValue>
             <controllingFieldValue>BlueCard</controllingFieldValue>
             <controllingFieldValue>ASE/PSE</controllingFieldValue>
@@ -83,69 +131,91 @@
             <controllingFieldValue>BANA</controllingFieldValue>
             <controllingFieldValue>BARB</controllingFieldValue>
             <controllingFieldValue>Exchange</controllingFieldValue>
+            <controllingFieldValue>ASE/PSE</controllingFieldValue>
+            <valueName>Case management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USAble</controllingFieldValue>
+            <valueName>Claim support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABCBS Reg Business</controllingFieldValue>
+            <controllingFieldValue>Medicare Advantage/RX</controllingFieldValue>
+            <controllingFieldValue>Dental</controllingFieldValue>
+            <controllingFieldValue>Exchange</controllingFieldValue>
+            <controllingFieldValue>Medicare Advantage</controllingFieldValue>
+            <valueName>CRM Operations &amp; Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Pharmacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>ABCBS</controllingFieldValue>
+            <controllingFieldValue>BANA</controllingFieldValue>
+            <controllingFieldValue>Exchange</controllingFieldValue>
             <controllingFieldValue>FEP</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
-            <controllingFieldValue>All LOB</controllingFieldValue>
-            <controllingFieldValue>Medicare Advantage</controllingFieldValue>
             <controllingFieldValue>BlueCard</controllingFieldValue>
+            <controllingFieldValue>ASE/PSE</controllingFieldValue>
+            <valueName>MARS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABCBS</controllingFieldValue>
+            <controllingFieldValue>BANA</controllingFieldValue>
+            <controllingFieldValue>BARB</controllingFieldValue>
+            <controllingFieldValue>Exchange</controllingFieldValue>
+            <controllingFieldValue>HA</controllingFieldValue>
             <controllingFieldValue>ASE/PSE</controllingFieldValue>
             <valueName>Customer Accounts</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Regional</controllingFieldValue>
             <controllingFieldValue>ABCBS</controllingFieldValue>
-            <controllingFieldValue>BANA</controllingFieldValue>
-            <controllingFieldValue>BARB</controllingFieldValue>
-            <controllingFieldValue>Exchange</controllingFieldValue>
-            <controllingFieldValue>FEP</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
-            <controllingFieldValue>All LOB</controllingFieldValue>
-            <controllingFieldValue>Medicare Advantage</controllingFieldValue>
-            <controllingFieldValue>BlueCard</controllingFieldValue>
-            <controllingFieldValue>ASE/PSE</controllingFieldValue>
             <valueName>Underwriting</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Regional</controllingFieldValue>
             <controllingFieldValue>ABCBS</controllingFieldValue>
             <controllingFieldValue>BANA</controllingFieldValue>
             <controllingFieldValue>BARB</controllingFieldValue>
             <controllingFieldValue>Exchange</controllingFieldValue>
             <controllingFieldValue>FEP</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
-            <controllingFieldValue>All LOB</controllingFieldValue>
-            <controllingFieldValue>Medicare Advantage</controllingFieldValue>
             <controllingFieldValue>BlueCard</controllingFieldValue>
-            <controllingFieldValue>ASE/PSE</controllingFieldValue>
-            <valueName>Pharmacy</valueName>
+            <valueName>Legal</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Regional</controllingFieldValue>
             <controllingFieldValue>ABCBS</controllingFieldValue>
-            <controllingFieldValue>BANA</controllingFieldValue>
             <controllingFieldValue>BARB</controllingFieldValue>
-            <controllingFieldValue>Exchange</controllingFieldValue>
-            <controllingFieldValue>FEP</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
-            <controllingFieldValue>All LOB</controllingFieldValue>
-            <controllingFieldValue>Medicare Advantage</controllingFieldValue>
-            <controllingFieldValue>BlueCard</controllingFieldValue>
-            <controllingFieldValue>ASE/PSE</controllingFieldValue>
-            <valueName>Medical Review</valueName>
+            <valueName>Configuration</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Regional</controllingFieldValue>
             <controllingFieldValue>ABCBS</controllingFieldValue>
+            <controllingFieldValue>BARB</controllingFieldValue>
+            <controllingFieldValue>FEP</controllingFieldValue>
+            <valueName>Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>BANA</controllingFieldValue>
+            <controllingFieldValue>BARB</controllingFieldValue>
+            <valueName>Utilization review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANA</controllingFieldValue>
+            <controllingFieldValue>BARB</controllingFieldValue>
+            <controllingFieldValue>Exchange</controllingFieldValue>
+            <controllingFieldValue>HA</controllingFieldValue>
+            <valueName>MURS</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>BARB</controllingFieldValue>
             <controllingFieldValue>Exchange</controllingFieldValue>
             <controllingFieldValue>FEP</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
-            <controllingFieldValue>All LOB</controllingFieldValue>
-            <controllingFieldValue>Medicare Advantage</controllingFieldValue>
-            <controllingFieldValue>BlueCard</controllingFieldValue>
             <controllingFieldValue>ASE/PSE</controllingFieldValue>
-            <valueName>Other</valueName>
+            <valueName>Utilization Management</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

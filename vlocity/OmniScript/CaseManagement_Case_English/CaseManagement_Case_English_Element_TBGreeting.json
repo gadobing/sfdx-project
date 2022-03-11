@@ -29,7 +29,7 @@
         "label": "TextBlock1",
         "sanitize": false,
         "show": null,
-        "text": "<p style=\"font-size: 14px;\"><em>Thank you for calling your Health Care Advisor team, this is %UserFirstName%. How may I help/assist today?</em></p>",
+        "text": "<p style=\"font-size: 14px;\"><em>%Greeting%</em></p>",
         "textKey": ""
     },
     "Type": "Text Block",

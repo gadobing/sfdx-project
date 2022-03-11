@@ -25,8 +25,48 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "CCI_DRGetMemberDetailsCustom2489",
+        "InputFieldName": "FirstName",
+        "InputObjectName": "Account",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "CCI_DRGetMemberDetailsCustom7175",
         "InputFieldName": "HealthCloudGA__BirthDate__pc",
+        "InputObjectName": "Account",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetMemberDetailsCustom5170",
+        "InputFieldName": "LastName",
         "InputObjectName": "Account",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
@@ -85,6 +125,26 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "CCI_DRGetMemberDetailsCustom2477",
+        "InputFieldName": "NPI__c",
+        "InputObjectName": "Account",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "CCI_DRGetMemberDetailsCustom4097",
         "InputFieldName": "Name",
         "InputObjectName": "Account",
@@ -107,6 +167,26 @@
     {
         "GlobalKey": "CCI_DRGetMemberDetailsCustom1028",
         "InputFieldName": "PersonBirthdate",
+        "InputObjectName": "Account",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "CCI_DRGetMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "CCI_DRGetMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/CCI_DRGetMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Member",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "CCI_DRGetMemberDetailsCustom6559",
+        "InputFieldName": "Phone",
         "InputObjectName": "Account",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,

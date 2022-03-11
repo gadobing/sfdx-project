@@ -34,7 +34,7 @@
                 ]
             }
         },
-        "executionConditionalFormula": "",
+        "executionConditionalFormula": "%objectStore% == \"MemAppOS\" || %objectStore% == \"MedRecOS\" ",
         "failOnStepError": false,
         "failureConditionalFormula": "",
         "label": "SetValues1",

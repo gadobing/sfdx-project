@@ -36,7 +36,7 @@
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Description",
+        "label": "Document the Caller's Need",
         "maxLength": 255,
         "minLength": 0,
         "pattern": "",
@@ -46,7 +46,7 @@
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "required": false,
+        "required": true,
         "show": null,
         "showInputWidth": false
     },
