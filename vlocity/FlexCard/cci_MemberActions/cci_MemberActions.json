@@ -39,8 +39,12 @@
                                 "stateAction": {
                                     "displayName": "View Invoices",
                                     "flyoutLwc": "view-invoices-english",
+                                    "flyoutParams": {
+                                        "ContextId": "{recordId}"
+                                    },
                                     "flyoutType": "OmniScripts",
-                                    "id": "flex-action-1645698794905",
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1646909897858",
                                     "layoutType": "lightning",
                                     "openFlyoutIn": "Modal",
                                     "openUrlIn": "Current Window",
@@ -161,7 +165,7 @@
                                     },
                                     "flyoutType": "OmniScripts",
                                     "hasExtraParams": true,
-                                    "id": "flex-action-1645718905025",
+                                    "id": "flex-action-1646909894175",
                                     "layoutType": "lightning",
                                     "openFlyoutIn": "Modal",
                                     "openUrlIn": "Current Window",
@@ -324,5 +328,49 @@
         }
     ],
     "theme": "slds",
-    "title": "cci_MemberActions"
+    "title": "cci_MemberActions",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
 }
