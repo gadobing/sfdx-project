@@ -1,0 +1,14 @@
+{
+    "AccountId": "0017j00000iEk5SAAS",
+    "AddressType": "Physical Address",
+    "CanEdit": "True",
+    "City": "Macon",
+    "Country": "USA",
+    "County": "Faulkner",
+    "Line1": "123 W Main St",
+    "Line2": "Apt 101",
+    "Name": "PhysicalAddress",
+    "State": "AR",
+    "Zip": "72000",
+    "Zip4": "1234"
+}

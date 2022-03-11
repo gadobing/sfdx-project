@@ -2,13 +2,16 @@ import { LightningElement ,api, wire, track } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 //import getInvoiceDetails from '@salesforce/apex/CCI_ShowInvoiceController.getInvoiceDetails';
 ////import getInvoiceDetails from '@salesforce/apex/CCI_InvoiceController.getInvoiceDetails';
-//import { getNamespaceDotNotation } from 'omnistudio/omniscriptInternalUtils'; 
-//_omnistudio = getNamespaceDotNotation();
-import { OmniscriptActionCommonUtil } from 'omnistudio/omniscriptActionUtils';
+//import { getNamespaceDotNotation } from '%vlocity_namespace%/omniscriptInternalUtils'; 
+//_%vlocity_namespace% = getNamespaceDotNotation();
+import { OmniscriptActionCommonUtil } from '%vlocity_namespace%/omniscriptActionUtils';
 export default class Cci_ShowInvoice extends LightningElement {
     strData;
     recId;
-    invoice;
+    boolShowSpinner = true;
+   // invoice;
+    @api member;
+    @api invoice;
     connectedCallback() {
         setTimeout(() => {
           //  this.invoiceDetails();
@@ -21,8 +24,8 @@ export default class Cci_ShowInvoice extends LightningElement {
     triggerRemote() {
         console.log("triggerRemote");
         const input = {
-            memberId: this.recId,
-            invoiceId:'123'
+            memberId: this.member,
+            invoiceId:this.invoice
         };
         const params = {
 
@@ -35,6 +38,7 @@ export default class Cci_ShowInvoice extends LightningElement {
         this._actionUtilClass
             .executeAction(params, null, this, null, null)
             .then(response => {
+                this.boolShowSpinner = false;
                 window.console.log(response);
                  var result = response.result;
                  // this.showLoading =false;
@@ -68,6 +72,7 @@ export default class Cci_ShowInvoice extends LightningElement {
                  }
             })
             .catch(error => {
+                this.boolShowSpinner = false;
                 const evt = new ShowToastEvent({
                     title: 'Error',
                     message: error.body.message,

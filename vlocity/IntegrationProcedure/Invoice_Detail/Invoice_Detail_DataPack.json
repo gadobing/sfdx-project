@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "Invoice_Detail_SampleInput.json",
+    "Description": "Will be used to fetch the data of the invoice on click of invoice button and will display in the omni script named CCI_Invoice",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "CCI_Invoice_Detail",
+    "OmniProcessElement": [
+        "Invoice_Detail_Element_getMemberId.json",
+        "Invoice_Detail_Element_SV_Invoice.json",
+        "Invoice_Detail_Element_IP_Framework_GETCallout.json",
+        "Invoice_Detail_Element_Is_Success.json",
+        "Invoice_Detail_Element_sendTheDataToOS.json",
+        "Invoice_Detail_Element_Is_404.json",
+        "Invoice_Detail_Element_RA_404.json",
+        "Invoice_Detail_Element_RA_Failure.json",
+        "Invoice_Detail_Element_getAccountDetails.json"
+    ],
+    "OmniProcessKey": "Invoice_Detail",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Invoice_Detail_PropertySetConfig.json",
+    "SubType": "Detail",
+    "Type": "Invoice",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Invoice/Detail/Procedure",
+    "WebComponentKey": "712dcb4b-c77e-0cc4-ba82-d1e2e70cad45"
+}

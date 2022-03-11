@@ -1,0 +1,202 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValues",
+    "OmniProcessId": {
+        "Name": "MemberUpdates",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/MemberUpdates/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Payload": {
+                "Addresses": {
+                    "CustodialPartyAddress": {
+                        "CanEdit": "True",
+                        "City": "Macon",
+                        "Country": "USA",
+                        "County": "Faulkner",
+                        "Line1": "123 W Main St",
+                        "Line2": "Apt 10",
+                        "State": "AR",
+                        "Zip": "72000",
+                        "Zip4": "1234"
+                    },
+                    "MailingAddress": {
+                        "CanEdit": "False",
+                        "City": "Conway",
+                        "Country": "USA",
+                        "County": "Faulkner",
+                        "Line1": "49 Home St.",
+                        "Line2": "",
+                        "State": "AR",
+                        "Zip": "72000",
+                        "Zip4": "1234"
+                    },
+                    "PersonalHarm": {
+                        "CanEdit": "True",
+                        "City": "Macon",
+                        "Country": "USA",
+                        "County": "Faulkner",
+                        "Line1": "123 W Main St",
+                        "Line2": "Apt 10",
+                        "State": "AR",
+                        "Zip": "72000",
+                        "Zip4": "1234"
+                    },
+                    "PhysicalAddress": {
+                        "CanEdit": "True",
+                        "City": "Macon",
+                        "Country": "USA",
+                        "County": "Faulkner",
+                        "Line1": "123 W Main St",
+                        "Line2": "Apt 10",
+                        "State": "AR",
+                        "Zip": "72000",
+                        "Zip4": "1234"
+                    },
+                    "ResponsiblePartyBillingAddress": {
+                        "CanEdit": "True",
+                        "City": "Macon",
+                        "Country": "USA",
+                        "County": "Faulkner",
+                        "Line1": "123 W Main St",
+                        "Line2": "Apt 10",
+                        "State": "AR",
+                        "Zip": "72000",
+                        "Zip4": "1234"
+                    }
+                },
+                "AffiliationId": "52257",
+                "AgentOfRecord": "",
+                "Alerts": [
+                    {
+                        "AlertText": "Adam Smith may authenticate.",
+                        "AlertTypeText": "",
+                        "CategoryCode": "09",
+                        "CreateUserName": "Fred Jorgenson",
+                        "EntryDate": "2012-12-12",
+                        "TerminationDate": "2021-06-01"
+                    },
+                    {
+                        "AlertText": "Member is deaf.",
+                        "AlertTypeText": "",
+                        "CategoryCode": "12",
+                        "CreateUserName": "Baz De Soto",
+                        "EntryDate": "2012-12-12",
+                        "TerminationDate": "2021-06-01"
+                    }
+                ],
+                "BirthDate": "1969-05-08",
+                "CareManager": {
+                    "Department": "Care Management",
+                    "FirstName": "Sally",
+                    "LastName": "Ride",
+                    "Phone": {
+                        "AreaCode": "501",
+                        "Country": "1",
+                        "PhoneNumber": "3290101"
+                    }
+                },
+                "Comments": [
+                    {
+                        "EntryDate": "2012-12-12",
+                        "SequenceNumber": "",
+                        "TerminationDate": "2021-06-01",
+                        "Text": "NO REBATE NOTIFICATION LETTER",
+                        "TypeCodeText": "DISPLAY REMARKS DURING CLAIMS ADJUDICATION"
+                    },
+                    {
+                        "EntryDate": "2021-01-21",
+                        "SequenceNumber": "",
+                        "TerminationDate": "2021-06-01",
+                        "Text": "ADD HIC# JLB",
+                        "TypeCodeText": "DISPLAY REMARKS DURING CLAIMS ADJUDICATION"
+                    }
+                ],
+                "CommunicationPreferenceRank": {
+                    "Email": {
+                        "Primary": "2",
+                        "Secondary": "3"
+                    },
+                    "Phone": {
+                        "Home": "1",
+                        "Work": "4"
+                    }
+                },
+                "DeathDate": "2020-04-15",
+                "EmailAddresses": {
+                    "Primary": "test@test.com",
+                    "Secondary": "test2@test2.com"
+                },
+                "EmployeeHireDate": "2008-08-08",
+                "EmploymentStatus": "",
+                "ExchangeId": "60003644900",
+                "FirstName": "Timothy",
+                "Gender": "M",
+                "Languages": {
+                    "PreferredLanguage": "Spanish",
+                    "SecondaryLanguage": "English"
+                },
+                "LastName": "Smith",
+                "MedicareHicMbiNumber": "",
+                "MemberId": "K12345678901123",
+                "MiddleName": "James",
+                "NamePrefix": "Mr",
+                "NameSuffix": "Jr",
+                "PhoneNumbers": {
+                    "Home": {
+                        "AreaCode": "501",
+                        "Country": "1",
+                        "EffectiveDate": "2020-06-01",
+                        "PhoneNumber": "3290101",
+                        "TerminationDate": "2021-06-01",
+                        "hasRelay": "True"
+                    },
+                    "Work": {
+                        "AreaCode": "501",
+                        "Country": "1",
+                        "EffectiveDate": "2020-06-01",
+                        "PhoneNumber": "5130102",
+                        "TerminationDate": "2021-06-01",
+                        "hasRelay": "True"
+                    }
+                },
+                "PrimaryCarePhysicianNPI": "0123456789",
+                "SSN": "555443333",
+                "SocialWorker": {
+                    "Department": "ADH",
+                    "FirstName": "Dirk",
+                    "LastName": "Gently",
+                    "Phone": {
+                        "AreaCode": "501",
+                        "Country": "1",
+                        "PhoneNumber": "3290101"
+                    }
+                },
+                "Status": "Active",
+                "Urls": {
+                    "CoveragePoilicyURL": "http://mycovepolicy",
+                    "MyBluePrint": "http://MBP_account",
+                    "MyBlueprintAdminURL": "http://myMPadmin",
+                    "MyBlueprintPreRegistration": "http://preregistration"
+                }
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "Payload",
+        "responseJSONPath": "Payload",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberUpdates/Procedure/SetValues"
+}

@@ -1,0 +1,7 @@
+[
+    "DataRaptor/CCI_DRPUpdateAlerts",
+    "DataRaptor/CCI_DRPUpdateComments",
+    "DataRaptor/GetPersonAccount",
+    "DataRaptor/UpsertContactPointAddress",
+    "DataRaptor/UpsertMemberDetails"
+]
