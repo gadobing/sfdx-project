@@ -56,7 +56,7 @@
                     {
                         "condition": "=",
                         "data": "404",
-                        "field": "stausCode"
+                        "field": "statusCode"
                     }
                 ]
             }
