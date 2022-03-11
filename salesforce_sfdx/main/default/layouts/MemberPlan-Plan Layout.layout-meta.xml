@@ -27,11 +27,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Purchaser_Name__c</field>
+                <field>SubscriberId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>SubscriberId</field>
+                <field>Purchaser_Name__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -58,7 +58,7 @@
                 <field>Change_Id__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Edit</behavior>
                 <field>Corporation__c</field>
             </layoutItems>
             <layoutItems>
@@ -76,6 +76,14 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Provider_Network_Region__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Product_Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Policy_Plan__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

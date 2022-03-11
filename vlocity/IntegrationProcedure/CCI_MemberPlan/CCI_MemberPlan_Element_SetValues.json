@@ -1,0 +1,174 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValues",
+    "OmniProcessId": {
+        "Name": "CCI Member Plan",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/MemberPlan/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "InputPayload": [
+                {
+                    "BenefitPackage": "",
+                    "BenefitProgram": "CMM/OTHER INDIVIDUAL A&H",
+                    "BusinessUnit": "ABCBS",
+                    "ChangeId": "",
+                    "Classification": "CONTRACT HOLDER",
+                    "CobraEffectiveDate": "2020-06-01",
+                    "CobraEligibleDate": "2021-06-01",
+                    "CobraTerminationDate": "2021-06-01",
+                    "ContractId": "K123456789",
+                    "ContractType": "SUBSCRIBER + 3",
+                    "Corporation": "ABCBS/Individual Business - Non Metallic ACA",
+                    "CoverageEffectiveDate": "2020-06-01",
+                    "CoverageEntryDate": "2021-06-01",
+                    "CoverageTerminationDate": "2021-06-01",
+                    "Division": "8400000001",
+                    "EligibilityChangeReason": "",
+                    "EligibilityHistory": [
+                        {
+                            "BenefitPackage": "",
+                            "ChangeId": "",
+                            "CoverageEffectiveDate": "2020-06-01",
+                            "CoverageEntryDate": "2021-06-01",
+                            "CoverageTerminationDate": "2021-06-01",
+                            "Division": "8400000001",
+                            "EligibilityChangeReason": "",
+                            "Group": "840000",
+                            "MedicalHIPPATimeCredit": "",
+                            "PreExistingEffectiveDate": "2021-06-01",
+                            "PreExistingTerminationDate": "2021-06-01",
+                            "ProviderNetworkRegion": "",
+                            "Riders": [
+                                {
+                                    "Amount": "553.12",
+                                    "RiderEffectiveDate": "2021-06-01",
+                                    "RiderTerminationDate": "2021-06-01",
+                                    "RiderTyper": "2021-06-01",
+                                    "ServiceType": "2021-06-01"
+                                },
+                                {
+                                    "Amount": "853.12",
+                                    "RiderEffectiveDate": "2021-06-01",
+                                    "RiderTerminationDate": "2021-06-01",
+                                    "RiderTyper": "2021-06-01",
+                                    "ServiceType": "2021-06-01"
+                                }
+                            ],
+                            "TobaccoUse": "True"
+                        },
+                        {
+                            "BenefitPackage": "",
+                            "ChangeId": "",
+                            "CoverageEffectiveDate": "2020-06-01",
+                            "CoverageEntryDate": "2021-06-01",
+                            "CoverageTerminationDate": "2021-06-01",
+                            "Division": "8400000001",
+                            "EligibilityChangeReason": "",
+                            "Group": "840000",
+                            "MedicalHIPPATimeCredit": "",
+                            "PreExistingEffectiveDate": "2021-06-01",
+                            "PreExistingTerminationDate": "2021-06-01",
+                            "ProviderNetworkRegion": "Test",
+                            "Riders": [
+                                {
+                                    "Amount": "156.12",
+                                    "RiderEffectiveDate": "2021-06-01",
+                                    "RiderTerminationDate": "2021-06-01",
+                                    "RiderTyper": "2021-06-01",
+                                    "ServiceType": "2021-06-01"
+                                },
+                                {
+                                    "Amount": "150.12",
+                                    "RiderEffectiveDate": "2021-06-01",
+                                    "RiderTerminationDate": "2021-06-01",
+                                    "RiderTyper": "2021-06-01",
+                                    "ServiceType": "2021-06-01"
+                                }
+                            ],
+                            "TobaccoUse": "True"
+                        }
+                    ],
+                    "Group": "840000",
+                    "LineOfBusiness": "MEDICAL",
+                    "MedicalHIPPATimeCredit": "",
+                    "MemberId": "K12345678901",
+                    "Network": "TRUE BLUE PPO",
+                    "PolicyHistory": [
+                        {
+                            "BusinessUnit": "ABCBS",
+                            "Classification": "CONTRACT HOLDER",
+                            "ContractId": "K123456705",
+                            "CoverageOriginalEffectiveDate": "2021-06-01",
+                            "CoverageTerminationDate": "2021-06-01",
+                            "LineOfBusiness": "MEDICAL",
+                            "MemberId": "K12345670501",
+                            "Status": "ACTIVE"
+                        },
+                        {
+                            "BusinessUnit": "ABCBS",
+                            "Classification": "SPOUSE",
+                            "ContractId": "K123456650",
+                            "CoverageOriginalEffectiveDate": "2021-06-01",
+                            "CoverageTerminationDate": "2021-06-01",
+                            "LineOfBusiness": "DENTAL",
+                            "MemberId": "K12345665003",
+                            "Status": "INACTIVE"
+                        }
+                    ],
+                    "PolicyHolder": {
+                        "FirstName": "AMANDA",
+                        "LastName": "MELENDEZ",
+                        "MiddleName": "Q"
+                    },
+                    "PolicyPlan": "",
+                    "PreExistingEffectiveDate": "2021-06-01",
+                    "PreExistingEndDate": "2021-06-01",
+                    "PreExistingTerminationDate": "2021-06-01",
+                    "Product": "Individual",
+                    "ProductType": "INDIVIDUAL MEDICAL",
+                    "Program": "ABCBS PPO",
+                    "RateType": "AGE BRC/MED UND IND/GRP<=50EES",
+                    "Region": "STATEWIDE/NO JOINT VENTURE/ARKANSAS",
+                    "Riders": [
+                        {
+                            "Amount": "153.12",
+                            "RiderEffectiveDate": "2021-06-01",
+                            "RiderTerminationDate": "2021-06-01",
+                            "RiderTyper": "2021-06-01",
+                            "ServiceType": "2021-06-01"
+                        },
+                        {
+                            "Amount": "259.12",
+                            "RiderEffectiveDate": "2021-06-01",
+                            "RiderTerminationDate": "2021-06-01",
+                            "RiderTyper": "2021-06-01",
+                            "ServiceType": "2021-06-01"
+                        }
+                    ],
+                    "Status": "ACTIVE",
+                    "TobaccoUse": "False",
+                    "TotalRate": "0.05",
+                    "WaitPeriodDate": "2021-06-01"
+                }
+            ]
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "Payload",
+        "responseJSONPath": "InputPayload",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/SetValues"
+}

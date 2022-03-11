@@ -1,0 +1,11 @@
+{
+    "AccountId": "0017j00000gftYZAAY",
+    "BusinessUnit": "ABCBS",
+    "ContractId": "K123456789",
+    "MemberId": "12345672",
+    "PreExistingEndDate": "2021-06-01",
+    "Product": "Individual",
+    "Program": "Test123",
+    "Status": "ACTIVE",
+    "TobaccoUse": "True"
+}

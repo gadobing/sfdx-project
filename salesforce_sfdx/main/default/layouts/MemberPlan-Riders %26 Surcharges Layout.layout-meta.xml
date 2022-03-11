@@ -37,6 +37,10 @@
                 <behavior>Edit</behavior>
                 <field>Line_Of_Business__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Parent_Plan__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -56,11 +60,11 @@
                 <field>Service_Type__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Edit</behavior>
                 <field>EffectiveFrom</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Edit</behavior>
                 <field>EffectiveTo</field>
             </layoutItems>
         </layoutColumns>
@@ -129,6 +133,16 @@
         <fields>Termination_Date__c</fields>
         <fields>Agent_Phone__c</fields>
         <relatedList>Agency_of_Record__c.Member_Plan__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>LastModifiedDate</fields>
+        <fields>LastModifiedBy</fields>
+        <fields>Member</fields>
+        <fields>Subscriber</fields>
+        <fields>Payer</fields>
+        <fields>Plan</fields>
+        <relatedList>MemberPlan.Parent_Plan__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
