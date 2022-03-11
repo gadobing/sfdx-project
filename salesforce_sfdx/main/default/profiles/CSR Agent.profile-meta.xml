@@ -21884,6 +21884,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MemberPlan.Parent_Plan</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MemberPlan.Policy_Plan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>MemberPlan.PreExisting_Effective_Term_End_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -21900,6 +21910,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MemberPlan.Product_Line__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MemberPlan.Product_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
