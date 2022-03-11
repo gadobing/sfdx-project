@@ -2612,6 +2612,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CCI_ShowInvoiceController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HealthCloudGA__MoiTriggerParameters</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4739,6 +4743,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Last_Refresh_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Primary_Care_Manager_Phone__c</field>
         <readable>true</readable>

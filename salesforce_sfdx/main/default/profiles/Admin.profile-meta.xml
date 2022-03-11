@@ -151,6 +151,10 @@
         <apexClass>CCI_EmailService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+     <classAccesses>
+        <apexClass>CCI_ShowInvoiceController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
         <apexClass>CCI_EmailServiceTest</apexClass>
         <enabled>true</enabled>
@@ -4856,6 +4860,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Social_Worker_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+      <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Last_Refresh_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
