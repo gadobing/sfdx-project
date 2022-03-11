@@ -21884,7 +21884,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MemberPlan.Parent_Plan</field>
+        <field>MemberPlan.Parent_Plan__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
