@@ -44,6 +44,7 @@
         "targetId": "%ContextId%",
         "targetLWC": "c:CCIP8DocumentUploadEnglish",
         "targetLWCLayout": "lightning",
+        "targetLWCParams": "c__ContextId=%CaseId%",
         "targetType": "Vlocity OmniScript",
         "validationRequired": "Submit",
         "variant": "brand",
