@@ -1,7 +1,7 @@
 {
-    "IsActive": true,
+    "IsActive": false,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BlockLast4DigitSocialSecurityNumber",
+    "Name": "AccountLast4SocialSecurityNumbers",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "VerifyMember",
+        "Name": "BlockMember",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,37 +17,40 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/VerifyMember",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockMember",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "VerifyMember",
-    "ParentElementType": "Step",
+    "ParentElementName": "BlockMember",
+    "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "collapse": false,
         "conditionType": "Hide if False",
         "controlWidth": 12,
+        "debounceValue": 0,
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
         "hide": false,
-        "label": "",
+        "inputWidth": 12,
+        "label": "SSN",
+        "mask": "",
+        "maxLength": 11,
+        "minLength": 0,
+        "pattern": "^[0-9]{11}$",
+        "placeholder": "",
+        "ptrnErrText": "Only Numbers are allowed",
+        "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "Output:4DigitSocialSecurityNumber"
-                    }
-                ]
-            }
-        }
+        "required": false,
+        "show": null,
+        "showInputWidth": false
     },
-    "Type": "Block",
+    "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockLast4DigitSocialSecurityNumber"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AccountLast4SocialSecurityNumbers"
 }

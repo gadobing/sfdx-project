@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BlockFullName",
+    "Name": "Block10",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -40,7 +40,7 @@
                     {
                         "condition": "<>",
                         "data": null,
-                        "field": "Output:FirstName"
+                        "field": "Output:MailingAddress"
                     }
                 ]
             }
@@ -49,5 +49,5 @@
     "Type": "Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockFullName"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Block10"
 }

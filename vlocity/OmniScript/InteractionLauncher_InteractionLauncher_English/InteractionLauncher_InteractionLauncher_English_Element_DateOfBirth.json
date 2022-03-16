@@ -25,6 +25,7 @@
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
+        "autocomplete": null,
         "conditionType": "Hide if False",
         "controlWidth": 12,
         "debounceValue": 0,
@@ -32,31 +33,22 @@
         "disOnTplt": true,
         "help": false,
         "helpText": "",
+        "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": null,
+        "label": "",
         "mask": "",
         "maxLength": 255,
         "minLength": 0,
         "pattern": "",
+        "placeholder": "",
         "ptrnErrText": "",
         "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "Result:Detail:DateOfBirth"
-                    }
-                ]
-            }
-        },
+        "show": null,
         "showInputWidth": false
     },
     "Type": "Text",

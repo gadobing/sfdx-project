@@ -93,7 +93,7 @@
     "ssm": false,
     "stepChartPlacement": "right",
     "stylesheet": {
-        "lightning": "",
+        "lightning": "correctCSSCardView",
         "lightningRtl": "",
         "newport": "",
         "newportRtl": ""

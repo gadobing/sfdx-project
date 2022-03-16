@@ -37,9 +37,7 @@
         "hide": false,
         "inputWidth": 12,
         "label": "",
-        "mask": "",
-        "maxLength": 255,
-        "minLength": 0,
+        "mask": null,
         "pattern": "",
         "placeholder": "",
         "ptrnErrText": "",
@@ -48,21 +46,10 @@
         "repeatClone": false,
         "repeatLimit": null,
         "required": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "Result:Detail:Last4DigitSocialSecurityNumber"
-                    }
-                ]
-            }
-        },
+        "show": null,
         "showInputWidth": false
     },
-    "Type": "Text",
+    "Type": "Number",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Last4DigitSocialSecurityNumber"
