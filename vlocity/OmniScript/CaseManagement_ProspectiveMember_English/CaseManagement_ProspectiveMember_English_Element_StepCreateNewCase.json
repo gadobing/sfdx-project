@@ -10,7 +10,7 @@
     },
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "allowSaveForLater": true,
+        "allowSaveForLater": false,
         "businessCategory": "",
         "businessEvent": "",
         "cancelLabel": "Cancel",
