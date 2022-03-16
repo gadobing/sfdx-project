@@ -10,10 +10,10 @@
     "OmniProcessElement": [
         "CCI_P8DocumentUpload_English_Element_Step1.json",
         "CCI_P8DocumentUpload_English_Element_TextMsg1.json",
-        "CCI_P8DocumentUpload_English_Element_Object_Store.json",
         "CCI_P8DocumentUpload_English_Element_Document_Class.json",
         "CCI_P8DocumentUpload_English_Element_Document_Type.json",
         "CCI_P8DocumentUpload_English_Element_Line_of_Business.json",
+        "CCI_P8DocumentUpload_English_Element_GetObjectStoreFromMapping.json",
         "CCI_P8DocumentUpload_English_Element_CreateDocumentRecord.json",
         "CCI_P8DocumentUpload_English_Element_Step2.json",
         "CCI_P8DocumentUpload_English_Element_FileUploadBlock.json",
@@ -38,5 +38,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/P8DocumentUpload/English",
-    "WebComponentKey": "cc9802b8-6097-926b-36d7-a293a965e853"
+    "WebComponentKey": "ed512d9b-e63e-236a-9fa6-1be5384f5c87"
 }
