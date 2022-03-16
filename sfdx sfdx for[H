@@ -1,0 +1,256 @@
+[33mcommit 9caa88824735379fdcce1c36c9c76794257b4a37[m[33m ([m[1;36mHEAD -> [m[1;32mCCISprint6[m[33m)[m
+Author: Greg Dobing <gadobing@arkbluecross.com>
+Date:   Tue Mar 15 17:14:31 2022 -0500
+
+    initial sprint6 commit
+
+[33mcommit 12abef673212d558d269f67eb1abb06eb7ca1ba5[m
+Author: gadobing <gadobing@arkbluecross.com>
+Date:   Mon Mar 14 10:48:58 2022 -0500
+
+    cv_03-14-2022
+
+[33mcommit 9394a952d6630d0b729d37687f7ae4c45a0cb9a4[m[33m ([m[1;31morigin/develop[m[33m, [m[1;31morigin/CCISprint6[m[33m)[m
+Merge: 431fffa d4b1ae0
+Author: Shreyas Govardhan <sbgovardhan@arkbluecross.com>
+Date:   Fri Mar 11 23:06:13 2022 +0000
+
+    Merged PR 807: sprint 5 migration to develop
+
+[33mcommit 431fffa971001a7c6ed2e764e30717863bd6e114[m
+Author: Shreyas Govardhan <sbgovardhan@arkbluecross.com>
+Date:   Fri Mar 11 23:04:46 2022 +0000
+
+    Fixing migration issue (sprint 5)
+
+[33mcommit 51a9ed3fc81323e93cfd864dfe26588537af1b88[m
+Author: Shreyas Govardhan <sbgovardhan@arkbluecross.com>
+Date:   Fri Mar 11 22:28:35 2022 +0000
+
+    Deleted Technical Writer.profile-meta.xml
+
+[33mcommit 27ef795cc2d6d19a7f9dce3fe64d6fc5aa5b420e[m
+Author: Shreyas Govardhan <sbgovardhan@arkbluecross.com>
+Date:   Fri Mar 11 22:26:32 2022 +0000
+
+    Updated Technical Writer.profile-meta.xml to fix merge conflict (Sprint 5)
+
+[33mcommit d4b1ae0b17caa025b0700d27d82cd0ee4dcf04c7[m[33m ([m[1;31morigin/CCISprint5[m[33m, [m[1;32mCCISprint5[m[33m)[m
+Author: Nishad K <nishad.k@nishadk-ltm36gn.internal.salesforce.com>
+Date:   Fri Mar 11 17:45:17 2022 +0530
+
+    profile Updates-Nishad
+
+[33mcommit 84850af1d9745ad0659080315d6d7f0eef16994e[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Fri Mar 11 16:38:24 2022 +0530
+
+    Document Upload issue fixed
+
+[33mcommit d8bffaa31883465dcb14dc0ca79656f21387527f[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Fri Mar 11 14:39:47 2022 +0530
+
+    Updated flow add case assignemnt
+
+[33mcommit 0894370c6ce86b71fbf6e67d04e0b2f9a277a61a[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Fri Mar 11 14:35:59 2022 +0530
+
+    Appeal and Complaint Record Type Removal
+
+[33mcommit e87f2b3b7d56205bf3cc02279cf318217c2d7e7d[m
+Author: Srishty Sharma <srishty.sharma@salesforce.com>
+Date:   Fri Mar 11 14:25:21 2022 +0530
+
+    corrected api field for MemberPlan obj
+
+[33mcommit 47dfaf92c1350f121e71636ad22b06e4600524f0[m
+Merge: d5067cf 5bf01ce
+Author: Srishty Sharma <srishty.sharma@salesforce.com>
+Date:   Fri Mar 11 14:16:17 2022 +0530
+
+    Merge branch 'CCISprint5' of https://dev.azure.com/arkbluecross/IS/_git/csw-salesforce into CCISprint5
+
+[33mcommit d5067cf6c90af99b38103ef8a7269d3ad05735f0[m
+Author: Srishty Sharma <srishty.sharma@salesforce.com>
+Date:   Fri Mar 11 14:16:01 2022 +0530
+
+    Member Plan field access as edit
+
+[33mcommit 5bf01ce41317c7933db361d22ac0f11edc31a4af[m
+Author: Nishad K <nishad.k@nishadk-ltm36gn.internal.salesforce.com>
+Date:   Fri Mar 11 14:04:49 2022 +0530
+
+    InvoiceOS-Nishad
+
+[33mcommit 455823e208d9a0df60a17279407423b81165d648[m
+Author: Srishty Sharma <srishty.sharma@salesforce.com>
+Date:   Fri Mar 11 13:24:05 2022 +0530
+
+    81940   [Technical] Member plan integration
+
+[33mcommit 9463b854e97fee80a55e981a9d4e0bfd15b4f6c1[m
+Author: Nishad K <nishad.k@nishadk-ltm36gn.internal.salesforce.com>
+Date:   Fri Mar 11 12:30:44 2022 +0530
+
+    81948 -Nishad
+
+[33mcommit 4d5ceb2ad8170c7f71a73b0e08f2ff6dc89c1557[m
+Author: Nishad K <nishad.k@nishadk-ltm36gn.internal.salesforce.com>
+Date:   Fri Mar 11 12:13:38 2022 +0530
+
+    81948 -Nishad
+
+[33mcommit 2d77a9817e4a14c1ef7b6607f62d93a6e99115c0[m
+Author: Nishad K <nishad.k@nishadk-ltm36gn.internal.salesforce.com>
+Date:   Fri Mar 11 11:49:15 2022 +0530
+
+    81948-Nishad
+
+[33mcommit 4fbf1fb68283acc80525d92f46108a9c68cc109d[m
+Author: Nishad K <nishad.k@nishadk-ltm36gn.internal.salesforce.com>
+Date:   Fri Mar 11 11:35:23 2022 +0530
+
+    81939 and 81948 - Nishad
+
+[33mcommit 13c8037592f969f404d4be0f96e99b0338f1fc1f[m
+Author: Saket Shah <saket.shah@saketsh-ltmdy83.internal.salesforce.com>
+Date:   Fri Mar 11 10:21:56 2022 +0530
+
+    81778 Record Tyeps
+
+[33mcommit 26dbaad534267abf30fa0ca47ad4875e0270fd5b[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Thu Mar 10 20:05:20 2022 +0530
+
+    Ui Update -Nasrudeen
+
+[33mcommit 31fc27a617d0068f74d40410d763092892d7cb00[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Thu Mar 10 16:02:20 2022 +0530
+
+    old recordtype removed
+
+[33mcommit cf74147640b199f6d1f7e748e7aab2b136914a29[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Thu Mar 10 15:52:00 2022 +0530
+
+    "Update Case Owner"
+
+[33mcommit d34f530c8d96ceb4e6e575f1484b83a83f791b5a[m
+Author: Saket Shah <saket.shah@saketsh-ltmdy83.internal.salesforce.com>
+Date:   Thu Mar 10 13:24:43 2022 +0530
+
+    81778 Record Tyeps
+
+[33mcommit 733e16ccbacb5b84acd98d98b5c99ff66b343c81[m
+Author: Saket Shah <saket.shah@saketsh-ltmdy83.internal.salesforce.com>
+Date:   Thu Mar 10 12:44:29 2022 +0530
+
+    remove custom metdata
+
+[33mcommit 48853abb4602487c415fe965cdf77e94c8fd4981[m
+Author: Saket Shah <saket.shah@saketsh-ltmdy83.internal.salesforce.com>
+Date:   Thu Mar 10 12:36:11 2022 +0530
+
+    flow
+
+[33mcommit 4be49c4e02ba6e5b84d3df5173bbc4f0b13e9291[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Thu Mar 10 11:57:36 2022 +0530
+
+    Updated Case Queues
+
+[33mcommit d3712552bd06ce05995fe83d959629238d82791b[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Thu Mar 10 11:46:30 2022 +0530
+
+    US 77545 - Case owner assignment
+
+[33mcommit eeefe45e26b8fc33b8fe2baeafc11a9e4385201a[m
+Author: Godofredo Martinez <g.martinez@gmartinez-ltm2.internal.salesforce.com>
+Date:   Wed Mar 9 15:07:43 2022 -0500
+
+    Five9 View Account VF Page - Godo
+
+[33mcommit 91ab1004a54df327406fb2a73db8f9dbb845d5ff[m
+Author: Godofredo Martinez <g.martinez@gmartinez-ltm2.internal.salesforce.com>
+Date:   Wed Mar 9 14:29:21 2022 -0500
+
+    Utility Bar Update - Added Five9 - Godo
+
+[33mcommit 197d1b3c6578bc935cb43fb56bfb82771f3f5020[m
+Author: Francisco Riccomagno <friccomagno@friccomagno-ltm.internal.salesforce.com>
+Date:   Wed Mar 9 13:01:55 2022 -0600
+
+    77409 - Changed field type - Francisco
+
+[33mcommit 8ed73d7b383b0e91ff644109b44764cb27ae9f42[m
+Author: Godofredo Martinez <g.martinez@gmartinez-ltm2.internal.salesforce.com>
+Date:   Wed Mar 9 13:15:51 2022 -0500
+
+    Page Layout - Compact Layout Updates - Godo
+
+[33mcommit 1ab7a22a3e6fd1d48576a8d22652eb34c5f01db9[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 22:22:03 2022 +0530
+
+    deployment issue
+
+[33mcommit 88a092f3b949733c903ccaf14aed1dcf83b86f17[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 21:54:30 2022 +0530
+
+    deployment issue
+
+[33mcommit 7671825338054a620d0430423914c63fe147c3a3[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 21:47:34 2022 +0530
+
+    Field access
+
+[33mcommit 2c80e42ecbefd1634b6b334654fac8467039f81d[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 21:13:52 2022 +0530
+
+    record types reverted
+
+[33mcommit 8f6474109a6857f8d2d4d668c8dd2a66e2db8933[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 21:03:41 2022 +0530
+
+    commit
+
+[33mcommit f34bb8258488aa7cc2afada3c2e6e149c86912a6[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 20:57:19 2022 +0530
+
+    commit
+
+[33mcommit db748f670f76429a60e38f0eb8d9a7bf623b5e2b[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 20:52:48 2022 +0530
+
+    "Fixing Deployment issues"
+
+[33mcommit cf74183864c5db86712a7083f77617891af10a04[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 20:22:35 2022 +0530
+
+    record type update
+
+[33mcommit d467acf7bfb184d9095a03cde07bfb3309c5a952[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 20:14:38 2022 +0530
+
+    record type update
+
+[33mcommit 6b93ca8595c189d36745a0d81916083c0871454a[m
+Author: Aniket Bhalerao <abhalerao@salesforce.com>
+Date:   Wed Mar 9 20:09:37 2022 +0530
+
+    "Result update"
+
+[33mcommit 739c15bc9eb4cabb9531936e79c0e95628bc3445[m
+Author: Ani
