@@ -33,9 +33,9 @@
                 <label>Member Name</label>
             </value>
             <value>
-                <fullName>Last four digits of SSN</fullName>
+                <fullName>SSN</fullName>
                 <default>false</default>
-                <label>Last four digits of SSN</label>
+                <label>SSN</label>
             </value>
             <value>
                 <fullName>Provider Name</fullName>
