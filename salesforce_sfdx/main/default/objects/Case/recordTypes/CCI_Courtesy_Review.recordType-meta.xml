@@ -2645,7 +2645,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Last four digits of SSN</fullName>
+            <fullName>SSN</fullName>
             <default>false</default>
         </values>
         <values>
