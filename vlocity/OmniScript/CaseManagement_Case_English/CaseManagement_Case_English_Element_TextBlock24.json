@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "Disclaimer",
+    "Name": "TextBlock24",
     "OmniProcessId": {
         "Name": "CaseManagement",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "StepSelfInquirer",
+        "Name": "StepCreateNewCase",
         "OmniProcessId": {
             "Name": "CaseManagement",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,34 +17,23 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepSelfInquirer",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/StepCreateNewCase",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "StepSelfInquirer",
+    "ParentElementName": "StepCreateNewCase",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "dataJSON": false,
-        "label": "TextBlock4",
+        "label": "TextBlock24",
         "sanitize": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "=",
-                        "data": "Self",
-                        "field": "RadioSelfInquirer"
-                    }
-                ]
-            }
-        },
-        "text": "<p><br />For members, you must authenticate Member name, ID, DOB, and Mailing address. SSN can be substituted for one of these items.</p>",
+        "show": null,
+        "text": "<p>&nbsp;&nbsp;</p>",
         "textKey": ""
     },
     "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/Disclaimer"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseManagement/Case/English/TextBlock24"
 }

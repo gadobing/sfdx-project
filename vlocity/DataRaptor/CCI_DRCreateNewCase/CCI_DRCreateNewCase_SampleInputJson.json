@@ -1,0 +1,128 @@
+{
+    "ContextId": "0017j00000fDBSZAA4",
+    "Step1": {
+    },
+    "StepCaseSummary": {
+        "SelectSummaryProductLine": null,
+        "SelectSummaryReason": null,
+        "SelectSummaryResult": null
+    },
+    "StepDocumentCaller": {
+        "Description": null,
+        "Subject": null
+    },
+    "StepFollowUp": {
+        "DateFollowUpDateTime": null,
+        "FollowUpComment": null,
+        "FollowUpSubject": null,
+        "RadioFollowUpRequested": null,
+        "SelectPriority": null
+    },
+    "StepGreeting": {
+        "CaseType-Block": {
+            "CaseType": null
+        },
+        "PhoneNumber": null
+    },
+    "StepHeard": {
+        "FormulaRadioHealthConditionHeard": null,
+        "FormulaRadioSDOHHeard": null,
+        "RadioHealthConditionHeard": null,
+        "RadioSDOHHeard": null,
+        "SelectHealthCondition-Block": {
+            "SelectHealthCondition": null
+        },
+        "SelectProactiveListeningOutcome": null,
+        "TextAreaStepHeardNote": null
+    },
+    "StepInternalComment": {
+        "TextAreaInternalComments": null
+    },
+    "StepQuestionCallAnswer": {
+        "RadioAnswerQuestionToday": null,
+        "TextAreaAdditionalComments": null
+    },
+    "StepReasonResult": {
+        "SelectCaseType-Block": {
+            "SelectCaseType": null
+        },
+        "SelectProductLine": null,
+        "SelectReason": null,
+        "SelectResult": null
+    },
+    "StepRouteCase": {
+        "RadioRouteToAnotherTeam": null,
+        "SelectDepartmentRouteAnotherTeam": null,
+        "SelectProductLineRouteAnotherTeam": null,
+        "SelectTeamRouteAnotherTeam": null
+    },
+    "StepSelectBenefit": {
+        "AdditionalInfo": null,
+        "searchMultiBenefit": {
+            "CodeSet": null,
+            "SearchBenefit-Block": {
+                "Code": null,
+                "CodeSetId": null,
+                "CodeSetName": null,
+                "SearchBenefit": null
+            }
+        }
+    },
+    "StepSelfInquirer": {
+        "CheckboxDOB": null,
+        "CheckboxMailingAddress": null,
+        "CheckboxMemberID": null,
+        "CheckboxMemberName": null,
+        "CheckboxSSN": null,
+        "FormulaMemberBirthday": null,
+        "InquirerName": null,
+        "InquirerPhone": null,
+        "InquirerType": null,
+        "RadioSelfInquirer": null
+    },
+    "StepTalkingPoints": {
+        "Block2": {
+            "CheckboxAdditionaServicesBenefits": null,
+            "CheckboxCaseManagement": null,
+            "CheckboxSocialVendors": null,
+            "CheckboxSocialWorker": null
+        },
+        "TextAreaCaseNotes": null
+    },
+    "StepThankYou": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTurboGetRouteQueue": null,
+        "IntegrationProcedureGetCase": null,
+        "IntegrationProcedureSaveCase": null,
+        "SetCaseOwner": null,
+        "SetMemberAndCaseTypeValues": null,
+        "SetValuesAllElements": null,
+        "SetValuesForCaseType": null,
+        "SetValuesGuidedFlowType": null,
+        "SetValuesRouteCase": null,
+        "SetValuesSummary": null,
+        "SetValuesTalkPoints": null,
+        "Step1": null,
+        "StepCaseSummary": null,
+        "StepDocumentCaller": null,
+        "StepFollowUp": null,
+        "StepGreeting": null,
+        "StepHeard": null,
+        "StepInternalComment": null,
+        "StepQuestionCallAnswer": null,
+        "StepReasonResult": null,
+        "StepRouteCase": null,
+        "StepSelectBenefit": null,
+        "StepSelfInquirer": null,
+        "StepTalkingPoints": null,
+        "StepThankYou": null
+    }
+}
