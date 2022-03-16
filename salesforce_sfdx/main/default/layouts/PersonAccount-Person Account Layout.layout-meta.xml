@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <excludeButtons>ChangeOwnerOne</excludeButtons>
-    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
+    <excludeButtons>DataDotComAccountInsights</excludeButtons>
+    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>DisableCustomerPortalAccount</excludeButtons>
     <excludeButtons>DisablePartnerPortalAccount</excludeButtons>
     <excludeButtons>Edit</excludeButtons>
@@ -38,10 +39,6 @@
                 <field>ID_Card_Order_Date__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Employee_Hire_Date__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Medicare_HIC_MBI__c</field>
             </layoutItems>
@@ -69,10 +66,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Status__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
                 <field>Employment_Status__c</field>
             </layoutItems>
             <layoutItems>
@@ -82,6 +75,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>MyBlueprint_Pre_Registration__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Status__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -129,25 +126,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>MyBluePrint_Status__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Risk Score</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Risk_Score__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Risk_Score_Last_Calculated__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -401,9 +379,14 @@
     </relatedLists>
     <relatedLists>
         <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>Member</fields>
         <fields>MemberNumber</fields>
         <fields>EffectiveFrom</fields>
+        <fields>Classification__c</fields>
+        <fields>Business_Unit__c</fields>
         <fields>EffectiveTo</fields>
+        <fields>Total_Rate__c</fields>
         <relatedList>MemberPlans</relatedList>
     </relatedLists>
     <relatedLists>
@@ -441,14 +424,6 @@
         <fields>ConditionCode</fields>
         <fields>Severity</fields>
         <relatedList>HealthConditions</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>Plan</fields>
-        <fields>Member</fields>
-        <fields>Subscriber</fields>
-        <fields>Payer</fields>
-        <relatedList>MemberPlan.Division__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
