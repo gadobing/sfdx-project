@@ -27518,6 +27518,17 @@
     <layoutAssignments>
         <layout>omnistudio__VlocityTrackingEntry__c-omnistudio__Vlocity Tracking Entry Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Eligibility_History__c-Eligibility History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Eligibility_History__c-Eligibility History Layout</layout>
+        <recordType>Eligibility_History__c.Member_Plan</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Eligibility_History__c-Riders %26 Surcharges Layout</layout>
+        <recordType>Eligibility_History__c.Riders_Surcharges</recordType>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
