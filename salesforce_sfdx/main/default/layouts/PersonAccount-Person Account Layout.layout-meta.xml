@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <excludeButtons>ChangeOwnerOne</excludeButtons>
-    <excludeButtons>DataDotComAccountInsights</excludeButtons>
-    <excludeButtons>DataDotComClean</excludeButtons>
+    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
     <excludeButtons>DisableCustomerPortalAccount</excludeButtons>
     <excludeButtons>DisablePartnerPortalAccount</excludeButtons>
     <excludeButtons>Edit</excludeButtons>
@@ -380,7 +379,6 @@
     <relatedLists>
         <fields>Name</fields>
         <fields>Status</fields>
-        <fields>Member</fields>
         <fields>MemberNumber</fields>
         <fields>EffectiveFrom</fields>
         <fields>EffectiveTo</fields>
