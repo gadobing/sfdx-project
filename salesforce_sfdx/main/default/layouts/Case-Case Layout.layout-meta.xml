@@ -59,6 +59,10 @@
                 <behavior>Edit</behavior>
                 <field>Inquirer_Phone__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Authentication_not_needed__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
