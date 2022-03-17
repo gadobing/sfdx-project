@@ -781,6 +781,10 @@
                     <name>REABHMClaims</name>
                 </dataCategory>
                 <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REABHMBlueCard</name>
+                </dataCategory>
+                <dataCategory>
                     <label>ID Card Templates</label>
                     <name>REABHMID_Card_Templates</name>
                 </dataCategory>
@@ -803,6 +807,10 @@
                 <dataCategory>
                     <label>Claims</label>
                     <name>REABHPClaims</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REABHPBlueCard</name>
                 </dataCategory>
                 <dataCategory>
                     <label>ID Card Templates</label>
@@ -829,6 +837,10 @@
                     <name>REBTClaims</name>
                 </dataCategory>
                 <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REBTBlueCard</name>
+                </dataCategory>
+                <dataCategory>
                     <label>ID Card Templates</label>
                     <name>REBTID_Card_Templates</name>
                 </dataCategory>
@@ -851,6 +863,10 @@
                 <dataCategory>
                     <label>Claims</label>
                     <name>REBWClaims</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REBWBlueCard</name>
                 </dataCategory>
                 <dataCategory>
                     <label>ID Card Templates</label>
@@ -877,6 +893,10 @@
                     <name>REBRBClaims</name>
                 </dataCategory>
                 <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REBRBBlueCard</name>
+                </dataCategory>
+                <dataCategory>
                     <label>ID Card Templates</label>
                     <name>REBRBID_Card_Templates</name>
                 </dataCategory>
@@ -899,6 +919,10 @@
                 <dataCategory>
                     <label>Claims</label>
                     <name>REEXClaims</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REEXBlueCard</name>
                 </dataCategory>
                 <dataCategory>
                     <label>ID Card Templates</label>
@@ -925,6 +949,10 @@
                     <name>REHACClaims</name>
                 </dataCategory>
                 <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REHACBlueCard</name>
+                </dataCategory>
+                <dataCategory>
                     <label>ID Card Templates</label>
                     <name>REHACID_Card_Templates</name>
                 </dataCategory>
@@ -947,6 +975,10 @@
                 <dataCategory>
                     <label>Claims</label>
                     <name>REHAAPClaims</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>BlueCard</label>
+                    <name>REHAAPBlueCard</name>
                 </dataCategory>
                 <dataCategory>
                     <label>ID Card Templates</label>
@@ -973,6 +1005,10 @@
                     <name>RESFEPClaims</name>
                 </dataCategory>
                 <dataCategory>
+                    <label>BlueCard</label>
+                    <name>RESFEPBlueCard</name>
+                </dataCategory>
+                <dataCategory>
                     <label>ID Card Templates</label>
                     <name>RESFEPID_Card_Templates</name>
                 </dataCategory>
@@ -995,6 +1031,10 @@
                 <dataCategory>
                     <label>Claims</label>
                     <name>RESLFClaims</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>BlueCard</label>
+                    <name>RESLFBlueCard</name>
                 </dataCategory>
                 <dataCategory>
                     <label>ID Card Templates</label>
