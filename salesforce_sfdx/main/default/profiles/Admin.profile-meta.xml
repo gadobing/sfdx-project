@@ -4384,6 +4384,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Authentication_not_needed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Prospective_Member__c</field>
         <readable>true</readable>
     </fieldPermissions>
