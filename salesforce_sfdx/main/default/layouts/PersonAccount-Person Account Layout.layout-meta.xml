@@ -383,9 +383,9 @@
         <fields>Member</fields>
         <fields>MemberNumber</fields>
         <fields>EffectiveFrom</fields>
+        <fields>EffectiveTo</fields>
         <fields>Classification__c</fields>
         <fields>Business_Unit__c</fields>
-        <fields>EffectiveTo</fields>
         <fields>Total_Rate__c</fields>
         <relatedList>MemberPlans</relatedList>
     </relatedLists>
