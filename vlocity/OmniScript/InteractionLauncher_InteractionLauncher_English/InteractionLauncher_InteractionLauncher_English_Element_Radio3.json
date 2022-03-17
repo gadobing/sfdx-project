@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block10",
+        "Name": "BlockMailingAddress",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Block10",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockMailingAddress",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block10",
+    "ParentElementName": "BlockMailingAddress",
     "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",

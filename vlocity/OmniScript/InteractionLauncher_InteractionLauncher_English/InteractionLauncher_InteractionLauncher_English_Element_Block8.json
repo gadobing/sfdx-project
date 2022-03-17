@@ -41,6 +41,11 @@
                         "condition": "<>",
                         "data": null,
                         "field": "Output:NPI__c"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "authenticationNeededCheckProvider"
                     }
                 ]
             }

@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BlockMemberID",
+    "Name": "BlockMemberId",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -40,12 +40,12 @@
                     {
                         "condition": "<>",
                         "data": null,
-                        "field": "Output:FirstName"
+                        "field": "Output:MemberID"
                     },
                     {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "Output:LastName"
+                        "condition": "=",
+                        "data": "false",
+                        "field": "AuthenticationNotNeededCheck"
                     }
                 ]
             }
@@ -54,5 +54,5 @@
     "Type": "Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockMemberID"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockMemberId"
 }

@@ -41,6 +41,11 @@
                         "condition": "<>",
                         "data": null,
                         "field": "Output:Name"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "AuthenticationNeededCheckFacility"
                     }
                 ]
             }

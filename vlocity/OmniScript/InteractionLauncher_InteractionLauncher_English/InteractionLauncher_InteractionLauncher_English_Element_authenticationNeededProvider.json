@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "TextBlock10",
+    "Name": "authenticationNeededProvider",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block4",
+        "Name": "AuthenticateCheckBoxProvider",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Block4",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AuthenticateCheckBoxProvider",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block4",
+    "ParentElementName": "AuthenticateCheckBoxProvider",
     "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
@@ -29,11 +29,11 @@
         "label": "TextBlock3",
         "sanitize": false,
         "show": null,
-        "text": "<p>Facility Name: %Output:Name%&nbsp;</p>",
+        "text": "<div class=\"c-message_kit__gutter\">\n<div class=\"c-message_kit__gutter__right\" role=\"presentation\" data-qa=\"message_content\">\n<div class=\"c-message_kit__blocks c-message_kit__blocks--rich_text\">\n<div class=\"c-message__message_blocks c-message__message_blocks--rich_text\" data-qa=\"message-text\">\n<div class=\"p-block_kit_renderer\" data-qa=\"block-kit-renderer\">\n<div class=\"p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first\">\n<div class=\"p-rich_text_block\" dir=\"auto\">\n<div class=\"p-rich_text_section\"><strong>Authentication not needed?</strong></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
         "textKey": ""
     },
     "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/TextBlock10"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/authenticationNeededProvider"
 }

@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "CallerName",
+    "Name": "AuthenticationNotNeeded",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "VerifyMember",
+        "Name": "Authentication",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,34 +17,23 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/VerifyMember",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Authentication",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "VerifyMember",
-    "ParentElementType": "Step",
+    "ParentElementName": "Authentication",
+    "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 12,
+        "controlWidth": 8,
         "dataJSON": false,
-        "label": "TextBlock1",
+        "label": "TextBlock3",
         "sanitize": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "=",
-                        "data": "false",
-                        "field": "AuthenticationNotNeededCheck"
-                    }
-                ]
-            }
-        },
-        "text": "<h2>&nbsp;</h2>\n<h2>Caller: %Output:FirstName% %Output:LastName%</h2>",
+        "show": null,
+        "text": "<p><strong>Authentication Not Needed ?</strong></p>",
         "textKey": ""
     },
     "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/CallerName"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AuthenticationNotNeeded"
 }
