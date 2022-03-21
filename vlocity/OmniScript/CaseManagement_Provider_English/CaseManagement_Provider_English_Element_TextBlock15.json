@@ -28,8 +28,19 @@
         "dataJSON": false,
         "label": "TextBlock15",
         "sanitize": false,
-        "show": null,
-        "text": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "%$Vlocity.null%",
+                        "field": "DRId_Case"
+                    }
+                ]
+            }
+        },
+        "text": "<p></p>\n<p></p>\n<p style=\"text-align: center;\"><strong>New Case has been created. Please click Next to continue</strong></p>\n<p style=\"text-align: center;\"></p>\n<p style=\"text-align: center;\"></p>\n<p style=\"text-align: center;\"></p>",
         "textKey": ""
     },
     "Type": "Text Block",

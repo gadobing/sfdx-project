@@ -29,7 +29,7 @@
         "label": "TextBlock24",
         "sanitize": false,
         "show": null,
-        "text": "<p>&nbsp;&nbsp;</p>",
+        "text": "<p style=\"text-align: center;\"></p>\n<p style=\"text-align: center;\"></p>\n<p style=\"text-align: center;\"></p>\n<p style=\"text-align: center;\"></p>",
         "textKey": ""
     },
     "Type": "Text Block",
