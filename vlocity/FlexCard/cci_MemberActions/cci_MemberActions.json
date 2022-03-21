@@ -268,6 +268,127 @@
                             ],
                             "type": "element",
                             "userUpdatedElementLabel": true
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "View Claims",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "View Claims",
+                                    "flyoutLwc": "c-c-i-claims-english",
+                                    "flyoutParams": {
+                                        "ContextId": "{recordId}"
+                                    },
+                                    "flyoutType": "OmniScripts",
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1647428753057",
+                                    "layoutType": "lightning",
+                                    "openFlyoutIn": "Modal",
+                                    "openUrlIn": "Current Window",
+                                    "osName": "CCI/Claims/English",
+                                    "type": "Flyout",
+                                    "vlocityIcon": "utility-forward_up"
+                                },
+                                "stateObj": "{record}"
+                            },
+                            "size": {
+                                "default": "6",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "#cccccc",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": [
+                                    ],
+                                    "width": ""
+                                },
+                                "class": " ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "6",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_6-of-12 ",
+                                "style": "      \n         ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#cccccc",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": [
+                                            ],
+                                            "width": ""
+                                        },
+                                        "class": " ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "6",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_6-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "element",
+                            "userUpdatedElementLabel": true
                         }
                     ]
                 }
@@ -297,6 +418,11 @@
                 {
                     "language": "English",
                     "subtype": "IssueIDCard",
+                    "type": "CCI"
+                },
+                {
+                    "language": "English",
+                    "subtype": "Claims",
                     "type": "CCI"
                 }
             ],
