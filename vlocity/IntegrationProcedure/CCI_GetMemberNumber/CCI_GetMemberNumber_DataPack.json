@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "CCI_GetMemberNumber_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GetMemberNumber",
+    "OmniProcessElement": [
+        "CCI_GetMemberNumber_Element_DR_GetMemberNumberFromPlan.json",
+        "CCI_GetMemberNumber_Element_ResponseAction.json",
+        "CCI_GetMemberNumber_Element_ResponseAction2.json"
+    ],
+    "OmniProcessKey": "CCI_GetMemberNumber",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_GetMemberNumber_PropertySetConfig.json",
+    "SubType": "GetMemberNumber",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/GetMemberNumber/Procedure",
+    "WebComponentKey": "44df5bd5-27af-68bb-7592-62315317efb3"
+}
