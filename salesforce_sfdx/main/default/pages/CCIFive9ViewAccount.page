@@ -1,86 +1,19 @@
-<apex:page showHeader="false" standardStylesheets="false" sidebar="false" docType="html-5.0" standardController="Account" applyBodyTag="False" applyHtmlTag="False">
-<head>
-  <title>{! Account.Name }</title>
-  <apex:slds /> 
-</head>
-
-<body class="slds-scope">
-    <!-- MASTHEAD -->
-    <p></p>
-    <p class="slds-text-heading--label slds-m-bottom--small">
-    &nbsp;&nbsp;&nbsp;&nbsp;Incoming Call
-    </p>
-    <!-- / MASTHEAD -->
+<apex:page controller="CCI_Five9_AccountSearch" action="{!searchAndredirect}">
+    <apex:form >
+        <!-- Begin default content - Remove this -->
+        <h1>Congratulations</h1>
+        This is your new page.
+        <!-- End default content - Remove this -->
+        <p>DNIS: {!$Currentpage.parameters.DNIS}</p>
+        <p>ANI: {!$Currentpage.parameters.ANI}</p>
+        <p>Member id : {!$Currentpage.parameters.memberid}</p>
+        <p>NPI : {!$Currentpage.parameters.npi}</p>
+        <p>DOB : {!$Currentpage.parameters.dob}</p>
+        <p>Language : {!$Currentpage.parameters.language}</p>
         
-    <!-- PAGE HEADER -->
-    <!-- <p class="slds-text-title_caps slds-line-height--reset">Accounts</p>
-        <h1 class="slds-page-header__title slds-truncate" title="My Accounts">{! Account.Name }</h1>
-        <span class="slds-icon_container slds-icon-standard-account" title="Account Standard Icon">
-          <svg class="slds-icon slds-page-header__icon" aria-hidden="true">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/standard-sprite/svg/symbols.svg#account')}" />
-          </svg>
-        </span> -->
-          <!-- / HEADING AREA -->
-      <div class="slds-col slds-no-flex slds-grid slds-align-top">
-        <!-- /<button class="slds-button slds-button--neutral">New Account</button> -->
-      </div>
-    <!-- / PAGE HEADER -->
-
-    <!-- ACCOUNT DETAIL CARD -->
-    <div class="slds-panel slds-grid slds-grid--vertical slds-nowrap">
-      <div class="slds-form--stacked slds-grow slds-scrollable--y">
-
-        <div class="slds-panel__section">
-          <span class="slds-icon_container slds-icon-standard-account" title="Account Standard Icon">
-          <svg class="slds-icon slds-page-header__icon" aria-hidden="true">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/standard-sprite/svg/symbols.svg#account')}" />
-          </svg>
-          </span>
-          <h3 class="slds-text-heading--small slds-m-bottom--medium">Account Detail</h3>
-          <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
-            <span class="slds-form-element__label">Name</span>
-            <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! Account.Name }</span>
-            </div>
-          </div>
-          <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
-            <span class="slds-form-element__label">Phone</span>
-            <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! $Currentpage.parameters.phonenumber }</span>
-            </div>
-          </div>
-          <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
-            <span class="slds-form-element__label">Member ID</span>
-            <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! $Currentpage.parameters.memberid }</span>
-            </div>
-          </div>
-          <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
-            <span class="slds-form-element__label">Authenticated?</span>
-            <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! $Currentpage.parameters.authenticated }</span>
-            </div>
-          </div>
-          <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
-            <span class="slds-form-element__label">NPI</span>
-            <div class="slds-form-element__control">
-              <span class="slds-form-element__static">{! $Currentpage.parameters.npi }</span>
-            </div>
-          </div>
-        </div>
-        <div class="slds-panel__section slds-has-divider--bottom">
-          <div class="slds-media">
-            <div class="slds-media__body">
-              <div class="slds-button-group slds-m-top--small" role="group">
-                <!-- /<button class="slds-button slds-button--neutral slds-grow">Edit</button> -->
-                <!-- /<button class="slds-button slds-button--neutral slds-grow">Save</button> -->
-                <!-- /<button class="slds-button slds-button--neutral slds-grow">New Account</button> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- / ACCOUNT DETAIL CARD -->
-</body>
+            <p>Account Name: {!acc[0].Name}</p>
+        
+        
+        <apex:commandButton action="{!search}" value="Search" id="theButton"/>
+    </apex:form>
 </apex:page>
