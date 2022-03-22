@@ -28286,7 +28286,7 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>CCIFive9ViewAccount</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ChangePassword</apexPage>
