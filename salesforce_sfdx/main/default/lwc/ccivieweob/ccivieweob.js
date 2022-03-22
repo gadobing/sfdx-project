@@ -1,6 +1,6 @@
 import { LightningElement, api } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-import { OmniscriptActionCommonUtil } from '%vlocity_namespace%/omniscriptActionUtils';
+import { OmniscriptActionCommonUtil } from 'omnistudio/omniscriptActionUtils';
 export default class Ccivieweob extends LightningElement {
 
     eob;

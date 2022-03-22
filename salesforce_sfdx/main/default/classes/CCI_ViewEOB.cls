@@ -1,4 +1,4 @@
-global with sharing class CCI_ViewEOB implements %vlocity_namespace%.VlocityOpenInterface2 {
+global with sharing class CCI_ViewEOB implements omnistudio.VlocityOpenInterface2 {
     public Boolean invokeMethod(String methodName, Map<String, Object> inputs, Map<String, Object> outputs, Map<String, Object> options) {
         try {
             if (methodName == 'getEOBDetails') {
@@ -58,6 +58,6 @@ global with sharing class CCI_ViewEOB implements %vlocity_namespace%.VlocityOpen
         ipInput.put('claimId',claimIdInput);
         Map<String, Object> ipOutput = new Map<String, Object> ();
         Map<String, Object> ipOptions = new Map<String, Object> ();
-        return (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
+        return (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService(IPName, ipInput, ipOptions);
     }
 }
