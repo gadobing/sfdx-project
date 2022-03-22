@@ -1,6 +1,6 @@
 import { LightningElement, api } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-import { OmniscriptActionCommonUtil } from 'omnistudio/omniscriptActionUtils';
+import { OmniscriptActionCommonUtil } from '%vlocity_namespace%/omniscriptActionUtils';
 export default class Ccivieweob extends LightningElement {
 
     eob;
@@ -8,6 +8,7 @@ export default class Ccivieweob extends LightningElement {
     url;
     @api memberid;
     @api claimid;
+    screenText = 'Downloading the file...';
 
     connectedCallback() {
         setTimeout(() => {
@@ -46,6 +47,7 @@ export default class Ccivieweob extends LightningElement {
                     downloadLink.download = this.claimid+"_EOB.pdf";
                     downloadLink.click(); 
                     this.boolShowSpinner = false;
+                    this.screenText = 'Document is downloaded';
                 } else if(result.statusCode == 404){
                     const evt = new ShowToastEvent({
                         title: 'Error',

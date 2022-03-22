@@ -38,17 +38,17 @@
         "message": {
         },
         "nextLabel": "Next",
-        "nextWidth": "0",
+        "nextWidth": 3,
         "previousLabel": "Previous",
-        "previousWidth": "3",
+        "previousWidth": 3,
         "pubsub": false,
         "remoteClass": "",
         "remoteMethod": "",
         "remoteOptions": {
         },
         "remoteTimeout": 30000,
-        "saveLabel": "",
-        "saveMessage": "",
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
         "show": null,
         "showPersistentComponent": [
             true,

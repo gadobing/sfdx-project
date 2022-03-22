@@ -23,13 +23,13 @@
     "ParentElementName": "Download EOB",
     "ParentElementType": "Step",
     "PropertySetConfig": {
-        "bStandalone": false,
+        "bStandalone": true,
         "conditionType": "Hide if False",
         "controlWidth": 12,
         "customAttributes": [
             {
                 "name": "memberid",
-                "source": "%Response:memberid%"
+                "source": "K0046488202"
             },
             {
                 "name": "claimid",
