@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "allowed",
+    "Name": "ClinicFullName",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -36,7 +36,7 @@
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Allowed",
+        "label": "Clinic Full Name",
         "mask": "",
         "maxLength": 255,
         "minLength": 0,
@@ -54,5 +54,5 @@
     "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/allowed"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ClinicFullName"
 }

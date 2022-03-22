@@ -10,7 +10,7 @@
     },
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "allowSaveForLater": true,
+        "allowSaveForLater": false,
         "businessCategory": "",
         "businessEvent": "",
         "cancelLabel": "Cancel",
@@ -40,7 +40,7 @@
         "nextLabel": "Next",
         "nextWidth": "4",
         "previousLabel": "Previous",
-        "previousWidth": "4",
+        "previousWidth": "0",
         "pubsub": false,
         "remoteClass": "",
         "remoteMethod": "",

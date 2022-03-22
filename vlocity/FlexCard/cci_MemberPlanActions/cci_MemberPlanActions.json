@@ -11,10 +11,10 @@
     "enableLwc": true,
     "isFlex": true,
     "lwc": {
-        "DeveloperName": "cfCci_MemberActions_1_CCI",
-        "Id": "0Rb7j000000HHXuCAO",
+        "DeveloperName": "cfCci_MemberPlanActions_1_CCI",
+        "Id": "0Rb7j000000HLGdCAO",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfCci_MemberActions_1_CCI",
+        "MasterLabel": "cfCci_MemberPlanActions_1_CCI",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -30,146 +30,25 @@
                         {
                             "class": "slds-col ",
                             "element": "action",
-                            "elementLabel": "View Invoices",
+                            "elementLabel": "View Claims",
                             "name": "Action",
                             "property": {
                                 "card": "{card}",
                                 "displayAsButton": true,
                                 "record": "{record}",
                                 "stateAction": {
-                                    "displayName": "View Invoices",
-                                    "flyoutLwc": "view-invoices-english",
+                                    "displayName": "View Claims",
+                                    "flyoutLwc": "c-c-i-claims-english",
                                     "flyoutParams": {
                                         "ContextId": "{recordId}"
                                     },
                                     "flyoutType": "OmniScripts",
                                     "hasExtraParams": true,
-                                    "id": "flex-action-1646909897858",
+                                    "id": "flex-action-1647931160209",
                                     "layoutType": "lightning",
                                     "openFlyoutIn": "Modal",
                                     "openUrlIn": "Current Window",
-                                    "osName": "View/Invoices/English",
-                                    "type": "Flyout",
-                                    "vlocityIcon": "utility-forward_up"
-                                },
-                                "stateObj": "{record}"
-                            },
-                            "size": {
-                                "default": "6",
-                                "isResponsive": false
-                            },
-                            "stateIndex": 0,
-                            "styleObject": {
-                                "background": {
-                                    "color": "",
-                                    "image": "",
-                                    "position": "",
-                                    "repeat": "",
-                                    "size": ""
-                                },
-                                "border": {
-                                    "color": "#cccccc",
-                                    "radius": "",
-                                    "style": "",
-                                    "type": [
-                                    ],
-                                    "width": ""
-                                },
-                                "class": " ",
-                                "container": {
-                                    "class": ""
-                                },
-                                "elementStyleProperties": {
-                                },
-                                "inlineStyle": "",
-                                "margin": [
-                                ],
-                                "padding": [
-                                ],
-                                "size": {
-                                    "default": "6",
-                                    "isResponsive": false
-                                },
-                                "sizeClass": "slds-size_6-of-12 ",
-                                "style": "      \n         ",
-                                "text": {
-                                    "align": "",
-                                    "color": ""
-                                }
-                            },
-                            "styleObjects": [
-                                {
-                                    "conditionString": "",
-                                    "conditions": "default",
-                                    "draggable": false,
-                                    "key": 0,
-                                    "label": "Default",
-                                    "name": "Default",
-                                    "styleObject": {
-                                        "background": {
-                                            "color": "",
-                                            "image": "",
-                                            "position": "",
-                                            "repeat": "",
-                                            "size": ""
-                                        },
-                                        "border": {
-                                            "color": "#cccccc",
-                                            "radius": "",
-                                            "style": "",
-                                            "type": [
-                                            ],
-                                            "width": ""
-                                        },
-                                        "class": " ",
-                                        "container": {
-                                            "class": ""
-                                        },
-                                        "elementStyleProperties": {
-                                        },
-                                        "inlineStyle": "",
-                                        "margin": [
-                                        ],
-                                        "padding": [
-                                        ],
-                                        "size": {
-                                            "default": "6",
-                                            "isResponsive": false
-                                        },
-                                        "sizeClass": "slds-size_6-of-12 ",
-                                        "style": "      \n         ",
-                                        "text": {
-                                            "align": "",
-                                            "color": ""
-                                        }
-                                    }
-                                }
-                            ],
-                            "type": "element",
-                            "userUpdatedElementLabel": true
-                        },
-                        {
-                            "class": "slds-col ",
-                            "element": "action",
-                            "elementLabel": "Request ID Card",
-                            "name": "Action",
-                            "property": {
-                                "card": "{card}",
-                                "displayAsButton": true,
-                                "record": "{record}",
-                                "stateAction": {
-                                    "displayName": "Request ID Card",
-                                    "flyoutLwc": "c-c-i-issue-i-d-card-english",
-                                    "flyoutParams": {
-                                        "ContextId": "{recordId}"
-                                    },
-                                    "flyoutType": "OmniScripts",
-                                    "hasExtraParams": true,
-                                    "id": "flex-action-1646909894175",
-                                    "layoutType": "lightning",
-                                    "openFlyoutIn": "Modal",
-                                    "openUrlIn": "Current Window",
-                                    "osName": "CCI/IssueIDCard/English",
+                                    "osName": "CCI/Claims/English",
                                     "type": "Flyout",
                                     "vlocityIcon": "utility-forward_up"
                                 },
@@ -291,12 +170,7 @@
             "omniscripts": [
                 {
                     "language": "English",
-                    "subtype": "Invoices",
-                    "type": "View"
-                },
-                {
-                    "language": "English",
-                    "subtype": "IssueIDCard",
+                    "subtype": "Claims",
                     "type": "CCI"
                 }
             ],
@@ -328,7 +202,7 @@
         }
     ],
     "theme": "slds",
-    "title": "cci_MemberActions",
+    "title": "cci_MemberPlanActions",
     "xmlJson": [
         {
             "@attributes": {
@@ -364,6 +238,7 @@
         }
     ],
     "xmlObject": {
+        "masterLabel": "cci_MemberPlanActions",
         "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
         "targets": {
             "target": [

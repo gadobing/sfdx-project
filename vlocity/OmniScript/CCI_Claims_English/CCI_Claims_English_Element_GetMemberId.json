@@ -27,7 +27,7 @@
         "failureGoBackLabel": "Go Back",
         "failureNextLabel": "Continue",
         "inProgressMessage": "In Progress",
-        "integrationProcedureKey": "CCI_getMemberId",
+        "integrationProcedureKey": "CCI_GetMemberNumber",
         "label": "GetMemberId",
         "message": {
         },

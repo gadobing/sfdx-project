@@ -30,7 +30,7 @@
         "controlWidth": 12,
         "debounceValue": 0,
         "defaultValue": null,
-        "disOnTplt": false,
+        "disOnTplt": true,
         "help": false,
         "helpText": "",
         "helpTextPos": "",

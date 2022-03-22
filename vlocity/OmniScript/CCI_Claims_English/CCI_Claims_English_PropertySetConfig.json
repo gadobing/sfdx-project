@@ -90,7 +90,7 @@
     },
     "showInputWidth": false,
     "ssm": false,
-    "stepChartPlacement": "right",
+    "stepChartPlacement": "top",
     "stylesheet": {
         "lightning": "",
         "lightningRtl": "",

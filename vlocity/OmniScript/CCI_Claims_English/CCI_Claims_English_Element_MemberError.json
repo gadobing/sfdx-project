@@ -29,7 +29,7 @@
         "label": "TextBlock1",
         "sanitize": false,
         "show": null,
-        "text": "<p><span style=\"color: #000000;\"><strong>You don't Have any Member Id value for this Member. Please add the member Id to proceed further.</strong></span></p>",
+        "text": "<p><span style=\"color: #000000;\"><strong>You don't Have any Member Number value for this Member. Please add the Member Number to proceed further.</strong></span></p>",
         "textKey": ""
     },
     "Type": "Text Block",

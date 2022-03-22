@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "allowed",
+    "Name": "Allowed",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Claims",
+        "Name": "Totals",
         "OmniProcessId": {
             "Name": "Claims",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Claims",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Totals",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Claims",
+    "ParentElementName": "Totals",
     "ParentElementType": "Edit Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
@@ -31,8 +31,8 @@
         "debounceValue": 0,
         "defaultValue": null,
         "disOnTplt": true,
-        "help": false,
-        "helpText": "",
+        "help": true,
+        "helpText": "Allowed",
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
@@ -43,7 +43,7 @@
         "pattern": "",
         "placeholder": "",
         "ptrnErrText": "",
-        "readOnly": false,
+        "readOnly": true,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
@@ -54,5 +54,5 @@
     "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/allowed"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Allowed"
 }

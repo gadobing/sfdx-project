@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ClaimType",
+    "Name": "ProviderFirstName",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -30,13 +30,13 @@
         "controlWidth": 12,
         "debounceValue": 0,
         "defaultValue": null,
-        "disOnTplt": true,
+        "disOnTplt": false,
         "help": false,
         "helpText": "",
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Claim Type",
+        "label": "Provider First Name",
         "mask": "",
         "maxLength": 255,
         "minLength": 0,
@@ -54,5 +54,5 @@
     "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ClaimType"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ProviderFirstName"
 }
