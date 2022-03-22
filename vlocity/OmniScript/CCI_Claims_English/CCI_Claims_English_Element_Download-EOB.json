@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ClaimDetail",
+    "Name": "Download EOB",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -10,12 +10,12 @@
     },
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "allowSaveForLater": false,
+        "allowSaveForLater": true,
         "businessCategory": "",
         "businessEvent": "",
         "cancelLabel": "Cancel",
         "cancelMessage": "Are you sure?",
-        "chartLabel": null,
+        "chartLabel": "Download EOB",
         "completeLabel": "Complete",
         "completeMessage": "Are you sure you want to complete the script?",
         "conditionType": "Hide if False",
@@ -34,20 +34,20 @@
             "remoteTimeout": 30000,
             "typeFilter": ""
         },
-        "label": "",
+        "label": "Download EOB",
         "message": {
         },
-        "nextLabel": "View EOB",
-        "nextWidth": "3",
+        "nextLabel": "Next",
+        "nextWidth": "0",
         "previousLabel": "Previous",
-        "previousWidth": 3,
+        "previousWidth": "3",
         "pubsub": false,
         "remoteClass": "",
         "remoteMethod": "",
         "remoteOptions": {
         },
         "remoteTimeout": 30000,
-        "saveLabel": "Save for later",
+        "saveLabel": "",
         "saveMessage": "",
         "show": null,
         "showPersistentComponent": [
@@ -61,5 +61,5 @@
     "Type": "Step",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ClaimDetail"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Download EOB"
 }

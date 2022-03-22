@@ -1,0 +1,378 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SV_Response",
+    "OmniProcessId": {
+        "Name": "Claim Details",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/ClaimDetails/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Payload": [
+                {
+                    "BenefitPackage": {
+                        "description": "PSE-PREMIUM-OA Eff 1/1/2015",
+                        "id": "de"
+                    },
+                    "ClaimType": "MEDICAL",
+                    "Clinic": {
+                        "FullName": "Tina Smith Services LLC",
+                        "id": "5T937       0002"
+                    },
+                    "ContractId": "K12345678",
+                    "DRG": {
+                        "Allowed": "42.75",
+                        "Authorization": "N11052300166",
+                        "CoInsurance": "20.00",
+                        "CoPay": "25.00",
+                        "Codes": [
+                            {
+                                "description": "Subclinical iodine-deficiency hypothyroidism",
+                                "id": "E02"
+                            },
+                            {
+                                "description": "Subclinical iodine-deficiency hypothyroidism",
+                                "id": "E02"
+                            }
+                        ],
+                        "Comments": [
+                            {
+                                "CategoryId": "",
+                                "EffectiveDate": "2012-12-12",
+                                "SequenceNumber": "0001",
+                                "TerminationDate": "2021-06-01",
+                                "Text": "NO REBATE NOTIFICATION LETTER",
+                                "TypeCodeText": "DISPLAY REMARKS DURING CLAIMS ADJUDICATION"
+                            },
+                            {
+                                "CategoryId": "",
+                                "EffectiveDate": "2012-12-12",
+                                "SequenceNumber": "0002",
+                                "TerminationDate": "2021-06-01",
+                                "Text": "NO REBATE NOTIFICATION LETTER",
+                                "TypeCodeText": "DISPLAY REMARKS DURING CLAIMS ADJUDICATION"
+                            }
+                        ],
+                        "Deductible": "1000.00",
+                        "Denied": "0.00",
+                        "DisallowAmount": "0.00",
+                        "Lines": [
+                            {
+                                "Allowed": "135.30",
+                                "AltCarrierPay": [
+                                    {
+                                        "Line": "0100",
+                                        "SvcOICAllowAmt": "150.00",
+                                        "SvcOICPMT1": "100.00",
+                                        "SvcOICPMT2": "50.00"
+                                    },
+                                    {
+                                        "Line": "0200",
+                                        "SvcOICAllowAmt": "150.00",
+                                        "SvcOICPMT1": "100.00",
+                                        "SvcOICPMT2": "50.00"
+                                    }
+                                ],
+                                "Benefit": {
+                                    "description": "PROF/DIAG SVCS-OFFICE-INN",
+                                    "id": "SERV0ITS"
+                                },
+                                "CarrierRisk": {
+                                    "description": "",
+                                    "id": ""
+                                },
+                                "CheckDate": "2021-07-10",
+                                "CheckEFTNumber": "AR0009121225",
+                                "CoInsurance": "0.00",
+                                "CoPay": "0.00",
+                                "Comp": {
+                                    "description": "PROF/DIAG SVCS-OFFICE-INN (FAM-C/B-A/P-2020)",
+                                    "id": "1234"
+                                },
+                                "DateEnd": "2021-07-01",
+                                "DateStart": "2021-07-01",
+                                "Deductible": "135.30",
+                                "Denied": "0.00",
+                                "Diagnosis": [
+                                    {
+                                        "description": "Subclinical iodine-deficiency hypothyroidism",
+                                        "id": "E02"
+                                    },
+                                    {
+                                        "description": "Subclinical iodine-deficiency hypothyroidism",
+                                        "id": "E02"
+                                    }
+                                ],
+                                "DisallowAmount": "0.00",
+                                "FeeSchedule": "BCBS",
+                                "ITSProviderAllowed": {
+                                    "Approved Amount": "100.00",
+                                    "SupplementalAmount": "2.53",
+                                    "SurchargeAmount": "0.00"
+                                },
+                                "Interest": "",
+                                "LineItemNumber": "0010",
+                                "LineStatus": {
+                                    "description": "",
+                                    "id": ""
+                                },
+                                "MedicalEdits": [
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    },
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    }
+                                ],
+                                "Mod": [
+                                    {
+                                        "description": "Left",
+                                        "id": "LT"
+                                    },
+                                    {
+                                        "description": "Assistant Surgeon",
+                                        "id": "51"
+                                    }
+                                ],
+                                "Operator": {
+                                    "FirstName": "",
+                                    "LastName": "",
+                                    "id": ""
+                                },
+                                "PaidAmount": "32.70",
+                                "PayService": {
+                                    "description": "CNWEM",
+                                    "id": "A1"
+                                },
+                                "PlaceOfService": {
+                                    "description": "OFFICE",
+                                    "id": "10"
+                                },
+                                "Procedure": {
+                                    "description": "OFFICE VISIT 15 MINS",
+                                    "id": "99214"
+                                },
+                                "ProviderDiscount": "0.00",
+                                "ReasonExplanation": [
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    },
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    }
+                                ],
+                                "RiskAmount": "0.00",
+                                "Total": "168.00",
+                                "TraceIDnumber": "1212121212AA",
+                                "TransactionDate": "2021-07-15",
+                                "TreatType": {
+                                    "description": "",
+                                    "id": ""
+                                },
+                                "Units": "1"
+                            },
+                            {
+                                "Allowed": "135.30",
+                                "AltCarrierPay": [
+                                    {
+                                        "Line": "0100",
+                                        "SvcOICAllowAmt": "150.00",
+                                        "SvcOICPMT1": "100.00",
+                                        "SvcOICPMT2": "50.00"
+                                    },
+                                    {
+                                        "Line": "0200",
+                                        "SvcOICAllowAmt": "150.00",
+                                        "SvcOICPMT1": "100.00",
+                                        "SvcOICPMT2": "50.00"
+                                    }
+                                ],
+                                "Benefit": {
+                                    "description": "PROF/DIAG SVCS-OFFICE-INN",
+                                    "id": "SERV0ITS"
+                                },
+                                "CarrierRisk": {
+                                    "description": "",
+                                    "id": ""
+                                },
+                                "CheckDate": "2021-07-10",
+                                "CheckEFTNumber": "AR0009121225",
+                                "CoInsurance": "0.00",
+                                "CoPay": "0.00",
+                                "Comp": {
+                                    "description": "PROF/DIAG SVCS-OFFICE-INN (FAM-C/B-A/P-2020)",
+                                    "id": "1234"
+                                },
+                                "DateEnd": "2021-07-01",
+                                "DateStart": "2021-07-01",
+                                "Deductible": "135.30",
+                                "Denied": "0.00",
+                                "Diagnosis": [
+                                    {
+                                        "description": "Subclinical iodine-deficiency hypothyroidism",
+                                        "id": "E02"
+                                    },
+                                    {
+                                        "description": "Subclinical iodine-deficiency hypothyroidism",
+                                        "id": "E02"
+                                    }
+                                ],
+                                "DisallowAmount": "0.00",
+                                "FeeSchedule": "BCBS",
+                                "ITSProviderAllowed": {
+                                    "Approved Amount": "100.00",
+                                    "SupplementalAmount": "2.53",
+                                    "SurchargeAmount": "0.00"
+                                },
+                                "Interest": "",
+                                "LineItemNumber": "0020",
+                                "LineStatus": {
+                                    "description": "",
+                                    "id": ""
+                                },
+                                "MedicalEdits": [
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    },
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    }
+                                ],
+                                "Mod": [
+                                    {
+                                        "description": "Left",
+                                        "id": "LT"
+                                    },
+                                    {
+                                        "description": "Assistant Surgeon",
+                                        "id": "51"
+                                    }
+                                ],
+                                "Operator": {
+                                    "FirstName": "",
+                                    "LastName": "",
+                                    "id": ""
+                                },
+                                "PaidAmount": "32.70",
+                                "PayService": {
+                                    "description": "CNWEM",
+                                    "id": "A1"
+                                },
+                                "PlaceOfService": {
+                                    "description": "OFFICE",
+                                    "id": "10"
+                                },
+                                "Procedure": {
+                                    "description": "OFFICE VISIT 15 MINS",
+                                    "id": "99214"
+                                },
+                                "ProviderDiscount": "0.00",
+                                "ReasonExplanation": [
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    },
+                                    {
+                                        "description": "",
+                                        "id": ""
+                                    }
+                                ],
+                                "RiskAmount": "0.00",
+                                "Total": "168.00",
+                                "TraceIDnumber": "1212121212AA",
+                                "TransactionDate": "2021-07-15",
+                                "TreatType": {
+                                    "description": "",
+                                    "id": ""
+                                },
+                                "Units": "1"
+                            }
+                        ],
+                        "PaidAmount": "0.00",
+                        "Total": "42.75",
+                        "TotalInterest": "0.00",
+                        "TotalProviderDiscount": "12.00",
+                        "TotalRiskAmount": "0.00",
+                        "description": "ITS - TO US FOR DRG CORRECTION",
+                        "id": "807"
+                    },
+                    "Division": {
+                        "description": "Dummy Division Name",
+                        "id": "0400000001"
+                    },
+                    "Group": {
+                        "description": "Dummy Group Name",
+                        "id": "840000"
+                    },
+                    "IHSProvider": "Y",
+                    "Member": {
+                        "FirstName": "Lisa",
+                        "LastName": "Smith",
+                        "MemberId": "K0046488202",
+                        "MiddleName": "Marie",
+                        "NamePrefix": "Mrs.",
+                        "NameSuffix": ""
+                    },
+                    "PCPAsOfDOS": {
+                        "FirstName": "Ted",
+                        "LastName": "Smith",
+                        "id": "52945       0038"
+                    },
+                    "PatientAccountNumber": "4149906203",
+                    "PolicyHolder": {
+                        "FirstName": "Timothy",
+                        "LastName": "Smith",
+                        "MemberId": "K1234567801",
+                        "MiddleName": "James",
+                        "NamePrefix": "Mr",
+                        "NameSuffix": "Jr"
+                    },
+                    "Provider": {
+                        "FirstName": "Todd",
+                        "LastName": "Smith",
+                        "NPI": "15012312345",
+                        "id": "51204       0001"
+                    },
+                    "ReceivedDate": "2021-06-01",
+                    "ReferringProvider": {
+                        "FirstName": "Tim",
+                        "LastName": "Smith",
+                        "id": "54963       0010"
+                    },
+                    "SCCFNumber": "84020100473241500",
+                    "SFITSPrefix": "XCH",
+                    "ServiceEndDate": "2025-06-01",
+                    "ServiceStartDate": "2021-06-01",
+                    "Source": {
+                        "description": "OUTSIDE CLAIM ",
+                        "id": "BC"
+                    },
+                    "XREF": "12312312312300",
+                    "claimId": "200309M12ZV7"
+                }
+            ]
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues2",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/ClaimDetails/Procedure/SV_Response"
+}

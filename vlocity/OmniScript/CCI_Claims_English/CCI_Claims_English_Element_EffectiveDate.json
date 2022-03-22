@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ServiceEndDate",
+    "Name": "EffectiveDate",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Claims",
+        "Name": "Comments",
         "OmniProcessId": {
             "Name": "Claims",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Claims",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Comments",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Claims",
+    "ParentElementName": "Comments",
     "ParentElementType": "Edit Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
@@ -30,20 +30,20 @@
         "controlWidth": 12,
         "debounceValue": 0,
         "defaultValue": null,
-        "disOnTplt": false,
+        "disOnTplt": true,
         "help": false,
         "helpText": "",
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Service End Date",
+        "label": "Effective Date",
         "mask": "",
         "maxLength": 255,
         "minLength": 0,
         "pattern": "",
         "placeholder": "",
         "ptrnErrText": "",
-        "readOnly": false,
+        "readOnly": true,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
@@ -54,5 +54,5 @@
     "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ServiceEndDate"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/EffectiveDate"
 }

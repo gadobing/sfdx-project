@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ServiceEndDate",
+    "Name": "Totals",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Claims",
+        "Name": "ClaimDetail",
         "OmniProcessId": {
             "Name": "Claims",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,42 +17,42 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Claims",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ClaimDetail",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Claims",
-    "ParentElementType": "Edit Block",
+    "ParentElementName": "ClaimDetail",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "autocomplete": null,
+        "allowClear": false,
+        "allowDelete": false,
+        "allowEdit": false,
+        "allowNew": false,
         "conditionType": "Hide if False",
         "controlWidth": 12,
-        "debounceValue": 0,
-        "defaultValue": null,
-        "disOnTplt": false,
-        "help": false,
-        "helpText": "",
-        "helpTextPos": "",
+        "deleteLabel": "Delete",
+        "editLabel": "Edit",
+        "elementName": "",
         "hide": false,
-        "inputWidth": 12,
-        "label": "Service End Date",
-        "mask": "",
-        "maxLength": 255,
-        "minLength": 0,
-        "pattern": "",
-        "placeholder": "",
-        "ptrnErrText": "",
-        "readOnly": false,
-        "repeat": false,
-        "repeatClone": false,
-        "repeatLimit": null,
-        "required": false,
+        "label": "Totals",
+        "maxDisplay": 11,
+        "mode": "Table",
+        "newLabel": "New",
+        "selectCheckBox": "",
+        "selectMode": "Single",
+        "selectSobject": "",
         "show": null,
-        "showInputWidth": false
+        "sobjectMapping": [
+        ],
+        "sumElement": "",
+        "svgIcon": "user",
+        "svgSprite": "utility",
+        "valueSvgMap": [
+        ]
     },
-    "Type": "Text",
+    "Type": "Edit Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ServiceEndDate"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Totals"
 }
