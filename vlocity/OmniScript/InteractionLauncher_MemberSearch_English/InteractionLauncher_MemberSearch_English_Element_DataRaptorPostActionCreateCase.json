@@ -41,18 +41,7 @@
         "remoteTimeout": 30000,
         "sendJSONNode": "",
         "sendJSONPath": "",
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "CaseId"
-                    }
-                ]
-            }
-        },
+        "show": null,
         "showPersistentComponent": [
             true,
             false
