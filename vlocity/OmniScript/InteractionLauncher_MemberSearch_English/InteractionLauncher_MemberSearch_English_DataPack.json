@@ -9,7 +9,6 @@
     "Language": "English",
     "Name": "Member Search Interaction Launcher",
     "OmniProcessElement": [
-        "InteractionLauncher_MemberSearch_English_Element_DataRaptorExtractActionGetCase.json",
         "InteractionLauncher_MemberSearch_English_Element_StepSearchMember.json",
         "InteractionLauncher_MemberSearch_English_Element_MessagingInputValidationError.json",
         "InteractionLauncher_MemberSearch_English_Element_MessagingRequiredInputValidationError.json",
@@ -36,6 +35,7 @@
         "InteractionLauncher_MemberSearch_English_Element_FormulaSelectionValidation.json",
         "InteractionLauncher_MemberSearch_English_Element_SetErrors1.json",
         "InteractionLauncher_MemberSearch_English_Element_IntegrationProcedureActionArrayProcess.json",
+        "InteractionLauncher_MemberSearch_English_Element_DataRaptorExtractActionGetCase.json",
         "InteractionLauncher_MemberSearch_English_Element_SetValues1.json",
         "InteractionLauncher_MemberSearch_English_Element_DataRaptorPostActionCreateCase.json",
         "InteractionLauncher_MemberSearch_English_Element_NavigateActionLaunchMember.json",
@@ -48,5 +48,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/InteractionLauncher/MemberSearch/English",
-    "WebComponentKey": "071eebd8-8f87-b405-6330-0b4fe8ab3319"
+    "WebComponentKey": "75897bcb-f20e-94bb-190a-f249a7274f37"
 }
