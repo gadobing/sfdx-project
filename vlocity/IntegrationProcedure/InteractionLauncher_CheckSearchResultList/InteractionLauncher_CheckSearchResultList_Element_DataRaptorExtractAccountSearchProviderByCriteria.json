@@ -1,0 +1,59 @@
+{
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DataRaptorExtractAccountSearchProviderByCriteria",
+    "OmniProcessId": {
+        "Name": "IPCheckSearchResultList",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "AccountSearchProviderByCriteria",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "AccountSearch:BlockProvider:ProviderFirstName",
+                "inputParam": "FirstName"
+            },
+            {
+                "element": "AccountSearch:BlockProvider:ProviderLastName",
+                "inputParam": "LastName"
+            },
+            {
+                "element": "AccountSearch:BlockProvider:ProviderID",
+                "inputParam": "ProviderID"
+            },
+            {
+                "element": "AccountSearch:BlockProvider:ProviderNPI",
+                "inputParam": "ProviderNPI"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "%AccountSearch:RadioUserType% == \"Provider\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataRaptorExtractAction2",
+        "responseJSONNode": "SearchResult",
+        "responseJSONPath": "Account",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/DataRaptorExtractAccountSearchProviderByCriteria"
+}

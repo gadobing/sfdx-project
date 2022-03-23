@@ -1,0 +1,51 @@
+{
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DataRaptorExtractAccountSearchFacilityByCriteria",
+    "OmniProcessId": {
+        "Name": "IPCheckSearchResultList",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "AccountSearchFacilityByCriteria",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "AccountSearch:BlockFacility:FacilityName",
+                "inputParam": "FacilityName"
+            },
+            {
+                "element": "AccountSearch:BlockFacility:FacilityNPI",
+                "inputParam": "FacilityNPI"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "%AccountSearch:RadioUserType% == \"Facility\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataRaptorExtractAction3",
+        "responseJSONNode": "SearchResult",
+        "responseJSONPath": "Account",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/DataRaptorExtractAccountSearchFacilityByCriteria"
+}
