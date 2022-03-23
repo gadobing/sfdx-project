@@ -14,6 +14,7 @@
         "label": "LoopBlock1",
         "loopList": "Payload:Comments",
         "loopOutput": {
+            "DRP_UpdateComments": "%DRP_UpdateComments%"
         },
         "show": null
     },

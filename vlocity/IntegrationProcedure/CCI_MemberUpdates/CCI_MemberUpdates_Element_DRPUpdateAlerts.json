@@ -25,10 +25,13 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
+            "AccountId": "%AccountInfo:Id%",
+            "AlertId": "%Payload:Alerts:AlertId%",
             "AlertText": "%Payload:Alerts:AlertText%",
             "AlertTypeText": "%Payload:Alerts:AlertTypeText%",
             "CreateUserName": "%Payload:AlertsCreateUserName%",
             "EntryDate": "%Payload:Alerts:EntryDate%",
+            "RecordType": "%DR_GetAlertRecordType:RecordTypeId%",
             "TerminationDate": "%Payload:Alerts:TerminationDate%"
         },
         "additionalOutput": {

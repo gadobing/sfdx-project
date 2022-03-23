@@ -25,7 +25,10 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
+            "AccountId": "%AccountInfo:Id%",
             "EntryDate": "%Payload:Comments:EntryDate%",
+            "RecordTypeId": "%DR_GetCommentsRecordType:RecordTypeId%",
+            "SequenceNumber": "%Payload:Comments:SequenceNumber%",
             "TerminationDate": "%Payload:Comments:TerminationDate%",
             "Text": "%Payload:Comments:Text%",
             "TypeCodeText": "%Payload:Comments:TypeCodeText%"

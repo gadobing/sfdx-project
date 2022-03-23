@@ -45,6 +45,8 @@ public class CCI_Five9_AccountSearch {
      
      public PageReference searchAndredirect(){
          System.debug('Five9 searching');
+         //RefreshMemberData
+         callMemberUpdate();
          this.search();
          System.debug('Five9 redirecting');
          return this.callPageRedirect(acc[0].Id);
@@ -53,8 +55,6 @@ public class CCI_Five9_AccountSearch {
      public PageReference callPageRedirect(Id recordId){
          System.debug('Five9 recordId: ' + recordId);
          createCase(recordId);
-         //RefreshMemberData
-         callMemberUpdate();
          PageReference demoPage = new PageReference('/' + recordId);
          demoPage.setRedirect(true);
          return demoPage;
@@ -76,7 +76,7 @@ public class CCI_Five9_AccountSearch {
          insert c;
      }
      public void callMemberUpdate(){
-         /////////////
+         /////////////IP callout
          Map<String, Object> ipInput = new Map<String, Object> ();
          Map<String, Object> ipOutput = new Map<String, Object> ();
          Map<String, Object> ipOptions = new Map<String, Object> ();
