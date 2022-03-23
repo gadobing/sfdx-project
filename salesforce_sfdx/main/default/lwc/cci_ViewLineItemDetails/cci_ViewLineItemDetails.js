@@ -1,14 +1,50 @@
 import { LightningElement,api,track } from 'lwc';
-import { OmniscriptBaseMixin } from "omnistudio/omniscriptBaseMixin";
+import { OmniscriptBaseMixin } from "%vlocity_namespace%/omniscriptBaseMixin";
 
 export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(LightningElement){
     @track displayRows = [];
     @track showModal = false;
+    @track showTotalModal = false;
     @track selectedRow;
+    @track showLineDetails = false;
+    @track showTotalTable = false;
+
+    @api total;
+    @api allowed;
+    @api denied;
+    @api tpd;
+    @api interest;
+    @api deductible;
+    @api copay;
+    @api insurance;
+    @api paid;
+    @api disallowed;
+    @api risk;
+
+    @api 
+    get table (){
+        return "";
+    }
+    set table (val) {
+        // The setter is used to drive updates to the table, but there may be times when the
+        // data is not yet present, and we want to avoid trying to generate a bad table...
+        
+        if (val === undefined ) {
+            return;
+        }
+        if(val == 'LineDetails'){
+            this.showLineDetails = true;
+        }
+        else if(val == 'Totals'){
+            this.showTotalTable = true;
+        }
+    }
+
     input_data_json = '{}';
+
     @api 
     get source () {
-        return "Hello";
+        return "";
     }
     set source (val) {
         // The setter is used to drive updates to the table, but there may be times when the
@@ -21,12 +57,6 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
         console.log('input_data_json--->'+this.input_data_json)
         this.generateData();
     }
-
-    /*connectedCallback() {
-        console.log('this.input_data_json1-->'+this.input_data_json);
-        console.log('selected--->'+this.selected);
-        console.log('tableData--->'+JSON.stringify(this.tableData));
-    }*/
 
     /**
      * Generates the data portion of the table
@@ -66,5 +96,14 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
     closeModal() {    
         // to close modal window set 'bShowModal' tarck value as false
         this.showModal = false;
+    }
+
+    handleButtonClick(event) {
+        this.showTotalModal = true;
+    }
+
+    closeTotalModal() {    
+        // to close modal window set 'bShowModal' tarck value as false
+        this.showTotalModal = false;
     }
 }

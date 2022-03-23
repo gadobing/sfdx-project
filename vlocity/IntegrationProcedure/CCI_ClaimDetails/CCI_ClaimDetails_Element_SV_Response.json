@@ -111,7 +111,7 @@
                                 "DisallowAmount": "0.00",
                                 "FeeSchedule": "BCBS",
                                 "ITSProviderAllowed": {
-                                    "Approved Amount": "100.00",
+                                    "ApprovedAmount": "100.00",
                                     "SupplementalAmount": "2.53",
                                     "SurchargeAmount": "0.00"
                                 },
@@ -229,7 +229,7 @@
                                 "DisallowAmount": "0.00",
                                 "FeeSchedule": "BCBS",
                                 "ITSProviderAllowed": {
-                                    "Approved Amount": "100.00",
+                                    "ApprovedAmount": "100.00",
                                     "SupplementalAmount": "2.53",
                                     "SurchargeAmount": "0.00"
                                 },
