@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DRP_CreateEligiblityHistory",
+    "Name": "DRE_RecordTypeEligibilityHistory",
     "OmniProcessId": {
         "Name": "CCI Member Plan",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -25,34 +25,22 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "BenefitPackage": "=%SetValues:Payload:EligibilityHistory:BenefitPackage%",
-            "ChangeId": "=%SetValues:Payload:EligibilityHistory:ChangeId%",
-            "CoverageEffectiveDate": "=%SetValues:Payload:EligibilityHistory:CoverageEffectiveDate%",
-            "CoverageEntryDate": "=%SetValues:Payload:EligibilityHistory:CoverageEntryDate%",
-            "CoverageTerminationDate": "=%SetValues:Payload:EligibilityHistory:CoverageTerminationDate%",
-            "Division": "=%SetValues:Payload:EligibilityHistory:Division%",
-            "EligibilityChangeReason": "=%SetValues:Payload:EligibilityHistory:EligibilityChangeReason%",
-            "Group": "=%SetValues:Payload:EligibilityHistory:Group%",
-            "MedicalHIPPATimeCredit": "=%SetValues:Payload:EligibilityHistory:MedicalHIPPATimeCredit%",
-            "MemberId": "=%SetValues:Payload:MemberId%",
-            "PlanId": "%DRP_CreateMember:MemberPlan_1:Id%",
-            "PreExistingEffectiveDate": "=%SetValues:Payload:EligibilityHistory:PreExistingEffectiveDate%",
-            "PreExistingTerminationDate": "=%SetValues:Payload:EligibilityHistory:PreExistingTerminationDate%",
-            "ProviderNetworkRegion": "=%SetValues:Payload:EligibilityHistory:ProviderNetworkRegion%",
-            "RecordTypeId": "%DRE_RecordTypeEligibilityHistory:RecordTypeId%",
-            "TobaccoUse": "=%SetValues:Payload:EligibilityHistory:TobaccoUse%"
+            "developerName": "Member_Plan"
         },
         "additionalOutput": {
         },
-        "bundle": "UpsertEligibilityHistory",
+        "bundle": "DRE_RecordType",
         "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+        ],
         "disOnTplt": false,
         "executionConditionalFormula": "",
-        "failOnStepError": false,
+        "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "label": "DataRaptorPostAction1",
+        "ignoreCache": false,
+        "label": "DataRaptorExtractAction1",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
@@ -63,8 +51,8 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Post Action",
+    "Type": "DataRaptor Extract Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRP_CreateEligiblityHistory"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRE_RecordTypeEligibilityHistory"
 }

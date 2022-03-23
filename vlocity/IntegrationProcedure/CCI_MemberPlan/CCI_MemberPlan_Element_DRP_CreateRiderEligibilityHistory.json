@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DRP_CreateEligiblityHistory",
+    "Name": "DRP_CreateRiderEligibilityHistory",
     "OmniProcessId": {
         "Name": "CCI Member Plan",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -66,5 +66,5 @@
     "Type": "DataRaptor Post Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRP_CreateEligiblityHistory"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRP_CreateRiderEligibilityHistory"
 }

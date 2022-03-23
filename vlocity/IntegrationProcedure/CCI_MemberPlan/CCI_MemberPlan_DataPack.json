@@ -1,5 +1,5 @@
 {
-    "CustomJavaScript": "{}",
+    "CustomJavaScript": "CCI_MemberPlan_SampleInput.json",
     "Description": "This will be used to retrieve the member plan from the callout",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": true,
@@ -10,15 +10,20 @@
     "Language": "Procedure",
     "Name": "CCI Member Plan",
     "OmniProcessElement": [
+        "CCI_MemberPlan_Element_SV_ServiceDetials.json",
+        "CCI_MemberPlan_Element_IP_Framework_GETCallout.json",
         "CCI_MemberPlan_Element_SetValues.json",
         "CCI_MemberPlan_Element_DRT_GetAccountId.json",
         "CCI_MemberPlan_Element_DRT_GetAccountIdForPolicyHolder.json",
         "CCI_MemberPlan_Element_DRT_GetRecordTypeForMemberPlan.json",
         "CCI_MemberPlan_Element_DRP_CreateMember.json",
         "CCI_MemberPlan_Element_SV_Riders.json",
+        "CCI_MemberPlan_Element_SV_EligibilityHistory.json",
         "CCI_MemberPlan_Element_SV_PolicyHistory.json",
         "CCI_MemberPlan_Element_LoopBlock_EligibilityHistory.json",
+        "CCI_MemberPlan_Element_DRE_RecordTypeEligibilityHistory.json",
         "CCI_MemberPlan_Element_DRP_CreateEligiblityHistory.json",
+        "CCI_MemberPlan_Element_DRP_CreateRiderEligibilityHistory.json",
         "CCI_MemberPlan_Element_LoopBlock_Rider.json",
         "CCI_MemberPlan_Element_DRE_RecordTypeForRider.json",
         "CCI_MemberPlan_Element_DRT_GetAccountForRider.json",
@@ -36,5 +41,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/MemberPlan/Procedure",
-    "WebComponentKey": "6babf333-24b4-011a-3b36-1fe46944e0b8"
+    "WebComponentKey": "a5499c11-db5b-e2c0-67c5-e1a0df918f25"
 }
