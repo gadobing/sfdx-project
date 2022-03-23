@@ -31,12 +31,12 @@ global class CCI_InteractionLauncherService implements %vlocity_namespace%.Vloci
                 }
                 if(!String.isEmpty(FirstName)){
                     //String searchString = '%' + FirstName + '%';
-                    String QueryLine =' FirstName Like \'%' + FirstName + '%\' ';
+                    String QueryLine =' FirstName Like \'' + FirstName + '%\' ';
                     queryLines.add(QueryLine);
                 }
                 if(!String.isEmpty(LastName)){
                     //String searchString = '%' + LastName + '%';
-                    String QueryLine =' LastName Like \'%' + LastName + '%\' ';
+                    String QueryLine =' LastName Like \'' + LastName + '%\' ';
                     queryLines.add(QueryLine);
                 }
                 if(!String.isEmpty(SSN)){
