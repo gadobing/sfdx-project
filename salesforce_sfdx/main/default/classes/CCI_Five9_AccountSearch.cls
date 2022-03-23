@@ -94,6 +94,6 @@ public class CCI_Five9_AccountSearch {
         Map<String, Object> ipOutput = new Map<String, Object> ();
         Map<String, Object> ipOptions = new Map<String, Object> ();
         ipInput.put('memberId', memberId);
-        ipOutput = (Map<String, Object>) %vlocity_namespace%.IntegrationProcedureService.runIntegrationService('CCI_RefreshMember', ipInput, ipOptions);
+        ipOutput = (Map<String, Object>) omnistudio.IntegrationProcedureService.runIntegrationService('CCI_RefreshMember', ipInput, ipOptions);
     }
  }

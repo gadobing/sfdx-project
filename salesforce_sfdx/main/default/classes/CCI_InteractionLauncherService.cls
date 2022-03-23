@@ -1,4 +1,4 @@
-global class CCI_InteractionLauncherService implements %vlocity_namespace%.VlocityOpenInterface{
+global class CCI_InteractionLauncherService implements omnistudio.VlocityOpenInterface{
     global Boolean invokeMethod(String methodName, Map<String,Object> input, Map<String,Object> output, Map<String,Object> options) {
         Boolean result = true;
         try{
