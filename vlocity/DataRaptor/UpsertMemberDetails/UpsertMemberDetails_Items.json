@@ -91,6 +91,7 @@
         "OutputCreationSequence": 1,
         "OutputFieldName": "Email_Address__c",
         "OutputObjectName": "Account",
+        "TransformValueMappings": "{}",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
@@ -147,6 +148,25 @@
         },
         "OutputCreationSequence": 1,
         "OutputFieldName": "FirstName",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpsertMemberDetailsCustom9625",
+        "InputFieldName": "GenderValue",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpsertMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "UpsertMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpsertMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HealthCloudGA__Gender__pc",
         "OutputObjectName": "Account",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
@@ -440,6 +460,25 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "UpsertMemberDetailsCustom492",
+        "InputFieldName": "PrimaryEmail",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpsertMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "UpsertMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpsertMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PersonEmail",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "UpsertMemberDetailsCustom4816",
         "InputFieldName": "HomePhone",
         "IsDisabled": false,
@@ -535,6 +574,25 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "UpsertMemberDetailsCustom525",
+        "InputFieldName": "RecordTypeId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpsertMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "UpsertMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpsertMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "RecordTypeId",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "UpsertMemberDetailsCustom8645",
         "InputFieldName": "SSN",
         "IsDisabled": false,
@@ -574,7 +632,7 @@
     },
     {
         "GlobalKey": "UpsertMemberDetailsCustom5605",
-        "InputFieldName": "SocialWorkerDepartment1",
+        "InputFieldName": "SocialWorkerDepartment2",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -593,7 +651,7 @@
     },
     {
         "GlobalKey": "UpsertMemberDetailsCustom3396",
-        "InputFieldName": "SocialWorkerName1",
+        "InputFieldName": "SocialWorkerName2",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -612,7 +670,7 @@
     },
     {
         "GlobalKey": "UpsertMemberDetailsCustom3486",
-        "InputFieldName": "SocialWorkerPhone1",
+        "InputFieldName": "SocialWorkerPhone2",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -631,7 +689,7 @@
     },
     {
         "GlobalKey": "UpsertMemberDetailsCustom603",
-        "InputFieldName": "Status",
+        "InputFieldName": "StatusValue",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,

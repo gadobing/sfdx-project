@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "RefreshMember",
+    "OmniProcessElement": [
+        "CCI_RefreshMember_Element_IP_Member.json",
+        "CCI_RefreshMember_Element_IP_MemberPlan.json",
+        "CCI_RefreshMember_Element_RA_Response.json"
+    ],
+    "OmniProcessKey": "CCI_RefreshMember",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_RefreshMember_PropertySetConfig.json",
+    "SubType": "RefreshMember",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/RefreshMember/Procedure",
+    "WebComponentKey": "a2bcd018-1cc0-e89d-760b-34112ee002da"
+}

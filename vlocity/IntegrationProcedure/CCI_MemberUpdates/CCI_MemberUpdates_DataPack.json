@@ -10,6 +10,7 @@
     "Name": "MemberUpdates",
     "OmniProcessElement": [
         "CCI_MemberUpdates_Element_SetValues.json",
+        "CCI_MemberUpdates_Element_DR_GetAccountRecordType.json",
         "CCI_MemberUpdates_Element_DRT_GetAccountId.json",
         "CCI_MemberUpdates_Element_DRP_MemberUpdates.json",
         "CCI_MemberUpdates_Element_DRP_PhysicalAddress.json",
@@ -17,8 +18,10 @@
         "CCI_MemberUpdates_Element_DRP_ResponsiblePartyBillingAddress.json",
         "CCI_MemberUpdates_Element_DRP_CustodialPartyAddress.json",
         "CCI_MemberUpdates_Element_DRP_PersonalHarm.json",
+        "CCI_MemberUpdates_Element_DR_GetCommentsRecordType.json",
         "CCI_MemberUpdates_Element_LoopBlock_Comments.json",
         "CCI_MemberUpdates_Element_DRP_UpdateComments.json",
+        "CCI_MemberUpdates_Element_DR_GetAlertRecordType.json",
         "CCI_MemberUpdates_Element_LoopBlock_Alerts.json",
         "CCI_MemberUpdates_Element_DRPUpdateAlerts.json",
         "CCI_MemberUpdates_Element_ResponseAction1.json"
@@ -31,5 +34,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/MemberUpdates/Procedure",
-    "WebComponentKey": "f99319f7-e685-49c8-d0cf-a8c134e5c745"
+    "WebComponentKey": "514759e0-d3a4-1ff5-2b55-324a9a7f7a90"
 }
