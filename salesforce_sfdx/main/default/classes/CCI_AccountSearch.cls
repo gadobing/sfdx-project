@@ -8,7 +8,7 @@
 * @Version          Date              Changes made 
     NK		    02/15/2022		  Initial Draft
 ***********************************************************************************************/
-global with sharing class CCI_AccountSearch implements %vlocity_namespace%.VlocityOpenInterface2 {
+global with sharing class CCI_AccountSearch implements omnistudio.VlocityOpenInterface2 {
     /*************************************************************************************
     @Description : Execute method of the Queueable
 	@Author 	 : SFDC
