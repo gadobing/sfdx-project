@@ -37,7 +37,9 @@
         "hide": false,
         "inputWidth": 12,
         "label": "SSN",
-        "mask": null,
+        "mask": "999-99-9999",
+        "maxLength": 11,
+        "minLength": 0,
         "pattern": "",
         "placeholder": "",
         "ptrnErrText": "",
@@ -49,7 +51,7 @@
         "show": null,
         "showInputWidth": false
     },
-    "Type": "Number",
+    "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AccountLast4SocialSecurityNumber"
