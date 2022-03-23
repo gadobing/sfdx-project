@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BenefitPackageValue",
+    "Name": "TextBlock34",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -29,11 +29,11 @@
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<p>%Response:BenefitPackage:id% - %Response:BenefitPackage:description%</p>",
+        "text": "<p>%Response:PolicyHolder:MemberId%</p>",
         "textKey": ""
     },
     "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/BenefitPackageValue"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/TextBlock34"
 }

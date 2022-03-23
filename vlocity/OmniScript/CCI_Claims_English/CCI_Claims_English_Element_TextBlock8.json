@@ -29,7 +29,7 @@
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<p>%Response:Provider:FirstName% %Response:Provider:LastName%</p>",
+        "text": "<p>%Response:Provider:id%&nbsp; - %Response:Provider:FirstName% %Response:Provider:LastName%</p>",
         "textKey": ""
     },
     "Type": "Text Block",

@@ -29,7 +29,7 @@
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<p>%Response:ReferringProvider:FirstName% %Response:ReferringProvider:LastName%</p>",
+        "text": "<p class=\"p1\">%Response:ReferringProvider:id% - %Response:ReferringProvider:FirstName% %Response:ReferringProvider:LastName%</p>",
         "textKey": ""
     },
     "Type": "Text Block",

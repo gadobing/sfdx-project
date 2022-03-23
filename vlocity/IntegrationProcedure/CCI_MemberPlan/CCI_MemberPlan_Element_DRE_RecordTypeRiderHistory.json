@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DRE_RecordTypeForRider",
+    "Name": "DRE_RecordTypeRiderHistory",
     "OmniProcessId": {
         "Name": "CCI Member Plan",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "LoopBlock_Rider",
+        "Name": "LoopBlock_EligibilityHistory",
         "OmniProcessId": {
             "Name": "CCI Member Plan",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,16 +17,16 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/LoopBlock_Rider",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/LoopBlock_EligibilityHistory",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "LoopBlock_Rider",
+    "ParentElementName": "LoopBlock_EligibilityHistory",
     "ParentElementType": "Loop Block",
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
             "developerName": "Riders_Surcharges",
-            "objectName": "MemberPlan"
+            "objectName": "Eligibility_History__c"
         },
         "additionalOutput": {
         },
@@ -55,5 +55,5 @@
     "Type": "DataRaptor Extract Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRE_RecordTypeForRider"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRE_RecordTypeRiderHistory"
 }

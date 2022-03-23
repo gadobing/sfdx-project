@@ -36,7 +36,7 @@
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Service End Date",
+        "label": "End Date",
         "mask": "",
         "maxLength": 255,
         "minLength": 0,

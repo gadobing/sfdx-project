@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BenefitPackageValue",
+    "Name": "TotalsBlock",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block7",
+        "Name": "ClaimDetail",
         "OmniProcessId": {
             "Name": "Claims",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,23 +17,26 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Block7",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ClaimDetail",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block7",
-    "ParentElementType": "Block",
+    "ParentElementName": "ClaimDetail",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 5,
-        "dataJSON": false,
-        "label": "TextBlock2",
-        "sanitize": false,
-        "show": null,
-        "text": "<p>%Response:BenefitPackage:id% - %Response:BenefitPackage:description%</p>",
-        "textKey": ""
+        "accessibleInFutureSteps": false,
+        "collapse": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "hide": false,
+        "label": "Totals",
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
     },
-    "Type": "Text Block",
+    "Type": "Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/BenefitPackageValue"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/TotalsBlock"
 }

@@ -36,7 +36,7 @@
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Service Start Date",
+        "label": "Start Date",
         "mask": "",
         "maxLength": 255,
         "minLength": 0,

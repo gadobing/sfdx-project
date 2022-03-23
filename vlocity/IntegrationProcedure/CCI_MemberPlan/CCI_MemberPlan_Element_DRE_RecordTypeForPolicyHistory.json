@@ -25,7 +25,8 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "developerName": "Plan"
+            "developerName": "Plan",
+            "objectName": "MemberPlan"
         },
         "additionalOutput": {
         },

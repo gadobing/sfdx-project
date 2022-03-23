@@ -1,7 +1,7 @@
 {
-    "IsActive": true,
+    "IsActive": false,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BenefitPackageValue",
+    "Name": "TotalsLWC",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block7",
+        "Name": "TotalsBlock",
         "OmniProcessId": {
             "Name": "Claims",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,23 +17,32 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Block7",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/TotalsBlock",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block7",
+    "ParentElementName": "TotalsBlock",
     "ParentElementType": "Block",
     "PropertySetConfig": {
-        "HTMLTemplateId": "",
-        "controlWidth": 5,
-        "dataJSON": false,
-        "label": "TextBlock2",
-        "sanitize": false,
-        "show": null,
-        "text": "<p>%Response:BenefitPackage:id% - %Response:BenefitPackage:description%</p>",
-        "textKey": ""
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "source",
+                "source": "%Response:DRG%"
+            },
+            {
+                "name": "table",
+                "source": "Totals"
+            }
+        ],
+        "hide": false,
+        "label": "",
+        "lwcName": "cci_ViewLineItemDetails",
+        "show": null
     },
-    "Type": "Text Block",
+    "Type": "Custom Lightning Web Component",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/BenefitPackageValue"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/TotalsLWC"
 }

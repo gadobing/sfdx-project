@@ -36,7 +36,7 @@
         "helpTextPos": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Clinic Full Name",
+        "label": "Clinic Name",
         "mask": "",
         "maxLength": 255,
         "minLength": 0,

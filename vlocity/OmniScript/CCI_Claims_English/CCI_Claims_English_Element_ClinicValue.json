@@ -29,7 +29,7 @@
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<p>%Response:Clinic:FullName%</p>",
+        "text": "<p class=\"p1\"></p>\n<p>%Response:Clinic:id% - %Response:Clinic:FullName%</p>",
         "textKey": ""
     },
     "Type": "Text Block",

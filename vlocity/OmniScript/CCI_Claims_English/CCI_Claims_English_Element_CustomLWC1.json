@@ -30,6 +30,10 @@
             {
                 "name": "source",
                 "source": "%Response:DRG:Lines%"
+            },
+            {
+                "name": "table",
+                "source": "LineDetails"
             }
         ],
         "hide": false,

@@ -24,6 +24,30 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "objectName",
+        "GlobalKey": "DRE_RecordTypeCustom6487",
+        "InputFieldName": "SobjectType",
+        "InputObjectName": "RecordType",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRE_RecordType",
+        "OmniDataTransformationId": {
+            "Name": "DRE_RecordType",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRE_RecordType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "RecordType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "DRE_RecordTypeCustom5517",
         "InputFieldName": "RecordType:SobjectType",
         "IsDisabled": false,

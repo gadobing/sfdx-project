@@ -29,7 +29,7 @@
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<p>%Response:PCPAsOfDOS:FirstName% %Response:PCPAsOfDOS:LastName%</p>",
+        "text": "<p class=\"p1\">%Response:PCPAsOfDOS:id% - %Response:PCPAsOfDOS:FirstName% %Response:PCPAsOfDOS:LastName%</p>",
         "textKey": ""
     },
     "Type": "Text Block",

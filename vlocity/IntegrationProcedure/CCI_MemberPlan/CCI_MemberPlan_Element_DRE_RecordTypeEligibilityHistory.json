@@ -25,7 +25,8 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "developerName": "Member_Plan"
+            "developerName": "Member_Plan",
+            "objectName": "Eligibility_History__c"
         },
         "additionalOutput": {
         },

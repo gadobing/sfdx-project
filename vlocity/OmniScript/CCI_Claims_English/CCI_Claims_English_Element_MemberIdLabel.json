@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BenefitPackageValue",
+    "Name": "MemberIdLabel",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -24,16 +24,16 @@
     "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 5,
+        "controlWidth": 7,
         "dataJSON": false,
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<p>%Response:BenefitPackage:id% - %Response:BenefitPackage:description%</p>",
+        "text": "<p><strong>Policy Holder Member Id:</strong></p>",
         "textKey": ""
     },
     "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/BenefitPackageValue"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/MemberIdLabel"
 }

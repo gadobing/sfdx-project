@@ -34,7 +34,6 @@
             "EligibilityChangeReason": "=%SetValues:Payload:EligibilityHistory:EligibilityChangeReason%",
             "Group": "=%SetValues:Payload:EligibilityHistory:Group%",
             "MedicalHIPPATimeCredit": "=%SetValues:Payload:EligibilityHistory:MedicalHIPPATimeCredit%",
-            "MemberId": "=%SetValues:Payload:MemberId%",
             "PlanId": "%DRP_CreateMember:MemberPlan_1:Id%",
             "PreExistingEffectiveDate": "=%SetValues:Payload:EligibilityHistory:PreExistingEffectiveDate%",
             "PreExistingTerminationDate": "=%SetValues:Payload:EligibilityHistory:PreExistingTerminationDate%",

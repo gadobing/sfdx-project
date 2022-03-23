@@ -24,6 +24,8 @@
         "CCI_MemberPlan_Element_DRE_RecordTypeEligibilityHistory.json",
         "CCI_MemberPlan_Element_DRP_CreateEligiblityHistory.json",
         "CCI_MemberPlan_Element_DRP_CreateRiderEligibilityHistory.json",
+        "CCI_MemberPlan_Element_DRE_RecordTypeRiderHistory.json",
+        "CCI_MemberPlan_Element_DRP_CreateRiderHistory.json",
         "CCI_MemberPlan_Element_LoopBlock_Rider.json",
         "CCI_MemberPlan_Element_DRE_RecordTypeForRider.json",
         "CCI_MemberPlan_Element_DRT_GetAccountForRider.json",
@@ -41,5 +43,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/MemberPlan/Procedure",
-    "WebComponentKey": "a5499c11-db5b-e2c0-67c5-e1a0df918f25"
+    "WebComponentKey": "79658de1-37a3-f970-2a20-9c87fb860e8e"
 }

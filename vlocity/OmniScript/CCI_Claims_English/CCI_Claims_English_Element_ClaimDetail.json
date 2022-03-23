@@ -34,7 +34,7 @@
             "remoteTimeout": 30000,
             "typeFilter": ""
         },
-        "label": "",
+        "label": "Detail View",
         "message": {
         },
         "nextLabel": "View EOB",

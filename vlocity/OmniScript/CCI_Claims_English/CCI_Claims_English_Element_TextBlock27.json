@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BenefitPackageValue",
+    "Name": "TextBlock27",
     "OmniProcessId": {
         "Name": "Claims",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Block7",
+        "Name": "Block5",
         "OmniProcessId": {
             "Name": "Claims",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,23 +17,23 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Block7",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Block5",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Block7",
+    "ParentElementName": "Block5",
     "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 5,
+        "controlWidth": 7,
         "dataJSON": false,
         "label": "TextBlock2",
         "sanitize": false,
         "show": null,
-        "text": "<p>%Response:BenefitPackage:id% - %Response:BenefitPackage:description%</p>",
+        "text": "<p><strong>Contract Id:</strong></p>",
         "textKey": ""
     },
     "Type": "Text Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/BenefitPackageValue"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/TextBlock27"
 }

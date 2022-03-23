@@ -29,7 +29,7 @@
         "conditionType": "Hide if False",
         "controlWidth": 12,
         "hide": false,
-        "label": "Claim Details",
+        "label": "Claim Information",
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,

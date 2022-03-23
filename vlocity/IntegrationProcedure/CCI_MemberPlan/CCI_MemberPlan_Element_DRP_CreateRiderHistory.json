@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DRE_RecordTypeForRider",
+    "Name": "DRP_CreateRiderHistory",
     "OmniProcessId": {
         "Name": "CCI Member Plan",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "LoopBlock_Rider",
+        "Name": "LoopBlock_EligibilityHistory",
         "OmniProcessId": {
             "Name": "CCI Member Plan",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,31 +17,33 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/LoopBlock_Rider",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/LoopBlock_EligibilityHistory",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "LoopBlock_Rider",
+    "ParentElementName": "LoopBlock_EligibilityHistory",
     "ParentElementType": "Loop Block",
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "developerName": "Riders_Surcharges",
-            "objectName": "MemberPlan"
+            "Amount": "%EligibilityHistory:Riders:Amount%",
+            "Parent": "%DRP_CreateRiderEligibilityHistory:Eligibility_History__c_1:Id%",
+            "RecordTypeId": "%DRE_RecordTypeRiderHistory:RecordTypeId%",
+            "RiderEffectiveDate": "%EligibilityHistory:Riders:RiderEffectiveDate%",
+            "RiderTerminationDate": "%EligibilityHistory:Riders:RiderTerminationDate%",
+            "RiderType": "%EligibilityHistory:Riders:RiderType%",
+            "ServiceType": "%EligibilityHistory:Riders:ServiceType%"
         },
         "additionalOutput": {
         },
-        "bundle": "DRE_RecordType",
+        "bundle": "UpsertRiderHistory",
         "chainOnStep": false,
-        "dataRaptor Input Parameters": [
-        ],
         "disOnTplt": false,
         "executionConditionalFormula": "",
-        "failOnStepError": true,
+        "failOnStepError": false,
         "failureConditionalFormula": "",
         "failureResponse": {
         },
-        "ignoreCache": false,
-        "label": "DataRaptorExtractAction1",
+        "label": "DataRaptorPostAction1",
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
@@ -52,8 +54,8 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Extract Action",
+    "Type": "DataRaptor Post Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRE_RecordTypeForRider"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRP_CreateRiderHistory"
 }
