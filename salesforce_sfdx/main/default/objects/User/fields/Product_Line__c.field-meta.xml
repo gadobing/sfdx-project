@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Line__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Line</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABCBS</fullName>
+                <default>false</default>
+                <label>ABCBS</label>
+            </value>
+            <value>
+                <fullName>BANA</fullName>
+                <default>false</default>
+                <label>BANA</label>
+            </value>
+            <value>
+                <fullName>BARB</fullName>
+                <default>false</default>
+                <label>BARB</label>
+            </value>
+            <value>
+                <fullName>Exchange</fullName>
+                <default>false</default>
+                <label>Exchange</label>
+            </value>
+            <value>
+                <fullName>FEP</fullName>
+                <default>false</default>
+                <label>FEP</label>
+            </value>
+            <value>
+                <fullName>HA</fullName>
+                <default>false</default>
+                <label>HA</label>
+            </value>
+            <value>
+                <fullName>Medicare Advantage</fullName>
+                <default>false</default>
+                <label>Medicare Advantage</label>
+            </value>
+            <value>
+                <fullName>BlueCard</fullName>
+                <default>false</default>
+                <label>BlueCard</label>
+            </value>
+            <value>
+                <fullName>ASE/PSE</fullName>
+                <default>false</default>
+                <label>ASE/PSE</label>
+            </value>
+            <value>
+                <fullName>Regional</fullName>
+                <default>false</default>
+                <label>Regional</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>USAble</fullName>
+                <default>false</default>
+                <label>USAble</label>
+            </value>
+            <value>
+                <fullName>ABCBS Reg Business</fullName>
+                <default>false</default>
+                <label>ABCBS Reg Business</label>
+            </value>
+            <value>
+                <fullName>Medicare Advantage/RX</fullName>
+                <default>false</default>
+                <label>Medicare Advantage/RX</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>SIU</fullName>
+                <default>false</default>
+                <label>SIU</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Utilization review</controllingFieldValue>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Claim support</controllingFieldValue>
+            <valueName>BANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilization review</controllingFieldValue>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Claim support</controllingFieldValue>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>BARB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Claim support</controllingFieldValue>
+            <controllingFieldValue>CRM Operations &amp; Service</controllingFieldValue>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>Exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>HA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Claim support</controllingFieldValue>
+            <valueName>ABCBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>FEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <valueName>BlueCard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>ASE/PSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <valueName>Regional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>CRM Operations &amp; Service</controllingFieldValue>
+            <valueName>Dental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>Claim support</controllingFieldValue>
+            <valueName>USAble</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>CRM Operations &amp; Service</controllingFieldValue>
+            <valueName>ABCBS Reg Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>CRM Operations &amp; Service</controllingFieldValue>
+            <valueName>Medicare Advantage/RX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <valueName>Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <valueName>SIU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <valueName>Medicare Advantage</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

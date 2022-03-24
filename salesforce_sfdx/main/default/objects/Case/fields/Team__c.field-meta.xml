@@ -14,37 +14,37 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Exchange CCM Adjustments</fullName>
+                <fullName>ECA</fullName>
                 <default>false</default>
                 <label>Exchange CCM Adjustments</label>
             </value>
             <value>
-                <fullName>Exchange Corrected Claims</fullName>
+                <fullName>ECC</fullName>
                 <default>false</default>
                 <label>Exchange Corrected Claims</label>
             </value>
             <value>
-                <fullName>Exchange CSR Adjustments</fullName>
+                <fullName>ECSA</fullName>
                 <default>false</default>
                 <label>Exchange CSR Adjustments</label>
             </value>
             <value>
-                <fullName>Exchange Escalated NDR Adjustment Issues</fullName>
+                <fullName>EENA</fullName>
                 <default>false</default>
                 <label>Exchange Escalated NDR Adjustment Issues</label>
             </value>
             <value>
-                <fullName>Exchange Instate Eligibility</fullName>
+                <fullName>EIE</fullName>
                 <default>false</default>
                 <label>Exchange Instate Eligibility</label>
             </value>
             <value>
-                <fullName>Exchange Instate Re-Review</fullName>
+                <fullName>EIRR</fullName>
                 <default>false</default>
                 <label>Exchange Instate Re-Review</label>
             </value>
             <value>
-                <fullName>Exchange Overpayments/Refunds - Claims</fullName>
+                <fullName>EORC</fullName>
                 <default>false</default>
                 <label>Exchange Overpayments/Refunds - Claims</label>
             </value>
@@ -3187,31 +3187,31 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>Exchange CCM Adjustments</valueName>
+            <valueName>ECA</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>Exchange Corrected Claims</valueName>
+            <valueName>ECC</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>Exchange CSR Adjustments</valueName>
+            <valueName>ECSA</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>Exchange Escalated NDR Adjustment Issues</valueName>
+            <valueName>EENA</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>Exchange Instate Eligibility</valueName>
+            <valueName>EIE</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>Exchange Instate Re-Review</valueName>
+            <valueName>EIRR</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>Exchange Overpayments/Refunds - Claims</valueName>
+            <valueName>EORC</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
