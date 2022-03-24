@@ -138,15 +138,15 @@
                 "EmployeeHireDate": "2008-08-08",
                 "EmploymentStatus": "ACTIVE",
                 "ExchangeId": "60003644900",
-                "FirstName": "James",
+                "FirstName": "Homer",
                 "Gender": "M",
                 "Languages": {
                     "PreferredLanguage": "Spanish",
                     "SecondaryLanguage": "English"
                 },
-                "LastName": "Smith Member",
+                "LastName": "Simpson",
                 "MedicareHicMbiNumber": "",
-                "MemberId": "K12345670000",
+                "MemberId": "12972630W05",
                 "MiddleName": "",
                 "NamePrefix": "Mr",
                 "NameSuffix": "Jr",

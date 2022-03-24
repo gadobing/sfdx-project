@@ -53,7 +53,7 @@
                             "ProviderNetworkRegion": "",
                             "Riders": [
                                 {
-                                    "Amount": "153.12",
+                                    "Amount": "154.12",
                                     "RiderEffectiveDate": "2021-06-01",
                                     "RiderTerminationDate": "2021-06-01",
                                     "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
@@ -104,7 +104,7 @@
                     "Group": "840000",
                     "LineOfBusiness": "MEDICAL",
                     "MedicalHIPPATimeCredit": "",
-                    "MemberId": "K12345670000",
+                    "MemberId": "12972630W05",
                     "Network": "TRUE BLUE PPO",
                     "PolicyHistory": [
                         {
@@ -148,7 +148,7 @@
                     },
                     "Riders": [
                         {
-                            "Amount": "153.12",
+                            "Amount": "152.12",
                             "RiderEffectiveDate": "2021-06-01",
                             "RiderTerminationDate": "2021-06-01",
                             "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
