@@ -42,7 +42,18 @@
         "selectCheckBox": "openChosenAccount",
         "selectMode": "Single",
         "selectSobject": "",
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "hasData"
+                    }
+                ]
+            }
+        },
         "sobjectMapping": [
         ],
         "sumElement": "",

@@ -54,8 +54,8 @@
             "preTransformBundle": ""
         },
         "remoteTimeout": 30000,
-        "responseJSONNode": "Result:Detail",
-        "responseJSONPath": "Detail",
+        "responseJSONNode": "SearchResult",
+        "responseJSONPath": "",
         "sendJSONNode": "",
         "sendJSONPath": "",
         "show": null,

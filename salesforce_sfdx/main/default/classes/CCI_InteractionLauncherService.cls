@@ -1,8 +1,9 @@
-global class CCI_InteractionLauncherService implements omnistudio.VlocityOpenInterface{
+global class CCI_InteractionLauncherService implements %vlocity_namespace%.VlocityOpenInterface{
     global Boolean invokeMethod(String methodName, Map<String,Object> input, Map<String,Object> output, Map<String,Object> options) {
         Boolean result = true;
         try{
             if(methodName.equals('searchMember')){
+                output.put('hasData', false);
                 String BusinessLine = String.valueOf(options.get('BusinessLine'));
                 String MemberId = String.valueOf(options.get('MemberId'));
                 String FirstName = String.valueOf(options.get('FirstName'));
@@ -36,7 +37,7 @@ global class CCI_InteractionLauncherService implements omnistudio.VlocityOpenInt
                 }
                 if(!String.isEmpty(LastName)){
                     String searchString ='\'' + LastName  + '';
-                    String QueryLine =' LastName Like ' + searchString + '%\' ';
+                    String QueryLine =' LastName Like ' + searchString + '%\' ' ;
                     queryLines.add(QueryLine);
                 }
                 if(!String.isEmpty(SSN)){
@@ -59,8 +60,9 @@ global class CCI_InteractionLauncherService implements omnistudio.VlocityOpenInt
                 String queryBody = String.join(queryLines,' AND ');
                 String query = QueryHeader + queryBody;
                 List<Account> sobjList = Database.query(query);
+                output.put('Detail', sobjList);
                 if(!sobjList.isEmpty()){
-                    output.put('Detail', sobjList);
+                    output.put('hasData', true);
                 }
             }
         } catch(Exception e){

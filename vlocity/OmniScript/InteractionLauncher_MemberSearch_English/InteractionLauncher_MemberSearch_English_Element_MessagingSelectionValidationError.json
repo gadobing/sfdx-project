@@ -41,7 +41,18 @@
                 "value": false
             }
         ],
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "hasData"
+                    }
+                ]
+            }
+        },
         "validateExpression": {
             "group": {
                 "operator": "AND",

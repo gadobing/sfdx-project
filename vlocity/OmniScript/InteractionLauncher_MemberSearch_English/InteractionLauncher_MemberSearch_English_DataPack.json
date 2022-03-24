@@ -22,6 +22,7 @@
         "InteractionLauncher_MemberSearch_English_Element_SetErrors2.json",
         "InteractionLauncher_MemberSearch_English_Element_DataRaptorExtractActionGetMember.json",
         "InteractionLauncher_MemberSearch_English_Element_RemoteActionGetMembers.json",
+        "InteractionLauncher_MemberSearch_English_Element_SetValuesAssignSearchResult.json",
         "InteractionLauncher_MemberSearch_English_Element_Result.json",
         "InteractionLauncher_MemberSearch_English_Element_NoResultMessage.json",
         "InteractionLauncher_MemberSearch_English_Element_LineBreak1.json",
@@ -48,5 +49,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/InteractionLauncher/MemberSearch/English",
-    "WebComponentKey": "75897bcb-f20e-94bb-190a-f249a7274f37"
+    "WebComponentKey": "2f42cabb-a321-9916-bb5c-afadc834f7c5"
 }
