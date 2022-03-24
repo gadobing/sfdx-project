@@ -147,10 +147,10 @@ global class CCI_InteractionLauncherService implements omnistudio.VlocityOpenInt
             if(!String.isEmpty(MemberPhoneNumber)) {
                 query+=' AND (PersonMobilePhone = \''+MemberPhoneNumber+'\' OR PersonHomePhone = \''+MemberPhoneNumber+'\' OR Work_Phone__c = \''+MemberPhoneNumber+'\')';
             }
-
-            // if(MemberLast4SocialSecurityNumber != null) {
-            //     query+=' AND SSN__c = \''+MemberLast4SocialSecurityNumber+'\'';
-            // }
+            
+            if(!String.isEmpty(MemberID)) {
+                query+=' AND Id IN (SELECT MemberId FROM MemberPlan WHERE MemberNumber = \''+MemberID+'\')';
+            }
 
             if(!String.isEmpty(MemberLast4SocialSecurityNumber)) {
                 query+=' AND SSN__c = \''+MemberLast4SocialSecurityNumber+'\'';
