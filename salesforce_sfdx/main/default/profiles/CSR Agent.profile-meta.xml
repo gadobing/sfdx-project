@@ -4491,6 +4491,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Preferred_Spoken_Language__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Coverage_Poilicy_URL__c</field>
         <readable>true</readable>
     </fieldPermissions>
