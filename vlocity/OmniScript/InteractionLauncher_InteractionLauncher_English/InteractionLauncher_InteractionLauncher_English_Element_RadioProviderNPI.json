@@ -26,7 +26,7 @@
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
         "conditionType": "Hide if False",
-        "controlWidth": 4,
+        "controlWidth": 3,
         "controllingField": {
             "element": "",
             "source": "",

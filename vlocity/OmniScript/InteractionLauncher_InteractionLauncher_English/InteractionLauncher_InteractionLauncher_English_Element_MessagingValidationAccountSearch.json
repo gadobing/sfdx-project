@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "BlockName",
+    "Name": "MessagingValidationAccountSearch",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "VerifyMember",
+        "Name": "AccountSearch",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,47 +17,46 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/VerifyMember",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AccountSearch",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "VerifyMember",
+    "ParentElementName": "AccountSearch",
     "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "accessibleInFutureSteps": false,
-        "collapse": false,
-        "conditionType": "Hide if False",
         "controlWidth": 12,
-        "hide": false,
+        "hideLabel": true,
         "label": "",
-        "repeat": false,
-        "repeatClone": false,
-        "repeatLimit": null,
-        "show": {
+        "messages": [
+            {
+                "active": true,
+                "text": "Please fill one of the fields to proceed",
+                "type": "Comment",
+                "value": true
+            },
+            {
+                "active": false,
+                "text": "",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": null,
+        "validateExpression": {
             "group": {
                 "operator": "AND",
                 "rules": [
                     {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "Output:FirstName"
-                    },
-                    {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "Output:LastName"
-                    },
-                    {
                         "condition": "=",
                         "data": "false",
-                        "field": "AuthenticationNotNeededCheck"
+                        "field": "FormulaValidationFields"
                     }
                 ]
             }
         }
     },
-    "Type": "Block",
+    "Type": "Validation",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockName"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/MessagingValidationAccountSearch"
 }

@@ -41,11 +41,6 @@
                         "condition": "<>",
                         "data": null,
                         "field": "Output:DateOfBirth"
-                    },
-                    {
-                        "condition": "=",
-                        "data": "false",
-                        "field": "AuthenticationNotNeededCheck"
                     }
                 ]
             }

@@ -41,11 +41,6 @@
                         "condition": "<>",
                         "data": null,
                         "field": "Output:FirstName"
-                    },
-                    {
-                        "condition": "=",
-                        "data": "false",
-                        "field": "authenticationNeededCheckProvider"
                     }
                 ]
             }

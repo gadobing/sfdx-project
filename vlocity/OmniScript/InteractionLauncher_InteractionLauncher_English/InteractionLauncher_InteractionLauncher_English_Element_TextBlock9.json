@@ -28,18 +28,7 @@
         "dataJSON": false,
         "label": "TextBlock1",
         "sanitize": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "=",
-                        "data": "false",
-                        "field": "AuthenticationNeededCheckFacility"
-                    }
-                ]
-            }
-        },
+        "show": null,
         "text": "<h2>&nbsp;</h2>\n<h2>Caller: %Output:Name%&nbsp;</h2>",
         "textKey": ""
     },

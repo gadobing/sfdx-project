@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "Last4DigitSocialSecurityNumber",
+    "Name": "Block10",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "Detail",
+        "Name": "VerifyMember",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,40 +17,37 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Detail",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/VerifyMember",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "Detail",
-    "ParentElementType": "Edit Block",
+    "ParentElementName": "VerifyMember",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "autocomplete": null,
+        "collapse": false,
         "conditionType": "Hide if False",
         "controlWidth": 12,
-        "debounceValue": 0,
-        "defaultValue": null,
-        "disOnTplt": true,
-        "help": false,
-        "helpText": "",
-        "helpTextPos": "",
         "hide": false,
-        "inputWidth": 12,
         "label": "",
-        "mask": null,
-        "pattern": "",
-        "placeholder": "",
-        "ptrnErrText": "",
-        "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "required": false,
-        "show": null,
-        "showInputWidth": false
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Output:MailingAddress"
+                    }
+                ]
+            }
+        }
     },
-    "Type": "Number",
+    "Type": "Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Last4DigitSocialSecurityNumber"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Block10"
 }
