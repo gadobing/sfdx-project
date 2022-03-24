@@ -1,5 +1,5 @@
 import { LightningElement,api,track } from 'lwc';
-import { OmniscriptBaseMixin } from "omnistudio/omniscriptBaseMixin";
+import { OmniscriptBaseMixin } from "%vlocity_namespace%/omniscriptBaseMixin";
 
 export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(LightningElement){
     @track displayRows = [];
@@ -8,6 +8,8 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
     @track selectedRow;
     @track showLineDetails = false;
     @track showTotalTable = false;
+    @track showCodesTable=false;
+    @track showCommentsTable=false;
 
     @api total;
     @api allowed;
@@ -37,6 +39,12 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
         }
         else if(val == 'Totals'){
             this.showTotalTable = true;
+        }
+        else if(val == 'Comments'){
+            this.showCommentsTable = true;
+        }
+        else if(val == 'Codes'){
+            this.showCodesTable = true;
         }
     }
 
@@ -102,8 +110,10 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
         this.showTotalModal = true;
     }
 
+
     closeTotalModal() {    
         // to close modal window set 'bShowModal' tarck value as false
         this.showTotalModal = false;
     }
+    
 }

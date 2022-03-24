@@ -86,16 +86,12 @@
         "CCI_Claims_English_Element_TextBlock26.json",
         "CCI_Claims_English_Element_TextBlock25.json",
         "CCI_Claims_English_Element_TextBlock6.json",
-        "CCI_Claims_English_Element_Comments.json",
-        "CCI_Claims_English_Element_SequenceNumber.json",
-        "CCI_Claims_English_Element_CategoryId.json",
-        "CCI_Claims_English_Element_EffectiveDate.json",
-        "CCI_Claims_English_Element_TerminationDate.json",
-        "CCI_Claims_English_Element_TypeCodeText.json",
-        "CCI_Claims_English_Element_Text.json",
-        "CCI_Claims_English_Element_Codes.json",
-        "CCI_Claims_English_Element_id.json",
-        "CCI_Claims_English_Element_description.json",
+        "CCI_Claims_English_Element_LineDetailsBlock.json",
+        "CCI_Claims_English_Element_CustomLWC1.json",
+        "CCI_Claims_English_Element_Block3.json",
+        "CCI_Claims_English_Element_CustomLWC3.json",
+        "CCI_Claims_English_Element_Block4.json",
+        "CCI_Claims_English_Element_CustomLWC4.json",
         "CCI_Claims_English_Element_Totals.json",
         "CCI_Claims_English_Element_Total_1.json",
         "CCI_Claims_English_Element_Allowed_1.json",
@@ -111,8 +107,6 @@
         "CCI_Claims_English_Element_TotalsBlock.json",
         "CCI_Claims_English_Element_TotalsLWC.json",
         "CCI_Claims_English_Element_CustomLWC2.json",
-        "CCI_Claims_English_Element_LineDetailsBlock.json",
-        "CCI_Claims_English_Element_CustomLWC1.json",
         "CCI_Claims_English_Element_Download-EOB.json",
         "CCI_Claims_English_Element_EOB.json"
     ],
@@ -123,5 +117,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/Claims/English",
-    "WebComponentKey": "f1cabaa1-b19a-d796-8284-eaf1a25424e1"
+    "WebComponentKey": "2b529386-cc34-46ab-9476-bfad4314b367"
 }

@@ -705,6 +705,97 @@
                 </tbody>
             </table>
         </template>
+
+        <template if:true={showCommentsTable}>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="SequenceNumber">Sequence No.#</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="CategoryId">Category Id</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="EffectiveDate">Effective Date</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="TerminationDate">Termination Date</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="TypeCodeText">Type Code Text</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Text">Comment</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={displayRows} for:item="row" for:index="index">
+                        <tr key={row.rowid}>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.SequenceNumber}</div>
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.CategoryId}</div>
+                            
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.EffectiveDate}</div>
+                            
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.TerminationDate}</div>
+                            
+                            </td>
+                            <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap">{row.TypeCodeText}</div>   
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small slds-cell-wrap">{row.Text}</div>
+                                </td>
+                             
+                                        
+                        </tr>
+                        
+                    </template>
+                </tbody>
+                </table>
+            
+        </template>
+       
+        <template if:true={showCodesTable}>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="id">Code Id</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="description">Code Description</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={displayRows} for:item="row" for:index="index">
+                        <tr key={row.rowid}>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.id}</div>
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small slds-cell-wrap">{row.description}</div>
+                            
+                            </td>
+                                        
+                        </tr>
+                        
+                    </template>
+                </tbody>
+                </table>
+            
+        </template>
+       
+
     </div>
 
 </template>
