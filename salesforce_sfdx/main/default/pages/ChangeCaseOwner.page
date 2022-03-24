@@ -1,0 +1,5 @@
+<apex:page standardController="Case">
+    <flow:interview name="Update_the_owner_to_the_Case_creator">
+        <apex:param name="CaseID" value="{!Case.Id}"/>
+    </flow:interview>
+</apex:page>
