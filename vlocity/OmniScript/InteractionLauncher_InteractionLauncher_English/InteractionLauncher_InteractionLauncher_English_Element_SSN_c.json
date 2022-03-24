@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "Authentication",
+    "Name": "SSN__c",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "VerifyMember",
+        "Name": "Detail",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,26 +17,40 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/VerifyMember",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Detail",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "VerifyMember",
-    "ParentElementType": "Step",
+    "ParentElementName": "Detail",
+    "ParentElementType": "Edit Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "collapse": false,
+        "autocomplete": null,
         "conditionType": "Hide if False",
         "controlWidth": 12,
+        "debounceValue": 0,
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
         "hide": false,
+        "inputWidth": 12,
         "label": "",
+        "mask": null,
+        "pattern": "",
+        "placeholder": "",
+        "ptrnErrText": "",
+        "readOnly": false,
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "show": null
+        "required": false,
+        "show": null,
+        "showInputWidth": false
     },
-    "Type": "Block",
+    "Type": "Number",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/Authentication"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/SSN__c"
 }

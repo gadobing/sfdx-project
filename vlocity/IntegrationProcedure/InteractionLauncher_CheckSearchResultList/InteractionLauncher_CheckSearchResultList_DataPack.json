@@ -1,6 +1,6 @@
 {
     "CustomJavaScript": "InteractionLauncher_CheckSearchResultList_SampleInput.json",
-    "Description": "IP with Provider, Member, and Facility logic",
+    "Description": "82553 - Interaction Launcher update",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": true,
     "IsMetadataCacheDisabled": false,
@@ -10,6 +10,7 @@
     "Language": "Procedure",
     "Name": "IPCheckSearchResultList",
     "OmniProcessElement": [
+        "InteractionLauncher_CheckSearchResultList_Element_RemoteActionQuerySearch.json",
         "InteractionLauncher_CheckSearchResultList_Element_DataRaptorExtractAccountSearchMemberByCriteria.json",
         "InteractionLauncher_CheckSearchResultList_Element_DataRaptorExtractAccountSearchProviderByCriteria.json",
         "InteractionLauncher_CheckSearchResultList_Element_DataRaptorExtractAccountSearchFacilityByCriteria.json",
@@ -28,8 +29,7 @@
         "InteractionLauncher_CheckSearchResultList_Element_ConditionalBlock3.json",
         "InteractionLauncher_CheckSearchResultList_Element_DataRaptorTurboGerRecordTypeInfoFacility.json",
         "InteractionLauncher_CheckSearchResultList_Element_DataRaptorPostCreateFacilityAccount.json",
-        "InteractionLauncher_CheckSearchResultList_Element_ResponseActionFinal1.json",
-        "InteractionLauncher_CheckSearchResultList_Element_ResponseActionFinal2.json"
+        "InteractionLauncher_CheckSearchResultList_Element_ResponseActionFinal1.json"
     ],
     "OmniProcessKey": "InteractionLauncher_CheckSearchResultList",
     "OmniProcessType": "Integration Procedure",
@@ -39,5 +39,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure",
-    "WebComponentKey": "fd26762d-dcc9-f522-3871-38815ca82647"
+    "WebComponentKey": "337e1236-91e5-9cd3-03a9-5d93996e7912"
 }
