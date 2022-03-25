@@ -268,6 +268,25 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "GlobalKey": "UpsertMemberDetailsCustom6951",
+        "InputFieldName": "LastRefresh",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpsertMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "UpsertMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpsertMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Last_Refresh_Date__c",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
         "GlobalKey": "UpsertMemberDetailsCustom4304",
         "InputFieldName": "MedicareHicMbiNumber",
         "IsDisabled": false,
@@ -455,6 +474,25 @@
         },
         "OutputCreationSequence": 1,
         "OutputFieldName": "PersonBirthdate",
+        "OutputObjectName": "Account",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "UpsertMemberDetailsCustom8688",
+        "InputFieldName": "conId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpsertMemberDetails",
+        "OmniDataTransformationId": {
+            "Name": "UpsertMemberDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpsertMemberDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PersonContactId",
         "OutputObjectName": "Account",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"

@@ -18,6 +18,7 @@
             "GenderValue": "=IF(%Payload:Gender% == \"F\", \"Female\",(IF(%Payload:Gender% == \"M\", \"Male\",\"\" )))",
             "HomePhone": "%Payload:PhoneNumbers:Home:AreaCode%%Payload:PhoneNumbers:Home:PhoneNumber%",
             "Id": "%Account:Id%",
+            "LastRefresh": "=NOW()",
             "MyBluePrint": "%Payload:Urls:MyBluePrint%",
             "MyBlueprintAdminURL": "%Payload:Urls:MyBlueprintAdminURL%",
             "MyBlueprintPreRegistration": "%Payload:Urls:MyBlueprintPreRegistration%",

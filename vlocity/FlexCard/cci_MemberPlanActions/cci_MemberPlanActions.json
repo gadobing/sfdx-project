@@ -11,10 +11,10 @@
     "enableLwc": true,
     "isFlex": true,
     "lwc": {
-        "DeveloperName": "cfCci_MemberPlanActions_1_CCI",
-        "Id": "0Rb7j000000HLGdCAO",
+        "DeveloperName": "cfCci_MemberPlanActions_2_CCI",
+        "Id": "0Rb7j000000HLaTCAW",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfCci_MemberPlanActions_1_CCI",
+        "MasterLabel": "cfCci_MemberPlanActions_2_CCI",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -44,15 +44,20 @@
                                     },
                                     "flyoutType": "OmniScripts",
                                     "hasExtraParams": true,
-                                    "id": "flex-action-1647931160209",
+                                    "id": "flex-action-1648125254058",
                                     "layoutType": "lightning",
                                     "openFlyoutIn": "Modal",
                                     "openUrlIn": "Current Window",
                                     "osName": "CCI/Claims/English",
                                     "type": "Flyout",
-                                    "vlocityIcon": "utility-forward_up"
+                                    "vlocityIcon": ""
                                 },
-                                "stateObj": "{record}"
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#FFFFFF"
+                                    }
+                                }
                             },
                             "size": {
                                 "default": "6",
@@ -61,41 +66,52 @@
                             "stateIndex": 0,
                             "styleObject": {
                                 "background": {
-                                    "color": "",
+                                    "color": "#2783EA",
                                     "image": "",
                                     "position": "",
-                                    "repeat": "",
+                                    "repeat": "repeat",
                                     "size": ""
                                 },
                                 "border": {
                                     "color": "#cccccc",
-                                    "radius": "",
+                                    "radius": "5px",
                                     "style": "",
                                     "type": [
                                     ],
                                     "width": ""
                                 },
-                                "class": " ",
+                                "class": "slds-theme_default slds-text-align_center  slds-p-left_xx-small ",
                                 "container": {
                                     "class": ""
                                 },
                                 "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "color": "#FFFFFF"
+                                        }
+                                    }
                                 },
                                 "inlineStyle": "",
                                 "margin": [
                                 ],
                                 "padding": [
+                                    {
+                                        "label": "left:xx-small",
+                                        "size": "xx-small",
+                                        "type": "left"
+                                    }
                                 ],
                                 "size": {
                                     "default": "6",
                                     "isResponsive": false
                                 },
                                 "sizeClass": "slds-size_6-of-12 ",
-                                "style": "      \n         ",
+                                "style": "background-color:#2783EA;  background-repeat:repeat;    \n    border-radius:5px;     ",
                                 "text": {
-                                    "align": "",
+                                    "align": "center",
                                     "color": ""
-                                }
+                                },
+                                "theme": "theme_default"
                             },
                             "styleObjects": [
                                 {
@@ -107,41 +123,52 @@
                                     "name": "Default",
                                     "styleObject": {
                                         "background": {
-                                            "color": "",
+                                            "color": "#2783EA",
                                             "image": "",
                                             "position": "",
-                                            "repeat": "",
+                                            "repeat": "repeat",
                                             "size": ""
                                         },
                                         "border": {
                                             "color": "#cccccc",
-                                            "radius": "",
+                                            "radius": "5px",
                                             "style": "",
                                             "type": [
                                             ],
                                             "width": ""
                                         },
-                                        "class": " ",
+                                        "class": "slds-theme_default slds-text-align_center  slds-p-left_xx-small ",
                                         "container": {
                                             "class": ""
                                         },
                                         "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#FFFFFF"
+                                                }
+                                            }
                                         },
                                         "inlineStyle": "",
                                         "margin": [
                                         ],
                                         "padding": [
+                                            {
+                                                "label": "left:xx-small",
+                                                "size": "xx-small",
+                                                "type": "left"
+                                            }
                                         ],
                                         "size": {
                                             "default": "6",
                                             "isResponsive": false
                                         },
                                         "sizeClass": "slds-size_6-of-12 ",
-                                        "style": "      \n         ",
+                                        "style": "background-color:#2783EA;  background-repeat:repeat;    \n    border-radius:5px;     ",
                                         "text": {
-                                            "align": "",
+                                            "align": "center",
                                             "color": ""
-                                        }
+                                        },
+                                        "theme": "theme_default"
                                     }
                                 }
                             ],

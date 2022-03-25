@@ -1,0 +1,97 @@
+[
+    {
+        "GlobalKey": "DR_ContactRoleUpsertCustom9115",
+        "InputFieldName": "Contact",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "Name": "DR_ContactRoleUpsert",
+        "OmniDataTransformationId": {
+            "Name": "DR_ContactRoleUpsert",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_ContactRoleUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HealthCloudGA__Contact__c",
+        "OutputObjectName": "HealthCloudGA__ContactContactRelation__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_ContactRoleUpsertCustom4346",
+        "InputFieldName": "RelatedContact",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "Name": "DR_ContactRoleUpsert",
+        "OmniDataTransformationId": {
+            "Name": "DR_ContactRoleUpsert",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_ContactRoleUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HealthCloudGA__RelatedContact__c",
+        "OutputObjectName": "HealthCloudGA__ContactContactRelation__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_ContactRoleUpsertCustom7157",
+        "InputFieldName": "Role",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "Name": "DR_ContactRoleUpsert",
+        "OmniDataTransformationId": {
+            "Name": "DR_ContactRoleUpsert",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_ContactRoleUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "HealthCloudGA__Role__c",
+        "OutputObjectName": "HealthCloudGA__ContactContactRelation__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "DR_ContactRoleUpsertCustom9109",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "DR_ContactRoleUpsert",
+        "OmniDataTransformationId": {
+            "Name": "DR_ContactRoleUpsert",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_ContactRoleUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "HealthCloudGA__ContactContactRelation__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DR_ContactRoleUpsertCustom1792",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DR_ContactRoleUpsert",
+        "OmniDataTransformationId": {
+            "Name": "DR_ContactRoleUpsert",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DR_ContactRoleUpsert",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PersonContactId",
+        "OutputObjectName": "HealthCloudGA__ContactContactRelation__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

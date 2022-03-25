@@ -13,6 +13,12 @@
         "CCI_MemberUpdates_Element_DR_GetAccountRecordType.json",
         "CCI_MemberUpdates_Element_DRT_GetAccountId.json",
         "CCI_MemberUpdates_Element_DRP_MemberUpdates.json",
+        "CCI_MemberUpdates_Element_DR_GetProviderRecordType.json",
+        "CCI_MemberUpdates_Element_DRP_ProviderUpsert.json",
+        "CCI_MemberUpdates_Element_DR_GetReciprocalRole.json",
+        "CCI_MemberUpdates_Element_DR_GetAccountInfo.json",
+        "CCI_MemberUpdates_Element_DR_GetProviderDetails.json",
+        "CCI_MemberUpdates_Element_DRP_ContactRole.json",
         "CCI_MemberUpdates_Element_DRP_PhysicalAddress.json",
         "CCI_MemberUpdates_Element_DRP_MailingAddress.json",
         "CCI_MemberUpdates_Element_DRP_ResponsiblePartyBillingAddress.json",
@@ -34,5 +40,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/MemberUpdates/Procedure",
-    "WebComponentKey": "65c9dd36-6a49-32b1-dccf-82a54ae029ca"
+    "WebComponentKey": "6d6cf0a2-7d07-189e-4d63-753ceed62f79"
 }
