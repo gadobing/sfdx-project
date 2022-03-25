@@ -5170,6 +5170,11 @@
         <field>Additional_Information__c.Comment__c</field>
         <readable>true</readable>
     </fieldPermissions>
+     <fieldPermissions>
+        <editable>true</editable>
+        <field>Additional_Information__c.Sequence_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Additional_Information__c.Contract__c</field>
