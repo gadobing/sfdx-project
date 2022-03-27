@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team__c</fullName>
+    <externalId>false</externalId>
+    <label>Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ECA</fullName>
+                <default>false</default>
+                <label>Exchange CCM Adjustments</label>
+            </value>
+            <value>
+                <fullName>ECC</fullName>
+                <default>false</default>
+                <label>Exchange Corrected Claims</label>
+            </value>
+            <value>
+                <fullName>ECSA</fullName>
+                <default>false</default>
+                <label>Exchange CSR Adjustments</label>
+            </value>
+            <value>
+                <fullName>EENA</fullName>
+                <default>false</default>
+                <label>Exchange Escalated NDR Adjustment Issues</label>
+            </value>
+            <value>
+                <fullName>EIE</fullName>
+                <default>false</default>
+                <label>Exchange Instate Eligibility</label>
+            </value>
+            <value>
+                <fullName>EIRR</fullName>
+                <default>false</default>
+                <label>Exchange Instate Re-Review</label>
+            </value>
+            <value>
+                <fullName>EORC</fullName>
+                <default>false</default>
+                <label>Exchange Overpayments/Refunds - Claims</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>ECA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>ECC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>ECSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>EENA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>EIE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>EIRR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <valueName>EORC</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
