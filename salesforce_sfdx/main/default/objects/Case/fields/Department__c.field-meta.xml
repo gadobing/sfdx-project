@@ -101,6 +101,7 @@
             <value>
                 <fullName>Medical Review</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Medical Review</label>
             </value>
             <value>
