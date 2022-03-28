@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ABCBS</label>
+                <name>BenABCBS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Walmart</label>
+                <name>BenBANA_Walmart</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Tyson</label>
+                <name>BenBANA_Tyson</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BARB</label>
+                <name>BenBARB</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exchange</label>
+                <name>BenExchange</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – Commercial</label>
+                <name>BenHealth_Advantage_Commercial</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – ASE/PSE</label>
+                <name>BenHealth_Advantage_ASE_PSE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP</label>
+                <name>BenFEP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sara Lee Frozen Bakery</label>
+                <name>BenSara_Lee_Frozen_Bakery</name>
+            </dataCategory>
+            <label>Benefits</label>
+            <name>Benefits</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ABCBS Regular Business</label>
+                <name>FLABCBS_Regular_Business</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Home (Member)</label>
+                <name>FLABCBS_BlueCard_Home_Member</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Host (Provider)</label>
+                <name>FLABCBS_BlueCard_Host_Provider</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Tyson</label>
+                <name>FLBANA_Tyson</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Walmart</label>
+                <name>FLBANA_Walmart</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BARB</label>
+                <name>FLBARB</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exchange</label>
+                <name>FLExchange</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – Commercial</label>
+                <name>FLHealth_Advantage_Commercial</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – ASE/PSE</label>
+                <name>FLHealth_Advantage_ASE_PSE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP</label>
+                <name>FLFEP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sara Lee Frozen Bakery</label>
+                <name>FLSara_Lee_Frozen_Bakery</name>
+            </dataCategory>
+            <label>Forms &amp; Letters</label>
+            <name>Forms_Letters</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ABCBS Regular Business</label>
+                <name>PRABCBS_Regular_Business</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Home (Member)</label>
+                <name>PRABCBS_BlueCard_Home_Member</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Host (Provider)</label>
+                <name>PRABCBS_BlueCard_Host_Provider</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Tyson</label>
+                <name>PRBANA_Tyson</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Walmart</label>
+                <name>PRBANA_Walmart</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BARB</label>
+                <name>PRBARB</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exchange</label>
+                <name>PRExchange</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – Commercial</label>
+                <name>PRHealth_Advantage_Commercial</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – ASE/PSE</label>
+                <name>PRHealth_Advantage_ASE_PSE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP</label>
+                <name>PRFEP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sara Lee Frozen Bakery</label>
+                <name>PRSara_Lee_Frozen_Bakery</name>
+            </dataCategory>
+            <label>Procedures</label>
+            <name>Procedures</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ABCBS Regular Business</label>
+                <name>QAABCBS_Regular_Business</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Home (Member)</label>
+                <name>QAABCBS_BlueCard_Home_Member</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Host (Provider)</label>
+                <name>QAABCBS_BlueCard_Host_Provider</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Tyson</label>
+                <name>QABANA_Tyson</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Walmart</label>
+                <name>QABANA_Walmart</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BARB</label>
+                <name>QABARB</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exchange</label>
+                <name>QAExchange</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – Commercial</label>
+                <name>QAHealth_Advantage_Commercial</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – ASE/PSE</label>
+                <name>QAHealth_Advantage_ASE_PSE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP</label>
+                <name>QAFEP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sara Lee Frozen Bakery</label>
+                <name>QASara_Lee_Frozen_Bakery</name>
+            </dataCategory>
+            <label>QA</label>
+            <name>QA</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ABCBS Regular Business</label>
+                <name>RESABCBS_Regular_Business</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Home (Member)</label>
+                <name>RESABCBS_BlueCard_Home_Member</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ABCBS BlueCard Host (Provider)</label>
+                <name>RESABCBS_BlueCard_Host_Provider</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Tyson</label>
+                <name>RESBANA_Tyson</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BANA Walmart</label>
+                <name>RESBANA_Walmart</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BARB</label>
+                <name>RESBARB</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Exchange</label>
+                <name>RESExchange</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – Commercial</label>
+                <name>RESHealth_Advantage_Commercial</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Advantage – ASE/PSE</label>
+                <name>RESHealth_Advantage_ASE_PSE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>FEP</label>
+                <name>RESFEP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sara Lee Frozen Bakery</label>
+                <name>RESSara_Lee_Frozen_Bakery</name>
+            </dataCategory>
+            <label>Resources</label>
+            <name>Resources</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Product Line</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>
