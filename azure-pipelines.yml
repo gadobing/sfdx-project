@@ -1,0 +1,29 @@
+trigger:
+- master
+
+variables:
+- group: CSW_SFDX_Vlocity_Variables
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - stage: CCIUATDeployment
+    displayName: Master to CCIUAT Org
+    jobs:
+      - deployment: CCIUATDeployment
+        displayName: Master to UAT
+        environment: CCIUAT
+        timeoutInMinutes: 180
+        container: jfgarcia268/vlocity_sfdx:alpha
+        variables:
+          - name: deploy_url
+            value: $(CCIUAT)
+          - name: SF_USER
+            value: CCIUAT  
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                - template: Deployment-template.yml
