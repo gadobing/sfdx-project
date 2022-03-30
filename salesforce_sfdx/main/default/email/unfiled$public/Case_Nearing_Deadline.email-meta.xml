@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Case Nearing Deadline</name>
+    <style>none</style>
+    <subject>Case is nearing 7 day deadline please close the Case</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,4 @@
+Hi {!Case.OwnerFullName},
+
+The Case with Case Number - {!Case.CaseNumber} assigned to you is nearing the case deadline of 7 days.
+Please close the case as soon as possible.
