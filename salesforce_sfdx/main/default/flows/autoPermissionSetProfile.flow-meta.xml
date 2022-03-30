@@ -98,6 +98,7 @@
         <connector>
             <targetReference>getCurrentUser</targetReference>
         </connector>
+        <filterLogic>1 AND( 2 OR 3 )</filterLogic>
         <filters>
             <field>IsActive</field>
             <operator>EqualTo</operator>
