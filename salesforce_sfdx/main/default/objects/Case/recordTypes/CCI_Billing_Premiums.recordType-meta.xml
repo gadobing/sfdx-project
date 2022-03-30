@@ -353,7 +353,7 @@
     <picklistValues>
         <picklist>Product_Line__c</picklist>
         <values>
-            <fullName>ABCBS Reg Business</fullName>
+            <fullName>ABCBS Regular Business</fullName>
             <default>false</default>
         </values>
         <values>

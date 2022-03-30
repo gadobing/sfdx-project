@@ -71,14 +71,14 @@
         <label>Accounting</label>
     </customValue>
     <customValue>
-        <fullName>Case management</fullName>
-        <default>false</default>
-        <label>Case management</label>
-    </customValue>
-    <customValue>
         <fullName>CRM Operations &amp; Service</fullName>
         <default>false</default>
         <label>CRM Operations &amp; Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Case management</fullName>
+        <default>false</default>
+        <label>Case management</label>
     </customValue>
     <customValue>
         <fullName>Claim support</fullName>
