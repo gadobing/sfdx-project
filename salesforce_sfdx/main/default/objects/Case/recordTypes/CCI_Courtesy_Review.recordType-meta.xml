@@ -353,10 +353,6 @@
     <picklistValues>
         <picklist>Product_Line__c</picklist>
         <values>
-            <fullName>ABCBS</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>ABCBS Reg Business</fullName>
             <default>false</default>
         </values>
@@ -377,10 +373,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Dental</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Exchange</fullName>
             <default>false</default>
         </values>
@@ -393,23 +385,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Internal</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Medicare Advantage</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Medicare Advantage%2FRX</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Regional</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SIU</fullName>
             <default>false</default>
         </values>
         <values>
