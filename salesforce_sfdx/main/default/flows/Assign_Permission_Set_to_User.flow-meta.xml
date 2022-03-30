@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
     <decisions>
         <name>checkIfPermissionSetAssigned</name>
         <label>checkIfPermissionSetAssigned</label>
@@ -74,6 +75,7 @@
         <connector>
             <targetReference>checkIfPermissionSetAssigned</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>AssigneeId</field>
             <operator>EqualTo</operator>
@@ -101,6 +103,7 @@
         <connector>
             <targetReference>getPermissionSetAssignment</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Name</field>
             <operator>EqualTo</operator>
