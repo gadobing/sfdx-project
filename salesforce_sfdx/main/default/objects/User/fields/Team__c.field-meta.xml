@@ -7,7 +7,6 @@
     <trackFeedHistory>false</trackFeedHistory>
     <type>MultiselectPicklist</type>
     <valueSet>
-        <controllingField>Department__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -47,48 +46,6 @@
                 <label>Exchange Overpayments/Refunds - Claims</label>
             </value>
         </valueSetDefinition>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <controllingFieldValue>Customer Service</controllingFieldValue>
-            <controllingFieldValue>Customer Accounts</controllingFieldValue>
-            <valueName>ECA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <controllingFieldValue>Customer Service</controllingFieldValue>
-            <controllingFieldValue>Customer Accounts</controllingFieldValue>
-            <valueName>ECC</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <controllingFieldValue>Customer Service</controllingFieldValue>
-            <controllingFieldValue>Customer Accounts</controllingFieldValue>
-            <valueName>ECSA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <controllingFieldValue>Customer Service</controllingFieldValue>
-            <controllingFieldValue>Customer Accounts</controllingFieldValue>
-            <valueName>EENA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <controllingFieldValue>Customer Service</controllingFieldValue>
-            <controllingFieldValue>Customer Accounts</controllingFieldValue>
-            <valueName>EIE</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <controllingFieldValue>Customer Service</controllingFieldValue>
-            <controllingFieldValue>Customer Accounts</controllingFieldValue>
-            <valueName>EIRR</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <controllingFieldValue>Customer Service</controllingFieldValue>
-            <controllingFieldValue>Customer Accounts</controllingFieldValue>
-            <valueName>EORC</valueName>
-        </valueSettings>
     </valueSet>
     <visibleLines>4</visibleLines>
 </CustomField>

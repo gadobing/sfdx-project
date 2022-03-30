@@ -12,11 +12,6 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>ABCBS</fullName>
-                <default>false</default>
-                <label>ABCBS</label>
-            </value>
-            <value>
                 <fullName>BANA</fullName>
                 <default>false</default>
                 <label>BANA</label>
@@ -57,39 +52,14 @@
                 <label>ASE/PSE</label>
             </value>
             <value>
-                <fullName>Regional</fullName>
-                <default>false</default>
-                <label>Regional</label>
-            </value>
-            <value>
                 <fullName>USAble</fullName>
                 <default>false</default>
                 <label>USAble</label>
             </value>
             <value>
-                <fullName>ABCBS Reg Business</fullName>
+                <fullName>ABCBS Regular Business</fullName>
                 <default>false</default>
-                <label>ABCBS Reg Business</label>
-            </value>
-            <value>
-                <fullName>Medicare Advantage/RX</fullName>
-                <default>false</default>
-                <label>Medicare Advantage/RX</label>
-            </value>
-            <value>
-                <fullName>Internal</fullName>
-                <default>false</default>
-                <label>Internal</label>
-            </value>
-            <value>
-                <fullName>SIU</fullName>
-                <default>false</default>
-                <label>SIU</label>
-            </value>
-            <value>
-                <fullName>Dental</fullName>
-                <default>false</default>
-                <label>Dental</label>
+                <label>ABCBS Regular Business</label>
             </value>
         </valueSetDefinition>
     </valueSet>

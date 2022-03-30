@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Teams__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary Teams</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MAMR</fullName>
+                <default>false</default>
+                <label>MARS ABCBS 165 Medrec Responses</label>
+            </value>
+            <value>
+                <fullName>MAI</fullName>
+                <default>false</default>
+                <label>MARS ABCBS 178/173 INFOMSG</label>
+            </value>
+            <value>
+                <fullName>MIN</fullName>
+                <default>false</default>
+                <label>MARS ITS Nurse</label>
+            </value>
+            <value>
+                <fullName>MABCT</fullName>
+                <default>false</default>
+                <label>MARS ABCBS Blue Card Team</label>
+            </value>
+            <value>
+                <fullName>MBCH</fullName>
+                <default>false</default>
+                <label>MARS BlueCard Host</label>
+            </value>
+            <value>
+                <fullName>MADN</fullName>
+                <default>false</default>
+                <label>MARS Authorization Do NOT route to this queue</label>
+            </value>
+            <value>
+                <fullName>MBIAR</fullName>
+                <default>false</default>
+                <label>MARS Benefit Inquiry Additional Records</label>
+            </value>
+            <value>
+                <fullName>MBIL</fullName>
+                <default>false</default>
+                <label>MARS BI Letters</label>
+            </value>
+            <value>
+                <fullName>MBR</fullName>
+                <default>false</default>
+                <label>MARS BI Remarks</label>
+            </value>
+            <value>
+                <fullName>MPAR</fullName>
+                <default>false</default>
+                <label>MARS PA Additional Records</label>
+            </value>
+            <value>
+                <fullName>MPIRDN</fullName>
+                <default>false</default>
+                <label>MARS PA Incoming Requests Do NOT route to this queue</label>
+            </value>
+            <value>
+                <fullName>MPBI</fullName>
+                <default>false</default>
+                <label>MARS - Pre-service Benefit Inquiry</label>
+            </value>
+            <value>
+                <fullName>MPMD</fullName>
+                <default>false</default>
+                <label>MARS PA Miscellaneous DO NOT ROUTE TO THIS QUEUE</label>
+            </value>
+            <value>
+                <fullName>MI</fullName>
+                <default>false</default>
+                <label>MARS IMRT</label>
+            </value>
+            <value>
+                <fullName>CMO</fullName>
+                <default>false</default>
+                <label>CSPH MRR Outgoing</label>
+            </value>
+            <value>
+                <fullName>CMR</fullName>
+                <default>false</default>
+                <label>CSPH MRR Return</label>
+            </value>
+            <value>
+                <fullName>WMUMR</fullName>
+                <default>false</default>
+                <label>Wal-Mart Unsolicited Medical Records</label>
+            </value>
+            <value>
+                <fullName>CS</fullName>
+                <default>false</default>
+                <label>CSPH Support</label>
+            </value>
+            <value>
+                <fullName>FMPA</fullName>
+                <default>false</default>
+                <label>FEP MARS (Prior - Auth)</label>
+            </value>
+            <value>
+                <fullName>FMN</fullName>
+                <default>false</default>
+                <label>FEP MARS Nurse</label>
+            </value>
+            <value>
+                <fullName>FMR</fullName>
+                <default>false</default>
+                <label>FEP MARS Re-Review</label>
+            </value>
+            <value>
+                <fullName>FMRE</fullName>
+                <default>false</default>
+                <label>FEP MARS Researcher</label>
+            </value>
+            <value>
+                <fullName>FMRS</fullName>
+                <default>false</default>
+                <label>FEP Medical Audit and Review Services</label>
+            </value>
+            <value>
+                <fullName>FMRN</fullName>
+                <default>false</default>
+                <label>FEP MRR-RN review</label>
+            </value>
+            <value>
+                <fullName>MHN</fullName>
+                <default>false</default>
+                <label>MARS HA Nurse</label>
+            </value>
+            <value>
+                <fullName>MHSG</fullName>
+                <default>false</default>
+                <label>MARS HA Secure Group</label>
+            </value>
+            <value>
+                <fullName>MS</fullName>
+                <default>false</default>
+                <label>MRR - SIU</label>
+            </value>
+            <value>
+                <fullName>ALAR</fullName>
+                <default>false</default>
+                <label>ABCBS Legal Appeals/Rescissions</label>
+            </value>
+            <value>
+                <fullName>AIBIA</fullName>
+                <default>false</default>
+                <label>ABCBS ITS B2 Incoming Appeals</label>
+            </value>
+            <value>
+                <fullName>AFRP</fullName>
+                <default>false</default>
+                <label>ABCBS Facility Reimbursement Pricing</label>
+            </value>
+            <value>
+                <fullName>BLI</fullName>
+                <default>false</default>
+                <label>BARB Legal Inquiries</label>
+            </value>
+            <value>
+                <fullName>BA</fullName>
+                <default>false</default>
+                <label>BARB - Appeals</label>
+            </value>
+            <value>
+                <fullName>LGP</fullName>
+                <default>false</default>
+                <label>Legal Government Programs</label>
+            </value>
+            <value>
+                <fullName>WMLI</fullName>
+                <default>false</default>
+                <label>Wal-Mart Legal Inquiries</label>
+            </value>
+            <value>
+                <fullName>TLI</fullName>
+                <default>false</default>
+                <label>Tyson Legal Inquiries</label>
+            </value>
+            <value>
+                <fullName>SCCS</fullName>
+                <default>false</default>
+                <label>Service Center CSW Support</label>
+            </value>
+            <value>
+                <fullName>AISDNRH</fullName>
+                <default>false</default>
+                <label>ABCBS Information Systems - DO NOT ROUTE HERE</label>
+            </value>
+            <value>
+                <fullName>SCSC</fullName>
+                <default>false</default>
+                <label>Service Center Scripts and Codes</label>
+            </value>
+            <value>
+                <fullName>MBI</fullName>
+                <default>false</default>
+                <label>MyBluePrint Inquiries</label>
+            </value>
+            <value>
+                <fullName>HAAB</fullName>
+                <default>false</default>
+                <label>HA/ABCBS AMISYS Benefits</label>
+            </value>
+            <value>
+                <fullName>HAAPP</fullName>
+                <default>false</default>
+                <label>HA/ABCBS AMISYS Pricing/Provider</label>
+            </value>
+            <value>
+                <fullName>BT</fullName>
+                <default>false</default>
+                <label>Blue Advantage Analyst Team</label>
+            </value>
+            <value>
+                <fullName>BABT</fullName>
+                <default>false</default>
+                <label>Blue Advantage Benefit Team</label>
+            </value>
+            <value>
+                <fullName>PI</fullName>
+                <default>false</default>
+                <label>Payment Integrity</label>
+            </value>
+            <value>
+                <fullName>SIBMR</fullName>
+                <default>false</default>
+                <label>Special Investigations - B2 Medical Records</label>
+            </value>
+            <value>
+                <fullName>SIU</fullName>
+                <default>false</default>
+                <label>Special Investigations Unit</label>
+            </value>
+            <value>
+                <fullName>ACR</fullName>
+                <default>false</default>
+                <label>ABCBS Claims Refunds</label>
+            </value>
+            <value>
+                <fullName>AGA</fullName>
+                <default>false</default>
+                <label>ABCBS General Accounting</label>
+            </value>
+            <value>
+                <fullName>AIA</fullName>
+                <default>false</default>
+                <label>ABCBS ITS Accounting</label>
+            </value>
+            <value>
+                <fullName>CRRURQ</fullName>
+                <default>false</default>
+                <label>Claims Refund RET/UND RCK Queue</label>
+            </value>
+            <value>
+                <fullName>BAF</fullName>
+                <default>false</default>
+                <label>Blue Advantage Finance</label>
+            </value>
+            <value>
+                <fullName>AFEPA</fullName>
+                <default>false</default>
+                <label>ABCBS FEP Accounting</label>
+            </value>
+            <value>
+                <fullName>SD</fullName>
+                <default>false</default>
+                <label>Special Delivery</label>
+            </value>
+            <value>
+                <fullName>ASCMCDNR</fullName>
+                <default>false</default>
+                <label>Arkansas State Care Mgmt Callbacks - Do Not Route Here</label>
+            </value>
+            <value>
+                <fullName>ASCMT</fullName>
+                <default>false</default>
+                <label>Arkansas State Care Mgmt Triage</label>
+            </value>
+            <value>
+                <fullName>CMBB</fullName>
+                <default>false</default>
+                <label>Case Management BARB BTP</label>
+            </value>
+            <value>
+                <fullName>WMLWB</fullName>
+                <default>false</default>
+                <label>Wal-Mart Life With Baby</label>
+            </value>
+            <value>
+                <fullName>BLBM</fullName>
+                <default>false</default>
+                <label>BANA Limit Benefits - Member</label>
+            </value>
+            <value>
+                <fullName>BLBP</fullName>
+                <default>false</default>
+                <label>BANA Limited Benefits - Provider</label>
+            </value>
+            <value>
+                <fullName>ERACMC</fullName>
+                <default>false</default>
+                <label>Exchange/Regular ABCBS - Care Mngmt Callbacks</label>
+            </value>
+            <value>
+                <fullName>CMCR</fullName>
+                <default>false</default>
+                <label>Case Management - Central Region</label>
+            </value>
+            <value>
+                <fullName>CMH</fullName>
+                <default>false</default>
+                <label>Case Management - HA</label>
+            </value>
+            <value>
+                <fullName>CMNFS</fullName>
+                <default>false</default>
+                <label>Case Management - NC Ft. Smith</label>
+            </value>
+            <value>
+                <fullName>CMNJ</fullName>
+                <default>false</default>
+                <label>Case Management - NE Jonesboro</label>
+            </value>
+            <value>
+                <fullName>CMNF</fullName>
+                <default>false</default>
+                <label>Case Management - NW Fayetteville</label>
+            </value>
+            <value>
+                <fullName>CMSHS</fullName>
+                <default>false</default>
+                <label>Case Management - SC Hot Springs</label>
+            </value>
+            <value>
+                <fullName>CMSPB</fullName>
+                <default>false</default>
+                <label>Case Management - SE Pine Bluff</label>
+            </value>
+            <value>
+                <fullName>CMSWT</fullName>
+                <default>false</default>
+                <label>Case Management - SW Texarkana</label>
+            </value>
+            <value>
+                <fullName>CCC</fullName>
+                <default>false</default>
+                <label>CSPH COE Callbacks</label>
+            </value>
+            <value>
+                <fullName>CNCDNRH</fullName>
+                <default>false</default>
+                <label>CSPH Nurse Callbacks-Do Not Route Here</label>
+            </value>
+            <value>
+                <fullName>CNT</fullName>
+                <default>false</default>
+                <label>CSPH Nurse Triage</label>
+            </value>
+            <value>
+                <fullName>ICR</fullName>
+                <default>false</default>
+                <label>Internal Controls and Reporting</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MAMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MAI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MABCT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MBCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MADN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MBIAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MBIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MBR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MPAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MPIRDN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MPBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MPMD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>CMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>CMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>WMUMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>CS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FMPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FMN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FMRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FMRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FMRN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MHN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MHSG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>ALAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>AIBIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>AFRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>BLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>BA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>LGP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>WMLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>TLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <valueName>SCCS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <valueName>AISDNRH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <valueName>SCSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>System Support</controllingFieldValue>
+            <valueName>MBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>HAAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>HAAPP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configuration</controllingFieldValue>
+            <valueName>BABT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <valueName>PI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <valueName>SIBMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <valueName>SIU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIU</controllingFieldValue>
+            <valueName>ICR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>ACR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>AGA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>AIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>CRRURQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>BAF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounting</controllingFieldValue>
+            <valueName>AFEPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>SD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>ASCMCDNR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>ASCMT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMBB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>WMLWB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>BLBM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>BLBP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>ERACMC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMCR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMNFS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMNJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMNF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMSHS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMSPB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CMSWT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CNCDNRH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Case management</controllingFieldValue>
+            <valueName>CNT</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
