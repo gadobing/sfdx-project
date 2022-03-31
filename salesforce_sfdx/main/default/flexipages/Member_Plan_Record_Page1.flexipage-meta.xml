@@ -4,12 +4,36 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>actionNames</name>
+                    <valueList>
+                        <valueListItems>
+                            <value>CustomButton.MemberPlan.Orbipay</value>
+                            <visibilityRule>
+                                <booleanFilter>1 OR 2</booleanFilter>
+                                <criteria>
+                                    <leftValue>{!Record.Product_Line__c}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>ABCBS Regular Business</rightValue>
+                                </criteria>
+                                <criteria>
+                                    <leftValue>{!Record.Product_Line__c}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>Exchange</rightValue>
+                                </criteria>
+                            </visibilityRule>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>MemberPlan.test_doc</value>
+                        </valueListItems>
+                    </valueList>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>collapsed</name>
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>enableActionsConfiguration</name>
-                    <value>false</value>
+                    <value>true</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>enableActionsInNative</name>
@@ -115,6 +139,11 @@
         <itemInstances>
             <componentInstance>
                 <componentName>forceKnowledge:articleSearchDesktop</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>cfCci_MemberPlanActions</componentName>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
