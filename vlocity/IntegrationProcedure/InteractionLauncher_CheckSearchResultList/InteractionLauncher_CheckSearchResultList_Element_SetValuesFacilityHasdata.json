@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "DataRaptorTurboGerRecordTypeInfoFacility",
+    "Name": "SetValuesFacilityHasdata",
     "OmniProcessId": {
         "Name": "IPCheckSearchResultList",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "ConditionalBlockCreateFacility",
+        "Name": "ConditionalBlockFacilityHasData",
         "OmniProcessId": {
             "Name": "IPCheckSearchResultList",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,42 +17,28 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlockCreateFacility",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlockFacilityHasData",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "ConditionalBlockCreateFacility",
+    "ParentElementName": "ConditionalBlockFacilityHasData",
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "actionMessage": "",
-        "additionalInput": {
-            "RecordName": "=\"InStateFacility\""
-        },
-        "additionalOutput": {
-        },
-        "bundle": "GerRecordTypeInfo",
         "chainOnStep": false,
-        "dataRaptor Input Parameters": [
-        ],
         "disOnTplt": false,
+        "elementValueMap": {
+            "hasData": true
+        },
         "executionConditionalFormula": "",
         "failOnStepError": true,
         "failureConditionalFormula": "",
-        "failureResponse": {
-        },
-        "ignoreCache": false,
-        "label": "DataRaptorTurboAction1",
-        "responseJSONNode": "RecordType",
-        "responseJSONPath": "RecordType",
-        "returnOnlyAdditionalOutput": false,
-        "returnOnlyFailureResponse": false,
-        "sendJSONNode": "",
-        "sendJSONPath": "",
-        "sendOnlyAdditionalInput": true,
-        "show": null,
-        "useFormulas": true
+        "label": "SetValues4",
+        "responseJSONNode": "SearchResult",
+        "responseJSONPath": "",
+        "show": null
     },
-    "Type": "DataRaptor Turbo Action",
+    "Type": "Set Values",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/DataRaptorTurboGerRecordTypeInfoFacility"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/SetValuesFacilityHasdata"
 }

@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "ConditionalBlock3",
+        "Name": "ConditionalBlockCreateFacility",
         "OmniProcessId": {
             "Name": "IPCheckSearchResultList",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlock3",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlockCreateFacility",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "ConditionalBlock3",
+    "ParentElementName": "ConditionalBlockCreateFacility",
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "actionMessage": "",
@@ -40,7 +40,7 @@
         "failureResponse": {
         },
         "label": "DataRaptorPostAction3",
-        "responseJSONNode": "SearchResult",
+        "responseJSONNode": "SearchResult:Detail",
         "responseJSONPath": "Account_1",
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,

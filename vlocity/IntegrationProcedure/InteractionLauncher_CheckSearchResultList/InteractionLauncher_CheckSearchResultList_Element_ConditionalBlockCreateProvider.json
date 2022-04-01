@@ -2,7 +2,7 @@
     "Description": "Forcing the Dataraptor Post to be called at the end. For some reason, it was being called at the beginning and this is the workaround I found best",
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ConditionalBlock5",
+    "Name": "ConditionalBlockCreateProvider",
     "OmniProcessId": {
         "Name": "IPCheckSearchResultList",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -25,7 +25,7 @@
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "disOnTplt": false,
-        "executionConditionalFormula": "",
+        "executionConditionalFormula": "ISNOTBLANK(%NPIRegistryResult%)",
         "isIfElseBlock": false,
         "label": "ConditionalBlock5",
         "show": null
@@ -33,5 +33,5 @@
     "Type": "Conditional Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlock5"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlockCreateProvider"
 }

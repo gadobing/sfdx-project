@@ -10,7 +10,7 @@
     },
     "PropertySetConfig": {
         "disOnTplt": false,
-        "executionConditionalFormula": "%AccountSearch:RadioUserType% == \"Provider\" && ISBLANK(%SearchResult%)",
+        "executionConditionalFormula": "%AccountSearch:RadioUserType% == \"Provider\" && (ISBLANK(%SearchResult%) || %SearchResult:hasData% == false)",
         "isIfElseBlock": false,
         "label": "ConditionalBlock1",
         "show": null

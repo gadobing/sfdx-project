@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "ConditionalBlock5",
+        "Name": "ConditionalBlockCreateProvider",
         "OmniProcessId": {
             "Name": "IPCheckSearchResultList",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlock5",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlockCreateProvider",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "ConditionalBlock5",
+    "ParentElementName": "ConditionalBlockCreateProvider",
     "ParentElementType": "Conditional Block",
     "PropertySetConfig": {
         "actionMessage": "",

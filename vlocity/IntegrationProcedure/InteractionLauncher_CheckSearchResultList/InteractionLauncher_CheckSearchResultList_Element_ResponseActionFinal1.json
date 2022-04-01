@@ -12,7 +12,7 @@
         "additionalOutput": {
         },
         "disOnTplt": false,
-        "executionConditionalFormula": "NOT(ISBLANK(%SearchResult%))",
+        "executionConditionalFormula": "",
         "label": "ResponseAction1",
         "responseDefaultData": {
         },
@@ -21,7 +21,7 @@
         "responseJSONPath": "",
         "returnFullDataJSON": false,
         "returnOnlyAdditionalOutput": false,
-        "sendJSONNode": "Result:Detail",
+        "sendJSONNode": "Result",
         "sendJSONPath": "SearchResult",
         "show": null,
         "useFormulas": true,

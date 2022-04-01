@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ConditionalBlockFacility",
+    "Name": "ConditionalBlockProviderHasData",
     "OmniProcessId": {
         "Name": "IPCheckSearchResultList",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -10,13 +10,13 @@
     },
     "PropertySetConfig": {
         "disOnTplt": false,
-        "executionConditionalFormula": "%AccountSearch:RadioUserType% == \"Facility\"  && (ISBLANK(%SearchResult%) || %SearchResult:hasData% == false)",
+        "executionConditionalFormula": "ISNOTBLANK(%SearchResult:Detail%) && %AccountSearch:RadioUserType% == \"Provider\" && %SearchResult:hasData% == false",
         "isIfElseBlock": false,
-        "label": "ConditionalBlock2",
+        "label": "ConditionalBlock13",
         "show": null
     },
     "Type": "Conditional Block",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlockFacility"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/CheckSearchResultList/Procedure/ConditionalBlockProviderHasData"
 }
