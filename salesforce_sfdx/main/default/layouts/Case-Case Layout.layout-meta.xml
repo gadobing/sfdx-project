@@ -183,13 +183,13 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Product_Line__c</field>
+                <field>Department__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Department__c</field>
+                <field>Product_Line__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
