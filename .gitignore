@@ -1,0 +1,8 @@
+.gitignore
+*.project.yaml
+.sfdx/*
+.DS_Storegit
+.DS_Store
+salesforce_sfdx/main/default/lwc/jsconfig.json
+.forceignore
+.sfdx/sfdx-config.json
