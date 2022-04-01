@@ -1,9 +1,0 @@
-Name: upProject
-ignoreDependencies: false
-VlocityDataPackKeys:
-    - labels/CustomLabels.labels
-VlocityTypesToFetch:
-
-SalesforceTypesToFetch:
-    - ApexPage
-    - CustomLabels

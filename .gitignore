@@ -1,4 +1,3 @@
-.gitignore
 *.project.yaml
 .sfdx/*
 .DS_Storegit
@@ -6,3 +5,5 @@
 salesforce_sfdx/main/default/lwc/jsconfig.json
 .forceignore
 .sfdx/sfdx-config.json
+.vscode
+.vlocity
