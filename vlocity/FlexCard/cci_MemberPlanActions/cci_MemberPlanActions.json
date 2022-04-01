@@ -1,0 +1,271 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfCci_MemberPlanActions_3_CCI",
+        "Id": "0Rb7j000000HLxDCAW",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfCci_MemberPlanActions_3_CCI",
+        "NamespacePrefix": "c"
+    },
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "View Claims",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "View Claims",
+                                    "flyoutLwc": "c-c-i-claims-english",
+                                    "flyoutParams": {
+                                        "ContextId": "{recordId}"
+                                    },
+                                    "flyoutType": "OmniScripts",
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1648125254058",
+                                    "layoutType": "lightning",
+                                    "openFlyoutIn": "Modal",
+                                    "openUrlIn": "Current Window",
+                                    "osName": "CCI/Claims/English",
+                                    "type": "Flyout",
+                                    "vlocityIcon": ""
+                                },
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#FFFFFF",
+                                        "textAlign": "center"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "6",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "#2783EA",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "repeat",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "#FFFFFF",
+                                    "radius": "5px",
+                                    "style": "",
+                                    "type": [
+                                    ],
+                                    "width": ""
+                                },
+                                "class": "slds-theme_default slds-text-align_left  ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "styles": {
+                                        "label": {
+                                            "color": "#FFFFFF",
+                                            "textAlign": "center"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "6",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_6-of-12 ",
+                                "style": "background-color:#2783EA;  background-repeat:repeat;    \n    border-radius:5px;     ",
+                                "text": {
+                                    "align": "left",
+                                    "color": ""
+                                },
+                                "theme": "theme_default"
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "#2783EA",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "repeat",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#FFFFFF",
+                                            "radius": "5px",
+                                            "style": "",
+                                            "type": [
+                                            ],
+                                            "width": ""
+                                        },
+                                        "class": "slds-theme_default slds-text-align_left  ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#FFFFFF",
+                                                    "textAlign": "center"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "6",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_6-of-12 ",
+                                        "style": "background-color:#2783EA;  background-repeat:repeat;    \n    border-radius:5px;     ",
+                                        "text": {
+                                            "align": "left",
+                                            "color": ""
+                                        },
+                                        "theme": "theme_default"
+                                    }
+                                }
+                            ],
+                            "type": "element",
+                            "userUpdatedElementLabel": true
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+                {
+                    "language": "English",
+                    "subtype": "Claims",
+                    "type": "CCI"
+                }
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "cci_MemberPlanActions",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "masterLabel": "cci_MemberPlanActions",
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

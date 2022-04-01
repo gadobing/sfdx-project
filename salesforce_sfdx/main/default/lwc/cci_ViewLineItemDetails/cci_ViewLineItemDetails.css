@@ -1,0 +1,27 @@
+.slds-modal__container {
+    max-width: 80rem !important;
+    width: 100% !important;
+}
+
+.slds-float_left{
+    text-align: left;
+    /*padding-right: 2rem;*/
+}
+
+.padding-right{
+    padding-right: 2rem;
+}
+
+lightning-button.button {
+    --sds-c-button-text-color: #000000;
+    --slds-c-button-color-border-hover: transparent;
+    --sds-c-button-text-color-hover: #000000;
+    --sds-c-button-text-color-active: #000000;
+    --slds-c-button-color-border-active: transparent;
+    --sds-c-button-text-color-focus: #000000;
+    --slds-c-button-color-border-focus: transparent;
+    --slds-c-button-shadow-focus: none;
+}
+/*.container{
+    'position: absolute;
+}*/
