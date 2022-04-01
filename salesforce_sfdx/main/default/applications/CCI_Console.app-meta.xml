@@ -62,6 +62,24 @@
         <type>Flexipage</type>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Document_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>CCI_Document__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Document_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>CCI_Document__c</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -147,6 +165,78 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>CSR Agent</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>CSR Agent</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>Group Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>Group Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>Technical Writer</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Agency_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Agency</recordType>
+        <type>Flexipage</type>
+        <profile>Technical Writer</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>Account_Group_Record_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
@@ -430,15 +520,63 @@
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
         <recordType>Account.Division</recordType>
+        <type>Flexipage</type>
+        <profile>CSR Agent</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Agency_of_Record_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Agency_of_Record__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>CSR Agent</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Agency_of_Record_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Agency_of_Record__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Group Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Agency_of_Record_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Agency_of_Record__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Group Administrator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Agency_of_Record_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Agency_of_Record__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Agency_of_Record_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Agency_of_Record__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Agency_of_Record_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Agency_of_Record__c</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>CSR Agent</profile>
     </profileActionOverrides>
     <setupExperience>service</setupExperience>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
-    <tabs>standard-Contact</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Case</tabs>
+    <tabs>standard-Contact</tabs>
     <tabs>Knowledge__kav</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>CCI_Console_UtilityBar</utilityBar>
