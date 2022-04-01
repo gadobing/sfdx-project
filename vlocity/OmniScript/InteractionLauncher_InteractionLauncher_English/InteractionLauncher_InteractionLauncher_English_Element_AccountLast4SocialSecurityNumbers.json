@@ -1,7 +1,7 @@
 {
-    "IsActive": true,
+    "IsActive": false,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ProviderID",
+    "Name": "AccountLast4SocialSecurityNumbers",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "BlockProvider",
+        "Name": "BlockMember",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,10 +17,10 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockProvider",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockMember",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "BlockProvider",
+    "ParentElementName": "BlockMember",
     "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
@@ -34,13 +34,13 @@
         "helpText": "",
         "hide": false,
         "inputWidth": 12,
-        "label": "Provider ID",
+        "label": "SSN",
         "mask": "",
-        "maxLength": 5,
+        "maxLength": 11,
         "minLength": 0,
-        "pattern": "",
+        "pattern": "^[0-9]{11}$",
         "placeholder": "",
-        "ptrnErrText": "",
+        "ptrnErrText": "Only Numbers are allowed",
         "readOnly": false,
         "repeat": false,
         "repeatClone": false,
@@ -52,5 +52,5 @@
     "Type": "Text",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/ProviderID"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AccountLast4SocialSecurityNumbers"
 }

@@ -31,9 +31,9 @@
                 "operator": "AND",
                 "rules": [
                     {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "Detail"
+                        "condition": "=",
+                        "data": "true",
+                        "field": "Result:hasData"
                     }
                 ]
             }

@@ -1,5 +1,5 @@
 {
-    "IsActive": false,
+    "IsActive": true,
     "IsOmniScriptEmbeddable": false,
     "Name": "PhoneNumber",
     "OmniProcessId": {
@@ -24,42 +24,20 @@
     "ParentElementType": "Edit Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "accessibleInFutureSteps": false,
-        "conditionType": "Hide if False",
         "controlWidth": 12,
-        "debounceValue": 0,
-        "defaultValue": null,
-        "disOnTplt": false,
-        "help": false,
-        "helpText": "",
+        "dataType": null,
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": true,
+        "expression": "IF(%Result:Detail|n:PersonMobilePhone%, %Result:Detail|n:PersonMobilePhone%, %Result:Detail|n:Phone%)",
         "hide": false,
+        "hideGroupSep": false,
         "inputWidth": 12,
-        "label": null,
-        "mask": "",
-        "maxLength": 255,
-        "minLength": 0,
-        "pattern": "",
-        "ptrnErrText": "",
-        "readOnly": false,
-        "repeat": false,
-        "repeatClone": false,
-        "repeatLimit": null,
-        "required": false,
-        "show": {
-            "group": {
-                "operator": "AND",
-                "rules": [
-                    {
-                        "condition": "<>",
-                        "data": null,
-                        "field": "PhoneNumber"
-                    }
-                ]
-            }
-        },
+        "label": "",
+        "mask": null,
+        "show": null,
         "showInputWidth": false
     },
-    "Type": "Text",
+    "Type": "Formula",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
     "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/PhoneNumber"

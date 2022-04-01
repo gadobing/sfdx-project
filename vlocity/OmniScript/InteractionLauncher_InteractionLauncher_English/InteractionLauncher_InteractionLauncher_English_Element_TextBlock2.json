@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "BlockMemberID",
+        "Name": "BlockMailingAddress",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,14 +17,14 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockMemberID",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockMailingAddress",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "BlockMemberID",
+    "ParentElementName": "BlockMailingAddress",
     "ParentElementType": "Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 9,
+        "controlWidth": 8,
         "dataJSON": false,
         "label": "TextBlock2",
         "sanitize": false,

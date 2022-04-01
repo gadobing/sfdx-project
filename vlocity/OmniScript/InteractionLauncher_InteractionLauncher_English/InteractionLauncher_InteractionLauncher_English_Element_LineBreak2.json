@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "TextBlock12",
+    "Name": "LineBreak2",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "BlockFacility",
+        "Name": "AccountSearch",
         "OmniProcessId": {
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,23 +17,19 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/BlockFacility",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AccountSearch",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "BlockFacility",
-    "ParentElementType": "Block",
+    "ParentElementName": "AccountSearch",
+    "ParentElementType": "Step",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
-        "controlWidth": 12,
-        "dataJSON": false,
-        "label": "TextBlock12",
-        "sanitize": false,
-        "show": null,
-        "text": "<p><strong>Provide Facility Name or NPI Number to search.</strong></p>",
-        "textKey": ""
+        "label": "LineBreak2",
+        "padding": 8,
+        "show": null
     },
-    "Type": "Text Block",
+    "Type": "Line Break",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/TextBlock12"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/LineBreak2"
 }

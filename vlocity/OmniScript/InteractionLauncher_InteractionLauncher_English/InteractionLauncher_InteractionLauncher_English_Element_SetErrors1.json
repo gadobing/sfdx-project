@@ -29,8 +29,8 @@
                     },
                     {
                         "condition": "=",
-                        "data": null,
-                        "field": "Result:Detail"
+                        "data": "false",
+                        "field": "Result:hasData"
                     }
                 ]
             }

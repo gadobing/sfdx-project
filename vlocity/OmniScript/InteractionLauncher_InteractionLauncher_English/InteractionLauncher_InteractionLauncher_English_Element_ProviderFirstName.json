@@ -45,7 +45,7 @@
         "repeat": false,
         "repeatClone": false,
         "repeatLimit": null,
-        "required": true,
+        "required": false,
         "show": null,
         "showInputWidth": false
     },

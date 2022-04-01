@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "SetErrorsFacilityValidation",
+    "Name": "SetErrorsFieldValidation",
     "OmniProcessId": {
         "Name": "Account Search",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -12,10 +12,9 @@
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "elementErrorMap": {
-            "FacilityNPI": "Required",
-            "FacilityName": "Required"
+            "FormulaValidationFields": false
         },
-        "label": "SetErrorsFacilityValidation",
+        "label": "SetErrorsFieldValidation",
         "message": {
         },
         "pubsub": false,
@@ -25,18 +24,8 @@
                 "rules": [
                     {
                         "condition": "=",
-                        "data": "Facility",
-                        "field": "RadioUserType"
-                    },
-                    {
-                        "condition": "=",
-                        "data": null,
-                        "field": "FacilityNPI"
-                    },
-                    {
-                        "condition": "=",
-                        "data": null,
-                        "field": "FacilityName"
+                        "data": "false",
+                        "field": "FormulaValidationFields"
                     }
                 ]
             }
@@ -52,5 +41,5 @@
     "Type": "Set Errors",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/SetErrorsFacilityValidation"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/SetErrorsFieldValidation"
 }
