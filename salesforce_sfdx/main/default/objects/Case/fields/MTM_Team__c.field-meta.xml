@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MTM_Team__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+IF(ISPICKVAL(Case_Team__c,'ABCNCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ABAE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ACS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ACSC'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ACSCO'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ACSF'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ACSPA'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ASCMT'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'APPAR'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'BCAA'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'BP'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'BUPAR'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'BCCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'BE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'BACSE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'CNT'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'EVM'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ECS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'EIC'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'ECSE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'FCSE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'FSCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'FCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'FSCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HSEPSECS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HSEPSECSIE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HSEPSECSIM'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HCSE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HCSIE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HCSIM'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HPAR'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'HSCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'JCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'MMB'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'PBCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'PBI'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SLCSCIO'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SLCSE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SLIPCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SASEPSE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SB'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SBCRB'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SBC'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'SHA'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'TCSE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'TCCT'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'TCECTUO'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'TCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'TIPCS'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'TOSRC'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'WMCCT'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'WMCE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'WMCSE'),TRUE,FALSE)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MTM Team</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
