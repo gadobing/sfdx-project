@@ -1,5 +1,5 @@
 import { LightningElement,api,track } from 'lwc';
-import { OmniscriptBaseMixin } from "omnistudio/omniscriptBaseMixin";
+import { OmniscriptBaseMixin } from "%vlocity_namespace%/omniscriptBaseMixin";
 
 export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(LightningElement){
     @track displayRows = [];
@@ -26,6 +26,8 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
     @api risk;
     @api memberid;
     @api claimid;
+    @api strClaimId;
+    removeSldxBox=true;
 
     //Audit block boolean
     @track showAuditTable = false;
@@ -35,8 +37,13 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
     @track type;
     @track record;
     @track isModalOpen = false;
-    @track isAccordianOpen = false;
+    @track isAccordianOpen = true;
     @track chevron = 'utility:chevronright';
+
+    @track isAltAccordianOpen = true;
+    @track chevronAlt = 'utility:chevronright';
+
+    activeSectionMessage = '';
 
     @api 
     get table (){
@@ -63,6 +70,10 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
         }
         else if(val == 'Audit'){
             this.showAuditTable = true;
+        }
+        else if(val == 'true'){
+            this.removeSldxBox = false;
+            this.showEOB = true;
         }
     }
 
@@ -154,18 +165,21 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
     }
     
     validateparams() {
-        if((memberid != null && memberid != '')&&(claimid!= null && claimid != ''))
-        {
-            console.log('memberid>>::'+memberid);
-            console.log('claimid>>::'+claimid);
-            this.showViewEOB = true;
-            console.log('showViewEOB>>::'+showViewEOB);
-        }
+        console.log('memberid>>::'+this.memberid);
+        console.log('claimid>>::'+this.strClaimId);
+        this.showViewEOB = true;
     }
 
     handleAccordianClick(){
         this.isAccordianOpen = !this.isAccordianOpen;
         this.chevron = this.isAccordianOpen ? 'utility:chevrondown' : 'utility:chevronright';
     }
+
+    
+    handleAccordianClickAlt(){
+        this.isAltAccordianOpen = !this.isAltAccordianOpen;
+        this.chevronAlt = this.isAltAccordianOpen ? 'utility:chevrondown' : 'utility:chevronright';
+    }
+   
     
 }

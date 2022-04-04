@@ -1,1321 +1,1403 @@
 <template>
-    <div class="container">
-    <div class="slds-box slds-theme_default">
+    <template if:true={removeSldxBox}>
+        <div class="container slds-box slds-theme_default">
+     
+            <template if:true={showTotalTable}>
 
-        <template if:true={showTotalTable}>
-
-            <template if:true={showTotalModal}>
-                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
-                    aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
-                    <div class="slds-modal__container modal-size">
-                        <!-- modal header start -->
-                        <header class="slds-modal__header">
-                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
-                                title="Close" onclick={closeTotalModal}>
-                                <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
-                                    size="small">
-                                </lightning-icon>
-                                <span class="slds-assistive-text">Close</span>
-                            </button>
-                            <h2 class="slds-text-heading_medium slds-hyphenate">Totals
-                            </h2>
-                        </header>
-                        <!-- modal body start -->
-                        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2">
-                            <div class="slds-grid slds-wrap">
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Total </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{total} </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Allowed </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{allowed} </span>
+                <template if:true={showTotalModal}>
+                    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                        aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                        <div class="slds-modal__container modal-size">
+                            <!-- modal header start -->
+                            <header class="slds-modal__header">
+                                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                    title="Close" onclick={closeTotalModal}>
+                                    <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
+                                        size="small">
+                                    </lightning-icon>
+                                    <span class="slds-assistive-text">Close</span>
+                                </button>
+                                <h2 class="slds-text-heading_medium slds-hyphenate">Totals
+                                </h2>
+                            </header>
+                            <!-- modal body start -->
+                            <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2">
+                                <div class="slds-grid slds-wrap">
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Total </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{total} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Denied </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{denied} </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Total Provider Discount </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{tpd} </span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Allowed </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{allowed} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Total Interest </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{interest} </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Deductible </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{deductible} </span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Denied </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{denied} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Co-Pay </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{copay} </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Co-Insurance </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{insurance} </span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Total Interest  </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {interest} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Paid Amount </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{paid} </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Disallow Amount </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{disallowed} </span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Total Provider Discount</b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{tpd}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Total Risk Amount </b></span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Co-Pay  </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{copay} </span>
+                                                </div>
                                             </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{risk} </span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Disallow Amount </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{disallowed} </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Co-Insurance </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{insurance} </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Paid Amount </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{paid} </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Deductible </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{deductible} </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Total Risk Amount </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{risk} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- modal footer start-->
+                            <footer class="slds-modal__footer">
+                                <button class="slds-button slds-button_neutral"
+                                    onclick={closeTotalModal}>Cancel</button>
+                            </footer>
                         </div>
-                        <!-- modal footer start-->
-                        <footer class="slds-modal__footer">
-                            <button class="slds-button slds-button_neutral" onclick={closeTotalModal}>Cancel</button>
-                        </footer>
-                    </div>
-                </section>
-                <div class="slds-backdrop slds-backdrop_open"></div>
+                    </section>
+                    <div class="slds-backdrop slds-backdrop_open"></div>
+                </template>
+
+                <table
+                    class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
+                    <thead>
+                        <tr>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="Total">Total</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="PaidAmount">Paid Amount
+                                </div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="Allowed">Allowed</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="Denied">Denied</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap"></div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <template if:true={total}>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{total}</div>
+                                </template>
+                            </td>
+                            <td>
+                                <template if:true={paid}>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{paid}</div>
+                                </template>
+                            </td>
+                            <td>
+                                <template if:true={allowed}>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{allowed}</div>
+                                </template>
+                            </td>
+                            <td>
+                                <template if:true={denied}>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{denied}</div>
+                                </template>
+                            </td>
+                            <td>
+                                <lightning-button variant="base" label="View More" data-name="view"
+                                    onclick={handleButtonClick} class="slds-m-left_x-small" value={index}>
+                                </lightning-button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </template>
 
-            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
-                <thead>
-                    <tr>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="Total">Total</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="PaidAmount">Paid Amount</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="Allowed">Allowed</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="Denied">Denied</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap"></div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <template if:true={total}>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{total}</div>
-                            </template>
-                        </td>
-                        <td>
-                            <template if:true={paid}>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{paid}</div>
-                            </template>
-                        </td>
-                        <td>
-                            <template if:true={allowed}>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{allowed}</div>
-                            </template>
-                        </td>
-                        <td>
-                            <template if:true={denied}>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{denied}</div>
-                            </template>
-                        </td>
-                        <td>
-                            <lightning-button variant="base" label="View More" data-name="view"
-                                onclick={handleButtonClick} class="slds-m-left_x-small" value={index}>
-                            </lightning-button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </template>
+            <template if:true={showLineDetails}>
+                <!-- modal start -->
+                <template if:true={showModal}>
+                    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                        aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                        <div class="slds-modal__container modal-size">
+                            <!-- modal header start -->
+                            <header class="slds-modal__header">
+                                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                    title="Close" onclick={closeModal}>
+                                    <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
+                                        size="small">
+                                    </lightning-icon>
+                                    <span class="slds-assistive-text">Close</span>
+                                </button>
+                                <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Line Item
+                                    Details
+                                </h2>
+                            </header>
+                            <!-- modal body start -->
+                            <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
 
-        <template if:true={showLineDetails}>
-            <!-- modal start -->
-            <template if:true={showModal}>
-                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
-                    aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
-                    <div class="slds-modal__container modal-size">
-                        <!-- modal header start -->
-                        <header class="slds-modal__header">
-                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
-                                title="Close" onclick={closeModal}>
-                                <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
-                                    size="small">
-                                </lightning-icon>
-                                <span class="slds-assistive-text">Close</span>
-                            </button>
-                            <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Line Item Details
-                            </h2>
-                        </header>
-                        <!-- modal body start -->
-                        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
-
-                            <div class="slds-grid slds-wrap">
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Line
-                                                        Item # </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.LineItemNumber} </span>
+                                <div class="slds-grid slds-wrap">
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Line
+                                                            Item # </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.LineItemNumber}
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Procedure </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Procedure.id} -
-                                                    {selectedRow.Procedure.description}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Date Start </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.DateStart} </span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Date Start </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left padding-right">{selectedRow.DateStart}
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Date End </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.DateEnd} </span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Date End </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left padding-right">{selectedRow.DateEnd}
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Comp </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Comp.id} -
-                                                    {selectedRow.Comp.description}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Comp </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left padding-right">{selectedRow.Comp.id} -
+                                                        {selectedRow.Comp.description}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Benefit </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Benefit.id} -
-                                                    {selectedRow.Benefit.description}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Benefit </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left padding-right">{selectedRow.Benefit.id}
+                                                        -
+                                                        {selectedRow.Benefit.description}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Total </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Total}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Total </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.Total}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Allowed </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Allowed}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>CoPay </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.CoPay}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Denied </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Denied}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Denied </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.Denied}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>CoPay </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.CoPay}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Co-Insurance </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.CoInsurance}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Unit </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Units}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b> Allowed</b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.Allowed}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Place of Service </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.PlaceOfService.id} -
-                                                    {selectedRow.PlaceOfService.description}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Deductible</b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.Deductible}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Carrier Risk </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.CarrierRisk.id} -
-                                                    {selectedRow.CarrierRisk.description}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Interest </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.Interest}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Treat Type </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.TreatType.id} -
-                                                    {selectedRow.TreatType.description}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Unit</b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.Units}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Provider Discount </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.ProviderDiscount}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Provider Discount </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.ProviderDiscount}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Interest </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Interest}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Carrier Risk </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.CarrierRisk.id}
+                                                        -
+                                                        {selectedRow.CarrierRisk.description}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Deductible </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.Deductible}</span>
+
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Disallow Amount  </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.DisallowAmount}
+                                                        </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Co-Insurance </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.CoInsurance}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Treat Type  </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.TreatType.id}
+                                                        -
+                                                        {selectedRow.TreatType.description}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Paid Amount </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.PaidAmount}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Paid Amount </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.PaidAmount}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Disallow Amount </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.DisallowAmount}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Place of Service</b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.PlaceOfService.id}-
+                                                        {selectedRow.PlaceOfService.description}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Risk Amount </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.RiskAmount}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Risk Amount </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.RiskAmount}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Check EFT Number </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.CheckEFTNumber}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Check EFT Number </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.CheckEFTNumber}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Trace ID number </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.TraceIDnumber}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Trace ID number </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.TraceIDnumber}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Check Date </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.CheckDate}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Check Date </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.CheckDate}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Transaction Date </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.TransactionDate}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Transaction Date </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.TransactionDate}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Operator </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right"><!--{selectedRow.Operator.id} -
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Operator </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left padding-right">
+                                                        <!--{selectedRow.Operator.id} -
                                                 -->{selectedRow.Operator.FirstName}
-                                                    {selectedRow.Operator.LastName}</span>
+                                                        {selectedRow.Operator.LastName}
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Line Status </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.LineStatus.id} -
-                                                    {selectedRow.LineStatus.description}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Line Status </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.LineStatus.id}
+                                                        -
+                                                        {selectedRow.LineStatus.description}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Pay Service </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.PayService.id} -
-                                                    {selectedRow.PayService.description}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Pay Service </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.PayService.id}
+                                                        -
+                                                        {selectedRow.PayService.description}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div
-                                    class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>Fee Schedule </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left padding-right">{selectedRow.FeeSchedule}</span>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>Fee Schedule </b></span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span
+                                                        class="slds-float_left padding-right">{selectedRow.FeeSchedule}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <ul>
-                                        <li>
-                                            <b>
-                                                <lightning-button variant="base" label="ITS Provider Allowed" title="ITS Provider Allowed"
-                                                icon-name={chevron} onclick={handleAccordianClick} class="button"></lightning-button>
-                                            </b>
-                                        </li>
-                                        <template if:true={isAccordianOpen}>
-                                        <li>
-                                            <ul class="slds-is-nested slds-has-inline-block-links_space">
-                                                <li><br></li>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <ul>
+                                            <li>
+                                                <b>
+                                                    <lightning-button variant="base" label="ITS Provider Allowed"
+                                                        title="ITS Provider Allowed" icon-name={chevron}
+                                                        onclick={handleAccordianClick} class="button">
+                                                    </lightning-button>
+                                                </b>
+                                            </li>
+                                            <template if:true={isAccordianOpen}>
                                                 <li>
-                                                    <div class="slds-grid slds-wrap">
-                                                        <div class="slds-col slds-size_3-of-8 ">
-                                                            <span class="slds-float_left"><b>Surcharge Amount </b></span>
-                                                        </div>
-                                                        <div class="slds-col slds-size_5-of-8 ">
-                                                            <span class="slds-float_left padding-right">{selectedRow.ITSProviderAllowed.SurchargeAmount}</span>
-                                                        </div>
-                                                    </div>
+                                                    <ul class="slds-is-nested slds-has-inline-block-links_space">
+                                                        <!--<li><br></li>-->
+                                                        <li>
+                                                            <div class="slds-grid slds-wrap">
+                                                                <div class="slds-col slds-size_3-of-8 ">
+                                                                    <span class="slds-float_left"><b>Surcharge Amount
+                                                                        </b></span>
+                                                                </div>
+                                                                <div class="slds-col slds-size_5-of-8 ">
+                                                                    <span
+                                                                        class="slds-float_left padding-right">{selectedRow.ITSProviderAllowed.SurchargeAmount}</span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <!--<li><br></li>-->
+                                                        <li>
+                                                            <div class="slds-grid slds-wrap">
+                                                                <div class="slds-col slds-size_3-of-8 ">
+                                                                    <span class="slds-float_left"><b>Supplemental Amount
+                                                                        </b></span>
+                                                                </div>
+                                                                <div class="slds-col slds-size_5-of-8 ">
+                                                                    <span
+                                                                        class="slds-float_left padding-right">{selectedRow.ITSProviderAllowed.SupplementalAmount}</span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <!--<li><br></li>-->
+                                                        <li>
+                                                            <div class="slds-grid slds-wrap">
+                                                                <div class="slds-col slds-size_3-of-8 ">
+                                                                    <span class="slds-float_left"><b>Approved Amount
+                                                                        </b></span>
+                                                                </div>
+                                                                <div class="slds-col slds-size_5-of-8 ">
+                                                                    <span
+                                                                        class="slds-float_left padding-right">{selectedRow.ITSProviderAllowed.ApprovedAmount}</span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
                                                 </li>
-                                                <li><br></li>
-                                                <li>
-                                                    <div class="slds-grid slds-wrap">
-                                                        <div class="slds-col slds-size_3-of-8 ">
-                                                            <span class="slds-float_left"><b>Supplemental Amount </b></span>
-                                                        </div>
-                                                        <div class="slds-col slds-size_5-of-8 ">
-                                                            <span
-                                                                class="slds-float_left padding-right">{selectedRow.ITSProviderAllowed.SupplementalAmount}</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li><br></li>
-                                                <li>
-                                                    <div class="slds-grid slds-wrap">
-                                                        <div class="slds-col slds-size_3-of-8 ">
-                                                            <span class="slds-float_left"><b>Approved Amount </b></span>
-                                                        </div>
-                                                        <div class="slds-col slds-size_5-of-8 ">
-                                                            <span class="slds-float_left padding-right">{selectedRow.ITSProviderAllowed.ApprovedAmount}</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                            </template>
+                                        </ul>
+                                    </div>
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_1-of-1 slds-large-size_1-of-1 ">
+                                        <b>
+                                            <lightning-button variant="base" label="Alt Carrier" title="Alt Carrier"
+                                                icon-name={chevronAlt} onclick={handleAccordianClickAlt} class="button">
+                                            </lightning-button>
+                                        </b>
+                                        <template if:true={isAltAccordianOpen}>
+
+
+                                            <table
+                                                class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="Line">Line</div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="Alt Carrier">Alt Carrier</div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="Allow">Allow</div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="Pay">Pay</div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="AltCarrier Covers">AltCarrier
+                                                                Covers
+                                                            </div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="Medicare Covers">Medicare
+                                                                Covers</div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="Savings">Savings</div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="COB Savings">COB Savings</div>
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            <div class="slds-truncate slds-cell-wrap slds-float_left"
+                                                                title="COB Savings">Reimbursement
+                                                            </div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <template for:each={selectedRow.AltCarrierPay} for:item="altCarrier"
+                                                        for:index="index">
+                                                        <tr key={altCarrier.LineNumber}>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.LineNumber}
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.AltCarrier}</div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.Allow}
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.Pay}
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.AltCarrierCovers}
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.MedicareCovers}
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.Savings}</div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.CoOrdinationOfBenefitsSavings}</div>
+                                                            </td>
+                                                            <td>
+                                                                <div key={altCarrier.LineNumber}
+                                                                    class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                                                    {altCarrier.Reimbursement}
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </template>
+                                                </tbody>
+                                            </table>
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modal footer start-->
+                            <footer class="slds-modal__footer">
+                                <button class="slds-button slds-button_neutral" onclick={closeModal}>Cancel</button>
+                            </footer>
+                        </div>
+                    </section>
+                    <div class="slds-backdrop slds-backdrop_open"></div>
+                </template>
+                <!-- modal end -->
+
+
+                <table
+                    class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
+                    <thead>
+                        <tr>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="LineItemNumber">Line
+                                    Item #</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="Modifier">Modifier
+                                </div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="MedicalEdits">Medical
+                                    Edits</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="Diagnosis">Diagnosis
+                                </div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="ReasonExplanation">
+                                    Reason Explanation
+                                </div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="Procedure">Procedure
+                                    Code</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={displayRows} for:item="row" for:index="index">
+                            <tr key={row.rowid}>
+                                <td>
+                                    <lightning-button variant="base" label={row.LineItemNumber} data-name="lineNumber"
+                                        onclick={handleClick} value={index}></lightning-button>
+                                </td>
+                                <td>
+                                    <template for:each={row.Modifier} for:item="Modifier">
+                                        <div key={Modifier.id}
+                                            class="slds-m-left_x-small slds-cell-wrap slds-float_left">{Modifier.id}
+                                            -
+                                            {Modifier.description}</div>
+                                        <div key={Modifier.id}
+                                            class="slds-m-left_x-small slds-cell-wrap slds-float_left"><br></div>
                                     </template>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- modal footer start-->
-                        <footer class="slds-modal__footer">
-                            <button class="slds-button slds-button_neutral" onclick={closeModal}>Cancel</button>
-                        </footer>
-                    </div>
-                </section>
-                <div class="slds-backdrop slds-backdrop_open"></div>
+                                </td>
+                                <td>
+                                    <template for:each={row.MedicalEdits} for:item="medicalEdit">
+                                        <div key={medicalEdit.id}
+                                            class="slds-m-left_x-small  slds-cell-wrap slds-float_left">
+                                            {medicalEdit.id} -
+                                            {medicalEdit.description}</div>
+                                        <div key={medicalEdit.id}
+                                            class="slds-m-left_x-small  slds-cell-wrap slds-float_left">
+                                            <br>
+                                        </div>
+                                    </template>
+                                </td>
+                                <td>
+                                    <template for:each={row.Diagnosis} for:item="diagnosis">
+                                        <div key={diagnosis.id}
+                                            class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                            {diagnosis.id} -
+                                            {diagnosis.description}</div>
+                                        <div key={diagnosis.id}
+                                            class="slds-m-left_x-small slds-cell-wrap slds-float_left"><br></div>
+                                    </template>
+                                </td>
+                                <td>
+                                    <template for:each={row.ReasonExplanation} for:item="reason">
+                                        <div key={reason.id}
+                                            class="slds-m-left_x-small  slds-cell-wrap slds-float_left">{reason.id} -
+                                            {reason.description}</div>
+                                        <div key={reason.id}
+                                            class="slds-m-left_x-small  slds-cell-wrap slds-float_left"><br></div>
+                                    </template>
+                                </td>
+                                <td>
+
+                                    <div class="slds-m-left_x-small  slds-cell-wrap slds-float_left">
+                                        {row.Procedure.id} -
+                                        {row.Procedure.description}</div>
+
+
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
             </template>
-            <!-- modal end -->
+
+            <template if:true={showCommentsTable}>
+                <table
+                    class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
+                    <thead>
+                        <tr>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="SequenceNumber">
+                                    Sequence No.#</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="Text">Text</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="EffectiveDate">
+                                    Effective Date</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="TerminationDate">
+                                    Termination Date
+                                </div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="CategoryId">Category Id
+                                </div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="TypeCodeText">Type Code
+                                    Text</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={displayRows} for:item="row" for:index="index">
+                            <tr key={row.rowid}>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.SequenceNumber}
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.Text}</div>
+                                </td>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.CategoryId}
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.EffectiveDate}
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">
+                                        {row.TerminationDate}</div>
+
+                                </td>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.TypeCodeText}
+                                    </div>
+                                </td>
+
+
+                            </tr>
+
+                        </template>
+                    </tbody>
+                </table>
+
+            </template>
+
+            <template if:true={showCodesTable}>
+                <table
+                    class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
+                    <thead>
+                        <tr>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="id">Code Id</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate slds-cell-wrap slds-float_left" title="description">Code
+                                    Description</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={displayRows} for:item="row" for:index="index">
+                            <tr key={row.rowid}>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.id}</div>
+                                </td>
+                                <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.description}
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                        </template>
+                    </tbody>
+                </table>
+
+            </template>
             
+            <template if:true={showAuditTable}>
 
-            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
-                <thead>
-                    <tr>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="LineItemNumber">Line Item #</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="Modifier">Modifier</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="MedicalEdits">Medical Edits</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="Diagnosis">Diagnosis</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="ReasonExplanation">Reason Explanation</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="AltCarrierPay">Alt Carrier Pay</div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template for:each={displayRows} for:item="row" for:index="index">
-                        <tr key={row.rowid}>
-                            <td>
-                                <lightning-button variant="base" label={row.LineItemNumber} data-name="lineNumber"
-                                    onclick={handleClick} value={index}></lightning-button>
-                            </td>
-                            <td>
-                                <template for:each={row.Modifier} for:item="Modifier">
-                                    <div key={Modifier.id} class="slds-m-left_x-small slds-cell-wrap slds-float_left">{Modifier.id} -
-                                        {Modifier.description}</div>
-                                        <div key={Modifier.id} class="slds-m-left_x-small slds-cell-wrap slds-float_left"><br></div>
-                                </template>
-                            </td>
-                            <td>
-                                <template for:each={row.MedicalEdits} for:item="medicalEdit">
-                                    <div key={medicalEdit.id} class="slds-m-left_x-small  slds-cell-wrap slds-float_left">
-                                        {medicalEdit.id} -
-                                        {medicalEdit.description}</div>
-                                        <div key={medicalEdit.id} class="slds-m-left_x-small  slds-cell-wrap slds-float_left">
-                                            <br></div>
-                                </template>
-                            </td>
-                            <td>
-                                <template for:each={row.Diagnosis} for:item="diagnosis">
-                                    <div key={diagnosis.id} class="slds-m-left_x-small slds-cell-wrap slds-float_left">{diagnosis.id} -
-                                        {diagnosis.description}</div>
-                                    <div key={diagnosis.id} class="slds-m-left_x-small slds-cell-wrap slds-float_left"><br></div>
-                                </template>
-                            </td>
-                            <td>
-                                <template for:each={row.ReasonExplanation} for:item="reason">
-                                    <div key={reason.id} class="slds-m-left_x-small  slds-cell-wrap slds-float_left">{reason.id} -
-                                        {reason.description}</div>
-                                        <div key={reason.id} class="slds-m-left_x-small  slds-cell-wrap slds-float_left"><br></div>
-                                </template>
-                            </td>
-                            <td>
-                                <template for:each={row.AltCarrierPay} for:item="altCarrier">
-                                    <div key={altCarrier.Line} class="slds-grid slds-wrap">
-                                        <div
-                                            class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_1-of-1 slds-large-size_1-of-1 ">
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>Line: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.Line} </span>
-                                                    </div>
+                <!--Claims Audit Trail-->
+                <template if:true={isModalOpen}>
+                    <!-- Modal/Popup Box LWC starts here -->
+                    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                        aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                        <div class="slds-modal__container">
+                            <!-- Modal/Popup Box LWC header here -->
+                            <header class="slds-modal__header">
+                                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                    title="Close" onclick={submitDetails}>
+                                    <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
+                                        size="small"></lightning-icon>
+                                    <span class="slds-assistive-text">Close</span>
+                                </button>
+                                <h2 id="modal-heading-05" class="slds-text-heading_medium slds-hyphenate">{type} Level
+                                </h2>
+                            </header>
+                            <!-- Modal/Popup Box LWC body starts here -->
+                            <div class="slds-modal__content slds-p-around_x-large" id="modal-content-id-5">
+
+                                <div class="slds-grid slds-wrap">
+
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"><b>{type} Level </b></span>
                                                 </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>Alt Carrier: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.AltCarrier} </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>Allow: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.Allow} </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>Pay: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.Pay}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>AltCarrier Covers: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.AltCarrierCovers}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>Medicare Covers: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.MedicareCovers}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>Savings: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.Savings}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>COB Savings: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.CoOrdinationOfBenefitsSavings}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <div class="slds-col slds-size_3-of-8 ">
-                                                        <span class="slds-float_left padding-right"><b>Reimbursement: </b></span>
-                                                    </div>
-                                                    <div class="slds-col slds-size_5-of-8 ">
-                                                        <span class="slds-float_right">{altCarrier.Reimbursement}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="slds-grid slds-wrap">
-                                                    <br>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left">{record.ClaimId} </span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </template>
-                            </td>
-                        </tr>
-                    </template>
-                </tbody>
-            </table>
-        </template>
 
-        <template if:true={showCommentsTable}>
-            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
-                <thead>
-                    <tr>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="SequenceNumber">Sequence No.#</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="Text">Text</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="EffectiveDate">Effective Date</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="TerminationDate">Termination Date</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="CategoryId">Category Id</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="TypeCodeText">Type Code Text</div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template for:each={displayRows} for:item="row" for:index="index">
-                        <tr key={row.rowid}>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.SequenceNumber}</div>
-                            </td>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.Text}</div>
-                            </td>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.CategoryId}</div>
-
-                            </td>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.EffectiveDate}</div>
-
-                            </td>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.TerminationDate}</div>
-
-                            </td>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.TypeCodeText}</div>
-                            </td>
-
-
-                        </tr>
-
-                    </template>
-                </tbody>
-            </table>
-
-        </template>
-
-        <template if:true={showCodesTable}>
-            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
-                <thead>
-                    <tr>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="id">Code Id</div>
-                        </th>
-                        <th class="" scope="col">
-                            <div class="slds-truncate slds-cell-wrap slds-float_left" title="description">Code Description</div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template for:each={displayRows} for:item="row" for:index="index">
-                        <tr key={row.rowid}>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.id}</div>
-                            </td>
-                            <td>
-                                <div class="slds-m-left_x-small slds-cell-wrap slds-float_left">{row.description}</div>
-
-                            </td>
-
-                        </tr>
-
-                    </template>
-                </tbody>
-            </table>
-
-        </template>
-
-        <template if:true={showAuditTable}>
-
-            <!--Claims Audit Trail--> 
-            <template if:true={isModalOpen}>
-                <!-- Modal/Popup Box LWC starts here -->
-                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
-                    <div class="slds-modal__container">
-                        <!-- Modal/Popup Box LWC header here -->
-                        <header class="slds-modal__header">
-                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={submitDetails}>
-                                <lightning-icon icon-name="utility:close"
-                                    alternative-text="close"
-                                    variant="inverse"
-                                    size="small" ></lightning-icon>
-                                <span class="slds-assistive-text">Close</span>
-                            </button>
-                            <h2 id="modal-heading-05" class="slds-text-heading_medium slds-hyphenate">{type} Level</h2>
-                        </header>
-                        <!-- Modal/Popup Box LWC body starts here -->
-                        <div class="slds-modal__content slds-p-around_x-large" id="modal-content-id-5">
-                            
-                            <div class="slds-grid slds-wrap">
-
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"><b>{type} Level </b></span>
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left">{record.ClaimId} </span>   
+                                    <div
+                                        class="slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>Service </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.Service} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>Service </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.Service} </span>   
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>OP Number </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.OPNumber} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>OP Number </b>  </span>  
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.OPNumber}   </span> 
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>Claim Status </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.ClaimStatus} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>Claim Status </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.ClaimStatus} </span>   
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>Service Status </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.ServiceStatus} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>Service Status </b>  </span>  
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.ServiceStatus}   </span> 
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>EX Code </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.ExCode} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>EX Code </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.ExCode} </span>   
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>Paid </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.Paid} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>Paid </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.Paid} </span>   
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>TPStat </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.TPStat} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>TPStat </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.TPStat} </span>   
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>Screen/Function </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.ScreenFunction} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>Screen/Function </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.ScreenFunction} </span>   
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>Trans Date </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {claim.ClaimLevel.TransDate} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>Trans Date </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {claim.ClaimLevel.TransDate} </span>   
+                                    <div
+                                        class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
+                                        <div>
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-col slds-size_3-of-8 ">
+                                                    <span class="slds-float_left"> <b>Trans Time </b> </span>
+                                                </div>
+                                                <div class="slds-col slds-size_5-of-8 ">
+                                                    <span class="slds-float_left"> {record.TransTime} </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class=" slds-p-bottom_x-small slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 ">
-                                    <div>
-                                        <div class="slds-grid slds-wrap">
-                                            <div class="slds-col slds-size_3-of-8 ">
-                                                <span class="slds-float_left"> <b>Trans Time </b> </span>   
-                                            </div>
-                                            <div class="slds-col slds-size_5-of-8 ">
-                                                <span class="slds-float_left"> {record.TransTime} </span>   
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
                             </div>
-
+                            <!-- Modal/Popup Box LWC footer starts here -->
+                            <footer class="slds-modal__footer">
+                                <button class="slds-button slds-button_neutral" onclick={submitDetails}
+                                    title="Cancel">Cancel</button>
+                            </footer>
                         </div>
-                        <!-- Modal/Popup Box LWC footer starts here -->
-                        <footer class="slds-modal__footer">
-                            <button class="slds-button slds-button_neutral" onclick={submitDetails} title="Cancel">Cancel</button>
-                        </footer>
-                    </div>
-                </section>
-                <div class="slds-backdrop slds-backdrop_open"></div>
-            </template>
+                    </section>
+                    <div class="slds-backdrop slds-backdrop_open"></div>
+                </template>
 
-            <!-- claim level -->
-            <template if:true={claim.ClaimLevel}>
-                <div class="slds-scrollable_x" style="width:64rem">    
-                    <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
-                        <thead>
-                            <tr>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Claim Level">Claim Level</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Service">Service</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="OP Number">OP Number</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Claim Status">Claim Status</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Service Status">Service Status</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="EX Code">EX Code</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" >Paid</div>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <lightning-button variant="base" label={claim.ClaimLevel.ClaimId} data-name="view"
-                                        onclick={openModalClaims}>
-                                    </lightning-button>
-                                </td>
-                                <td>
-                                        <div >{claim.ClaimLevel.Service}</div>
-                                </td>
-                                <td>
-                                        <div >{claim.ClaimLevel.OPNumber}</div>
-                                </td>
-                                <td>
-                                        <div >{claim.ClaimLevel.ClaimStatus}</div>
-                                </td>
-                                <td>
-                                        <div >{claim.ClaimLevel.ServiceStatus}</div>
-                                </td>
-                                <td>
-                                        <div >{claim.ClaimLevel.EXCode}</div>
-                                </td>
-                                <td>
-                                    <div >{claim.ClaimLevel.Paid}</div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </template>
-            <br></br>
-
-            <!--Service Level-->
-            <template if:true={claim.ServiceLevel}>
-                <div class="slds-scrollable_x" style="width: 64rem">    
-                    <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
-                        <thead>
-                            <tr>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Total">Service Level</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="PaidAmount">Service</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Allowed">OP Number</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Denied">Claim Status</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Denied">Service Status</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" title="Denied">EX Code</div>
-                                </th>
-                                <th class="" scope="col">
-                                    <div class="slds-truncate" >Paid</div>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <template for:each={claim.ServiceLevel} for:item="row" for:index="index">
-                                <tr key={row.ClaimId}>
+                <!-- claim level -->
+                <template if:true={claim.ClaimLevel}>
+                    <div class="slds-scrollable_x" style="width:64rem">
+                        <table
+                            class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
+                            <thead>
+                                <tr>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Claim Level">Claim Level</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Service">Service</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="OP Number">OP Number</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Claim Status">Claim Status</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Service Status">Service Status</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="EX Code">EX Code</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate">Paid</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
                                     <td>
+                                        <lightning-button variant="base" label={claim.ClaimLevel.ClaimId}
+                                            data-name="view" onclick={openModalClaims}>
+                                        </lightning-button>
+                                    </td>
+                                    <td>
+                                        <div>{claim.ClaimLevel.Service}</div>
+                                    </td>
+                                    <td>
+                                        <div>{claim.ClaimLevel.OPNumber}</div>
+                                    </td>
+                                    <td>
+                                        <div>{claim.ClaimLevel.ClaimStatus}</div>
+                                    </td>
+                                    <td>
+                                        <div>{claim.ClaimLevel.ServiceStatus}</div>
+                                    </td>
+                                    <td>
+                                        <div>{claim.ClaimLevel.EXCode}</div>
+                                    </td>
+                                    <td>
+                                        <div>{claim.ClaimLevel.Paid}</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </template>
+                <br></br>
+
+                <!--Service Level-->
+                <template if:true={claim.ServiceLevel}>
+                    <div class="slds-scrollable_x" style="width: 64rem">
+                        <table
+                            class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left">
+                            <thead>
+                                <tr>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Total">Service Level</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="PaidAmount">Service</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Allowed">OP Number</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Denied">Claim Status</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Denied">Service Status</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Denied">EX Code</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate">Paid</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template for:each={claim.ServiceLevel} for:item="row" for:index="index">
+                                    <tr key={row.ClaimId}>
+                                        <td>
                                             <lightning-button variant="base" label={row.ClaimId} data-name="view"
                                                 onclick={openModalService} value={index}>
                                             </lightning-button>
-                                    </td>
-                                    <td>
-                                            <div >{row.Service}</div>
-                                    </td>
-                                    <td>
-                                            <div >{row.OPNumber}</div>
-                                    </td>
-                                    <td>
-                                            <div >{row.ClaimStatus}</div>
-                                    </td>
-                                    <td>
-                                            <div >{row.ServiceStatus}</div>
-                                    </td>
-                                    <td>
-                                            <div >{row.EXCode}</div>
-                                    </td>
-                                    <td>
-                                            <div >{row.Paid}</div>
-                                    </td>
-                                </tr>
-                            </template>
-                        </tbody>
-                    </table>
-                </div>
-            </template>
+                                        </td>
+                                        <td>
+                                            <div>{row.Service}</div>
+                                        </td>
+                                        <td>
+                                            <div>{row.OPNumber}</div>
+                                        </td>
+                                        <td>
+                                            <div>{row.ClaimStatus}</div>
+                                        </td>
+                                        <td>
+                                            <div>{row.ServiceStatus}</div>
+                                        </td>
+                                        <td>
+                                            <div>{row.EXCode}</div>
+                                        </td>
+                                        <td>
+                                            <div>{row.Paid}</div>
+                                        </td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                </template>
 
-        </template>
-
-    </div>
-       
-    </div>
-     <!--<div style="height: 300px;">
-            <template if:true={showViewEOB}>
-                <c-cci_-view-e-o-b></c-cci_-view-e-o-b>
             </template>
-            onclick={validateparams}
-        
-    <lightning-button variant="brand" label="View EOB" title="View EOB" class="slds-m-right_x-small"></lightning-button></div>-->
+         </div>
+    </template>
+    <template if:true={showEOB}>
+        <lightning-button variant="brand" label="View EOB" title="View EOB" class="slds-m-right_x-small" onclick={validateparams}></lightning-button>
+     </template>
+     <template if:true={showViewEOB}>
+        <c-ccivieweob memberid="K0046488202" claimid={strClaimId}></c-ccivieweob>
+     </template>
 </template>
