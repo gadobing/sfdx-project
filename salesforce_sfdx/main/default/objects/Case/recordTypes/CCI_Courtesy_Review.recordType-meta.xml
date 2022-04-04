@@ -3,7 +3,7 @@
     <fullName>CCI_Courtesy_Review</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>This allow user to create case of Courtesy Review type</description>
+    <description>This allows the user to create a case of Courtesy Review type.</description>
     <label>Courtesy Review</label>
     <picklistValues>
         <picklist>Business__c</picklist>

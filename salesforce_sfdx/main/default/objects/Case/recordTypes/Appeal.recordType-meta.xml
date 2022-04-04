@@ -3,7 +3,7 @@
     <fullName>Appeal</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>Record type for review and disposition of an appeal related to a prior authorization or admission decision.</description>
+    <description>This allows the user to create a case of Appeal type.</description>
     <label>Appeal</label>
     <picklistValues>
         <picklist>Business__c</picklist>

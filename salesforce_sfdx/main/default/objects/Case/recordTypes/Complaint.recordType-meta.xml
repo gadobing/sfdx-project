@@ -3,7 +3,7 @@
     <fullName>Complaint</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>Record type for review and resolution of a complaint.</description>
+    <description>This allows the user to create a case of Complaint type.</description>
     <label>Complaint</label>
     <picklistValues>
         <picklist>Business__c</picklist>

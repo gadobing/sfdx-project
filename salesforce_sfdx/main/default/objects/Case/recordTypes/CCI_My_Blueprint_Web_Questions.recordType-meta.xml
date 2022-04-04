@@ -3,7 +3,7 @@
     <fullName>CCI_My_Blueprint_Web_Questions</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>This allow user to create case of My Blueprint/Web Questions type</description>
+    <description>This allows the user to create a case of My Blueprint/Web Questions type.</description>
     <label>My Blueprint/Web Questions</label>
     <picklistValues>
         <picklist>Business__c</picklist>

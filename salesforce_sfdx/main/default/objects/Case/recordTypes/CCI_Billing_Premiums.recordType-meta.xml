@@ -3,7 +3,7 @@
     <fullName>CCI_Billing_Premiums</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>This allow user to create case of Billing/Premiums type</description>
+    <description>This allows the user to create a case of Billing/Premiums type.</description>
     <label>Billing/Premiums</label>
     <picklistValues>
         <picklist>Business__c</picklist>

@@ -3,7 +3,7 @@
     <fullName>CCI_Pre_Certification</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>This allow user to create case of Pre-Certification type</description>
+    <description>This allows the user to create a case of Pre-Certification type.</description>
     <label>Pre-Certification</label>
     <picklistValues>
         <picklist>Business__c</picklist>

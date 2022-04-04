@@ -3,7 +3,7 @@
     <fullName>CCI_Claims</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>This allow user to create case of Claims type</description>
+    <description>This allows the user to create a case of Claims type.</description>
     <label>Claims</label>
     <picklistValues>
         <picklist>Business__c</picklist>

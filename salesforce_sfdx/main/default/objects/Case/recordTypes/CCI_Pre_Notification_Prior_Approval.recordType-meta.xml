@@ -3,7 +3,7 @@
     <fullName>CCI_Pre_Notification_Prior_Approval</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>This allow user to create case of Pre-Notification/Prior Approval (PA) type</description>
+    <description>This allows the user to create a case of Pre-Notification/Prior Approval (PA) type.</description>
     <label>Pre-Notification/Prior Approval (PA)</label>
     <picklistValues>
         <picklist>Business__c</picklist>

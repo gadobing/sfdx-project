@@ -3,7 +3,7 @@
     <fullName>CCI_Other</fullName>
     <active>true</active>
     <businessProcess>General</businessProcess>
-    <description>This allow user to create case of Other type</description>
+    <description>This allows the user to create a case of Other type.</description>
     <label>Other</label>
     <picklistValues>
         <picklist>Business__c</picklist>
