@@ -93,6 +93,7 @@
             <controllingFieldValue>Utilization Management</controllingFieldValue>
             <controllingFieldValue>Utilization review</controllingFieldValue>
             <controllingFieldValue>MURS</controllingFieldValue>
+            <controllingFieldValue>MARS</controllingFieldValue>
             <valueName>BARB</valueName>
         </valueSettings>
         <valueSettings>
@@ -144,9 +145,11 @@
             <controllingFieldValue>System Support</controllingFieldValue>
             <controllingFieldValue>SIU</controllingFieldValue>
             <controllingFieldValue>Case management</controllingFieldValue>
+            <controllingFieldValue>CRM Operations &amp; Service</controllingFieldValue>
             <controllingFieldValue>Claims</controllingFieldValue>
             <controllingFieldValue>Customer Service</controllingFieldValue>
             <controllingFieldValue>Pharmacy</controllingFieldValue>
+            <controllingFieldValue>MARS</controllingFieldValue>
             <valueName>Medicare Advantage</valueName>
         </valueSettings>
         <valueSettings>
@@ -187,10 +190,16 @@
         <valueSettings>
             <controllingFieldValue>Legal</controllingFieldValue>
             <controllingFieldValue>System Support</controllingFieldValue>
+            <controllingFieldValue>Configuration</controllingFieldValue>
             <controllingFieldValue>SIU</controllingFieldValue>
+            <controllingFieldValue>Accounting</controllingFieldValue>
             <controllingFieldValue>Case management</controllingFieldValue>
             <controllingFieldValue>CRM Operations &amp; Service</controllingFieldValue>
+            <controllingFieldValue>Claim support</controllingFieldValue>
             <controllingFieldValue>Claims</controllingFieldValue>
+            <controllingFieldValue>Customer Service</controllingFieldValue>
+            <controllingFieldValue>Customer Accounts</controllingFieldValue>
+            <controllingFieldValue>Underwriting</controllingFieldValue>
             <controllingFieldValue>Pharmacy</controllingFieldValue>
             <controllingFieldValue>MARS</controllingFieldValue>
             <valueName>ABCBS Regular Business</valueName>

@@ -2906,8 +2906,23 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>HCIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
             <controllingFieldValue>Customer Service</controllingFieldValue>
             <valueName>FCS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <valueName>HMIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>AMRTE</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Legal</controllingFieldValue>
@@ -3994,10 +4009,6 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>HCIA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
             <valueName>HCI</valueName>
         </valueSettings>
         <valueSettings>
@@ -4794,6 +4805,14 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>MOEPF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>MOEPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
             <valueName>MOAPPF</valueName>
         </valueSettings>
         <valueSettings>
@@ -4922,6 +4941,18 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>MURS</controllingFieldValue>
+            <valueName>EMIPN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <valueName>EMIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <valueName>EMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
             <valueName>BRE</valueName>
         </valueSettings>
         <valueSettings>
@@ -4970,10 +5001,6 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>MURS</controllingFieldValue>
-            <valueName>HMIR</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MURS</controllingFieldValue>
             <valueName>TSDPR</valueName>
         </valueSettings>
         <valueSettings>
@@ -5019,10 +5046,6 @@
         <valueSettings>
             <controllingFieldValue>MURS</controllingFieldValue>
             <valueName>AMRR</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>AMRTE</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>MARS</controllingFieldValue>

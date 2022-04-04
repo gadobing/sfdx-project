@@ -2562,6 +2562,18 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>MURS</controllingFieldValue>
+            <valueName>EMIPN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <valueName>EMIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
+            <valueName>EMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MURS</controllingFieldValue>
             <valueName>BRE</valueName>
         </valueSettings>
         <valueSettings>
@@ -2610,6 +2622,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>MURS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
             <valueName>HMIR</valueName>
         </valueSettings>
         <valueSettings>
@@ -2662,6 +2675,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>MARS</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
             <valueName>AMRTE</valueName>
         </valueSettings>
         <valueSettings>
@@ -2693,6 +2707,11 @@
         <valueSettings>
             <controllingFieldValue>Legal</controllingFieldValue>
             <valueName>HAEXILA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Claims</controllingFieldValue>
+            <valueName>HCIA</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Legal</controllingFieldValue>
@@ -3511,10 +3530,6 @@
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
             <valueName>HCCL</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Claims</controllingFieldValue>
-            <valueName>HCIA</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Claims</controllingFieldValue>
@@ -4409,6 +4424,14 @@
         <valueSettings>
             <controllingFieldValue>CRM Operations &amp; Service</controllingFieldValue>
             <valueName>COSR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>MOEPF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilization Management</controllingFieldValue>
+            <valueName>MOEPR</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Utilization Management</controllingFieldValue>
