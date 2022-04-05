@@ -1,0 +1,72 @@
+[
+    {
+        "FilterDataType": "PICKLIST",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Document_Class",
+        "GlobalKey": "GetObjectStoreMappingTurboCustom6239",
+        "InputFieldName": "Document_Class__c",
+        "InputObjectName": "CCI_Object_Store_Mapping__mdt",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetObjectStoreMappingTurbo",
+        "OmniDataTransformationId": {
+            "Name": "GetObjectStoreMappingTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetObjectStoreMappingTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Mapping",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterDataType": "PICKLIST",
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Document_Type",
+        "GlobalKey": "GetObjectStoreMappingTurboCustom8701",
+        "InputFieldName": "Document_Type__c",
+        "InputObjectName": "CCI_Object_Store_Mapping__mdt",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetObjectStoreMappingTurbo",
+        "OmniDataTransformationId": {
+            "Name": "GetObjectStoreMappingTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetObjectStoreMappingTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Mapping",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "GetObjectStoreMappingTurboCustom8555",
+        "InputFieldName": "Object_Store__c",
+        "InputObjectName": "CCI_Object_Store_Mapping__mdt",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "GetObjectStoreMappingTurbo",
+        "OmniDataTransformationId": {
+            "Name": "GetObjectStoreMappingTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GetObjectStoreMappingTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Mapping",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

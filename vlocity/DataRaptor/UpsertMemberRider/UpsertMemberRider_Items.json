@@ -23,7 +23,7 @@
         "InputFieldName": "Amount",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
-        "IsUpsertKey": true,
+        "IsUpsertKey": false,
         "Name": "UpsertMemberRider",
         "OmniDataTransformationId": {
             "Name": "UpsertMemberRider",
@@ -691,7 +691,7 @@
         "InputFieldName": "RecordTypeId",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
-        "IsUpsertKey": true,
+        "IsUpsertKey": false,
         "Name": "UpsertMemberRider",
         "OmniDataTransformationId": {
             "Name": "UpsertMemberRider",

@@ -12,13 +12,11 @@
     },
     "VerifyFacility": null,
     "VerifyMember": null,
-    "VerifyProspect": null,
-    "VerifyProvider": {
+    "VerifyProspect": {
     },
     "timeStamp": "2022-03-30T21:41:28.353Z",
     "userCurrencyCode": "USD",
     "userId": "0057j000002saQ7AAI",
     "userName": "friccomagno@salesforce.com.ccidev",
     "userProfile": "System Administrator",
-    "userTimeZone": "-300"
 }

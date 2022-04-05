@@ -23,14 +23,20 @@
                     "CobraEffectiveDate": "2020-06-01",
                     "CobraEligibleDate": "2021-06-01",
                     "CobraTerminationDate": "2021-06-01",
-                    "ContractId": "K123456789",
-                    "ContractType": "SUBSCRIBER + 3",
+                    "ContractId": "K12345678",
+                    "ContractType": {
+                        "description": "SUBSCRIBER + 3",
+                        "id": "01"
+                    },
                     "Corporation": "ABCBS/Individual Business - Non Metallic ACA",
                     "CoverageEffectiveDate": "2020-06-01",
                     "CoverageEntryDate": "2021-06-01",
                     "CoverageTerminationDate": "2021-06-01",
                     "Division": "8400000001",
-                    "EligibilityChangeReason": "",
+                    "EligibilityChangeReason": {
+                        "description": "Employment",
+                        "id": "01"
+                    },
                     "EligibilityHistory": [
                         {
                             "BenefitPackage": "",
@@ -47,21 +53,21 @@
                             "ProviderNetworkRegion": "",
                             "Riders": [
                                 {
-                                    "Amount": "553.12",
+                                    "Amount": "154.12",
                                     "RiderEffectiveDate": "2021-06-01",
                                     "RiderTerminationDate": "2021-06-01",
-                                    "RiderTyper": "2021-06-01",
-                                    "ServiceType": "2021-06-01"
+                                    "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
+                                    "ServiceType": "AUTOMATIC COVERAGE"
                                 },
                                 {
-                                    "Amount": "853.12",
+                                    "Amount": "163.12",
                                     "RiderEffectiveDate": "2021-06-01",
                                     "RiderTerminationDate": "2021-06-01",
-                                    "RiderTyper": "2021-06-01",
-                                    "ServiceType": "2021-06-01"
+                                    "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
+                                    "ServiceType": "AUTOMATIC COVERAGE"
                                 }
                             ],
-                            "TobaccoUse": "True"
+                            "TobaccoUse": "False"
                         },
                         {
                             "BenefitPackage": "",
@@ -78,27 +84,27 @@
                             "ProviderNetworkRegion": "Test",
                             "Riders": [
                                 {
-                                    "Amount": "156.12",
+                                    "Amount": "9153.12",
                                     "RiderEffectiveDate": "2021-06-01",
                                     "RiderTerminationDate": "2021-06-01",
-                                    "RiderTyper": "2021-06-01",
-                                    "ServiceType": "2021-06-01"
+                                    "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
+                                    "ServiceType": "AUTOMATIC COVERAGE"
                                 },
                                 {
-                                    "Amount": "150.12",
+                                    "Amount": "1353.12",
                                     "RiderEffectiveDate": "2021-06-01",
                                     "RiderTerminationDate": "2021-06-01",
-                                    "RiderTyper": "2021-06-01",
-                                    "ServiceType": "2021-06-01"
+                                    "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
+                                    "ServiceType": "AUTOMATIC COVERAGE"
                                 }
                             ],
-                            "TobaccoUse": "True"
+                            "TobaccoUse": "False"
                         }
                     ],
                     "Group": "840000",
                     "LineOfBusiness": "MEDICAL",
                     "MedicalHIPPATimeCredit": "",
-                    "MemberId": "K12345678901",
+                    "MemberId": "12972630W05",
                     "Network": "TRUE BLUE PPO",
                     "PolicyHistory": [
                         {
@@ -124,32 +130,36 @@
                     ],
                     "PolicyHolder": {
                         "FirstName": "AMANDA",
-                        "LastName": "MELENDEZ",
+                        "LastName": "SMITH",
+                        "MemberId": "K1234567801",
                         "MiddleName": "Q"
                     },
                     "PolicyPlan": "",
                     "PreExistingEffectiveDate": "2021-06-01",
                     "PreExistingEndDate": "2021-06-01",
                     "PreExistingTerminationDate": "2021-06-01",
-                    "Product": "Individual",
-                    "ProductType": "INDIVIDUAL MEDICAL",
+                    "Product": "INDIVIDUAL",
+                    "ProductType": "INDIVIDUAL",
                     "Program": "ABCBS PPO",
                     "RateType": "AGE BRC/MED UND IND/GRP<=50EES",
-                    "Region": "STATEWIDE/NO JOINT VENTURE/ARKANSAS",
+                    "Region": {
+                        "description": "Central Arkansas",
+                        "id": "AB"
+                    },
                     "Riders": [
+                        {
+                            "Amount": "152.12",
+                            "RiderEffectiveDate": "2021-06-01",
+                            "RiderTerminationDate": "2021-06-01",
+                            "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
+                            "ServiceType": "AUTOMATIC COVERAGE"
+                        },
                         {
                             "Amount": "153.12",
                             "RiderEffectiveDate": "2021-06-01",
                             "RiderTerminationDate": "2021-06-01",
-                            "RiderTyper": "2021-06-01",
-                            "ServiceType": "2021-06-01"
-                        },
-                        {
-                            "Amount": "259.12",
-                            "RiderEffectiveDate": "2021-06-01",
-                            "RiderTerminationDate": "2021-06-01",
-                            "RiderTyper": "2021-06-01",
-                            "ServiceType": "2021-06-01"
+                            "RiderType": "MENTAL HEALTH PARITY - NO VENDOR (MHPNONE)",
+                            "ServiceType": "AUTOMATIC COVERAGE"
                         }
                     ],
                     "Status": "ACTIVE",

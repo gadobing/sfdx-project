@@ -24,6 +24,10 @@
             {
                 "element": "Payload:PolicyHolder:LastName",
                 "inputParam": "LastName"
+            },
+            {
+                "element": "Payload:PolicyHolder:MemberId",
+                "inputParam": "MemberId"
             }
         ],
         "disOnTplt": false,

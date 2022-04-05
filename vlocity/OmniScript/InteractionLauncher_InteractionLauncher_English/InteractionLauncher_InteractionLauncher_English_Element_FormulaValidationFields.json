@@ -1,6 +1,13 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
+
+    "Name": "FormulaValidationFields",
+    "OmniProcessId": {
+        "Name": "Member Search Interaction Launcher",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/MemberSearch/English",
+
     "Name": "FormulaValidationFields",
     "OmniProcessId": {
         "Name": "Account Search",
@@ -11,6 +18,14 @@
     "ParentElementId": {
         "Name": "AccountSearch",
         "OmniProcessId": {
+
+            "Name": "Member Search Interaction Launcher",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/MemberSearch/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AccountSearch",
             "Name": "Account Search",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/InteractionLauncher/English",
@@ -27,6 +42,12 @@
         "controlWidth": 12,
         "dataType": null,
         "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(%AccountSearch:BlockMember:AccountFirstName% != NULL || %AccountSearch:BlockMember:AccountLastName% != NULL || \n%AccountSearch:BlockMember:AccountPhoneNumber% != NULL || %AccountSearch:BlockMember:AccountDateOfBirth% != NULL || \n%AccountSearch:BlockMember:AccountMemberID% != NULL || %AccountSearch:BlockMember:AccountLast4SocialSecurityNumber% != NULL || \n%AccountSearch:BlockProvider:ProviderFirstName% != NULL || %AccountSearch:BlockProvider:ProviderLastName% != NULL || \n%AccountSearch:BlockProvider:ProviderID% != NULL || %AccountSearch:BlockProvider:ProviderNPI% != NULL || \n%AccountSearch:BlockFacility:FacilityName% != NULL || %AccountSearch:BlockFacility:FacilityNPI% != NULL ||\n%AccountSearch:BlockProspect:LeadFirstName% != NULL || %AccountSearch:BlockProspect:LeadLastName% != NULL ||\n%AccountSearch:BlockProspect:LeadPhoneNumber% != NULL, true, false)",
+        "hide": true,
+        "disOnTplt": true,
+        "expression": "CONCATENATE(\"DOB: \", %Detail|n:PersonBirthdate%)",
+        "hide": false,
         "disOnTplt": false,
         "expression": "IF(%AccountSearch:BlockMember:AccountFirstName% != NULL || %AccountSearch:BlockMember:AccountLastName% != NULL || \n%AccountSearch:BlockMember:AccountPhoneNumber% != NULL || %AccountSearch:BlockMember:AccountDateOfBirth% != NULL || \n%AccountSearch:BlockMember:AccountMemberID% != NULL || %AccountSearch:BlockMember:AccountLast4SocialSecurityNumber% != NULL || \n%AccountSearch:BlockProvider:ProviderFirstName% != NULL || %AccountSearch:BlockProvider:ProviderLastName% != NULL || \n%AccountSearch:BlockProvider:ProviderID% != NULL || %AccountSearch:BlockProvider:ProviderNPI% != NULL || \n%AccountSearch:BlockFacility:FacilityName% != NULL || %AccountSearch:BlockFacility:FacilityNPI% != NULL ||\n%AccountSearch:BlockProspect:LeadFirstName% != NULL || %AccountSearch:BlockProspect:LeadLastName% != NULL ||\n%AccountSearch:BlockProspect:LeadPhoneNumber% != NULL, true, false)",
         "hide": true,

@@ -12,7 +12,7 @@
         "disOnTplt": false,
         "executionConditionalFormula": "",
         "label": "LoopBlock2",
-        "loopList": "SetValues:Payload:EligibilityHistory",
+        "loopList": "EligibilityHistory",
         "loopOutput": {
         },
         "show": null

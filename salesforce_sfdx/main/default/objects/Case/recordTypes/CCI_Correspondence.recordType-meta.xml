@@ -1258,10 +1258,10 @@
             <default>false</default>
         </values>
         <values>
+<<<<<<< HEAD
             <fullName>HEDIS MRR</fullName>
             <default>false</default>
         </values>
-        <values>
             <fullName>HIPAA%2FPrivacy Form</fullName>
             <default>false</default>
         </values>
@@ -1271,13 +1271,14 @@
         </values>
         <values>
             <fullName>HRI</fullName>
+=======
+            <fullName>Exchange Customer Service</fullName>
+            <default>false</default>
+        </values>
             <default>false</default>
         </values>
         <values>
-            <fullName>HSA%2FHRA</fullName>
-            <default>false</default>
-        </values>
-        <values>
+<<<<<<< HEAD
             <fullName>Health Advantage Complaint</fullName>
             <default>false</default>
         </values>
@@ -1287,6 +1288,9 @@
         </values>
         <values>
             <fullName>Health%2FDental Quote</fullName>
+=======
+            <fullName>Exchange Legal Appeals</fullName>
+>>>>>>> develop
             <default>false</default>
         </values>
         <values>
@@ -1314,11 +1318,15 @@
             <default>false</default>
         </values>
         <values>
+<<<<<<< HEAD
             <fullName>ICD10 Rejects</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>ID Card Mailing Issue</fullName>
+=======
+            <fullName>Exchange Prior Approval Request %28Faxes%2FIncoming Mail Only%29</fullName>
+>>>>>>> develop
             <default>false</default>
         </values>
         <values>
@@ -2773,7 +2781,11 @@
             <default>false</default>
         </values>
         <values>
+<<<<<<< HEAD
             <fullName>AMRURE</fullName>
+=======
+            <fullName>SSN</fullName>
+>>>>>>> develop
             <default>false</default>
         </values>
         <values>

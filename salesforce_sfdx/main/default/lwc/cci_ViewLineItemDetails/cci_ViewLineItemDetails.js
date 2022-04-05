@@ -127,7 +127,6 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
 
     handleClick(event) {
         this.selectedRow = this.displayRows[event.target.value];
-        console.log('this.selectedRow--->'+JSON.stringify(this.selectedRow))
         this.showModal = true;
     }
 

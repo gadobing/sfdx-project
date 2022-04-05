@@ -1,24 +1,7 @@
 {
-    "ContextId": null,
-    "LoopBlock_Comments": {
-    },
-    "timeStamp": null,
-    "userId": null,
-    "userName": null,
-    "userProfile": null,
-    "userTimeZone": null,
-    "vlcPersistentComponent": {
-    },
-    "vlcTimeTracking": {
-        "DRP_CustodialPartyAddress": null,
-        "DRP_MailingAddress": null,
-        "DRP_MemberUpdates": null,
-        "DRP_PersonalHarm": null,
-        "DRP_PhysicalAddress": null,
-        "DRP_ResponsiblePartyBillingAddress": null,
-        "DRT_GetAccountId": null,
-        "LoopBlock_Comments": null,
-        "ResponseAction1": null,
-        "SetValues": null
-    }
+    "EntryDate": "2012-12-12",
+    "SequenceNumber": "00001",
+    "TerminationDate": "2021-06-01",
+    "Text": "NO REBATE NOTIFICATION LETTER",
+    "TypeCodeText": "DISPLAY REMARKS DURING CLAIMS ADJUDICATION"
 }

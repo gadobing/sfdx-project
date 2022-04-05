@@ -44,7 +44,7 @@
         "help": false,
         "helpText": "",
         "helpTextPos": "",
-        "label": "Please upload the document",
+        "label": "Please upload the document( only one file can be uploaded to P8 system.)",
         "remoteClass": "",
         "remoteMethod": "",
         "remoteOptions": {

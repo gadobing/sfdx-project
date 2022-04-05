@@ -1,0 +1,99 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "MessagingInputValidationError",
+    "OmniProcessId": {
+        "Name": "Member Search Interaction Launcher",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/MemberSearch/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "StepSearchMember",
+        "OmniProcessId": {
+            "Name": "Member Search Interaction Launcher",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/MemberSearch/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/MemberSearch/English/StepSearchMember",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "StepSearchMember",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "hideLabel": true,
+        "label": "MessagingInputValidationError",
+        "messages": [
+            {
+                "active": true,
+                "text": "Please enter another search criteria to search using Business Line.",
+                "type": "Warning",
+                "value": true
+            },
+            {
+                "active": false,
+                "text": "",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": null,
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "SelectBusinessLine"
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "TextMemberId"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "TextFirstName"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "TextLastName"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "NumberSSN"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "DateDOB"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "TextMedicareHIC/MBI"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Validation",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/MemberSearch/English/MessagingInputValidationError"
+}

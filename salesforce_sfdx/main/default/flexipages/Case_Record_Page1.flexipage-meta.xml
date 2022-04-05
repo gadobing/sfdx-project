@@ -151,13 +151,16 @@
                             <value>Edit</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Delete</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>FeedItem.ContentNote</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Case.Upload_Document</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.Case.Assign_to_Owner</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Delete</value>
                         </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
@@ -179,7 +182,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>numVisibleActions</name>
-                    <value>4</value>
+                    <value>10</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
             </componentInstance>

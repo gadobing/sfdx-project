@@ -1,0 +1,16 @@
+<template>
+    <template if:true={boolShowSpinner}>
+        <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+    </template>
+    <div class="slds-p-around_small slds-text-align_center" style=" width: 100% !important" >
+        <div class="slds-text-align_center">
+       <b><h1 class="slds-text-heading_medium" >{screenText}</h1></b>
+       </div>
+       <br/><br/>
+      
+       <template if:true={boolShowSpinner}>
+           <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+       </template>
+
+   </div>
+</template>

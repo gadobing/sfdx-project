@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Benefit</label>
+            <name>Benefit</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Forms &amp; Letters</label>
+            <name>Forms_Letters</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Procedures</label>
+            <name>Procedures</name>
+        </dataCategory>
+        <dataCategory>
+            <label>QA</label>
+            <name>QA</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Resources</label>
+            <name>Resources</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Document Type</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>
