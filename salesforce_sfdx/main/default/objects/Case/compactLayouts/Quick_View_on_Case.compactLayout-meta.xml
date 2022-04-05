@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quick_View_on_Case</fullName>
+    <fields>Reference_Id__c</fields>
+    <fields>Origin</fields>
+    <fields>ClosedDate</fields>
+    <fields>CreatedById</fields>
+    <fields>Subject</fields>
+    <label>Quick View on Case</label>
+</CompactLayout>
