@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "CCI_P8RetrieveDocumentCallout_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "P8 Retrieve Document",
+    "OmniProcessElement": [
+        "CCI_P8RetrieveDocumentCallout_Element_SV_ServiceDetails.json",
+        "CCI_P8RetrieveDocumentCallout_Element_IP_Framework_GETCallout.json",
+        "CCI_P8RetrieveDocumentCallout_Element_RA_DocumentRetrieve.json"
+    ],
+    "OmniProcessKey": "CCI_P8RetrieveDocumentCallout",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_P8RetrieveDocumentCallout_PropertySetConfig.json",
+    "SubType": "P8RetrieveDocumentCallout",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/P8RetrieveDocumentCallout/Procedure",
+    "WebComponentKey": "e2c322fb-1edc-d8da-1d8f-1f895af0b125"
+}

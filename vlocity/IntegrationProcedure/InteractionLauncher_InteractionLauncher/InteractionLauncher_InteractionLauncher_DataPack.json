@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "InteractionLauncher_InteractionLauncher_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IPArrayProcess",
+    "OmniProcessElement": [
+        "InteractionLauncher_InteractionLauncher_Element_LoopBlockResultDetail.json",
+        "InteractionLauncher_InteractionLauncher_Element_SetValuesForItem.json",
+        "InteractionLauncher_InteractionLauncher_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "InteractionLauncher_InteractionLauncher",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "InteractionLauncher_InteractionLauncher_PropertySetConfig.json",
+    "SubType": "InteractionLauncher",
+    "Type": "InteractionLauncher",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/InteractionLauncher/InteractionLauncher/Procedure",
+    "WebComponentKey": "c9c09a7d-68db-4aa3-0498-67e2b1dea5ac"
+}

@@ -1,0 +1,19 @@
+{
+    "AccountSearch": {
+        "BlockFacility": {
+            "FacilityNPI": "1154651149",
+            "FacilityName": "Mye"
+        },
+        "BlockMember": null,
+        "BlockProvider": null,
+        "RadioUserType": "Facility"
+    },
+    "VerifyMember": null,
+    "VerifyProvider": null,
+    "timeStamp": "2022-01-21T23:02:22.789Z",
+    "userCurrencyCode": "USD",
+    "userId": "0057j000002saQHAAY",
+    "userName": "aramosdelarosa@salesforce.com.ccidev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-360"
+}

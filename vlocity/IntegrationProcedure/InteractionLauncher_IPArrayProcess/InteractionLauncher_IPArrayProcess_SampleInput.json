@@ -1,0 +1,37 @@
+{
+    "AccountSearch": {
+        "AccountName": "j"
+    },
+    "Output": null,
+    "Result": {
+        "Detail": [
+            {
+                "AccountId": "0017j00000fDBSFAA4",
+                "FirstName": "Joseph",
+                "LastName": "Lima",
+                "PhoneNumber": "3982928392",
+                "openChosenAccount": true
+            },
+            {
+                "AccountId": "0017j00000fDBSZAA4",
+                "FirstName": "Jason",
+                "LastName": "White",
+                "PhoneNumber": "631-922-4166",
+                "openChosenAccount": false
+            }
+        ]
+    },
+    "timeStamp": "2021-12-29T22:59:33.003Z",
+    "userCurrencyCode": "USD",
+    "userId": "0057j000002saQHAAY",
+    "userName": "aramosdelarosa@salesforce.com.ccidev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-360",
+    "vlcTimeTracking": {
+        "AccountSearch": 1941,
+        "DataRaptorExtractAccountSearch": 683,
+        "IntegrationProcedureAction1": 264,
+        "OmniScriptSessionToken": "bb221161-9a50-4e4c-9254-4198c0329882",
+        "Result": 2918
+    }
+}

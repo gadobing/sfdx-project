@@ -1,0 +1,37 @@
+{
+    "Addresses": [
+        {
+            "Address1": "801 BROADWAY N",
+            "Address2": "",
+            "AddressPurpose": "LOCATION",
+            "AddressType": "DOM",
+            "City": "FARGO",
+            "CountryCode": "US",
+            "CountryName": "United States",
+            "FaxNumber": "701-234-2021",
+            "PostalCode": "581023641",
+            "State": "ND",
+            "TelephoneNumber": "701-234-2524"
+        },
+        {
+            "Address1": "PO BOX 2168",
+            "Address2": "",
+            "AddressPurpose": "MAILING",
+            "AddressType": "DOM",
+            "City": "FARGO",
+            "CountryCode": "US",
+            "CountryName": "United States",
+            "PostalCode": "581072168",
+            "State": "ND",
+            "TelephoneNumber": "701-234-2119"
+        }
+    ],
+    "Provider": {
+        "EnumerationType": "NPI-1",
+        "FirstName": "KARA",
+        "Gender": "F",
+        "LastName": "JOHNSON",
+        "NPI": "1578708228",
+        "Name": "JOHNSON KARA"
+    }
+}
