@@ -2890,6 +2890,134 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>ABCBS MARS -- Re-review team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>ABCBS MARS -- RN Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>ABCBS MARS  Regional Support/MARS Regional Support/Post Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>ABCBS MARS -- UR Researchers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>BCAuto  Do not route to this queue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS ABCBS 165 Medrec Responses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS ABCBS 178/173 INFOMSG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS ITS Nurse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS ABCBS Blue Card Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS BlueCard Host</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS Authorization Do NOT route to this queue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS Benefit Inquiry Additional Records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS BI Letters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS BI Remarks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS PA Additional Records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS PA Incoming Requests Do NOT route to this queue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS - Pre-service Benefit Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS PA Miscellaneous  DO NOT ROUTE TO THIS QUEUE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS IMRT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>CSPH MRR Outgoing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>CSPH MRR Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>Wal-Mart Unsolicited Medical Records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>CSPH Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FEP MARS (Prior - Auth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FEP MARS Nurse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FEP MARS Re-Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FEP MARS Researcher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FEP Medical Audit and Review Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>FEP MRR-RN review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS HA Nurse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MARS HA Secure Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MARS</controllingFieldValue>
+            <valueName>MRR - SIU</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>Legal</controllingFieldValue>
             <controllingFieldValue>Claims</controllingFieldValue>
             <valueName>Exchange ITS B2 Incoming Appeals</valueName>
@@ -5008,134 +5136,6 @@
         <valueSettings>
             <controllingFieldValue>MURS</controllingFieldValue>
             <valueName>WQI MURS RN Team</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>ABCBS MARS -- Re-review team</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>ABCBS MARS -- RN Team</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>ABCBS MARS  Regional Support/MARS Regional Support/Post Pay</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>ABCBS MARS -- UR Researchers</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>BCAuto  Do not route to this queue</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS ABCBS 165 Medrec Responses</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS ABCBS 178/173 INFOMSG</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS ITS Nurse</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS ABCBS Blue Card Team</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS BlueCard Host</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS Authorization Do NOT route to this queue</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS Benefit Inquiry Additional Records</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS BI Letters</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS BI Remarks</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS PA Additional Records</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS PA Incoming Requests Do NOT route to this queue</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS - Pre-service Benefit Inquiry</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS PA Miscellaneous  DO NOT ROUTE TO THIS QUEUE</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS IMRT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>CSPH MRR Outgoing</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>CSPH MRR Return</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>Wal-Mart Unsolicited Medical Records</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>CSPH Support</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>FEP MARS (Prior - Auth)</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>FEP MARS Nurse</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>FEP MARS Re-Review</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>FEP MARS Researcher</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>FEP Medical Audit and Review Services</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>FEP MRR-RN review</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS HA Nurse</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MARS HA Secure Group</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MARS</controllingFieldValue>
-            <valueName>MRR - SIU</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

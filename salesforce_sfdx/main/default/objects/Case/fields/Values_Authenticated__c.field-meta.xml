@@ -47,6 +47,12 @@
                 <default>false</default>
                 <label>NPI</label>
             </value>
+            <value>
+                <fullName>Last four digits of SSN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Last four digits of SSN</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <visibleLines>5</visibleLines>

@@ -7,7 +7,7 @@
         <recipients>
             <type>owner</type>
         </recipients>
-        <senderAddress>abcbs.noreply@gmail.com</senderAddress>
+        <senderAddress>abcbs.noreply2@gmail.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/Case_Nearing_Deadline</template>
     </alerts>
