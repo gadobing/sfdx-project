@@ -10,11 +10,12 @@
     },
     "enableLwc": true,
     "isFlex": true,
+    "listenToWidthResize": false,
     "lwc": {
-        "DeveloperName": "cfCci_MemberActions_1_CCI",
-        "Id": "0Rb7j000000HHXuCAO",
+        "DeveloperName": "cfCci_MemberActions_2_CCI",
+        "Id": "0Rb7j000000HLyaCAG",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfCci_MemberActions_1_CCI",
+        "MasterLabel": "cfCci_MemberActions_2_CCI",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -44,7 +45,7 @@
                                     },
                                     "flyoutType": "OmniScripts",
                                     "hasExtraParams": true,
-                                    "id": "flex-action-1646909897858",
+                                    "id": "flex-action-1649082642908",
                                     "layoutType": "lightning",
                                     "openFlyoutIn": "Modal",
                                     "openUrlIn": "Current Window",
@@ -165,7 +166,7 @@
                                     },
                                     "flyoutType": "OmniScripts",
                                     "hasExtraParams": true,
-                                    "id": "flex-action-1646909894175",
+                                    "id": "flex-action-1649082930145",
                                     "layoutType": "lightning",
                                     "openFlyoutIn": "Modal",
                                     "openUrlIn": "Current Window",
@@ -189,7 +190,7 @@
                                     "size": ""
                                 },
                                 "border": {
-                                    "color": "#cccccc",
+                                    "color": "#FFFFFF",
                                     "radius": "",
                                     "style": "",
                                     "type": [
@@ -235,7 +236,128 @@
                                             "size": ""
                                         },
                                         "border": {
-                                            "color": "#cccccc",
+                                            "color": "#FFFFFF",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": [
+                                            ],
+                                            "width": ""
+                                        },
+                                        "class": " ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "6",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_6-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "element",
+                            "userUpdatedElementLabel": true
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "ViewMemberId",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "View Member Id Card",
+                                    "flyoutLwc": "cci_ViewMemberIdCard",
+                                    "flyoutParams": {
+                                        "recordId": "{recordId}"
+                                    },
+                                    "flyoutType": "customLwc",
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1649142708985",
+                                    "layoutType": "lightning",
+                                    "openFlyoutIn": "Modal",
+                                    "openUrlIn": "Current Window",
+                                    "osName": "CCI/IssueIDCard/English",
+                                    "type": "Flyout",
+                                    "vlocityIcon": "utility-forward_up"
+                                },
+                                "stateObj": "{record}"
+                            },
+                            "size": {
+                                "default": "6",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "#FFFFFF",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": [
+                                    ],
+                                    "width": ""
+                                },
+                                "class": " ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "6",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_6-of-12 ",
+                                "style": "      \n         ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#FFFFFF",
                                             "radius": "",
                                             "style": "",
                                             "type": [
