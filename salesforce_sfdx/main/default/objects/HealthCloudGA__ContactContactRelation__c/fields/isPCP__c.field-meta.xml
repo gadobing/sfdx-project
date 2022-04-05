@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isPCP__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(HealthCloudGA__Role__r.Name=&quot;Primary Care Provider (PCP)&quot;, HealthCloudGA__Active__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>isPCP</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

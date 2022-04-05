@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exception</fullName>
+                <default>false</default>
+                <label>Exception</label>
+            </value>
+            <value>
+                <fullName>Group Enrollment</fullName>
+                <default>false</default>
+                <label>Group Enrollment</label>
+            </value>
+            <value>
+                <fullName>Member Alert</fullName>
+                <default>false</default>
+                <label>Member Alert</label>
+            </value>
+            <value>
+                <fullName>RX Authorization</fullName>
+                <default>false</default>
+                <label>RX Authorization</label>
+            </value>
+            <value>
+                <fullName>Authorized Rep</fullName>
+                <default>false</default>
+                <label>Authorized Rep</label>
+            </value>
+            <value>
+                <fullName>Contact Inform</fullName>
+                <default>false</default>
+                <label>Contact Inform</label>
+            </value>
+            <value>
+                <fullName>Division Alert</fullName>
+                <default>false</default>
+                <label>Division Alert</label>
+            </value>
+            <value>
+                <fullName>Disclosure Limitation</fullName>
+                <default>false</default>
+                <label>Disclosure Limitation</label>
+            </value>
+            <value>
+                <fullName>Group Withhold</fullName>
+                <default>false</default>
+                <label>Group Withhold</label>
+            </value>
+            <value>
+                <fullName>Health Connect</fullName>
+                <default>false</default>
+                <label>Health Connect</label>
+            </value>
+            <value>
+                <fullName>Provider Information</fullName>
+                <default>false</default>
+                <label>Provider Information</label>
+            </value>
+            <value>
+                <fullName>Information</fullName>
+                <default>false</default>
+                <label>Information</label>
+            </value>
+            <value>
+                <fullName>ASE/PSE only</fullName>
+                <default>false</default>
+                <label>ASE/PSE only</label>
+            </value>
+            <value>
+                <fullName>Personal Harm</fullName>
+                <default>false</default>
+                <label>Personal Harm</label>
+            </value>
+            <value>
+                <fullName>No referral</fullName>
+                <default>false</default>
+                <label>No referral</label>
+            </value>
+            <value>
+                <fullName>Transfer to Legal</fullName>
+                <default>false</default>
+                <label>Transfer to Legal</label>
+            </value>
+            <value>
+                <fullName>Request New User</fullName>
+                <default>false</default>
+                <label>Request New User</label>
+            </value>
+            <value>
+                <fullName>Part C Primary</fullName>
+                <default>false</default>
+                <label>Part C Primary</label>
+            </value>
+            <value>
+                <fullName>FEP PERSONAL REPRESENTATIVE</fullName>
+                <default>false</default>
+                <label>FEP PERSONAL REPRESENTATIVE</label>
+            </value>
+            <value>
+                <fullName>Authorized Person (FEP)</fullName>
+                <default>false</default>
+                <label>Authorized Person (FEP)</label>
+            </value>
+            <value>
+                <fullName>REMARK TYPE/DOCUMENT TYPE</fullName>
+                <default>false</default>
+                <label>REMARK TYPE/DOCUMENT TYPE</label>
+            </value>
+            <value>
+                <fullName>Medpk Adv</fullName>
+                <default>false</default>
+                <label>Medpk Adv</label>
+            </value>
+            <value>
+                <fullName>ITS*** AEA REMARK TYPE</fullName>
+                <default>false</default>
+                <label>ITS*** AEA REMARK TYPE</label>
+            </value>
+            <value>
+                <fullName>ITS - REMARK FOR ACTUAL AMBULANCE MILEAGE</fullName>
+                <default>false</default>
+                <label>ITS - REMARK FOR ACTUAL AMBULANCE MILEAGE</label>
+            </value>
+            <value>
+                <fullName>AUTHORIZATION REMARK</fullName>
+                <default>false</default>
+                <label>AUTHORIZATION REMARK</label>
+            </value>
+            <value>
+                <fullName>BILLING REMARK</fullName>
+                <default>false</default>
+                <label>BILLING REMARK</label>
+            </value>
+            <value>
+                <fullName>DISPLAY REMARKS DURING CLAIMS ADJUDICATION</fullName>
+                <default>false</default>
+                <label>DISPLAY REMARKS DURING CLAIMS ADJUDICATION</label>
+            </value>
+            <value>
+                <fullName>ITS - SPECIAL CONDITION PRICING CONDITION CODE</fullName>
+                <default>false</default>
+                <label>ITS - SPECIAL CONDITION PRICING CONDITION CODE</label>
+            </value>
+            <value>
+                <fullName>PRINT REMARKS ON EOB</fullName>
+                <default>false</default>
+                <label>PRINT REMARKS ON EOB</label>
+            </value>
+            <value>
+                <fullName>PRINT REMARKS ON EOB AND EOP</fullName>
+                <default>false</default>
+                <label>PRINT REMARKS ON EOB AND EOP</label>
+            </value>
+            <value>
+                <fullName>PRINT REMARKS ON EOP</fullName>
+                <default>false</default>
+                <label>PRINT REMARKS ON EOP</label>
+            </value>
+            <value>
+                <fullName>INFORMATIONAL ONLY</fullName>
+                <default>false</default>
+                <label>INFORMATIONAL ONLY</label>
+            </value>
+            <value>
+                <fullName>MALPRACTICE</fullName>
+                <default>false</default>
+                <label>MALPRACTICE</label>
+            </value>
+            <value>
+                <fullName>OFFICE HOURS</fullName>
+                <default>false</default>
+                <label>OFFICE HOURS</label>
+            </value>
+            <value>
+                <fullName>RECEIVED PROXY LETTER</fullName>
+                <default>false</default>
+                <label>RECEIVED PROXY LETTER</label>
+            </value>
+            <value>
+                <fullName>ITS PROVIDER NAME</fullName>
+                <default>false</default>
+                <label>ITS PROVIDER NAME</label>
+            </value>
+            <value>
+                <fullName>PRE-EXISTING REMARK</fullName>
+                <default>false</default>
+                <label>PRE-EXISTING REMARK</label>
+            </value>
+            <value>
+                <fullName>PROVIDER SANCTION</fullName>
+                <default>false</default>
+                <label>PROVIDER SANCTION</label>
+            </value>
+            <value>
+                <fullName>ITS REP PAYEE NAME</fullName>
+                <default>false</default>
+                <label>ITS REP PAYEE NAME</label>
+            </value>
+            <value>
+                <fullName>ITS*** SCCF REMARK TYPE</fullName>
+                <default>false</default>
+                <label>ITS*** SCCF REMARK TYPE</label>
+            </value>
+            <value>
+                <fullName>BLUECARD NF REMARK</fullName>
+                <default>false</default>
+                <label>BLUECARD NF REMARK</label>
+            </value>
+            <value>
+                <fullName>ITS SUPPLEMENTAL SURCHARGE AMOUNT</fullName>
+                <default>false</default>
+                <label>ITS SUPPLEMENTAL SURCHARGE AMOUNT</label>
+            </value>
+            <value>
+                <fullName>URGENT HOURS</fullName>
+                <default>false</default>
+                <label>URGENT HOURS</label>
+            </value>
+            <value>
+                <fullName>USA MCO FILE CHANGE IMPACTED AFF WITHOUT SPAN</fullName>
+                <default>false</default>
+                <label>USA MCO FILE CHANGE IMPACTED AFF WITHOUT SPAN</label>
+            </value>
+            <value>
+                <fullName>BENEFIT TEAM REMARKS</fullName>
+                <default>false</default>
+                <label>BENEFIT TEAM REMARKS</label>
+            </value>
+            <value>
+                <fullName>COMPONENT REMARK</fullName>
+                <default>false</default>
+                <label>COMPONENT REMARK</label>
+            </value>
+            <value>
+                <fullName>COUNTER LEVEL REMARK FOR BHI DEDUCTIBLE CATEGORY EXTRACT</fullName>
+                <default>false</default>
+                <label>COUNTER LEVEL REMARK FOR BHI DEDUCTIBLE CATEGORY EXTRACT</label>
+            </value>
+            <value>
+                <fullName>DIVISION REMARK</fullName>
+                <default>false</default>
+                <label>DIVISION REMARK</label>
+            </value>
+            <value>
+                <fullName>LEGAL CUSTODIAN</fullName>
+                <default>false</default>
+                <label>LEGAL CUSTODIAN</label>
+            </value>
+            <value>
+                <fullName>MEMBER MRR COMMENTS REMARK</fullName>
+                <default>false</default>
+                <label>MEMBER MRR COMMENTS REMARK</label>
+            </value>
+            <value>
+                <fullName>SERVICE LINE REMARK</fullName>
+                <default>false</default>
+                <label>SERVICE LINE REMARK</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basic Individual, Basic Blue</fullName>
+                <default>false</default>
+                <label>Basic Individual, Basic Blue</label>
+            </value>
+            <value>
+                <fullName>Blue Card Host</fullName>
+                <default>false</default>
+                <label>Blue Card Host</label>
+            </value>
+            <value>
+                <fullName>BLUE DENTAL</fullName>
+                <default>false</default>
+                <label>BLUE DENTAL</label>
+            </value>
+            <value>
+                <fullName>Comp Major Medical</fullName>
+                <default>false</default>
+                <label>Comp Major Medical</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>Direct Pay</fullName>
+                <default>false</default>
+                <label>Direct Pay</label>
+            </value>
+            <value>
+                <fullName>Drug</fullName>
+                <default>false</default>
+                <label>Drug</label>
+            </value>
+            <value>
+                <fullName>ENHANCED PLAN B</fullName>
+                <default>false</default>
+                <label>ENHANCED PLAN B</label>
+            </value>
+            <value>
+                <fullName>Federal</fullName>
+                <default>false</default>
+                <label>Federal</label>
+            </value>
+            <value>
+                <fullName>First Source Access</fullName>
+                <default>false</default>
+                <label>First Source Access</label>
+            </value>
+            <value>
+                <fullName>Group</fullName>
+                <default>false</default>
+                <label>Group</label>
+            </value>
+            <value>
+                <fullName>HA Federal HMO</fullName>
+                <default>false</default>
+                <label>HA Federal HMO</label>
+            </value>
+            <value>
+                <fullName>HA Federal POS</fullName>
+                <default>false</default>
+                <label>HA Federal POS</label>
+            </value>
+            <value>
+                <fullName>HA HMO</fullName>
+                <default>false</default>
+                <label>HA HMO</label>
+            </value>
+            <value>
+                <fullName>HA Medipak HMO</fullName>
+                <default>false</default>
+                <label>HA Medipak HMO</label>
+            </value>
+            <value>
+                <fullName>HA State HMO</fullName>
+                <default>false</default>
+                <label>HA State HMO</label>
+            </value>
+            <value>
+                <fullName>HA State POS</fullName>
+                <default>false</default>
+                <label>HA State POS</label>
+            </value>
+            <value>
+                <fullName>Health Savings Acct</fullName>
+                <default>false</default>
+                <label>Health Savings Acct</label>
+            </value>
+            <value>
+                <fullName>Health Savings Embed</fullName>
+                <default>false</default>
+                <label>Health Savings Embed</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>MA AREA 1</fullName>
+                <default>false</default>
+                <label>MA AREA 1</label>
+            </value>
+            <value>
+                <fullName>MA AREA 2</fullName>
+                <default>false</default>
+                <label>MA AREA 2</label>
+            </value>
+            <value>
+                <fullName>MAPD</fullName>
+                <default>false</default>
+                <label>MAPD</label>
+            </value>
+            <value>
+                <fullName>MAPD (PPO) ESSENTIAL</fullName>
+                <default>false</default>
+                <label>MAPD (PPO) ESSENTIAL</label>
+            </value>
+            <value>
+                <fullName>MAPD AREA 1 OPT1</fullName>
+                <default>false</default>
+                <label>MAPD AREA 1 OPT1</label>
+            </value>
+            <value>
+                <fullName>MAPD AREA 1 OPT 2</fullName>
+                <default>false</default>
+                <label>MAPD AREA 1 OPT 2</label>
+            </value>
+            <value>
+                <fullName>MAPD AREA 2 OPT 1</fullName>
+                <default>false</default>
+                <label>MAPD AREA 2 OPT 1</label>
+            </value>
+            <value>
+                <fullName>MAPD AREA 3</fullName>
+                <default>false</default>
+                <label>MAPD AREA 3</label>
+            </value>
+            <value>
+                <fullName>MAPD HMO</fullName>
+                <default>false</default>
+                <label>MAPD HMO</label>
+            </value>
+            <value>
+                <fullName>MAPD PLATINUM</fullName>
+                <default>false</default>
+                <label>MAPD PLATINUM</label>
+            </value>
+            <value>
+                <fullName>MAPD PPO ELITE</fullName>
+                <default>false</default>
+                <label>MAPD PPO ELITE</label>
+            </value>
+            <value>
+                <fullName>MAPD ST.BERN PPO</fullName>
+                <default>false</default>
+                <label>MAPD ST.BERN PPO</label>
+            </value>
+            <value>
+                <fullName>MA ST. VINCENT PPO</fullName>
+                <default>false</default>
+                <label>MA ST. VINCENT PPO</label>
+            </value>
+            <value>
+                <fullName>Medipak</fullName>
+                <default>false</default>
+                <label>Medipak</label>
+            </value>
+            <value>
+                <fullName>Medi-Pak Advantage</fullName>
+                <default>false</default>
+                <label>Medi-Pak Advantage</label>
+            </value>
+            <value>
+                <fullName>Misc PPO</fullName>
+                <default>false</default>
+                <label>Misc PPO</label>
+            </value>
+            <value>
+                <fullName>MPAK ADV MA-PD OP1</fullName>
+                <default>false</default>
+                <label>MPAK ADV MA-PD OP1</label>
+            </value>
+            <value>
+                <fullName>MPAK ADV MAPD OP2</fullName>
+                <default>false</default>
+                <label>MPAK ADV MAPD OP2</label>
+            </value>
+            <value>
+                <fullName>MPAK ADV MAPD PFFS</fullName>
+                <default>false</default>
+                <label>MPAK ADV MAPD PFFS</label>
+            </value>
+            <value>
+                <fullName>MPAK ADV MAPD PFFS1</fullName>
+                <default>false</default>
+                <label>MPAK ADV MAPD PFFS1</label>
+            </value>
+            <value>
+                <fullName>MPAK ADV MAPD PFFS2</fullName>
+                <default>false</default>
+                <label>MPAK ADV MAPD PFFS2</label>
+            </value>
+            <value>
+                <fullName>MPAK ADV MA PFFS</fullName>
+                <default>false</default>
+                <label>MPAK ADV MA PFFS</label>
+            </value>
+            <value>
+                <fullName>MPAK ADV PFFS - R</fullName>
+                <default>false</default>
+                <label>MPAK ADV PFFS - R</label>
+            </value>
+            <value>
+                <fullName>MSA</fullName>
+                <default>false</default>
+                <label>MSA</label>
+            </value>
+            <value>
+                <fullName>MSO/PCN</fullName>
+                <default>false</default>
+                <label>MSO/PCN</label>
+            </value>
+            <value>
+                <fullName>My Choice Blue</fullName>
+                <default>false</default>
+                <label>My Choice Blue</label>
+            </value>
+            <value>
+                <fullName>No Product</fullName>
+                <default>false</default>
+                <label>No Product</label>
+            </value>
+            <value>
+                <fullName>PCN</fullName>
+                <default>false</default>
+                <label>PCN</label>
+            </value>
+            <value>
+                <fullName>PCN/FS</fullName>
+                <default>false</default>
+                <label>PCN/FS</label>
+            </value>
+            <value>
+                <fullName>PHO</fullName>
+                <default>false</default>
+                <label>PHO</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>PPO</fullName>
+                <default>false</default>
+                <label>PPO</label>
+            </value>
+            <value>
+                <fullName>PREMIER PDP</fullName>
+                <default>false</default>
+                <label>PREMIER PDP</label>
+            </value>
+            <value>
+                <fullName>RX GROUP (PDP)</fullName>
+                <default>false</default>
+                <label>RX GROUP (PDP)</label>
+            </value>
+            <value>
+                <fullName>RX GROUP JVILLE FE</fullName>
+                <default>false</default>
+                <label>RX GROUP JVILLE FE</label>
+            </value>
+            <value>
+                <fullName>School Group</fullName>
+                <default>false</default>
+                <label>School Group</label>
+            </value>
+            <value>
+                <fullName>Self-Insured</fullName>
+                <default>false</default>
+                <label>Self-Insured</label>
+            </value>
+            <value>
+                <fullName>STANDARD PLAN A</fullName>
+                <default>false</default>
+                <label>STANDARD PLAN A</label>
+            </value>
+            <value>
+                <fullName>State Group</fullName>
+                <default>false</default>
+                <label>State Group</label>
+            </value>
+            <value>
+                <fullName>Unique Plan</fullName>
+                <default>false</default>
+                <label>Unique Plan</label>
+            </value>
+            <value>
+                <fullName>Unique POS/PPO</fullName>
+                <default>false</default>
+                <label>Unique POS/PPO</label>
+            </value>
+            <value>
+                <fullName>Unique PPO</fullName>
+                <default>false</default>
+                <label>Unique PPO</label>
+            </value>
+            <value>
+                <fullName>Vendor PPO</fullName>
+                <default>false</default>
+                <label>Vendor PPO</label>
+            </value>
+            <value>
+                <fullName>Vision</fullName>
+                <default>false</default>
+                <label>Vision</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

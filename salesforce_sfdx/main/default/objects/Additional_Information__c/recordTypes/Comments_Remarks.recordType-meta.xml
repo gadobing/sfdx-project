@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comments_Remarks</fullName>
+    <active>true</active>
+    <label>Comments/Remarks</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>AUTHORIZATION REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BENEFIT TEAM REMARKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BILLING REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLUECARD NF REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMPONENT REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COUNTER LEVEL REMARK FOR BHI DEDUCTIBLE CATEGORY EXTRACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISPLAY REMARKS DURING CLAIMS ADJUDICATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIVISION REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFORMATIONAL ONLY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITS - REMARK FOR ACTUAL AMBULANCE MILEAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITS - SPECIAL CONDITION PRICING CONDITION CODE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITS PROVIDER NAME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITS REP PAYEE NAME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITS SUPPLEMENTAL SURCHARGE AMOUNT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITS*** AEA REMARK TYPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITS*** SCCF REMARK TYPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEGAL CUSTODIAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MALPRACTICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBER MRR COMMENTS REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medpk Adv</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OFFICE HOURS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRE-EXISTING REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRINT REMARKS ON EOB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRINT REMARKS ON EOB AND EOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRINT REMARKS ON EOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROVIDER SANCTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RECEIVED PROXY LETTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REMARK TYPE%2FDOCUMENT TYPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICE LINE REMARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>URGENT HOURS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USA MCO FILE CHANGE IMPACTED AFF WITHOUT SPAN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

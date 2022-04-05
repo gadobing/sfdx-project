@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <decisions>
+        <description>Is member record type?</description>
+        <name>Is_Member</name>
+        <label>Is Member?</label>
+        <locationX>182</locationX>
+        <locationY>791</locationY>
+        <defaultConnector>
+            <targetReference>Get_Member_AccountId_Contact</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Member</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Member_AccountId_RelatedContact.Account.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Get_Member_RecordType.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Member_AccountId</targetReference>
+            </connector>
+            <label>Member</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Check if the role is related to a PCP</description>
+        <name>Is_Role_PCP</name>
+        <label>Is Role PCP</label>
+        <locationX>380</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_PCP</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.HealthCloudGA__Role__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Get_PCP_Role.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Member_RecordType</targetReference>
+            </connector>
+            <label>Is PCP</label>
+        </rules>
+    </decisions>
+    <description>Update the Member Account field for PCP relationship</description>
+    <interviewLabel>Update Member Account for PCP {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Member Account for PCP</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get Member AccountId based on the Contact field</description>
+        <name>Get_Member_AccountId_Contact</name>
+        <label>Get Member AccountId (Contact)</label>
+        <locationX>314</locationX>
+        <locationY>911</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Member_AccountId_Contact</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.HealthCloudGA__Contact__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>AccountId</queriedFields>
+        <queriedFields>IsPersonAccount</queriedFields>
+        <queriedFields>RecordTypeId</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Member's account id based on the Related Contact field</description>
+        <name>Get_Member_AccountId_RelatedContact</name>
+        <label>Get Member AccountId (RelatedContact)</label>
+        <locationX>182</locationX>
+        <locationY>671</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Is_Member</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.HealthCloudGA__RelatedContact__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>AccountId</queriedFields>
+        <queriedFields>IsPersonAccount</queriedFields>
+        <queriedFields>RecordTypeId</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Get Member RecordType</description>
+        <name>Get_Member_RecordType</name>
+        <label>Get Member RecordType</label>
+        <locationX>182</locationX>
+        <locationY>551</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Member_AccountId_RelatedContact</targetReference>
+        </connector>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Account</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Member</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Get the PCP role</description>
+        <name>Get_PCP_Role</name>
+        <label>Get PCP Role</label>
+        <locationX>380</locationX>
+        <locationY>311</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Is_Role_PCP</targetReference>
+        </connector>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Primary Care Provider (PCP)</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>HealthCloudGA__ReciprocalRole__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <description>Update the Member Account field</description>
+        <name>Update_Member_AccountId</name>
+        <label>Update Member AccountId</label>
+        <locationX>50</locationX>
+        <locationY>911</locationY>
+        <inputAssignments>
+            <field>Member_Account__c</field>
+            <value>
+                <elementReference>Get_Member_AccountId_RelatedContact.AccountId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Update the member account field</description>
+        <name>Update_Member_AccountId_Contact</name>
+        <label>Update Member AccountId</label>
+        <locationX>314</locationX>
+        <locationY>1031</locationY>
+        <inputAssignments>
+            <field>Member_Account__c</field>
+            <value>
+                <elementReference>Get_Member_AccountId_Contact.AccountId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_PCP_Role</targetReference>
+        </connector>
+        <object>HealthCloudGA__ContactContactRelation__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

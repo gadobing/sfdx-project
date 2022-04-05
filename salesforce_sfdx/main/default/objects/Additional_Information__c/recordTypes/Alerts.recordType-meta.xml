@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alerts</fullName>
+    <active>true</active>
+    <label>Alerts</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>ASE%2FPSE only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Authorized Person %28FEP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Authorized Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact Inform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disclosure Limitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Division Alert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exception</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEP PERSONAL REPRESENTATIVE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group Enrollment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group Withhold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Alert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part C Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Harm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RX Authorization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request New User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer to Legal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

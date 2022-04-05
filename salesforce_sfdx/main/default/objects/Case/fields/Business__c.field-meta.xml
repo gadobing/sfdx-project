@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business__c</fullName>
+    <description>Field to capture what Business the Case is about</description>
+    <externalId>false</externalId>
+    <label>Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blue Advantage</fullName>
+                <default>false</default>
+                <label>Blue Advantage</label>
+            </value>
+            <value>
+                <fullName>Health Advantage</fullName>
+                <default>false</default>
+                <label>Health Advantage</label>
+            </value>
+            <value>
+                <fullName>First Source Access</fullName>
+                <default>false</default>
+                <label>First Source Access</label>
+            </value>
+            <value>
+                <fullName>USAble NonBranded</fullName>
+                <default>false</default>
+                <label>USAble NonBranded</label>
+            </value>
+            <value>
+                <fullName>FEP</fullName>
+                <default>false</default>
+                <label>FEP</label>
+            </value>
+            <value>
+                <fullName>Blue Card</fullName>
+                <default>false</default>
+                <label>Blue Card</label>
+            </value>
+            <value>
+                <fullName>ABCBS</fullName>
+                <default>false</default>
+                <label>ABCBS</label>
+            </value>
+            <value>
+                <fullName>BARB</fullName>
+                <default>false</default>
+                <label>BARB</label>
+            </value>
+            <value>
+                <fullName>National Accounts</fullName>
+                <default>false</default>
+                <label>National Accounts</label>
+            </value>
+            <value>
+                <fullName>Blue2</fullName>
+                <default>false</default>
+                <label>Blue2</label>
+            </value>
+            <value>
+                <fullName>Regular</fullName>
+                <default>false</default>
+                <label>Regular</label>
+            </value>
+            <value>
+                <fullName>BCSC</fullName>
+                <default>false</default>
+                <label>BCSC</label>
+            </value>
+            <value>
+                <fullName>Exchange</fullName>
+                <default>false</default>
+                <label>Exchange</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

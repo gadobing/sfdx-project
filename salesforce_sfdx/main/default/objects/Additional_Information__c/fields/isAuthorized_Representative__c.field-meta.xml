@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isAuthorized_Representative__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(RecordType.DeveloperName=&quot;Alerts&quot;,ISPICKVAL(Type__c,&quot;Authorized Rep&quot;)||ISPICKVAL(Type__c,&quot;Authorized Person (FEP)&quot;),Active__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>isAuthorized Representative</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCI_PhoneValueValidation</fullName>
+    <active>true</active>
+    <description>If Communication Preference = Phone, then Home Phone, Work Phone OR Mobile Phone must be populated.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Communication_Preference__c ,&apos;Phone&apos;), AND(ISBLANK( PersonHomePhone), ISBLANK( PersonMobilePhone ),ISBLANK(Work_Phone__c) ))</errorConditionFormula>
+    <errorMessage>Please ensure a valid phone number has been entered</errorMessage>
+</ValidationRule>

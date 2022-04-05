@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCI_MobilePhoneValueValidation</fullName>
+    <active>true</active>
+    <description>If Communication Preference = SMS, then Mobile Phone must be populated.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Communication_Preference__c ,&apos;SMS&apos;), ISBLANK( PersonMobilePhone ))</errorConditionFormula>
+    <errorDisplayField>PersonMobilePhone</errorDisplayField>
+    <errorMessage>Please ensure a valid phone number has been entered</errorMessage>
+</ValidationRule>

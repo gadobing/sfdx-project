@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_Types__c</fullName>
+    <description>Field to capture the Reference of the member</description>
+    <externalId>false</externalId>
+    <label>Reference Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blue Card Host</fullName>
+                <default>false</default>
+                <label>Blue Card Host</label>
+            </value>
+            <value>
+                <fullName>Group/Division</fullName>
+                <default>false</default>
+                <label>Group/Division</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Prospective Customer</fullName>
+                <default>false</default>
+                <label>Prospective Customer</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

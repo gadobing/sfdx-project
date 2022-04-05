@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>P8_MemberId_Card</label>
+    <protected>false</protected>
+    <values>
+        <field>Auth_Required__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Auth_Service_Name__c</field>
+        <value xsi:type="xsd:string">MemberIdCard</value>
+    </values>
+    <values>
+        <field>Auth_Type__c</field>
+        <value xsi:type="xsd:string">Apigee</value>
+    </values>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">https://apipreprod.arkbluecross.com/abcbs/v1/members/</value>
+    </values>
+    <values>
+        <field>Logging_Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Named_Credential__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Params__c</field>
+        <value xsi:type="xsd:string">:memberId/id-cards</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SSL_Certificate_Name__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>System_Name__c</field>
+        <value xsi:type="xsd:string">MemberId Card</value>
+    </values>
+    <values>
+        <field>Transport_Error_Max_Retry__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>Transport_Layer_Retry_Delay__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>UserName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>
