@@ -278,6 +278,7 @@
                             "property": {
                                 "card": "{card}",
                                 "displayAsButton": true,
+                                "reRenderFlyout": true,
                                 "record": "{record}",
                                 "stateAction": {
                                     "displayName": "View Member Id Card",
@@ -298,7 +299,7 @@
                                 "stateObj": "{record}"
                             },
                             "size": {
-                                "default": "6",
+                                "default": "8",
                                 "isResponsive": false
                             },
                             "stateIndex": 0,
@@ -330,10 +331,10 @@
                                 "padding": [
                                 ],
                                 "size": {
-                                    "default": "6",
+                                    "default": "8",
                                     "isResponsive": false
                                 },
-                                "sizeClass": "slds-size_6-of-12 ",
+                                "sizeClass": "slds-size_8-of-12 ",
                                 "style": "      \n         ",
                                 "text": {
                                     "align": "",
@@ -376,10 +377,10 @@
                                         "padding": [
                                         ],
                                         "size": {
-                                            "default": "6",
+                                            "default": "8",
                                             "isResponsive": false
                                         },
-                                        "sizeClass": "slds-size_6-of-12 ",
+                                        "sizeClass": "slds-size_8-of-12 ",
                                         "style": "      \n         ",
                                         "text": {
                                             "align": "",

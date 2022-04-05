@@ -26,6 +26,31 @@
                 <componentName>force:highlightsPanel</componentName>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>dir</name>
+                    <value>ltr</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inline</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inlineLabel</name>
+                    <value>Launch InteractionLauncher/MemberSearch</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>inlineVariant</name>
+                    <value>brand</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>layout</name>
+                    <value>lightning</value>
+                </componentInstanceProperties>
+                <componentName>interactionLauncherMemberSearchEnglish</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>leftsidebar</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -259,6 +284,11 @@
                     <value>lightning</value>
                 </componentInstanceProperties>
                 <componentName>caseManagementProviderEnglish</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>forceKnowledge:articleSearchDesktop</componentName>
             </componentInstance>
         </itemInstances>
         <name>rightsidebar</name>
