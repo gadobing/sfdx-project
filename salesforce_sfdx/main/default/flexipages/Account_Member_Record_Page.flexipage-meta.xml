@@ -45,11 +45,6 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>cci_ViewMemberIdCard</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
                 <componentName>cfCci_MemberActions</componentName>
             </componentInstance>
         </itemInstances>
