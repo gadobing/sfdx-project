@@ -121,6 +121,7 @@
         "CCI_Claims_English_Element_ClaimsAuditTrailBlock.json",
         "CCI_Claims_English_Element_CustomLWC6.json",
         "CCI_Claims_English_Element_CustomLWC5.json",
+        "CCI_Claims_English_Element_CustomLWC7.json",
         "CCI_Claims_English_Element_Download-EOB.json",
         "CCI_Claims_English_Element_EOB.json"
     ],
@@ -131,5 +132,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CCI/Claims/English",
-    "WebComponentKey": "8e40a07e-f08d-579d-d1da-780a8df73ada"
+    "WebComponentKey": "eb496777-9417-41a1-8233-29b2f1233c04"
 }

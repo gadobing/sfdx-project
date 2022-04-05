@@ -1395,6 +1395,6 @@
         <lightning-button variant="brand" label="View EOB" title="View EOB" class="slds-m-right_x-small" onclick={validateparams}></lightning-button>
      </template>
      <template if:true={showViewEOB}>
-        <c-ccivieweob memberid="K0046488202" claimid={strClaimId}></c-ccivieweob>
+        <c-ccivieweob memberid={memberid} claimid={claimid}></c-ccivieweob>
      </template>
 </template>

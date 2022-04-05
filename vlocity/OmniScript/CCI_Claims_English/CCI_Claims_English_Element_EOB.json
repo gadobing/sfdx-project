@@ -33,7 +33,7 @@
             },
             {
                 "name": "claimid",
-                "source": "%Response:claimId%"
+                "source": "%Response:ClaimId%"
             }
         ],
         "hide": false,

@@ -1,5 +1,5 @@
 import { LightningElement,api,track } from 'lwc';
-import { OmniscriptBaseMixin } from "omnistudio/omniscriptBaseMixin";
+import { OmniscriptBaseMixin } from "%vlocity_namespace%/omniscriptBaseMixin";
 
 export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(LightningElement){
     @track displayRows = [];
@@ -26,7 +26,7 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
     @api risk;
     @api memberid;
     @api claimid;
-    @api strClaimId;
+   // @api strClaimId;
     removeSldxBox=true;
 
     //Audit block boolean
@@ -127,6 +127,7 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
 
     handleClick(event) {
         this.selectedRow = this.displayRows[event.target.value];
+        console.log('this.selectedRow--->'+JSON.stringify(this.selectedRow))
         this.showModal = true;
     }
 
@@ -164,9 +165,10 @@ export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(Lightni
     }
     
     validateparams() {
-        console.log('memberid>>::'+this.memberid);
-        console.log('claimid>>::'+this.strClaimId);
         this.showViewEOB = true;
+        console.log('showViewEOB::>>'+this.showViewEOB);
+        console.log('memberID>>::'+this.memberid);
+        console.log('claimId>>::'+this.claimid);
     }
 
     handleAccordianClick(){

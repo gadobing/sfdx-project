@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "FormulaValidationFields",
+    "Name": "FormulaDOB",
     "OmniProcessId": {
         "Name": "Member Search Interaction Launcher",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -9,7 +9,7 @@
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "ParentElementId": {
-        "Name": "AccountSearch",
+        "Name": "Detail",
         "OmniProcessId": {
             "Name": "Member Search Interaction Launcher",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -17,19 +17,19 @@
             "VlocityRecordSObjectType": "OmniProcess"
         },
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/AccountSearch",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/MemberSearch/English/Detail",
         "VlocityRecordSObjectType": "OmniProcessElement"
     },
-    "ParentElementName": "AccountSearch",
-    "ParentElementType": "Step",
+    "ParentElementName": "Detail",
+    "ParentElementType": "Edit Block",
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "controlWidth": 12,
         "dataType": null,
         "dateFormat": "MM-dd-yyyy",
-        "disOnTplt": false,
-        "expression": "IF(%AccountSearch:BlockMember:AccountFirstName% != NULL || %AccountSearch:BlockMember:AccountLastName% != NULL || \n%AccountSearch:BlockMember:AccountPhoneNumber% != NULL || %AccountSearch:BlockMember:AccountDateOfBirth% != NULL || \n%AccountSearch:BlockMember:AccountMemberID% != NULL || %AccountSearch:BlockMember:AccountLast4SocialSecurityNumber% != NULL || \n%AccountSearch:BlockProvider:ProviderFirstName% != NULL || %AccountSearch:BlockProvider:ProviderLastName% != NULL || \n%AccountSearch:BlockProvider:ProviderID% != NULL || %AccountSearch:BlockProvider:ProviderNPI% != NULL || \n%AccountSearch:BlockFacility:FacilityName% != NULL || %AccountSearch:BlockFacility:FacilityNPI% != NULL ||\n%AccountSearch:BlockProspect:LeadFirstName% != NULL || %AccountSearch:BlockProspect:LeadLastName% != NULL ||\n%AccountSearch:BlockProspect:LeadPhoneNumber% != NULL, true, false)",
-        "hide": true,
+        "disOnTplt": true,
+        "expression": "CONCATENATE(\"DOB: \", %Detail|n:PersonBirthdate%)",
+        "hide": false,
         "hideGroupSep": false,
         "inputWidth": 12,
         "label": "",
@@ -40,5 +40,5 @@
     "Type": "Formula",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/InteractionLauncher/English/FormulaValidationFields"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/MemberSearch/English/FormulaDOB"
 }

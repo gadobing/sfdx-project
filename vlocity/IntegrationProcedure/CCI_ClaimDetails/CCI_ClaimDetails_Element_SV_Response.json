@@ -420,6 +420,7 @@
                         "description": "OUTSIDE CLAIM ",
                         "id": "BC"
                     },
+                    "Status": "APPROVE/CASH",
                     "Total": "42.75",
                     "TotalInterest": "0.00",
                     "TotalProviderDiscount": "12.00",

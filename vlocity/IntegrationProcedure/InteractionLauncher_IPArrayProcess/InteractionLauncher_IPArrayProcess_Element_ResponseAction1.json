@@ -1,20 +1,15 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "ResponseActionClaimDetails",
+    "Name": "ResponseAction1",
     "OmniProcessId": {
-        "Name": "Claim Details",
+        "Name": "IPArrayProcess",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/ClaimDetails/Procedure",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InteractionLauncher/IPArrayProcess/Procedure",
         "VlocityRecordSObjectType": "OmniProcess"
     },
     "PropertySetConfig": {
         "additionalOutput": {
-            "Codes": "%SV_Response:Payload:DRG:Codes%",
-            "Comments": "%SV_Response:Payload:DRG:Comments%",
-            "Lines": "%SV_Response:Payload:DRG:Lines%",
-            "Response": "%SV_Response:Payload|1%",
-            "Totals": "%SV_Response:Payload:DRG%"
         },
         "disOnTplt": false,
         "executionConditionalFormula": "",
@@ -25,9 +20,9 @@
         "responseJSONNode": "",
         "responseJSONPath": "",
         "returnFullDataJSON": false,
-        "returnOnlyAdditionalOutput": true,
-        "sendJSONNode": "",
-        "sendJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "Output",
+        "sendJSONPath": "ChosenValue",
         "show": null,
         "useFormulas": true,
         "vlcResponseHeaders": {
@@ -36,5 +31,5 @@
     "Type": "Response Action",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/ClaimDetails/Procedure/ResponseActionClaimDetails"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InteractionLauncher/IPArrayProcess/Procedure/ResponseAction1"
 }
