@@ -1255,19 +1255,19 @@
                 <label>Website Questions</label>
             </value>
             <value>
-                <fullName>SNF  Skilled Nursing Facility</fullName>
+                <fullName>SNF Skilled Nursing Facility</fullName>
                 <default>false</default>
-                <label>SNF  Skilled Nursing Facility</label>
+                <label>SNF Skilled Nursing Facility</label>
             </value>
             <value>
-                <fullName>SNF  Skilled Nursing Facility Approved</fullName>
+                <fullName>SNF Skilled Nursing Facility Approved</fullName>
                 <default>false</default>
-                <label>SNF  Skilled Nursing Facility Approved</label>
+                <label>SNF Skilled Nursing Facility Approved</label>
             </value>
             <value>
-                <fullName>SNF  Skilled Nursing Facility Denied</fullName>
+                <fullName>SNF Skilled Nursing Facility Denied</fullName>
                 <default>false</default>
-                <label>SNF  Skilled Nursing Facility Denied</label>
+                <label>SNF Skilled Nursing Facility Denied</label>
             </value>
             <value>
                 <fullName>Residential Treatment Center</fullName>
@@ -2286,15 +2286,15 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>FEP Prior Approval</controllingFieldValue>
-            <valueName>SNF  Skilled Nursing Facility</valueName>
+            <valueName>SNF Skilled Nursing Facility</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>FEP Prior Approval</controllingFieldValue>
-            <valueName>SNF  Skilled Nursing Facility Approved</valueName>
+            <valueName>SNF Skilled Nursing Facility Approved</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>FEP Prior Approval</controllingFieldValue>
-            <valueName>SNF  Skilled Nursing Facility Denied</valueName>
+            <valueName>SNF Skilled Nursing Facility Denied</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>FEP Prior Approval</controllingFieldValue>

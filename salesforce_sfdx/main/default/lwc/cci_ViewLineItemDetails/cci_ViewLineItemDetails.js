@@ -1,5 +1,5 @@
 import { LightningElement,api,track } from 'lwc';
-import { OmniscriptBaseMixin } from "%vlocity_namespace%/omniscriptBaseMixin";
+import { OmniscriptBaseMixin } from "omnistudio/omniscriptBaseMixin";
 
 export default class Cci_ViewLineItemDetails extends OmniscriptBaseMixin(LightningElement){
     @track displayRows = [];
