@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "{}",
+    "Description": "This will get the claim details.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Claim Details",
+    "OmniProcessElement": [
+        "CCI_ClaimDetails_Element_SV_ServiceDetails.json",
+        "CCI_ClaimDetails_Element_IP_Framework_GETCallout.json",
+        "CCI_ClaimDetails_Element_SV_Response.json",
+        "CCI_ClaimDetails_Element_ResponseActionClaimDetails.json"
+    ],
+    "OmniProcessKey": "CCI_ClaimDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_ClaimDetails_PropertySetConfig.json",
+    "SubType": "ClaimDetails",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/ClaimDetails/Procedure",
+    "WebComponentKey": "b730d795-7ab1-b1dc-b4f5-d3cc51293791"
+}

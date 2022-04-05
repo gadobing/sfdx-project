@@ -4,11 +4,9 @@
     <externalId>false</externalId>
     <label>Document Class</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Object_Store__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -43,29 +41,5 @@
                 <label>MEMAUX</label>
             </value>
         </valueSetDefinition>
-        <valueSettings>
-            <controllingFieldValue>PaperClaimsOS</controllingFieldValue>
-            <valueName>CLAIMS</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>INDIVIDUALUNDERWRITING</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>MEMAPP</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MemAppOS</controllingFieldValue>
-            <valueName>MEMAUX</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LegalOS</controllingFieldValue>
-            <valueName>LEGAL</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>MedRecOS</controllingFieldValue>
-            <valueName>MEDRECBCBS</valueName>
-        </valueSettings>
     </valueSet>
 </CustomField>

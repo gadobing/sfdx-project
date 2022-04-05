@@ -1,0 +1,69 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DRP_CreateRiderEligibilityHistory",
+    "OmniProcessId": {
+        "Name": "CCI Member Plan",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/MemberPlan/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "LoopBlock_EligibilityHistory",
+        "OmniProcessId": {
+            "Name": "CCI Member Plan",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/MemberPlan/Procedure",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/LoopBlock_EligibilityHistory",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "LoopBlock_EligibilityHistory",
+    "ParentElementType": "Loop Block",
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "BenefitPackage": "=%EligibilityHistory:BenefitPackage%",
+            "ChangeId": "=%EligibilityHistory:ChangeId%",
+            "CoverageEffectiveDate": "=%EligibilityHistory:CoverageEffectiveDate%",
+            "CoverageEntryDate": "=%EligibilityHistory:CoverageEntryDate%",
+            "CoverageTerminationDate": "=%EligibilityHistory:CoverageTerminationDate%",
+            "Division": "=%EligibilityHistory:Division%",
+            "EligibilityChangeReason": "=%EligibilityHistory:EligibilityChangeReason%",
+            "Group": "=%EligibilityHistory:Group%",
+            "MedicalHIPPATimeCredit": "=%EligibilityHistory:MedicalHIPPATimeCredit%",
+            "PlanId": "%DRP_CreateMember:MemberPlan_1:Id%",
+            "PreExistingEffectiveDate": "=%EligibilityHistory:PreExistingEffectiveDate%",
+            "PreExistingTerminationDate": "=%EligibilityHistory:PreExistingTerminationDate%",
+            "ProviderNetworkRegion": "=%EligibilityHistory:ProviderNetworkRegion%",
+            "RecordTypeId": "%DRE_RecordTypeEligibilityHistory:RecordTypeId%",
+            "TobaccoUse": "=%EligibilityHistory:TobaccoUse%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "UpsertEligibilityHistory",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataRaptorPostAction1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/MemberPlan/Procedure/DRP_CreateRiderEligibilityHistory"
+}

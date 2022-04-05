@@ -40,7 +40,7 @@
                     {
                         "condition": "<>",
                         "data": null,
-                        "field": "Output:MailingAddress"
+                        "field": "Output:MemberID"
                     }
                 ]
             }

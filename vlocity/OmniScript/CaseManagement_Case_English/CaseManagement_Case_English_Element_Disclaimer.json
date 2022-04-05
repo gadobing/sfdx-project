@@ -40,7 +40,7 @@
                 ]
             }
         },
-        "text": "<p><br />For members, you must authenticate Member name, ID, DOB, and Mailing address. Last 4 of SSN can be substituted for one of these items.</p>",
+        "text": "<p><br />For members, you must authenticate Member name, ID, DOB, and Mailing address. SSN can be substituted for one of these items.</p>",
         "textKey": ""
     },
     "Type": "Text Block",

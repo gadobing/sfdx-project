@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "CCI_View-EOB_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "View EOB",
+    "OmniProcessElement": [
+        "CCI_View-EOB_Element_SV_EOB.json",
+        "CCI_View-EOB_Element_IP_Framework_GETCallout.json",
+        "CCI_View-EOB_Element_Is_Success.json",
+        "CCI_View-EOB_Element_PA_Success.json",
+        "CCI_View-EOB_Element_Is_Failure.json",
+        "CCI_View-EOB_Element_RA_Failure.json"
+    ],
+    "OmniProcessKey": "CCI_ViewEOB",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "CCI_View-EOB_PropertySetConfig.json",
+    "SubType": "View EOB",
+    "Type": "CCI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CCI/View EOB/Procedure",
+    "WebComponentKey": "2dc34163-e6e4-fd29-6cee-40d6d638a656"
+}

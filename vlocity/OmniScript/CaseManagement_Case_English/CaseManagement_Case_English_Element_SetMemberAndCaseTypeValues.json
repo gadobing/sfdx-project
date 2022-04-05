@@ -13,7 +13,7 @@
         "controlWidth": 12,
         "elementValueMap": {
             "SelectCaseType": "%StepGreeting:CaseType-Block:CaseType%",
-            "ValuesAuthenticated": "=IF(%CheckboxMemberID%, \"Member ID;\",\"\")+IF(%CheckboxDOB%, \"Date of birth;\",\"\")+IF(%CheckboxMailingAddress%, \"Mailing Address;\",\"\")+IF(%CheckboxMemberName%, \"Member Name;\",\"\")+IF(%CheckboxSSN%, \"Last four digits of SSN;\",\"\")"
+            "ValuesAuthenticated": "=IF(%CheckboxMemberID%, \"Member ID;\",\"\")+IF(%CheckboxDOB%, \"Date of birth;\",\"\")+IF(%CheckboxMailingAddress%, \"Mailing Address;\",\"\")+IF(%CheckboxMemberName%, \"Member Name;\",\"\")+IF(%CheckboxSSN%, \"SSN;\",\"\")"
         },
         "label": "SetMemberAndCaseTypeValues",
         "message": {

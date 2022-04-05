@@ -40,7 +40,12 @@
                     {
                         "condition": "<>",
                         "data": null,
-                        "field": "Output:MemberID"
+                        "field": "Output:FirstName"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Output:LastName"
                     }
                 ]
             }

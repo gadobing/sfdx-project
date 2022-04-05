@@ -1,0 +1,27 @@
+{
+    "AuthorName": "CCI",
+    "ClonedFromOmniUiCardKey": "cci_MemberActions/CCI/1.0",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "Description": "Contains the actions to open other OSs",
+    "IsTrackingEnabled": false,
+    "Name": "cci_MemberPlanActions",
+    "Namespace": "",
+    "OmniUiCardKey": "cci_MemberPlanActions/CCI/2.0",
+    "OmniUiCardType": "Parent",
+    "PropertySetConfig": "cci_MemberPlanActions.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cci_MemberPlanActions"
+}

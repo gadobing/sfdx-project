@@ -1,7 +1,7 @@
 [
-    "DataRaptor/CCI_DRPUpdateAlerts",
-    "DataRaptor/CCI_DRPUpdateComments",
-    "DataRaptor/GetPersonAccount",
-    "DataRaptor/UpsertContactPointAddress",
+    "DataRaptor/DR_ContactRoleUpsert",
+    "DataRaptor/DR_GetAccountDetails",
+    "DataRaptor/DR_GetReciprocalRole",
+    "DataRaptor/DR_ProviderUpsert",
     "DataRaptor/UpsertMemberDetails"
 ]

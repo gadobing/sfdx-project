@@ -41,7 +41,7 @@
         "show": null,
         "ssm": false,
         "targetFilter": "Recent",
-        "targetId": "%Output:LeadId%",
+        "targetId": "%Output:Id%",
         "targetLWCLayout": "lightning",
         "targetName": "Lead",
         "targetType": "Record",

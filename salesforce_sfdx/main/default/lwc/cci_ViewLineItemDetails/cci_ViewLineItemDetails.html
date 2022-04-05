@@ -1,0 +1,801 @@
+<template>
+    <div class="slds-box slds-theme_default">
+
+        <template if:true={showLineDetails}>
+            <!-- modal start -->
+            <template if:true={showModal}>
+                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                    aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container modal-size">
+                        <!-- modal header start -->
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={closeModal}>
+                                <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
+                                    size="small">
+                                </lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                            <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Line Item Details
+                            </h2>
+                        </header>
+                        <!-- modal body start -->
+                        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                            <div class="slds-form" role="list">
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01">Line
+                                                Item #</label>
+                                            <div class="slds-form-element__control">
+                                                <input type="text" id="horizontal-form-element-id-01" readonly=""
+                                                    class="slds-input slds-m-left_x-small"
+                                                    value={selectedRow.LineItemNumber} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-02">Procedure</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-02" class="slds-m-left_x-small">
+                                                    {selectedRow.Procedure.id} - {selectedRow.Procedure.description}
+                                                </div>
+                                                <!--<input type="text" id="horizontal-form-element-id-02" readonly=""
+                                                class="slds-input" value={selectedRow.Procedure.id} />-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-03">Compensation</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-03" class="slds-m-left_x-small">
+                                                    {selectedRow.Comp.id} - {selectedRow.Comp.description}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-04">Benefit</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-04" class="slds-m-left_x-small">
+                                                    {selectedRow.Benefit.id} - {selectedRow.Benefit.description}</div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-05">Total</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-05" class="slds-m-left_x-small">
+                                                    {selectedRow.Total}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-06">Allowed</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-06" class="slds-m-left_x-small">
+                                                    {selectedRow.Allowed}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-07">Denied</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-07" class="slds-m-left_x-small">
+                                                    {selectedRow.Denied}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-17">CoPay</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-17" class="slds-m-left_x-small">
+                                                    {selectedRow.CoPay}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-08">Unit</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-08" class="slds-m-left_x-small">
+                                                    {selectedRow.Units}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-09">Place of Service</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-09" class="slds-m-left_x-small">
+                                                    {selectedRow.PlaceOfService.id} -
+                                                    {selectedRow.PlaceOfService.description}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-10">Carrier Risk</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-10" class="slds-m-left_x-small">
+                                                    {selectedRow.CarrierRisk.id} - {selectedRow.CarrierRisk.description}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-11">Treatment Type</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-11" class="slds-m-left_x-small">
+                                                    {selectedRow.TreatType.id} - {selectedRow.TreatType.description}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-12">Provider Discount</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-12" class="slds-m-left_x-small">
+                                                    {selectedRow.ProviderDiscount}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-13">Interest</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-13" class="slds-m-left_x-small">
+                                                    {selectedRow.Interest}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-14">Surcharge Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-14" class="slds-m-left_x-small">
+                                                    {selectedRow.SurchargeAmount}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-15">Supplemental Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-15" class="slds-m-left_x-small">
+                                                    {selectedRow.SupplementalAmount}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-16">Approved Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-16" class="slds-m-left_x-small">
+                                                    {selectedRow.ApprovedAmount}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-18">Deductible</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-18" class="slds-m-left_x-small">
+                                                    {selectedRow.Deductible}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-19">Co-Insurance</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-19" class="slds-m-left_x-small">
+                                                    {selectedRow.CoInsurance}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-20">Paid Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-20" class="slds-m-left_x-small">
+                                                    {selectedRow.PaidAmount}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-21">Disallow Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-21" class="slds-m-left_x-small">
+                                                    {selectedRow.DisallowAmount}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-22">Risk Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-22" class="slds-m-left_x-small">
+                                                    {selectedRow.RiskAmount}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-23">Check EFT Number</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-23" class="slds-m-left_x-small">
+                                                    {selectedRow.CheckEFTNumber}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-24">Trace ID number</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-24" class="slds-m-left_x-small">
+                                                    {selectedRow.TraceIDnumber}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-25">Check Date</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-25" class="slds-m-left_x-small">
+                                                    {selectedRow.CheckDate}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-26">Transaction Date</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-26" class="slds-m-left_x-small">
+                                                    {selectedRow.TransactionDate}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-27">Operator</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-27" class="slds-m-left_x-small">
+                                                    {selectedRow.Operator.id} - {selectedRow.Operator.FirstName}
+                                                    {selectedRow.Operator.LastName}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-28">Line Status</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-28" class="slds-m-left_x-small">
+                                                    {selectedRow.LineStatus.id} - {selectedRow.LineStatus.description}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-29">Pay Service</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-29" class="slds-m-left_x-small">
+                                                    {selectedRow.PayService.id} - {selectedRow.PayService.description}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-30">FeeSchedule</label>
+                                            <div class="slds-form-element__control">
+                                                <div id="horizontal-form-element-id-30" class="slds-m-left_x-small">
+                                                    {selectedRow.FeeSchedule}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal footer start-->
+                        <footer class="slds-modal__footer">
+                            <button class="slds-button slds-button_neutral" onclick={closeModal}>Cancel</button>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </template>
+            <!-- modal end -->
+
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="LineItemNumber">Line Item #</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="StartAndEndDates">Date St<br>Date End</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Mod">Mod</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="MedicalEdits">Medical Edits</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Diagnosis">Diagnosis</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="ReasonExplanation">Reason Explanation</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="ReasonExplanation">Alt Carrier Pay</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={displayRows} for:item="row" for:index="index">
+                        <tr key={row.rowid}>
+                            <td>
+                                <lightning-button variant="base" label={row.LineItemNumber} data-name="proc"
+                                    onclick={handleClick} class="slds-m-left_x-small" value={index}></lightning-button>
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.DateStart}</div>
+                                <div class="slds-m-left_x-small">{row.DateEnd}</div>
+                            </td>
+                            <td>
+                                <template for:each={row.Mod} for:item="mod">
+                                    <div key={mod.id} class="slds-m-left_x-small slds-cell-wrap">{mod.id} -
+                                        {mod.description}</div>
+                                    <br key={mod.id}>
+                                </template>
+                            </td>
+                            <td>
+                                <template for:each={row.MedicalEdits} for:item="medicalEdit">
+                                    <div key={medicalEdit.id} class="slds-m-left_x-small  slds-cell-wrap">
+                                        {medicalEdit.id} -
+                                        {medicalEdit.description}</div>
+                                    <br key={medicalEdit.id}>
+                                </template>
+                            </td>
+                            <td>
+                                <template for:each={row.Diagnosis} for:item="diagnosis">
+                                    <div key={diagnosis.id} class="slds-m-left_x-small slds-cell-wrap">{diagnosis.id} -
+                                        {diagnosis.description}</div>
+                                    <br key={diagnosis.id}>
+                                </template>
+                            </td>
+                            <td>
+                                <template for:each={row.ReasonExplanation} for:item="reason">
+                                    <div key={reason.id} class="slds-m-left_x-small  slds-cell-wrap">{reason.id} -
+                                        {reason.description}</div>
+                                    <br key={reason.id}>
+                                </template>
+                            </td>
+                            <td>
+                                <template for:each={row.AltCarrierPay} for:item="altCarrier">
+                                    <div key={altCarrier.Line} class="slds-m-left_x-small"><b>Line:</b>
+                                        {altCarrier.Line}</div>
+                                    <div key={altCarrier.Line} class="slds-m-left_x-small"><b>SvcOICPMT1:</b>
+                                        {altCarrier.SvcOICPMT1}</div>
+                                    <div key={altCarrier.Line} class="slds-m-left_x-small"><b>SvcOICPMT2:</b>
+                                        {altCarrier.SvcOICPMT2}</div>
+                                    <div key={altCarrier.Line} class="slds-m-left_x-small"><b>SvcOICAllowAmt:</b>
+                                        {altCarrier.SvcOICAllowAmt}</div>
+                                    <br key={altCarrier.Line}>
+                                </template>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </template>
+
+        <template if:true={showTotalTable}>
+
+            <template if:true={showTotalModal}>
+                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                    aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container modal-size">
+                        <!-- modal header start -->
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+                                title="Close" onclick={closeTotalModal}>
+                                <lightning-icon icon-name="utility:close" alternative-text="close" variant="inverse"
+                                    size="small">
+                                </lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                            <h2 class="slds-text-heading_medium slds-hyphenate">Totals
+                            </h2>
+                        </header>
+                        <!-- modal body start -->
+                        <div class="slds-modal__content slds-p-around_medium">
+                            <div class="slds-form" role="list">
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01">Total</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {total}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-02">Allowed</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {allowed}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01">Denied</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {denied}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-02">Total Provider Discount</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {tpd}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01">Total Interest</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {interest}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-02">Deductible</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {deductible}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01">Co-Pay</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {copay}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-02">Co-Insurance</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {insurance}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01">Paid Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {paid}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-02">Disallow Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {disallowed}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slds-form__row">
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01">Total Risk Amount</label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    {risk}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-form__item" role="listitem">
+                                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                                            <label class="slds-form-element__label"
+                                                for="horizontal-form-element-id-01"></label>
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-m-left_x-small">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal footer start-->
+                        <footer class="slds-modal__footer">
+                            <button class="slds-button slds-button_neutral" onclick={closeTotalModal}>Cancel</button>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </template>
+
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Total">Total</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="PaidAmount">Paid Amount</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Allowed">Allowed</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Denied">Denied</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Diagnosis"></div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <template if:true={total}>
+                                <div class="slds-m-left_x-small">{total}</div>
+                            </template>
+                        </td>
+                        <td>
+                            <template if:true={paid}>
+                                <div class="slds-m-left_x-small">{paid}</div>
+                            </template>
+                        </td>
+                        <td>
+                            <template if:true={allowed}>
+                                <div class="slds-m-left_x-small">{allowed}</div>
+                            </template>
+                        </td>
+                        <td>
+                            <template if:true={denied}>
+                                <div class="slds-m-left_x-small">{denied}</div>
+                            </template>
+                        </td>
+                        <td>
+                            <lightning-button variant="base" label="View More" data-name="view"
+                                onclick={handleButtonClick} class="slds-m-left_x-small" value={index}>
+                            </lightning-button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </template>
+
+        <template if:true={showCommentsTable}>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="SequenceNumber">Sequence No.#</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="CategoryId">Category Id</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="EffectiveDate">Effective Date</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="TerminationDate">Termination Date</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="TypeCodeText">Type Code Text</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Text">Comment</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={displayRows} for:item="row" for:index="index">
+                        <tr key={row.rowid}>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.SequenceNumber}</div>
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.CategoryId}</div>
+                            
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.EffectiveDate}</div>
+                            
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.TerminationDate}</div>
+                            
+                            </td>
+                            <td>
+                                    <div class="slds-m-left_x-small slds-cell-wrap">{row.TypeCodeText}</div>   
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small slds-cell-wrap">{row.Text}</div>
+                                </td>
+                             
+                                        
+                        </tr>
+                        
+                    </template>
+                </tbody>
+                </table>
+            
+        </template>
+       
+        <template if:true={showCodesTable}>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="id">Code Id</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="description">Code Description</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={displayRows} for:item="row" for:index="index">
+                        <tr key={row.rowid}>
+                            <td>
+                                <div class="slds-m-left_x-small">{row.id}</div>
+                            </td>
+                            <td>
+                                <div class="slds-m-left_x-small slds-cell-wrap">{row.description}</div>
+                            
+                            </td>
+                                        
+                        </tr>
+                        
+                    </template>
+                </tbody>
+                </table>
+            
+        </template>
+       
+
+    </div>
+
+</template>

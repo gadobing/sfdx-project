@@ -92,7 +92,7 @@
     "ssm": false,
     "stepChartPlacement": "top",
     "stylesheet": {
-        "lightning": "",
+        "lightning": "CaseManagementAdjustment",
         "lightningRtl": "",
         "newport": "",
         "newportRtl": ""

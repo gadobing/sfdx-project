@@ -1,0 +1,67 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SV_Claim",
+    "OmniProcessId": {
+        "Name": "ClaimList",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/ClaimList/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "MemberId": "%member%",
+            "Message_Id": "GENERATEGLOBALKEY()",
+            "MockClaims": [
+                {
+                    "ClinicFullName": "Clinic",
+                    "ProviderFirstName": "Jason",
+                    "ProviderLastName": "Smith",
+                    "ServiceEndDate": "2025-06-01",
+                    "ServiceStartDate": "2021-06-01",
+                    "allowed": "42.75",
+                    "claimId": "200100K12XRT",
+                    "denied": "0.00",
+                    "total": "42.75"
+                },
+                {
+                    "ClinicFullName": "Clinic",
+                    "ProviderFirstName": "Jason",
+                    "ProviderLastName": "Smith",
+                    "ServiceEndDate": "2025-06-01",
+                    "ServiceStartDate": "2021-06-01",
+                    "allowed": "42.75",
+                    "claimId": "200100K12XRT",
+                    "denied": "0.00",
+                    "total": "42.75"
+                },
+                {
+                    "ClinicFullName": "Clinic",
+                    "ProviderFirstName": "Jason",
+                    "ProviderLastName": "Smith",
+                    "ServiceEndDate": "2025-06-01",
+                    "ServiceStartDate": "2021-06-01",
+                    "allowed": "42.75",
+                    "claimId": "200100K12XRT",
+                    "denied": "0.00",
+                    "total": "42.75"
+                }
+            ],
+            "Service_Name": "ClaimList"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/ClaimList/Procedure/SV_Claim"
+}

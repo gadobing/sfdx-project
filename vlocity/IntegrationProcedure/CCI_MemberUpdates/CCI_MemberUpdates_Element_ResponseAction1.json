@@ -22,7 +22,7 @@
         "returnFullDataJSON": false,
         "returnOnlyAdditionalOutput": false,
         "sendJSONNode": "",
-        "sendJSONPath": "Payload",
+        "sendJSONPath": "",
         "show": null,
         "useFormulas": true,
         "vlcResponseHeaders": {

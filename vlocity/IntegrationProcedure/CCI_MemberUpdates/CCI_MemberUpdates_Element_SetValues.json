@@ -75,16 +75,18 @@
                 "AgentOfRecord": "",
                 "Alerts": [
                     {
+                        "AlertId": "AL002",
                         "AlertText": "Adam Smith may authenticate.",
-                        "AlertTypeText": "",
+                        "AlertTypeText": "Exception",
                         "CategoryCode": "09",
                         "CreateUserName": "Fred Jorgenson",
                         "EntryDate": "2012-12-12",
                         "TerminationDate": "2021-06-01"
                     },
                     {
+                        "AlertId": "AL003",
                         "AlertText": "Member is deaf.",
-                        "AlertTypeText": "",
+                        "AlertTypeText": "Exception",
                         "CategoryCode": "12",
                         "CreateUserName": "Baz De Soto",
                         "EntryDate": "2012-12-12",
@@ -105,14 +107,14 @@
                 "Comments": [
                     {
                         "EntryDate": "2012-12-12",
-                        "SequenceNumber": "",
+                        "SequenceNumber": "00001",
                         "TerminationDate": "2021-06-01",
                         "Text": "NO REBATE NOTIFICATION LETTER",
                         "TypeCodeText": "DISPLAY REMARKS DURING CLAIMS ADJUDICATION"
                     },
                     {
                         "EntryDate": "2021-01-21",
-                        "SequenceNumber": "",
+                        "SequenceNumber": "00002",
                         "TerminationDate": "2021-06-01",
                         "Text": "ADD HIC# JLB",
                         "TypeCodeText": "DISPLAY REMARKS DURING CLAIMS ADJUDICATION"
@@ -134,18 +136,18 @@
                     "Secondary": "test2@test2.com"
                 },
                 "EmployeeHireDate": "2008-08-08",
-                "EmploymentStatus": "",
+                "EmploymentStatus": "ACTIVE",
                 "ExchangeId": "60003644900",
-                "FirstName": "Timothy",
+                "FirstName": "Homer",
                 "Gender": "M",
                 "Languages": {
                     "PreferredLanguage": "Spanish",
                     "SecondaryLanguage": "English"
                 },
-                "LastName": "Smith",
+                "LastName": "Simpson",
                 "MedicareHicMbiNumber": "",
-                "MemberId": "K12345678901123",
-                "MiddleName": "James",
+                "MemberId": "12972630W05",
+                "MiddleName": "",
                 "NamePrefix": "Mr",
                 "NameSuffix": "Jr",
                 "PhoneNumbers": {

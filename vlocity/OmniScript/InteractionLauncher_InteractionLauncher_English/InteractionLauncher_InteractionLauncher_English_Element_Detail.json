@@ -25,7 +25,7 @@
     "PropertySetConfig": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
-        "allowClear": false,
+        "allowClear": true,
         "allowDelete": false,
         "allowEdit": false,
         "allowNew": false,
@@ -42,7 +42,18 @@
         "selectCheckBox": "openChosenAccount",
         "selectMode": "Single",
         "selectSobject": "",
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "Result:hasData"
+                    }
+                ]
+            }
+        },
         "sobjectMapping": [
         ],
         "sumElement": "",

@@ -1,0 +1,42 @@
+{
+    "ContextId": null,
+    "Result": {
+        "Detail": {
+            "FormulaAddress": null,
+            "FormulaDOB": null,
+            "FormulaMemberId": null,
+            "FormulaName": null,
+            "FormulaSSN": null,
+            "openChosenAccount": null
+        },
+        "FormulaSelectionValidation": null,
+        "MessagingSelectionValidationError": null
+    },
+    "StepSearchMember": {
+        "DateDOB": null,
+        "NumberSSN": null,
+        "SelectBusinessLine": null,
+        "TextFirstName": null,
+        "TextLastName": null,
+        "TextMedicareHIC/MBI": null,
+        "TextMemberId": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorExtractActionGetCase": null,
+        "DataRaptorExtractActionGetMember": null,
+        "DataRaptorPostActionCreateCase": null,
+        "IntegrationProcedureActionArrayProcess": null,
+        "NavigateActionLaunchMember": null,
+        "NavigateActionRestart": null,
+        "Result": null,
+        "SetErrors1": null,
+        "StepSearchMember": null
+    }
+}

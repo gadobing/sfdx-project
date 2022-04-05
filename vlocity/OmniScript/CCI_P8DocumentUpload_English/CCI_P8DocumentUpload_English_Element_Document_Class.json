@@ -30,7 +30,7 @@
         "controllingField": {
             "element": "Object_Store",
             "source": "CCI_Document__c.Object_Store__c",
-            "type": "SObject"
+            "type": ""
         },
         "defaultValue": null,
         "disOnTplt": false,

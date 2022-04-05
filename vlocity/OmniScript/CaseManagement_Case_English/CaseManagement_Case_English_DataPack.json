@@ -14,6 +14,11 @@
         "CaseManagement_Case_English_Element_SetValuesGuidedFlowType.json",
         "CaseManagement_Case_English_Element_IntegrationProcedureGetCase.json",
         "CaseManagement_Case_English_Element_SetValuesAllElements.json",
+        "CaseManagement_Case_English_Element_StepCreateNewCase.json",
+        "CaseManagement_Case_English_Element_DataRaptorPostCreateCaseAction.json",
+        "CaseManagement_Case_English_Element_TextBlock24.json",
+        "CaseManagement_Case_English_Element_TextBlock18.json",
+        "CaseManagement_Case_English_Element_NavigateActionRefresh.json",
         "CaseManagement_Case_English_Element_StepGreeting.json",
         "CaseManagement_Case_English_Element_TextBlock2.json",
         "CaseManagement_Case_English_Element_TBGreeting.json",
@@ -148,5 +153,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/CaseManagement/Case/English",
-    "WebComponentKey": "238e0c18-d94c-1c65-8c59-b921a563e84f"
+    "WebComponentKey": "881fc3ca-1698-0378-fe9b-f0c2b3b44cca"
 }

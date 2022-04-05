@@ -95,18 +95,6 @@
                 <default>false</default>
                 <label>Claim support</label>
             </value>
-            <value>
-                <fullName>Medical Review</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Medical Review</label>
-            </value>
-            <value>
-                <fullName>Other</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Other</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

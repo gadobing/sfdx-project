@@ -1,0 +1,88 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CustomLWC2",
+    "OmniProcessId": {
+        "Name": "Claims",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/Claims/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "TotalsBlock",
+        "OmniProcessId": {
+            "Name": "Claims",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/Claims/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/TotalsBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "TotalsBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "total",
+                "source": "%Response:DRG:Total%"
+            },
+            {
+                "name": "table",
+                "source": "Totals"
+            },
+            {
+                "name": "allowed",
+                "source": "%Response:DRG:Allowed%"
+            },
+            {
+                "name": "denied",
+                "source": "%Response:DRG:Denied%"
+            },
+            {
+                "name": "tpd",
+                "source": "%Response:DRG:TotalProviderDiscount%"
+            },
+            {
+                "name": "interest",
+                "source": "%Response:DRG:TotalInterest%"
+            },
+            {
+                "name": "deductible",
+                "source": "%Response:DRG:Deductible%"
+            },
+            {
+                "name": "copay",
+                "source": "%Response:DRG:CoPay%"
+            },
+            {
+                "name": "insurance",
+                "source": "%Response:DRG:CoInsurance%"
+            },
+            {
+                "name": "paid",
+                "source": "%Response:DRG:PaidAmount%"
+            },
+            {
+                "name": "disallowed",
+                "source": "%Response:DRG:DisallowAmount%"
+            },
+            {
+                "name": "risk",
+                "source": "%Response:DRG:TotalRiskAmount%"
+            }
+        ],
+        "hide": false,
+        "label": "CustomLWC2",
+        "lwcName": "cci_ViewLineItemDetails",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/CustomLWC2"
+}

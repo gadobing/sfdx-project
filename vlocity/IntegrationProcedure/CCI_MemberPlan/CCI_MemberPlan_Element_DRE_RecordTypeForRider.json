@@ -25,7 +25,8 @@
     "PropertySetConfig": {
         "actionMessage": "",
         "additionalInput": {
-            "developerName": "Riders_Surcharges"
+            "developerName": "Riders_Surcharges",
+            "objectName": "MemberPlan"
         },
         "additionalOutput": {
         },

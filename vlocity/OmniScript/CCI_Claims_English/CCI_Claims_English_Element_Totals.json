@@ -1,0 +1,58 @@
+{
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Totals",
+    "OmniProcessId": {
+        "Name": "Claims",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/Claims/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ClaimDetail",
+        "OmniProcessId": {
+            "Name": "Claims",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CCI/Claims/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/ClaimDetail",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ClaimDetail",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "allowClear": false,
+        "allowDelete": false,
+        "allowEdit": false,
+        "allowNew": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "deleteLabel": "",
+        "editLabel": "View More",
+        "elementName": "",
+        "hide": false,
+        "label": "Totals",
+        "maxDisplay": 11,
+        "mode": "Table",
+        "newLabel": "",
+        "selectCheckBox": "",
+        "selectMode": "Single",
+        "selectSobject": "",
+        "show": null,
+        "sobjectMapping": [
+        ],
+        "sumElement": "",
+        "svgIcon": "user",
+        "svgSprite": "utility",
+        "valueSvgMap": [
+        ]
+    },
+    "Type": "Edit Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CCI/Claims/English/Totals"
+}

@@ -1,0 +1,68 @@
+{
+    "AccountId": "0017j00000geHCjAAM",
+    "Case": [
+        {
+            "AccountId": "0017j00000hfwNgAAI",
+            "CaseNumber": "00001245",
+            "CaseOwnerId": "0055f000000jErQAAU",
+            "ContactId": "0037j00000hgMHrAAM",
+            "Description": "hkkj",
+            "Health_Condition_Heard__c": false,
+            "Id": "5007j00000B5K2AAAV",
+            "Priority": "Medium",
+            "RecordType": {
+                "Id": "0125f000000hYRLAA2",
+                "Name": "Appeal"
+            },
+            "SDOH_Heard__c": false
+        }
+    ],
+    "CaseId": "5007j00000B5K2AAAV",
+    "ContactId": "0037j00000fJSbYAAW",
+    "ContextId": "0017j00000hfwNgAAI",
+    "DRId_Case": "5007j00000B5K2tAAF",
+    "Output": {
+        "ContactId": "0037j00000fJSbYAAW",
+        "DOB": "1960-02-04",
+        "FirstName": "Homer",
+        "FormulaAddress": null,
+        "FormulaDOB": "DOB: 1960-02-04",
+        "FormulaMemberId": "Member Id: K12345678901",
+        "FormulaName": "Name: Homer Simpson",
+        "FormulaSSN": "SSN: 123456789",
+        "Id": "0017j00000geHCjAAM",
+        "LastName": "Simpson",
+        "MemberId": "K12345678901",
+        "SSN__c": "123456789",
+        "openChosenAccount": true
+    },
+    "Result": {
+        "Detail": {
+            "ContactId": "0037j00000fJSbYAAW",
+            "DOB": "1960-02-04",
+            "FirstName": "Homer",
+            "FormulaAddress": null,
+            "FormulaDOB": "DOB: 1960-02-04",
+            "FormulaMemberId": "Member Id: K12345678901",
+            "FormulaName": "Name: Homer Simpson",
+            "FormulaSSN": "SSN: 123456789",
+            "Id": "0017j00000geHCjAAM",
+            "LastName": "Simpson",
+            "MemberId": "K12345678901",
+            "SSN__c": "123456789",
+            "openChosenAccount": true
+        },
+        "FormulaSelectionValidation": true,
+        "MessagingSelectionValidationError": false
+    },
+    "StepSearchMember": {
+        "SelectBusinessLine": "ABCBS Regular Business",
+        "TextMemberId": "K12345678901"
+    },
+    "timeStamp": "2022-03-16T13:38:01.787Z",
+    "userCurrencyCode": "USD",
+    "userId": "0057j000002sbJHAAY",
+    "userName": "nusmanbaik@salesforce.com.ccidev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

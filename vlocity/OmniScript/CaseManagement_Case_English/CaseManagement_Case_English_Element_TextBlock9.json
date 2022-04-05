@@ -40,7 +40,7 @@
                 ]
             }
         },
-        "text": "<p><br />%Result:Member:Last_4_Digit_Of_SSN__c%&nbsp;</p>",
+        "text": "<p><br />%Result:Member:SSN__c%&nbsp;</p>",
         "textKey": ""
     },
     "Type": "Text Block",

@@ -161,7 +161,7 @@
     },
     {
         "GlobalKey": "CreateP8SystemRecordCustom6189",
-        "InputFieldName": "Step1:Object_Store",
+        "InputFieldName": "Mapping:Object_Store__c",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
