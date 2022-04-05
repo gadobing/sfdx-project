@@ -3,9 +3,10 @@
     <fullName>My_Teams_Cases</fullName>
     <columns>CASES.CASE_NUMBER</columns>
     <columns>ACCOUNT.NAME</columns>
-    <columns>Department__c</columns>
-    <columns>Product_Line__c</columns>
-    <columns>Case_Team__c</columns>
+    <columns>Member_Id__c</columns>
+    <columns>Inquirer__c</columns>
+    <columns>CASES.REASON</columns>
+    <columns>Result__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>Is_Case_Product_Line__c</field>
