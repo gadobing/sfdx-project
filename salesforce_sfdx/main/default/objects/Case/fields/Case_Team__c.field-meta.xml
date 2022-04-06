@@ -2874,6 +2874,16 @@
                 <label>Internal Controls and Reporting</label>
             </value>
             <value>
+                <fullName>CBSMPA</fullName>
+                <default>false</default>
+                <label>CBS MP Adv- Do not use </label>
+            </value>
+            <value>
+                <fullName>RM</fullName>
+                <default>false</default>
+                <label>Retail Marketing</label>
+            </value>
+            <value>
                 <fullName>test</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
@@ -4551,6 +4561,14 @@
             <controllingFieldValue>Exchange</controllingFieldValue>
             <controllingFieldValue>HA</controllingFieldValue>
             <valueName>CMSWT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABCBS Regular Business</controllingFieldValue>
+            <valueName>CBSMPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABCBS Regular Business</controllingFieldValue>
+            <valueName>RM</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>BARB</controllingFieldValue>

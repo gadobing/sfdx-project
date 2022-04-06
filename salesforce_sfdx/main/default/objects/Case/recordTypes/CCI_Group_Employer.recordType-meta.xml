@@ -851,6 +851,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>CBSMPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>CCC</fullName>
             <default>false</default>
         </values>
@@ -1752,6 +1756,10 @@
         </values>
         <values>
             <fullName>QMBMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RM</fullName>
             <default>false</default>
         </values>
         <values>

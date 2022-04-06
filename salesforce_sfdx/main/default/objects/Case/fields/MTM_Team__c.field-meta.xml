@@ -57,6 +57,8 @@ IF(ISPICKVAL(Case_Team__c,'TIPCS'),TRUE,FALSE),
 IF(ISPICKVAL(Case_Team__c,'TOSRC'),TRUE,FALSE),
 IF(ISPICKVAL(Case_Team__c,'WMCCT'),TRUE,FALSE),
 IF(ISPICKVAL(Case_Team__c,'WMCE'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'CBSMPA'),TRUE,FALSE),
+IF(ISPICKVAL(Case_Team__c,'RM'),TRUE,FALSE),
 IF(ISPICKVAL(Case_Team__c,'WMCSE'),TRUE,FALSE)
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
