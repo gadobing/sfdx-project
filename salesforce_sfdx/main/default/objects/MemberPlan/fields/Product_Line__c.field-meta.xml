@@ -21,29 +21,62 @@
                 <label>Exchange</label>
             </value>
             <value>
-                <fullName>ABCBS</fullName>
-                <default>false</default>
-                <label>ABCBS</label>
-            </value>
-            <value>
                 <fullName>HA</fullName>
                 <default>false</default>
                 <label>HA</label>
             </value>
             <value>
+                <fullName>BANA</fullName>
+                <default>false</default>
+                <label>BANA</label>
+            </value>
+            <value>
+                <fullName>ASE-PSE</fullName>
+                <default>false</default>
+                <label>ASE-PSE</label>
+            </value>
+            <value>
+                <fullName>BARB</fullName>
+                <default>false</default>
+                <label>BARB</label>
+            </value>
+            <value>
+                <fullName>BlueCard</fullName>
+                <default>false</default>
+                <label>BlueCard</label>
+            </value>
+            <value>
+                <fullName>FEP</fullName>
+                <default>false</default>
+                <label>FEP</label>
+            </value>
+            <value>
+                <fullName>Medicare Advantage</fullName>
+                <default>false</default>
+                <label>Medicare Advantage</label>
+            </value>
+            <value>
+                <fullName>USAble</fullName>
+                <default>false</default>
+                <label>USAble</label>
+            </value>
+            <value>
+                <fullName>ABCBS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ABCBS</label>
+            </value>
+            <value>
                 <fullName>BAA</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>BAA</label>
             </value>
             <value>
                 <fullName>Walmart</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Walmart</label>
-            </value>
-            <value>
-                <fullName>BANA</fullName>
-                <default>false</default>
-                <label>BANA</label>
             </value>
         </valueSetDefinition>
     </valueSet>

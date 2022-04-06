@@ -21,19 +21,19 @@
     <picklistValues>
         <picklist>Product_Line__c</picklist>
         <values>
-            <fullName>ABCBS</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>ABCBS Regular Business</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>BAA</fullName>
+            <fullName>ASE-PSE</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>BANA</fullName>
+            <fullName>BARB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BlueCard</fullName>
             <default>false</default>
         </values>
         <values>
@@ -41,11 +41,19 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>FEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>HA</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Walmart</fullName>
+            <fullName>Medicare Advantage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USAble</fullName>
             <default>false</default>
         </values>
     </picklistValues>
